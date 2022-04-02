@@ -91,8 +91,18 @@ For each category the factor value is different:
   - [ ] PXD010637
 
 - sclera
-  - [ ] PXD022661
+  - [x] PXD022661
   - [x] PXD008999
+
+- cornea
+  - [x] PXD009261
+
+- iris
+  - [x] PXD001299
+
+- retina
+  - [ ] PXD001242
+
 
 - testis
   - [ ] PXD009737
@@ -106,6 +116,7 @@ For each category the factor value is different:
 
 - Liver
   - [ ] PXD009021
+
 
 ### Plasma
 
