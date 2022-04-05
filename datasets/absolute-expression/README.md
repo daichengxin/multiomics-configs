@@ -90,18 +90,18 @@ For each category the factor value is different:
 - Eccrine sweat glands
   - [ ] PXD010637
 
-- sclera
-  - [x] PXD022661
-  - [x] PXD008999
-
-- cornea
-  - [x] PXD009261
-
-- iris
-  - [x] PXD001299
-
-- retina
-  - [ ] PXD001242
+- eyes:
+  - sclera
+    - [x] PXD022661
+    - [x] PXD008999
+  - cornea
+    - [x] PXD009261
+  - iris
+    - [x] PXD001299
+  - retina
+    - [x] PXD001242
+  - choroid, ciliary body
+    - [x] PXD002194
 
 
 - testis
@@ -120,9 +120,10 @@ For each category the factor value is different:
 
 ### Plasma
 
-- [ ] PXD011839
+- [ ]  PXD011839
 - [ ] PXD004242
-
+- [x] PXD022469, LFQ 389 raw files
+-
 ### Tumor datasets
 
 - [ ] PXD012431
