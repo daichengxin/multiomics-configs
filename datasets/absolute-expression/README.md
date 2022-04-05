@@ -81,9 +81,6 @@ For each category the factor value is different:
   - [ ] PXD008183: Error quant in MS1.
   - [x] PXD025864 LFQ experiment, ovary, 9 raw files
 
-- Choroid
-  - [ ] PXD002273
-
 - pancreas
   - [ ] https://www.iprox.org/page/project.html?id=IPX0001745000
 
@@ -102,6 +99,7 @@ For each category the factor value is different:
     - [x] PXD001242
   - choroid, ciliary body
     - [x] PXD002194
+    - [ ] PXD002273
 
 
 - testis
