@@ -34,7 +34,7 @@ For each category the factor value is different:
 
 ### Tissues
 
-- [ ] PXD000561: LFQ experiment, tissue proteomes, 2212 raw files
+- [x] PXD000561: LFQ experiment, tissue proteomes, 2212 raw files
 - [x] PXD000865: LFQ experiment, tissue proteomes, 1055 raw files
 - [x] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - [x] PXD020192: LFQ experiment, tissue proteomes, 92 raw files
@@ -54,16 +54,14 @@ For each category the factor value is different:
 - heart:
   - [x] PXD008934: LFQ experiment, heart, 34 raw files
   - [ ] PXD006675: LFQ experiment, heart, 594 raw files
-  - [ ] PXD005736: LFQ experiment, heart, 30 raw files
-  - [x] PXD008722: LFQ experiment, heart, 252 raw files
-  - [ ] PXD021261: LFQ experiment, heart, 150 raw files (Note: This is instrument Bruker)
+  - [ ] PXD008722: LFQ experiment, heart, 252 raw files
   - [x] PXD018678: LFQ experiment, heart, 11 raw files
   - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
   - [ ] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
-  - [ ] PXD011349: LFQ experiment, heart, 55 raw files
-  - [ ] PXD028099: LFQ experiment, heart, 20 raw files
+  - [x] PXD011349: LFQ experiment, heart, 55 raw files
   - [ ] PXD008852: DIA-LFQ experiment, heart,
+  - [x] PXD005736: LFQ experiment, heart, 24 RAW files
 
 - stomach:
   - [ ] PXD008840: LFQ experiment, stomach, 504 raw files
@@ -80,11 +78,8 @@ For each category the factor value is different:
   - [x] PXD001608: LFQ experiment, colonic mucosa, 30 raw files
 
 - ovary
-  - [ ] PXD008183
+  - [ ] PXD008183: Error quant in MS1.
   - [x] PXD025864 LFQ experiment, ovary, 9 raw files
-
-- Choroid
-  - [ ] PXD002273
 
 - pancreas
   - [ ] https://www.iprox.org/page/project.html?id=IPX0001745000
@@ -92,18 +87,61 @@ For each category the factor value is different:
 - Eccrine sweat glands
   - [ ] PXD010637
 
-- sclera
-  - [ ] PXD022661
+- eyes:
+  - sclera
+    - [x] PXD022661
+    - [x] PXD008999
+  - cornea
+    - [x] PXD009261
+  - iris
+    - [x] PXD001299
+  - retina
+    - [x] PXD001242
+  - choroid, ciliary body
+    - [x] PXD002194
+    - [ ] PXD002273
+
+
+- testis
+  - [ ] PXD009737
+  - [x] PXD002179
+
+- kidney
+  - [x] PXD006482
+
+- Spermatozoon
+  - [ ] PXD003947
+
+- Liver
+  - [ ] PXD009021
 
 
 ### Plasma
 
-- [ ] PXD011839
+- [ ]  PXD011839
 - [ ] PXD004242
-
+- [x] PXD022469, LFQ 389 raw files
+-
 ### Tumor datasets
 
 - [ ] PXD012431
 
 ### Cell lines
+
+### Some experiments to be seen:
+
+- PXD018301
+- PXD019643 HLA atlas
+- PXD005629: A proteomic analysis of human olfactory bulb
+- PXD003539: Cell lines NCI-60 DIA
+- PXD020481
+- PXD008032: Cancer datasets different regions
+- PXD016662
+- PXD005479: NCI-60
+- PXD024111
+- PXD006921
+- PXD002775
+- PXD010142: Cell lines
+- PXD015087
+- PXD004465
 

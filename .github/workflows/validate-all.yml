@@ -60,7 +60,7 @@ jobs:
               echo "Validating all projects (script changed)"
               python validate.py -v
             else
-              projects=$(cat "$FILELIST" | grep '^annotated-projects' | cut -d/ -f 2)
+              projects=$(cat "$FILELIST" | grep '^datasets' | cut -d/ -f 2)
               echo "Validating projects:" $projects
               python validate.py -v $projects
             fi
