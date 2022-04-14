@@ -46,18 +46,19 @@ For each category the factor value is different:
   - [x] PXD012755: LFQ experiment, brain, 32 raw files
   - [x] PXD004143: LFQ experiment, brain, 4 raw files
   - [x] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
-  - [x] PXD006233: LFQ experiment, brain,
+  - [x] PXD006233: LFQ experiment, brain
+  - [ ] PXD004332
 
 - skin:
   - PXD019909: LFQ experiment, skin, 152 raw files
 
 - heart:
   - [x] PXD008934: LFQ experiment, heart, 34 raw files
-  - [ ] PXD006675: LFQ experiment, heart, 594 raw files
-  - [ ] PXD008722: LFQ experiment, heart, 252 raw files
+  - [x] PXD006675: LFQ experiment, heart, 594 raw files
+  - [x] PXD008722: LFQ experiment, heart, 252 raw files
   - [x] PXD018678: LFQ experiment, heart, 11 raw files
   - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
-  - [ ] PXD012636: LFQ experiment, heart, 91 raw files
+  - [x] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
   - [x] PXD011349: LFQ experiment, heart, 55 raw files
   - [ ] PXD008852: DIA-LFQ experiment, heart,
@@ -76,6 +77,8 @@ For each category the factor value is different:
 
 - colon mucosa
   - [x] PXD001608: LFQ experiment, colonic mucosa, 30 raw files
+  - [ ] PXD002029
+  - [ ] PXD001608
 
 - ovary
   - [ ] PXD008183: Error quant in MS1.
@@ -99,8 +102,7 @@ For each category the factor value is different:
     - [x] PXD001242
   - choroid, ciliary body
     - [x] PXD002194
-    - [ ] PXD002273
-
+    - [x] PXD002273
 
 - testis
   - [ ] PXD009737
@@ -108,6 +110,9 @@ For each category the factor value is different:
 
 - kidney
   - [x] PXD006482
+  - [x] PXD019123
+  - [x] PXD013523
+  - [ ] PXD003271
 
 - Spermatozoon
   - [ ] PXD003947
@@ -115,12 +120,17 @@ For each category the factor value is different:
 - Liver
   - [ ] PXD009021
 
+- breast
+  - [ ] PXD012431
+
+
 
 ### Plasma
 
-- [ ]  PXD011839
-- [ ] PXD004242
+- [ ] PXD011839
+- [x] PXD004242
 - [x] PXD022469, LFQ 389 raw files
+- [x] PXD023650, LFQ 48 raw files
 -
 ### Tumor datasets
 
