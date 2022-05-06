@@ -25,37 +25,39 @@
   - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD008722-organism-part/
 
 - [x] PXD018678: LFQ experiment, heart, 11 raw files
-  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD008722
-  - **Publication**: http://europepmc.org/article/MED/32291283
-  - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD008722
-  - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD008722-organism-part/
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD018678
+  - **Publication**:
+  - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD018678
+  - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD018678-organism-part/
 
 - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
-  PRIDE URL: §
-  Publication:
-  Annotations:
-  Matrix results:
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD018678
+  - **Publication**:
+  - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD018678
+  - **Matrix results**:
+
 
 - [x] PXD012636: LFQ experiment, heart, 91 raw files
-  PRIDE URL: §
-  Publication:
-  Annotations:
-  Matrix results:
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD012636
+  - **Publication**:
+  - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD012636
+  - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD012636-organism-part/
 
 - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
-  PRIDE URL: §
-  Publication:
-  Annotations:
-  Matrix results:
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD012467
+  - **Publication**: http://europepmc.org/article/MED/33430602
+  - **Annotations**:
+  - **Matrix results**:
 
 - [x] PXD011349: LFQ experiment, heart, 55 raw files
-  PRIDE URL: §
-  Publication:
-  Annotations:
-  Matrix results:
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD011349
+  - **Publication**:
+  - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD011349
+  - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD011349-organism-part/
 
 - [x] PXD005736: LFQ experiment, heart, 24 RAW files
-  PRIDE URL: §
-  Publication:
-  Annotations:
-  Matrix results:
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD005736
+  - **Publication**: http://europepmc.org/article/MED/28916735
+  - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD005736
+  - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD005736-organism-part/
+
