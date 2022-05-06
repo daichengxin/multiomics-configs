@@ -2,6 +2,13 @@
 
 ## PRIDE datasets LFQ experiments by Species
 
+### How to select datasets
+
+For absolute expression projects, we have a set of rules to select the project to be annotated:
+
+- Samples MUST be from healthy/normal tissues.
+- For absolute quantification we will use only Trypsin-derived samples. We have decided that because, if we add more enzymes, more variability is found across experiments making difficult the final comparisons.
+
 ### Human
 
 - [x] PXD008934: LFQ experiment, heart, 34 raw files
