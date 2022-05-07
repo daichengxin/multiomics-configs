@@ -84,3 +84,27 @@ For absolute expression projects, we have a set of rules to select the project t
   - **Matrix results**:
   - **Organisms**: Danio rerio (zebrafish) (brachydanio rerio)
 
+- [ ] Zebrafish dataset not in PRIDE (https://pubs.acs.org/doi/full/10.1021/acs.jproteome.7b00915)
+
+- [ ] MSV000087028: LFQ experiment, 15 raw files
+  - **MassiVE URL**: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000087028
+  - **Publication**: https://elifesciences.org/articles/66079#data
+  - **Annotations**:
+  - **Matrix results**:
+  - **Organisms**: Danio rerio (zebrafish) (brachydanio rerio)
+  - **Annotations**: multiomics, rna, proteomics
+
+- [ ] MSV000087028: LFQ experiment, 15 raw files
+  - **MassiVE URL**: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?accession=MSV000087028
+  - **Publication**: https://elifesciences.org/articles/66079#data
+  - **Annotations**:
+  - **Matrix results**:
+  - **Organisms**: Danio rerio (zebrafish) (brachydanio rerio)
+  - **Annotations**: multiomics, rna, proteomics
+
+- [ ] PXD026335, LFQ 201 raw files
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD026335
+  - **Publication**: http://europepmc.org/article/MED/34480713
+  - **Annotations**:
+  - **Matrix results**:
+  - **Organisms**: Mouse
