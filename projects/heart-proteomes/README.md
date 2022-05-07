@@ -46,7 +46,7 @@ For absolute expression projects, we have a set of rules to select the project t
 
 - [x] PXD012636: LFQ experiment, heart, 91 raw files
   - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD012636
-  - **Publication**:
+  - **Publication**: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001144
   - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD012636
   - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD012636-organism-part/
 
@@ -67,4 +67,20 @@ For absolute expression projects, we have a set of rules to select the project t
   - **Publication**: http://europepmc.org/article/MED/28916735
   - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD005736
   - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD005736-organism-part/
+
+### Other organisms
+
+- [ ] PXD012636: LFQ experiment, heart multiple organisms
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD012636
+  - **Publication**: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001144
+  - **Annotations**:
+  - **Matrix results**:
+  - **Organisms**: Danio rerio (zebrafish) (brachydanio rerio), Equus caballus (horse), Rattus norvegicus (rat), Mus musculus (mouse), Sus scrofa domesticus (domestic pig)
+
+- [ ] PXD023506: LFQ experiment, heart Zebrafish
+  - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD023506
+  - **Publication**: https://pubs.acs.org/doi/10.1021/acs.jproteome.1c00387
+  - **Annotations**:
+  - **Matrix results**:
+  - **Organisms**: Danio rerio (zebrafish) (brachydanio rerio)
 
