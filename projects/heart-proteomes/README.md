@@ -105,3 +105,8 @@ For absolute expression projects, we have a set of rules to select the project t
   - **Annotations**:
   - **Matrix results**:
   - **Organisms**: **Mouse**
+
+- [ ] MSV000084934
+  - **MassIVE URL**: https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=fc7de98e12974f1a89a93456f8764faf
+  - **Publication**: https://pubs.acs.org/doi/10.1021/acs.jproteome.5b0114
+  - **Organism**: **Mouse**
