@@ -12,14 +12,12 @@ For absolute expression projects, we have a set of rules to select the project t
 ### Human
 
 - [x] PXD008934: LFQ experiment, heart, 34 raw files
-
   - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD008934
   - **Publication**: http://europepmc.org/article/MED/29892068
   - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD008934
   - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD008934-organism-part/
 
 - [x] PXD006675: LFQ experiment, heart, 594 raw files
-
   - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD006675
   - **Publication**: http://europepmc.org/article/MED/29133944
   - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD006675
@@ -42,7 +40,6 @@ For absolute expression projects, we have a set of rules to select the project t
   - **Publication**:
   - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD018678
   - **Matrix results**:
-
 
 - [x] PXD012636: LFQ experiment, heart, 91 raw files
   - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD012636
@@ -107,4 +104,4 @@ For absolute expression projects, we have a set of rules to select the project t
   - **Publication**: http://europepmc.org/article/MED/34480713
   - **Annotations**:
   - **Matrix results**:
-  - **Organisms**: Mouse
+  - **Organisms**: **Mouse**
