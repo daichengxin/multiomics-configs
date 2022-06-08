@@ -73,6 +73,7 @@ For each category the factor value is different:
   - [x] PXD004700: LFQ experiment, lung, 46 raw files
   - [x] PXD004682: LFQ experiment, lung, 96 raw files
   - [x] PXD004684: DIA-LFQ experiment, lung, 8 raw files
+ 
 
 - anterior pituitary gland
   - [x] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
@@ -121,6 +122,7 @@ For each category the factor value is different:
 
 - Liver
   - [ ] PXD009021
+  - [ ] PXD004873: DIA-LFQ dataset (39 raw files)
 
 - breast
   - [ ] PXD012431
