@@ -17,19 +17,20 @@ Each dataset is annotated with an SDRF. Datasets are searched against human prot
 
 ### Datasets
 
-- PDC000326
-- PXD000759
-- PXD001725     
-- PXD003531    
-- PXD005173    
-- PXD012255
-- PXD014565
-- PDC000126
-- PXD000612
-- PXD001724
-- PXD002255
-- PXD004452
-- PXD006482
-- PXD013923
-- PXD021865
+- PDC000326: CPTAC TMT (issues with protein inference never finished)
+- PXD000759: 
+- PXD001725:     
+- PXD003531:    
+- PXD005173: JPost still downloading     
+- PXD012255: 
+- PXD014565: Error in the RAW files
+- PDC000126: CPTAC TMT No annotated
+- PDC000155: CPTAC TMT No annotated
+- PXD000612:
+- PXD001724:
+- PXD002255:
+- PXD004452:
+- PXD006482:
+- PXD013923:
+- PXD021865:
 
