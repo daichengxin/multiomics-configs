@@ -21,7 +21,7 @@ Each dataset is annotated with an SDRF. Datasets are searched against human prot
 - PXD000759: 
 - PXD001725:     
 - PXD003531:    
-- PXD005173: JPost still downloading     
+- PXD005173: Done  
 - PXD012255: 
 - PXD014565: Error in the RAW files
 - PDC000126: CPTAC TMT No annotated
@@ -34,6 +34,7 @@ Each dataset is annotated with an SDRF. Datasets are searched against human prot
 - PXD006482:
 - PXD013923:
 - PXD021865:
-- PXD008012: Downloading, Annotating 
-- PXD011175: Annotating 
+- PXD008012:
+- PXD011175:
+- PXD000497: 
 
