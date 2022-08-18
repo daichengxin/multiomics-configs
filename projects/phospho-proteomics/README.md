@@ -36,7 +36,8 @@ Each dataset is annotated with an SDRF. Datasets are searched against human prot
 - PXD021865:
 - PXD008012:
 - PXD011175:
-- PXD000497: Needs to be reviewed
+- PXD000497: Running
 - PXD007985: Failing TMT
 - PXD007044: Running 
+- PXD001180: Running
 
