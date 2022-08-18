@@ -21,12 +21,12 @@ Each dataset is annotated with an SDRF. Datasets are searched against human prot
 - PXD000759: 
 - PXD001725:     
 - PXD003531:    
-- PXD005173: Done  
+- PXD005173:   
 - PXD012255: 
 - PXD014565: Error in the RAW files
 - PDC000126: CPTAC TMT No annotated
 - PDC000155: CPTAC TMT No annotated
-- PXD000612:
+- PXD000612: (1M)
 - PXD001724:
 - PXD001725: Run only with Comet
 - PXD002255:
