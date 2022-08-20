@@ -18,15 +18,15 @@ Each dataset is annotated with an SDRF. Datasets are searched against human prot
 ### Datasets
 
 - PDC000326: CPTAC TMT (issues with protein inference never finished)
-- PXD000759: 
+- PXD000759: Running
 - PXD001725:     
 - PXD003531:    
-- PXD005173: Done  
+- PXD005173:   
 - PXD012255: 
 - PXD014565: Error in the RAW files
 - PDC000126: CPTAC TMT No annotated
 - PDC000155: CPTAC TMT No annotated
-- PXD000612:
+- PXD000612: (1M PSMs)
 - PXD001724:
 - PXD001725: Run only with Comet
 - PXD002255:
@@ -36,5 +36,8 @@ Each dataset is annotated with an SDRF. Datasets are searched against human prot
 - PXD021865:
 - PXD008012:
 - PXD011175:
-- PXD000497: 
+- PXD000497: Running
+- PXD007985: Failing TMT
+- PXD007044: Running 
+- PXD001180: Running
 
