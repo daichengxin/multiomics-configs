@@ -4,12 +4,14 @@
 
 - [ ] [PXD003497](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD003497/PXD003497.sdrf.tsv): Acinar adenocarcinoma and ductal adenocarcinoma
 - [ ] [PXD003539](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD003539/PXD003539.sdrf.tsv): NCI-60 Cancer Cell Lines.
-- [ ] [PXD004684](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD004684/PXD004684.sdrf.tsv): Lung squamous cell carcinoma.
+- [x] [PXD004684](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD004684/PXD004684.sdrf.tsv): Lung squamous cell carcinoma. Done
 - [ ] [PXD004873](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD004873/PXD004873.sdrf.tsv): Liver tumor
 - [ ] [PXD014194](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD014194/PXD014194.sdrf.tsv): Breast cancer
 - [ ] [PXD018830](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD018830/PXD018830-DIA.sdrf.tsv): Breast cancer
 - [ ] [PXD021394](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD021394/PXD021394.sdrf.tsv): Breast cancer
 - [ ] [PXD022992](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD022992.sdrf.tsv): Melanoma and [Phospho](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD022992-phos.sdrf.tsv).
+- [ ] [PXD025560](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD025560.sdrf.tsv): Non-small cell lung cancer
+- [ ] [PXD033169](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD033169.sdrf.tsv): High-Grade Serous Ovarian Cancer
 
 ## LFQ
 
@@ -84,3 +86,5 @@
 10. [ ] [PXD017721](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD017721/PXD017721.sdrf.tsv): Breast Cancer
 
 11. [ ] [PXD023423](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD023423/PXD023423.sdrf.tsv): Gastric cancer
+
+12. [ ] [PXD030881](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD023423/PXD030881.sdrf.tsv): Breast Cancer
