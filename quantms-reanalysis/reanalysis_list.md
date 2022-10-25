@@ -7,9 +7,9 @@
 - [x] [PXD004684](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD004684/PXD004684.sdrf.tsv): Lung squamous cell carcinoma. Done
 - [ ] [PXD004873](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD004873/PXD004873.sdrf.tsv): Liver tumor
 - [ ] [PXD014194](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD014194/PXD014194.sdrf.tsv): Breast cancer
-- [ ] [PXD018830](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD018830/PXD018830-DIA.sdrf.tsv): Breast cancer
-- [ ] [PXD021394](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD021394/PXD021394.sdrf.tsv): Breast cancer
-- [ ] [PXD022992](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD022992.sdrf.tsv): Melanoma and [Phospho](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD022992-phos.sdrf.tsv).
+- [x] [PXD018830](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD018830/PXD018830-DIA.sdrf.tsv): Breast cancer
+- [x] [PXD021394](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD021394/PXD021394.sdrf.tsv): Breast cancer
+- [x] [PXD022992](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD022992.sdrf.tsv): Melanoma and [Phospho](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD022992-phos.sdrf.tsv).
 - [ ] [PXD025560](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD025560.sdrf.tsv): Non-small cell lung cancer
 - [ ] [PXD033169](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD022992/PXD033169.sdrf.tsv): High-Grade Serous Ovarian Cancer
 
@@ -71,7 +71,7 @@
 
 3. [ ] [PMID33086064](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PMID33086064/PMID33086064.sdrf.tsv): High-grade serous ovarian adenocarcinoma
 
-4. [ ] [PXD004683](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD004683/PXD004683.sdrf.tsv): Lung squamous cell carcinoma
+4. [x] [PXD004683](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD004683/PXD004683.sdrf.tsv): Lung squamous cell carcinoma
 
 5. [ ] [PXD006291](https://github.com/daichengxin/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD006291/PXD006291-cell.sdrf.tsv): Epidermoid carcinoma
 
