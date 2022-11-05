@@ -20,3 +20,4 @@ PXD025560,PRD000917,human,,quantification,error no mzTab,https://github.com/mult
 PXD030881,PRD000918,human,405888,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD030881/PXD030881.sdrf.tsv,treatment,internal,tmt,
 PXD032263,PRD000919,human,929301,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD032263/PXD032263.sdrf.tsv,phenotype,internal,dia,
 PXD033169,PRD000920,human,280236,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD033169/PXD033169.sdrf.tsv,disease,internal,dia,
+PXD027817,PRD000921,human,138378,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD027817/PXD027817.sdrf.tsv,prognosis,internal,dia,
