@@ -32,3 +32,4 @@ PXD018830,PRD000928,human,963529,quantification,done,https://github.com/multiomi
 PXD021394,PRD000929,human,1123224,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD021394/PXD021394.sdrf.tsv,phenotype,internal,dia,
 PXD005942,PRD000930,human,,identification,done,,cell lines,internal,lfq,
 PXD013658,PRD000931,human,,quantification,bug Mstats,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD013658/PXD013658-Cancer.sdrf.tsv,disease,internal,dia,
+PXD028618,PRD000932,human,,quantification,,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD028618/PXD0286618.sdrf.tsv,prognosis,internal,dia,
