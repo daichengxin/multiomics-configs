@@ -37,4 +37,7 @@ PXD025705,PRD000933,human,,quantification,,https://github.com/multiomics/multiom
 PXD010429,PRD000934,human,,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD010429/PXD010429.sdrf.tsv,subtype,internal,tmt,
 PDC000126,PRD000935,human,,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PDC000126/PDC000126.sdrf.tsv,disease,internal,tmt,
 PXD002395,PRD000936,human,,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/label-free/PXD002395/PXD002395.sdrf.tsv,cell-line,internal,lfq,
-PXD000672,PRD000937,human,,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD000672/PXD000672.sdrf.tsv,phenotype,internal,dia,
+PXD000672,PRD000937,human,726081,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD000672/PXD000672.sdrf.tsv,phenotype,internal,dia,
+PXD004691,PRD000938,human,,quantification,downloading,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD004691/PXD004691.sdrf.tsv,phenotype,internal,dia,
+PXD030304,PRD000939,human,,quantification,downloading,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD030304/PXD030304.sdrf.tsv,cell line,internal,dia,
+PXD014943,PRD000940,human,,quantification,converting,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD014943/PXD014943.sdrf.tsv,,internal,dia,
