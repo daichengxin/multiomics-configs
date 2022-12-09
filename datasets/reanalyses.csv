@@ -46,4 +46,5 @@ PXD004589,PRD000942,human,,quantification,ongpoing,https://github.com/multiomics
 PXD014414,PRD000943,human,100417,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD014414/PXD014414.sdrf.tsv,disease,internal,tmt,
 PXD014145,PRD000944,human,134842,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD014145/PXD014145.sdrf.tsv,treatment,internal,tmt,http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/differential-expression/PXD014145/
 PXD020248,PRD000945,human,98565,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD020248/PXD020248.sdrf.tsv,treatment,internal,tmt,
-PXD020109,PRD000946,human,80722,quantification,,,,,,
+PXD020109,PRD000946,human,80722,quantification,done,,,,,
+PXD030671,PRD000947,human,184438,quantification,done,,,,,
