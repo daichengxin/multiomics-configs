@@ -34,7 +34,7 @@ PXD005942,PRD000930,human,,identification,done,,cell lines,internal,lfq,
 PXD013658,PRD000931,human,,quantification,bug Mstats,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD013658/PXD013658-Cancer.sdrf.tsv,disease,internal,dia,
 PXD028618,PRD000932,human,295437,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD028618/PXD0286618.sdrf.tsv,prognosis,internal,dia,http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/differential-expression/PXD028618/
 PXD025705,PRD000933,human,,quantification,,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD025705/PXD025705.sdrf.tsv,disease,internal,dia,
-PXD010429,PRD000934,human,,quantification,pending,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD010429/PXD010429.sdrf.tsv,subtype,internal,tmt,
+PXD010429,PRD000934,human,,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD010429/PXD010429.sdrf.tsv,subtype,internal,tmt,
 PDC000126,PRD000935,human,,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PDC000126/PDC000126.sdrf.tsv,disease,internal,tmt,
 PXD002395,PRD000936,human,4765530,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/label-free/PXD002395/PXD002395.sdrf.tsv,cell-line,internal,lfq,
 PXD000672,PRD000937,human,726081,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD000672/PXD000672.sdrf.tsv,phenotype,internal,dia,http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/differential-expression/PXD000672/
@@ -43,8 +43,8 @@ PXD030304,PRD000939,human,,quantification,downloading,https://github.com/multiom
 PXD014943,PRD000940,human,4406765,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD014943/PXD014943.sdrf.tsv,,internal,dia,
 PXD028251,PRD000941,human,1366811,quantification,"done, no fifferential express protein",https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/label-free/PXD028251/PXD028251.sdrf.tsv,subtype,internal,lfq,http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/differential-expression/PXD028251/
 PXD004589,PRD000942,human,,quantification,ongpoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/dia/PXD004589/PXD004589.sdrf.tsv,sample site,internal,dia,
-PXD014414,PRD000943,human,100417,quantification,pending,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD014414/PXD014414.sdrf.tsv,disease,internal,tmt,
+PXD014414,PRD000943,human,100417,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD014414/PXD014414.sdrf.tsv,disease,internal,tmt,
 PXD014145,PRD000944,human,146489,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD014145/PXD014145.sdrf.tsv,treatment,internal,tmt,http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/differential-expression/PXD014145/
-PXD020248,PRD000945,human,98565,quantification,pending,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD020248/PXD020248.sdrf.tsv,treatment,internal,tmt,
+PXD020248,PRD000945,human,100786,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD020248/PXD020248.sdrf.tsv,treatment,internal,tmt,
 PXD020109,PRD000946,human,80722,quantification,done,,,,,
 PXD030671,PRD000947,human,184438,quantification,done,,,,,
