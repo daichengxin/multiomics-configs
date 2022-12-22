@@ -48,4 +48,4 @@ PXD014145,PRD000944,human,146489,quantification,done,https://github.com/multiomi
 PXD020248,PRD000945,human,100786,quantification,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/tmt/PXD020248/PXD020248.sdrf.tsv,treatment,internal,tmt,
 PXD020109,PRD000946,human,80722,quantification,done,,,,,
 PXD030671,PRD000947,human,184438,quantification,done,,,,,
-PDC000111,PRD000948,human,,quantification,ongoing,https://github.com/multiomics/multiomics-configs/blob/master/datasets/differential-datasets/label-free/PDC000111/PDC000111.sdrf.tsv,disease,internal,lfq,
+PXD020192,PRD000948,human,1448010,quantification|baseline,done,https://github.com/multiomics/multiomics-configs/blob/master/datasets/absolute-expression/tissues/PXD020192/PXD020192.sdrf.tsv,organism part,internal,lfq,http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/PXD020192/
