@@ -34,34 +34,34 @@ For each category the factor value is different:
 
 ### Tissues
 
-- [] PXD000561: LFQ experiment, tissue proteomes, 2212 raw files
+- [ ] PXD000561: LFQ experiment, tissue proteomes, 2212 raw files
 - [x] PXD000865: LFQ experiment, tissue proteomes, 1055 raw files
-- [] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
+- [ ] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - [x] PXD020192: LFQ experiment, tissue proteomes, 92 raw files
-- [] PXD010271: LFQ experiment, tissue proteomes, 220 raw files
+- [ ] PXD010271: LFQ experiment, tissue proteomes, 220 raw files
 - [x] PXD004452: LFQ experiment, (colon, liver, prostate), 216 raw files
 
 - brain:
-  - [] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
-  - [] PXD012755: LFQ experiment, brain, 32 raw files
-  - [] PXD004143: LFQ experiment, brain, 4 raw files
-  - [] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
-  - [] PXD006233: LFQ experiment, brain
-  - [] PXD004332
+  - [ ] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
+  - [ ] PXD012755: LFQ experiment, brain, 32 raw files
+  - [ ] PXD004143: LFQ experiment, brain, 4 raw files
+  - [ ] PXD005445: LFQ experiment, brain, 196 raw files (Note: Only generic samples)
+  - [ ] PXD006233: LFQ experiment, brain
+  - [ ] PXD004332
 
 - skin:
   - PXD019909: LFQ experiment, skin, 152 raw files
 
 - heart:
-  - [] PXD008934: LFQ experiment, heart, 34 raw files
-  - [] PXD006675: LFQ experiment, heart, 594 raw files
-  - [] PXD008722: LFQ experiment, heart, 252 raw files
-  - [] PXD018678: LFQ experiment, heart, 11 raw files
-  - [] PXD018678: DIA-LFQ experiment, heart, 48 raw files
-  - [] PXD012636: LFQ experiment, heart, 91 raw files
+  - [ ] PXD008934: LFQ experiment, heart, 34 raw files
+  - [x] PXD006675: LFQ experiment, heart, 594 raw files
+  - [ ] PXD008722: LFQ experiment, heart, 252 raw files
+  - [ ] PXD018678: LFQ experiment, heart, 11 raw files
+  - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
+  - [ ] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
-  - [] PXD011349: LFQ experiment, heart, 55 raw files
-  - [] PXD005736: LFQ experiment, heart, 24 RAW files
+  - [ ] PXD011349: LFQ experiment, heart, 55 raw files
+  - [ ] PXD005736: LFQ experiment, heart, 24 RAW files
 
 - artery coronary:
   - [] PXD008852: DIA-LFQ experiment, heart,
