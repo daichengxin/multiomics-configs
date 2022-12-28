@@ -36,9 +36,9 @@ For each category the factor value is different:
 
 - [ ] PXD000561: LFQ experiment, tissue proteomes, 2212 raw files
 - [x] PXD000865: LFQ experiment, tissue proteomes, 1055 raw files
-- [ ] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
+- [x] PXD010154: LFQ experiment, tissue proteomes, 1800 raw files
 - [x] PXD020192: LFQ experiment, tissue proteomes, 92 raw files
-- [ ] PXD010271: LFQ experiment, tissue proteomes, 220 raw files
+- [x] PXD010271: LFQ experiment, tissue proteomes, 220 raw files
 - [x] PXD004452: LFQ experiment, (colon, liver, prostate), 216 raw files
 
 - brain:
@@ -50,8 +50,9 @@ For each category the factor value is different:
   - [ ] PXD004332
 
 - skin:
-  - PXD019909: LFQ experiment, skin, 152 raw files
-
+  - PXD019909: 
+   - [ ] LFQ experiment, skin, 152 raw files
+   - [x] DIA experiment, skin, 46 raw files
 - heart:
   - [ ] PXD008934: LFQ experiment, heart, 34 raw files
   - [x] PXD006675: LFQ experiment, heart, 594 raw files
