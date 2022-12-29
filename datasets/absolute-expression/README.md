@@ -51,15 +51,15 @@ For each category the factor value is different:
 
 - skin:
   - PXD019909: 
-   - [ ] LFQ experiment, skin, 152 raw files
+   - [x] LFQ experiment, skin, 152 raw files
    - [x] DIA experiment, skin, 46 raw files
 - heart:
   - [ ] PXD008934: LFQ experiment, heart, 34 raw files
-  - [x] PXD006675: LFQ experiment, heart, 594 raw files
+  - [ ] PXD006675: LFQ experiment, heart, 594 raw files
   - [ ] PXD008722: LFQ experiment, heart, 252 raw files
   - [ ] PXD018678: LFQ experiment, heart, 11 raw files
   - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
-  - [ ] PXD012636: LFQ experiment, heart, 91 raw files
+  - [x] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
   - [ ] PXD011349: LFQ experiment, heart, 55 raw files
   - [ ] PXD005736: LFQ experiment, heart, 24 RAW files
@@ -71,9 +71,9 @@ For each category the factor value is different:
   - [] PXD008840: LFQ experiment, stomach, 504 raw files
 
 - lung:
-  - [] PXD004700: LFQ experiment, lung, 46 raw files
-  - [] PXD004682: LFQ experiment, lung, 96 raw files
-  - [] PXD004684: DIA-LFQ experiment, lung, 8 raw files
+  - [ ] PXD004700: LFQ experiment, lung, 46 raw files
+  - [ ] PXD004682: LFQ experiment, lung, 96 raw files
+  - [ ] PXD004684: DIA-LFQ experiment, lung, 8 raw files
  
 
 - anterior pituitary gland
@@ -86,7 +86,7 @@ For each category the factor value is different:
 
 - ovary
   - [ ] PXD008183: Error quant in MS1.
-  - [] PXD025864 LFQ experiment, ovary, 9 raw files
+  - [ ] PXD025864 LFQ experiment, ovary, 9 raw files
 
 - pancreas
   - [ ] https://www.iprox.org/page/project.html?id=IPX0001745000
@@ -96,26 +96,26 @@ For each category the factor value is different:
 
 - eyes:
   - sclera
-    - [] PXD022661
-    - [] PXD008999
+    - [ ] PXD022661
+    - [ ] PXD008999
   - cornea
-    - [] PXD009261
+    - [ ] PXD009261
   - iris
-    - [] PXD001299
+    - [ ] PXD001299
   - retina
-    - [] PXD001242
+    - [ ] PXD001242
   - choroid, ciliary body
-    - [] PXD002194
-    - [] PXD002273
+    - [ ] PXD002194
+    - [ ] PXD002273
 
 - testis
   - [] PXD009737
   - [] PXD002179
 
 - kidney
-  - [] PXD006482
-  - [] PXD019123
-  - [] PXD013523
+  - [ ] PXD006482
+  - [ ] PXD019123
+  - [ ] PXD013523
   - [ ] PXD003271
 
 - Spermatozoon
@@ -133,9 +133,9 @@ For each category the factor value is different:
 ### Plasma
 
 - [ ] PXD011839
-- [x] PXD004242
-- [x] PXD022469, LFQ 389 raw files
-- [x] PXD023650, LFQ 48 raw files
+- [ ] PXD004242
+- [ ] PXD022469, LFQ 389 raw files
+- [ ] PXD023650, LFQ 48 raw files
 -
 ### Tumor datasets
 
