@@ -72,7 +72,7 @@ For each category the factor value is different:
   - [] PXD008852: DIA-LFQ experiment, heart,
 
 - stomach:
-  - [] PXD008840: LFQ experiment, stomach, 504 raw files
+  - [x] PXD008840: LFQ experiment, stomach, 504 raw files
 
 - lung:
   - [ ] PXD004700: LFQ experiment, lung, 46 raw files
