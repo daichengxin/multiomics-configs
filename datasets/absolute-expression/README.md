@@ -44,11 +44,14 @@ For each category the factor value is different:
 
 - brain:
   - [x] PXD000547 & PXD000548: LFQ experiment, brain, 80 raw files
-  - [ ] PXD012755: LFQ experiment, brain, 32 raw files
+  - [x] PXD012755: LFQ experiment, brain, 32 raw files
   - [ ] PXD004143: LFQ experiment, brain, 4 raw files
-  - [ ] PXD005445: LFQ experiment, brain, 196 raw files
+  - [x] PXD005445: 
+    - [x] PXD005445: Combined all tissues from brain. 196 raw files 
+    - [x] PXD005445: Single shots all tissues. 
   - [ ] PXD006233: LFQ experiment, brain
   - [ ] PXD004332
+  - [x] PXD012131: Brain 313 raw files
 
 - skin:
   - PXD019909: 
@@ -57,12 +60,12 @@ For each category the factor value is different:
 - heart:
   - [ ] PXD008934: LFQ experiment, heart, 34 raw files
   - [x] PXD006675: LFQ experiment, heart, 594 raw files
-  - [ ] PXD008722: LFQ experiment, heart, 252 raw files
+  - [x] PXD008722: LFQ experiment, heart, 252 raw files
   - [ ] PXD018678: LFQ experiment, heart, 11 raw files
   - [ ] PXD018678: DIA-LFQ experiment, heart, 48 raw files
   - [x] PXD012636: LFQ experiment, heart, 91 raw files
   - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
-  - [ ] PXD011349: LFQ experiment, heart, 55 raw files
+  - [x] PXD011349: LFQ experiment, heart, 55 raw files
   - [ ] PXD005736: LFQ experiment, heart, 24 RAW files
 
 - artery coronary:
