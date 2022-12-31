@@ -100,7 +100,7 @@ For each category the factor value is different:
 
 - eyes:
   - sclera
-    - [ ] PXD022661
+    - [x] PXD022661
     - [ ] PXD008999
   - cornea
     - [ ] PXD009261
