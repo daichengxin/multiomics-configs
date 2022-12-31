@@ -49,7 +49,7 @@ For each category the factor value is different:
   - [x] PXD005445: 
     - [x] PXD005445: Combined all tissues from brain. 196 raw files 
     - [x] PXD005445: Single shots all tissues. 
-  - [ ] PXD006233: LFQ experiment, brain
+  - [ ] PXD006233: LFQ experiment, brain (still error annotating)
   - [ ] PXD004332
   - [x] PXD012131: Brain 313 raw files
 
@@ -81,12 +81,12 @@ For each category the factor value is different:
  
 
 - anterior pituitary gland
-  - [] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
+  - [ ] PXD005819: LFQ experiment, anterior pituitary gland, 32 raw files (Note: Sample 2 removed few peptides)
 
 - colon mucosa
-  - [] PXD001608: LFQ experiment, colonic mucosa, 30 raw files
-  - [] PXD002029
-  - [  PXD001608
+  - [ ] PXD001608: LFQ experiment, colonic mucosa, 30 raw files
+  - [ ] PXD002029
+  - [ ] PXD001608
 
 - ovary
   - [ ] PXD008183: Error quant in MS1.
