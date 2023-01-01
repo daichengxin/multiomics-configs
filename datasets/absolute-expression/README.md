@@ -101,7 +101,7 @@ For each category the factor value is different:
 - eyes:
   - sclera
     - [x] PXD022661
-    - [ ] PXD008999
+    - [ ] PXD008999 (Spectral counting - Error pmultiqc)
   - cornea
     - [ ] PXD009261
   - iris
@@ -118,7 +118,7 @@ For each category the factor value is different:
 
 - kidney
   - [ ] PXD006482
-  - [ ] PXD019123
+  - [x] PXD019123
   - [ ] PXD013523
   - [ ] PXD003271
 
@@ -140,7 +140,7 @@ For each category the factor value is different:
 - [ ] PXD004242
 - [ ] PXD022469, LFQ 389 raw files
 - [ ] PXD023650, LFQ 48 raw files
--
+- [ ] PXD001064
 ### Tumor datasets
 
 - [ ] PXD012431
