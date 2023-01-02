@@ -58,7 +58,7 @@ For each category the factor value is different:
    - [x] LFQ experiment, skin, 152 raw files
    - [x] DIA experiment, skin, 46 raw files
 - heart:
-  - [ ] PXD008934: LFQ experiment, heart, 34 raw files
+  - [x] PXD008934: LFQ experiment, heart, 34 raw files
   - [x] PXD006675: LFQ experiment, heart, 594 raw files
   - [x] PXD008722: LFQ experiment, heart, 252 raw files
   - [ ] PXD018678: LFQ experiment, heart, 11 raw files
