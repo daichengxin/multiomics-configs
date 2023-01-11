@@ -64,9 +64,8 @@ For each category the factor value is different:
   - [x] PXD018678: LFQ experiment, heart, 11 raw files
     - [x] PXD018678: DIA-LFQ experiment, heart, 48 raw files
   - [x] PXD012636: LFQ experiment, heart, 91 raw files
-  - [ ] PXD012467: LFQ experiment, heart, (Note: needs to find the normal tissues)
   - [x] PXD011349: LFQ experiment, heart, 55 raw files
-  - [ ] PXD005736: LFQ experiment, heart, 24 RAW files
+  - [x] PXD005736: LFQ experiment, heart, 24 RAW files
 
 - artery coronary:
   - [] PXD008852: DIA-LFQ experiment, heart,
@@ -141,6 +140,7 @@ For each category the factor value is different:
 - [ ] PXD022469, LFQ 389 raw files
 - [ ] PXD023650, LFQ 48 raw files
 - [ ] PXD001064
+
 ### Tumor datasets
 
 - [ ] PXD012431
