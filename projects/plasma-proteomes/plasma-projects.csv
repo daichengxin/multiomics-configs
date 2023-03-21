@@ -1,3 +1,6 @@
-Accession, # Samples, # MSruns, # Type Experiment, Title
-PXD004242, 64, 1291, DDA-LFQ, Plasma Proteome Profiling Reveals the Effects of Weight Loss on the Apolipoprotein Family and Systemic Inflammation Status
+Accession, # Samples, # MSruns, # Type Experiment, Cell Type, Title
+PXD004242, 64, 1291, DDA-LFQ, Plasma, Plasma Proteome Profiling Reveals the Effects of Weight Loss on the Apolipoprotein Family and Systemic Inflammation Status
+PXD011839, 85, 400, DDA-LFQ, Plasma, Plasma proteome profiling discovers novel proteins associated with non-alcoholic fatty liver disease
+PXD011839.1, 78, 232, DDA-LFQ, Plasma, Plasma proteome profiling discovers novel proteins associated with non-alcoholic fatty liver disease
+PXD022469, 16, 385, DDA-LFQ, Plasma, Proteome-wide evaluation of plasma depletion methods vis-à-vis fractionation techniques
 
