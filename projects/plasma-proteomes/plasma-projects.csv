@@ -6,8 +6,8 @@ PXD022469, 16, 385, DDA-LFQ, Plasma, Proteome-wide evaluation of plasma depletio
 PXD002854(plasma), 24, 113, DDA-LFQ, Plasma, Plasma proteome profiling to assess human health and disease
 PXD002854(erythrocyte), 1, 33, DDA-LFQ, Erythrocyte, Plasma proteome profiling to assess human health and disease
 PXD002854(serum), 2, 96, DDA-LFQ, Serum, Plasma proteome profiling to assess human health and disease
-PXD002854(serumvsplasma), 2, 9, Plasma,  DDA-LFQ, Plasma, Plasma proteome profiling to assess human health and disease
-PXD002854(serumvsplasma), 2, 9, Serum,  DDA-LFQ, Plasma, Plasma proteome profiling to assess human health and disease
+PXD002854(serumvsplasma), 2, 9, DDA-LFQ, Plasma, Plasma proteome profiling to assess human health and disease
+PXD002854(serumvsplasma), 2, 9, DDA-LFQ, Serum, Plasma proteome profiling to assess human health and disease
 PXD009348, 54, 707, DDA-LFQ, Plasma, Plasma Proteome Profiling Reveals Dynamics of Inflammatory and Lipid Homeostasis Markers after Roux-En-Y Gastric Bypass Surgery
 PXD036609, 27, 27, DDA-LFQ, Serum, Proteomic Analysis for New Types of Long-Term Persistent COVID-19 Patients in Wuhan
 PXD011749(blood), 21, 44, DDA-LFQ, Blood, Proteome Profiling to detect and avoid sample-related biases in biomarker studies
