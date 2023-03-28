@@ -3,12 +3,16 @@ PXD004242, 64, 1291, DDA-LFQ, Plasma, Plasma Proteome Profiling Reveals the Effe
 PXD011839, 85, 400, DDA-LFQ, Plasma, Plasma proteome profiling discovers novel proteins associated with non-alcoholic fatty liver disease
 PXD011839.1, 78, 232, DDA-LFQ, Plasma, Plasma proteome profiling discovers novel proteins associated with non-alcoholic fatty liver disease
 PXD022469, 16, 385, DDA-LFQ, Plasma, Proteome-wide evaluation of plasma depletion methods vis-à-vis fractionation techniques
-PXD002854, , , DDA-LFQ, Plasma, Plasma proteome profiling to assess human health and disease
+PXD002854(plasma), 24, 113, DDA-LFQ, Plasma, Plasma proteome profiling to assess human health and disease
+PXD002854(erythrocyte), 1, 33, DDA-LFQ, Erythrocyte, Plasma proteome profiling to assess human health and disease
+PXD002854(serum), 2, 96, DDA-LFQ, Serum, Plasma proteome profiling to assess human health and disease
+PXD002854(serumvsplasma), 2, 9, DDA-LFQ, Plasma, Plasma proteome profiling to assess human health and disease
+PXD002854(serumvsplasma), 2, 9, DDA-LFQ, Serum, Plasma proteome profiling to assess human health and disease
 PXD009348, 54, 707, DDA-LFQ, Plasma, Plasma Proteome Profiling Reveals Dynamics of Inflammatory and Lipid Homeostasis Markers after Roux-En-Y Gastric Bypass Surgery
-PXD036609, 27, 27, DDA-LFQ, Serum Proteomic Analysis for New Types of Long-Term Persistent COVID-19 Patients in Wuhan
-PXD011749(blood), 21, 44, DDA-LFQ, Plasma Proteome Profiling to detect and avoid sample-related biases in biomarker studies
-PXD011749(plasma),
-PXD011749(platelet-rich),
-PXD011749(platelet),
-PXD011749(erythrocyte),
-PXD011749(serumvsplasma),
+PXD036609, 27, 27, DDA-LFQ, Serum, Proteomic Analysis for New Types of Long-Term Persistent COVID-19 Patients in Wuhan
+PXD011749(blood), 21, 44, DDA-LFQ, Blood, Proteome Profiling to detect and avoid sample-related biases in biomarker studies
+PXD011749(plasma), 21, 44, DDA-LFQ, Plasma, Proteome Profiling to detect and avoid sample-related biases in biomarker studies
+PXD011749(platelet-rich), 21, 44, DDA-LFQ, Plasma, Proteome Profiling to detect and avoid sample-related biases in biomarker studies
+PXD011749(platelet), 21, 44, DDA-LFQ, thrombocyte, Proteome Profiling to detect and avoid sample-related biases in biomarker studies
+PXD011749(erythrocyte), 21, 44, DDA-LFQ, erythrocyte, Proteome Profiling to detect and avoid sample-related biases in biomarker studies
+PXD011749(serumvsplasma), 7, 168, DDA-LFQ, Plasma, Proteome Profiling to detect and avoid sample-related biases in biomarker studies
