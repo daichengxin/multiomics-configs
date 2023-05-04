@@ -12,10 +12,10 @@ from pandas_schema import ValidationWarning
 from sdrf_pipelines.zooma import ols
 from sdrf_pipelines.sdrf import sdrf, sdrf_schema
 
-DIR_LFQ = 'datasets/differential-datasets/label-free/'
-DIR_TMT = 'datasets/differential-datasets/tmt/'
-DIR_DIA = 'datasets/differential-datasets/dia/'
-DIR_ABS = 'datasets/absolute-expression/'
+DIR_LFQ = 'projects/differential-datasets/label-free/'
+DIR_TMT = 'projects/differential-datasets/tmt/'
+DIR_DIA = 'projects/differential-datasets/dia/'
+DIR_ABS = 'projects/absolute-expression/'
 
 def get_files_sdrf():
   lfq = glob.glob(DIR_LFQ + '**/*.sdrf.tsv')
