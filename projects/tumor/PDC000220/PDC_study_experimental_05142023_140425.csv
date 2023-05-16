@@ -1,0 +1,471 @@
+﻿Plex Dataset Name,Run Metadata ID,Number of Fractions,tmt_126,tmt_127n,tmt_127c,tmt_128n,tmt_128c,tmt_129n,tmt_129c,tmt_130n,tmt_130c,tmt_131
+"Phosphoproteome_Batch004-R1","Phosphoproteome_Batch004-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P013
+Normal Adjacent Tissue","P013
+Tumor","P014
+Normal Adjacent Tissue
+Disqualified","P014
+Tumor
+Disqualified","P015
+Normal Adjacent Tissue","P015
+Tumor","P016
+Normal Adjacent Tissue","P016
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch004-R2","Phosphoproteome_Batch004-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P013
+Normal Adjacent Tissue","P013
+Tumor","P014
+Normal Adjacent Tissue
+Disqualified","P014
+Tumor
+Disqualified","P015
+Normal Adjacent Tissue","P015
+Tumor","P016
+Normal Adjacent Tissue","P016
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch005-R1","Phosphoproteome_Batch005-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P017
+Normal Adjacent Tissue","P017
+Tumor","P018
+Normal Adjacent Tissue","P018
+Tumor","P019
+Normal Adjacent Tissue","P019
+Tumor","P020
+Normal Adjacent Tissue","P020
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch005-R2","Phosphoproteome_Batch005-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P017
+Normal Adjacent Tissue","P017
+Tumor","P018
+Normal Adjacent Tissue","P018
+Tumor","P019
+Normal Adjacent Tissue","P019
+Tumor","P020
+Normal Adjacent Tissue","P020
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch006-R1","Phosphoproteome_Batch006-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P021
+Normal Adjacent Tissue","P021
+Tumor","P022
+Normal Adjacent Tissue","P022
+Tumor","P023
+Normal Adjacent Tissue","P023
+Tumor","P024
+Normal Adjacent Tissue","P024
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch006-R2","Phosphoproteome_Batch006-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P021
+Normal Adjacent Tissue","P021
+Tumor","P022
+Normal Adjacent Tissue","P022
+Tumor","P023
+Normal Adjacent Tissue","P023
+Tumor","P024
+Normal Adjacent Tissue","P024
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch007-R1","Phosphoproteome_Batch007-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P025
+Normal Adjacent Tissue","P025
+Tumor","P026
+Normal Adjacent Tissue","P026
+Tumor","P027
+Normal Adjacent Tissue","P027
+Tumor","P028
+Normal Adjacent Tissue","P028
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch007-R2","Phosphoproteome_Batch007-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P025
+Normal Adjacent Tissue","P025
+Tumor","P026
+Normal Adjacent Tissue","P026
+Tumor","P027
+Normal Adjacent Tissue","P027
+Tumor","P028
+Normal Adjacent Tissue","P028
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch008-R1","Phosphoproteome_Batch008-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P029
+Normal Adjacent Tissue","P029
+Tumor","P030
+Normal Adjacent Tissue","P030
+Tumor","P031
+Normal Adjacent Tissue","P031
+Tumor","P032
+Normal Adjacent Tissue","P032
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch008-R2","Phosphoproteome_Batch008-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P029
+Normal Adjacent Tissue","P029
+Tumor","P030
+Normal Adjacent Tissue","P030
+Tumor","P031
+Normal Adjacent Tissue","P031
+Tumor","P032
+Normal Adjacent Tissue","P032
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch009-R1","Phosphoproteome_Batch009-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P033
+Normal Adjacent Tissue","P033
+Tumor","P034
+Normal Adjacent Tissue","P034
+Tumor","P035
+Normal Adjacent Tissue","P035
+Tumor","P036
+Normal Adjacent Tissue","P036
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch009-R2","Phosphoproteome_Batch009-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P033
+Normal Adjacent Tissue","P033
+Tumor","P034
+Normal Adjacent Tissue","P034
+Tumor","P035
+Normal Adjacent Tissue","P035
+Tumor","P036
+Normal Adjacent Tissue","P036
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch010-R1","Phosphoproteome_Batch010-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P037
+Normal Adjacent Tissue","P037
+Tumor","P038
+Normal Adjacent Tissue","P038
+Tumor","P039
+Normal Adjacent Tissue","P039
+Tumor","P040
+Normal Adjacent Tissue","P040
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch010-R2","Phosphoproteome_Batch010-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P037
+Normal Adjacent Tissue","P037
+Tumor","P038
+Normal Adjacent Tissue","P038
+Tumor","P039
+Normal Adjacent Tissue","P039
+Tumor","P040
+Normal Adjacent Tissue","P040
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch011-R1","Phosphoproteome_Batch011-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P041
+Normal Adjacent Tissue","P041
+Tumor","P042
+Normal Adjacent Tissue","P042
+Tumor","P043
+Normal Adjacent Tissue","P043
+Tumor","P044
+Normal Adjacent Tissue","P044
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch011-R2","Phosphoproteome_Batch011-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P041
+Normal Adjacent Tissue","P041
+Tumor","P042
+Normal Adjacent Tissue","P042
+Tumor","P043
+Normal Adjacent Tissue","P043
+Tumor","P044
+Normal Adjacent Tissue","P044
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch012-R1","Phosphoproteome_Batch012-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P045
+Normal Adjacent Tissue","P045
+Tumor","P046
+Normal Adjacent Tissue","P046
+Tumor","P047
+Normal Adjacent Tissue","P047
+Tumor","P048
+Normal Adjacent Tissue","P048
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch012-R2","Phosphoproteome_Batch012-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P045
+Normal Adjacent Tissue","P045
+Tumor","P046
+Normal Adjacent Tissue","P046
+Tumor","P047
+Normal Adjacent Tissue","P047
+Tumor","P048
+Normal Adjacent Tissue","P048
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch013-R1","Phosphoproteome_Batch013-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P049
+Normal Adjacent Tissue","P049
+Tumor","P050
+Normal Adjacent Tissue","P050
+Tumor","P051
+Normal Adjacent Tissue","P051
+Tumor","P052
+Normal Adjacent Tissue","P052
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch013-R2","Phosphoproteome_Batch013-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P049
+Normal Adjacent Tissue","P049
+Tumor","P050
+Normal Adjacent Tissue","P050
+Tumor","P051
+Normal Adjacent Tissue","P051
+Tumor","P052
+Normal Adjacent Tissue","P052
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch014-R1","Phosphoproteome_Batch014-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P053
+Normal Adjacent Tissue","P053
+Tumor","P054
+Normal Adjacent Tissue","P054
+Tumor","P055
+Normal Adjacent Tissue","P055
+Tumor","P056
+Normal Adjacent Tissue","P056
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch014-R2","Phosphoproteome_Batch014-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P053
+Normal Adjacent Tissue","P053
+Tumor","P054
+Normal Adjacent Tissue","P054
+Tumor","P055
+Normal Adjacent Tissue","P055
+Tumor","P056
+Normal Adjacent Tissue","P056
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch015-R1","Phosphoproteome_Batch015-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P057
+Normal Adjacent Tissue","P057
+Tumor","P058
+Normal Adjacent Tissue","P058
+Tumor","P059
+Normal Adjacent Tissue","P059
+Tumor","P060
+Normal Adjacent Tissue","P060
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch015-R2","Phosphoproteome_Batch015-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P057
+Normal Adjacent Tissue","P057
+Tumor","P058
+Normal Adjacent Tissue","P058
+Tumor","P059
+Normal Adjacent Tissue","P059
+Tumor","P060
+Normal Adjacent Tissue","P060
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch016-R1","Phosphoproteome_Batch016-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P061
+Normal Adjacent Tissue","P061
+Tumor","P062
+Normal Adjacent Tissue","P062
+Tumor","P063
+Normal Adjacent Tissue","P063
+Tumor","P064
+Normal Adjacent Tissue","P064
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch016-R2","Phosphoproteome_Batch016-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P061
+Normal Adjacent Tissue","P061
+Tumor","P062
+Normal Adjacent Tissue","P062
+Tumor","P063
+Normal Adjacent Tissue","P063
+Tumor","P064
+Normal Adjacent Tissue","P064
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch017-R1","Phosphoproteome_Batch017-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P065
+Normal Adjacent Tissue
+Disqualified","P065
+Tumor
+Disqualified","P066
+Normal Adjacent Tissue","P066
+Tumor","P067
+Normal Adjacent Tissue","P067
+Tumor","P068
+Normal Adjacent Tissue","P068
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch017-R2","Phosphoproteome_Batch017-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P065
+Normal Adjacent Tissue
+Disqualified","P065
+Tumor
+Disqualified","P066
+Normal Adjacent Tissue","P066
+Tumor","P067
+Normal Adjacent Tissue","P067
+Tumor","P068
+Normal Adjacent Tissue","P068
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch019-R1","Phosphoproteome_Batch019-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P073
+Normal Adjacent Tissue","P073
+Tumor","P074
+Normal Adjacent Tissue","P074
+Tumor","P075
+Normal Adjacent Tissue","P075
+Tumor","P076
+Normal Adjacent Tissue","P076
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch019-R2","Phosphoproteome_Batch019-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P073
+Normal Adjacent Tissue","P073
+Tumor","P074
+Normal Adjacent Tissue","P074
+Tumor","P075
+Normal Adjacent Tissue","P075
+Tumor","P076
+Normal Adjacent Tissue","P076
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch020-R1","Phosphoproteome_Batch020-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P077
+Normal Adjacent Tissue","P077
+Tumor","P078
+Normal Adjacent Tissue","P078
+Tumor","P079
+Normal Adjacent Tissue","P079
+Tumor","P080
+Normal Adjacent Tissue","P080
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch020-R2","Phosphoproteome_Batch020-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P077
+Normal Adjacent Tissue","P077
+Tumor","P078
+Normal Adjacent Tissue","P078
+Tumor","P079
+Normal Adjacent Tissue","P079
+Tumor","P080
+Normal Adjacent Tissue","P080
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch021-R1","Phosphoproteome_Batch021-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P081
+Normal Adjacent Tissue","P081
+Tumor","P082
+Normal Adjacent Tissue","P082
+Tumor","P083
+Normal Adjacent Tissue","P083
+Tumor","P084
+Normal Adjacent Tissue","P084
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch021-R2","Phosphoproteome_Batch021-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P081
+Normal Adjacent Tissue","P081
+Tumor","P082
+Normal Adjacent Tissue","P082
+Tumor","P083
+Normal Adjacent Tissue","P083
+Tumor","P084
+Normal Adjacent Tissue","P084
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch022-R1","Phosphoproteome_Batch022-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P085
+Normal Adjacent Tissue","P085
+Tumor","P086
+Normal Adjacent Tissue","P086
+Tumor","P087
+Normal Adjacent Tissue","P087
+Tumor","P088
+Normal Adjacent Tissue","P088
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch022-R2","Phosphoproteome_Batch022-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P085
+Normal Adjacent Tissue","P085
+Tumor","P086
+Normal Adjacent Tissue","P086
+Tumor","P087
+Normal Adjacent Tissue","P087
+Tumor","P088
+Normal Adjacent Tissue","P088
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch024-R1","Phosphoproteome_Batch024-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P093
+Normal Adjacent Tissue","P093
+Tumor","P094
+Normal Adjacent Tissue","P094
+Tumor","P095
+Normal Adjacent Tissue","P095
+Tumor","P096
+Normal Adjacent Tissue","P096
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch024-R2","Phosphoproteome_Batch024-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P093
+Normal Adjacent Tissue","P093
+Tumor","P094
+Normal Adjacent Tissue","P094
+Tumor","P095
+Normal Adjacent Tissue","P095
+Tumor","P096
+Normal Adjacent Tissue","P096
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch025-R1","Phosphoproteome_Batch025-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P097
+Normal Adjacent Tissue","P097
+Tumor","P098
+Normal Adjacent Tissue","P098
+Tumor","P099
+Normal Adjacent Tissue","P099
+Tumor","P100
+Normal Adjacent Tissue","P100
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch025-R2","Phosphoproteome_Batch025-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P097
+Normal Adjacent Tissue","P097
+Tumor","P098
+Normal Adjacent Tissue","P098
+Tumor","P099
+Normal Adjacent Tissue","P099
+Tumor","P100
+Normal Adjacent Tissue","P100
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch028-R1","Phosphoproteome_Batch028-R1","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P109
+Normal Adjacent Tissue","P109
+Tumor","P110
+Normal Adjacent Tissue","P110
+Tumor","P111
+Normal Adjacent Tissue","P111
+Tumor","P112
+Normal Adjacent Tissue","P112
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
+"Phosphoproteome_Batch028-R2","Phosphoproteome_Batch028-R2","12","QC1_(Tumor+Adjacent Normal)pool
+Not Reported","P109
+Normal Adjacent Tissue","P109
+Tumor","P110
+Normal Adjacent Tissue","P110
+Tumor","P111
+Normal Adjacent Tissue","P111
+Tumor","P112
+Normal Adjacent Tissue","P112
+Tumor","QC2_LateStageTumor_pool
+Not Reported"
