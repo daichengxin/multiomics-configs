@@ -22,11 +22,12 @@ For absolute expression projects, we have a set of rules to select the project t
 - PXD032212: Proteomics comparison of human valve interstitial cells from healthy patients and donors with CAVD
 - PXD034244: Transcriptome and proteome profiling of activated cardiac fibroblasts supports target prioritization in cardiac fibrosis
 - MSV000087095.1 (DDA): Deep Human Proteome Sequencing Enables Global Detection of Mutations and Alternative Splicing
-- MSV000087095.2 (DIA): Deep Human Proteome Sequencing Enables Global Detection of Mutations and Alternative Splicing
+- MSV000087095.2 (DDA): Deep Human Proteome Sequencing Enables Global Detection of Mutations and Alternative Splicing
 - PXD000561: A draft map of the human proteome
-- PXD000865: Mass spectrometry based draft of the human proteome
 - PXD010154: A deep proteome and transcriptome abundance atlas of 29 healthy human tissues
 - PXD020192: Proteomic Profiling of the Human Tissue and Biological Fluid Proteome
+- PXD016999.1: A Quantitative Proteome Map of the Human Body
+- PXD016999.2: A Quantitative Proteome Map of the Human Body
 
 ## Mouse 
 
