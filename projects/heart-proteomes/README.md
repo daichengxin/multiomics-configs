@@ -1,8 +1,8 @@
-# Heart Proteome Proteogenomics
+# Heart Proteome
 
-## PRIDE datasets LFQ experiments by Species
+This project aims to create an expression profile of the human heart. 
 
-### How to select datasets
+### Select datasets
 
 For absolute expression projects, we have a set of rules to select the project to be annotated:
 
@@ -15,7 +15,7 @@ For absolute expression projects, we have a set of rules to select the project t
   - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD008934
   - **Publication**: http://europepmc.org/article/MED/29892068
   - **Annotations**: https://github.com/multiomics/multiomics-configs/tree/master/datasets/absolute-expression/tissues/PXD008934
-  - **Matrix results**: http://ftp.pride.ebi.ac.uk/pride/data/proteomes/absolute-expression/PXD008934-organism-part/
+  - **Results**: http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/PXD008934/
 
 - [x] PXD006675: LFQ experiment, heart, 594 raw files
   - **PRIDE URL**: https://www.ebi.ac.uk/pride/archive/projects/PXD006675
