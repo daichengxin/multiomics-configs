@@ -1,6 +1,6 @@
 # Plasma Proteome
 
-This project aims to create an expression profile of the human plasma. 
+The plasma projects aims to perform reanalysis of plasma proteome datasets in PRIDE Archive and provide to the user absolute intensity values.  
 
 ### Select datasets
 
