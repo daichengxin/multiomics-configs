@@ -1,0 +1,201 @@
+﻿Plex Dataset Name,Run Metadata ID,Number of Fractions,label_free
+"01_CPTAC_COprospective_Proteome_VU_20150901","S037-1-1","6","01CO006
+Primary Tumor"
+"02_CPTAC_COprospective_Proteome_VU_20150624","S037-1-2","6","01CO008
+Primary Tumor"
+"03_CPTAC_COprospective_Proteome_VU_20150624","S037-1-3","6","05CO004
+Primary Tumor"
+"04_CPTAC_COprospective_Proteome_VU_20150915","S037-1-4","6","05CO006
+Primary Tumor"
+"05_CPTAC_COprospective_Proteome_VU_20150915","S037-1-5","6","05CO007
+Primary Tumor"
+"06_CPTAC_COprospective_Proteome_VU_20150915","S037-1-6","6","05CO011
+Primary Tumor"
+"07_CPTAC_COprospective_Proteome_VU_20150915","S037-1-7","6","05CO015
+Primary Tumor"
+"08_CPTAC_COprospective_Proteome_VU_20150928","S037-1-8","6","05CO020
+Primary Tumor"
+"09_CPTAC_COprospective_Proteome_VU_20150928","S037-1-9","6","05CO028
+Primary Tumor"
+"100_CPTAC_COprospective_Proteome_VU_20160806","S037-1-100","6","09CO014
+Primary Tumor"
+"101_CPTAC_COprospective_Proteome_VU_20160806","S037-1-101","6","09CO015
+Primary Tumor"
+"102_CPTAC_COprospective_Proteome_VU_20160806","S037-1-102","6","09CO018
+Primary Tumor"
+"103_CPTAC_COprospective_Proteome_VU_20160808","S037-1-103","6","09CO019
+Primary Tumor"
+"10_CPTAC_COprospective_Proteome_VU_20151002","S037-1-10","6","05CO029
+Primary Tumor"
+"11_CPTAC_COprospective_Proteome_VU_20151002","S037-1-11","6","05CO032
+Primary Tumor"
+"12_CPTAC_COprospective_Proteome_VU_20151016","S037-1-12","6","05CO033
+Primary Tumor"
+"13_CPTAC_COprospective_Proteome_VU_20151030","S037-1-13","6","06CO001
+Primary Tumor"
+"14_CPTAC_COprospective_Proteome_VU_20151030","S037-1-14","6","06CO002
+Primary Tumor"
+"15_CPTAC_COprospective_Proteome_VU_20151102","S037-1-15","6","09CO005
+Primary Tumor"
+"16_CPTAC_COprospective_Proteome_VU_20151102","S037-1-16","6","09CO006
+Primary Tumor"
+"17_CPTAC_COprospective_Proteome_VU_20150807","S037-1-17","6","09CO008
+Primary Tumor"
+"18_CPTAC_COprospective_Proteome_VU_20151105","S037-1-18","6","14CO001
+Primary Tumor"
+"19_CPTAC_COprospective_Proteome_VU_20151112","S037-1-19","6","14CO002
+Primary Tumor"
+"20_CPTAC_COprospective_Proteome_VU_20151112","S037-1-20","6","20CO001
+Primary Tumor"
+"21_CPTAC_COprospective_Proteome_VU_20151112","S037-1-21","6","20CO003
+Primary Tumor"
+"22_CPTAC_COprospective_Proteome_VU_20150202","S037-1-22","6","05CO002
+Primary Tumor"
+"23_CPTAC_COprospective_Proteome_VU_20150215","S037-1-23","6","01CO005
+Primary Tumor"
+"24_CPTAC_COprospective_Proteome_VU_20150215","S037-1-24","6","01CO001
+Primary Tumor"
+"25_CPTAC_COprospective_Proteome_VU_20160726","S037-1-25","6","05CO003
+Primary Tumor"
+"26_CPTAC_COprospective_Proteome_VU_20150810","S037-1-26","6","05CO049
+Primary Tumor"
+"27_CPTAC_COprospective_Proteome_VU_20150810","S037-1-27","6","22CO004
+Primary Tumor"
+"28_CPTAC_COprospective_Proteome_VU_20150810","S037-1-28","6","05CO037
+Primary Tumor"
+"29_CPTAC_COprospective_Proteome_VU_20150810","S037-1-29","6","11CO033
+Primary Tumor"
+"30_CPTAC_COprospective_Proteome_VU_20150810","S037-1-30","6","20CO006
+Primary Tumor"
+"31_CPTAC_COprospective_Proteome_VU_20150810","S037-1-31","6","11CO043
+Primary Tumor"
+"32_CPTAC_COprospective_Proteome_VU_20150818","S037-1-32","6","20CO007
+Primary Tumor"
+"33_CPTAC_COprospective_Proteome_VU_20150818","S037-1-33","6","11CO042
+Primary Tumor"
+"34_CPTAC_COprospective_Proteome_VU_20150824","S037-1-34","6","11CO032
+Primary Tumor"
+"35_CPTAC_COprospective_Proteome_VU_20150901","S037-1-35","6","16CO002
+Primary Tumor"
+"36_CPTAC_COprospective_Proteome_VU_20150824","S037-1-36","6","11CO018
+Primary Tumor"
+"37_CPTAC_COprospective_Proteome_VU_20150904","S037-1-37","6","16CO006
+Primary Tumor"
+"38_CPTAC_COprospective_Proteome_VU_20150904","S037-1-38","6","11CO031
+Primary Tumor"
+"39_CPTAC_COprospective_Proteome_VU_20150909","S037-1-39","6","09CO011
+Primary Tumor"
+"40_CPTAC_COprospective_Proteome_VU_20150909","S037-1-40","6","05CO039
+Primary Tumor"
+"41_CPTAC_COprospective_Proteome_VU_20151124","S037-1-41","6","21CO006
+Primary Tumor"
+"42_CPTAC_COprospective_Proteome_VU_20151124","S037-1-42","6","05CO034
+Primary Tumor"
+"43_CPTAC_COprospective_Proteome_VU_20151130","S037-1-43","6","01CO022
+Primary Tumor"
+"44_CPTAC_COprospective_Proteome_VU_20151202","S037-1-44","6","20CO004
+Primary Tumor"
+"45_CPTAC_COprospective_Proteome_VU_20151202","S037-1-45","6","05CO048
+Primary Tumor"
+"46_CPTAC_COprospective_Proteome_VU_20151209","S037-1-46","6","09CO013
+Primary Tumor"
+"47_CPTAC_COprospective_Proteome_VU_20151209","S037-1-47","6","21CO007
+Primary Tumor"
+"48_CPTAC_COprospective_Proteome_VU_20151209","S037-1-48","6","15CO002
+Primary Tumor"
+"49_CPTAC_COprospective_Proteome_VU_20151222","S037-1-49","6","11CO062
+Primary Tumor"
+"50_CPTAC_COprospective_Proteome_VU_20151222","S037-1-50","6","05CO035
+Primary Tumor"
+"51_CPTAC_COprospective_Proteome_VU_20160215","S037-1-51","6","16CO003
+Primary Tumor"
+"52_CPTAC_COprospective_Proteome_VU_20160223","S037-1-52","6","11CO019
+Primary Tumor"
+"53_CPTAC_COprospective_Proteome_VU_20160226","S037-1-53","6","11CO030
+Primary Tumor"
+"54_CPTAC_COprospective_Proteome_VU_20160226","S037-1-54","6","01CO019
+Primary Tumor"
+"55_CPTAC_COprospective_Proteome_VU_20160630","S037-1-55","6","11CO005
+Primary Tumor"
+"56_CPTAC_COprospective_Proteome_VU_20160303","S037-1-56","6","01CO015
+Primary Tumor"
+"57_CPTAC_COprospective_Proteome_VU_20160317","S037-1-57","6","15CO001
+Primary Tumor"
+"58_CPTAC_COprospective_Proteome_VU_20160318","S037-1-58","6","11CO048
+Primary Tumor"
+"59_CPTAC_COprospective_Proteome_VU_20160308","S037-1-59","6","13CO001
+Primary Tumor"
+"60_CPTAC_COprospective_Proteome_VU_20160311","S037-1-60","6","27CO004
+Primary Tumor"
+"61_CPTAC_COprospective_Proteome_VU_20160707","S037-1-61","6","11CO010
+Primary Tumor"
+"62_CPTAC_COprospective_Proteome_VU_20160311","S037-1-62","6","05CO041
+Primary Tumor"
+"63_CPTAC_COprospective_Proteome_VU_20160316","S037-1-63","6","11CO020
+Primary Tumor"
+"64_CPTAC_COprospective_Proteome_VU_20160318","S037-1-64","6","11CO007
+Primary Tumor"
+"65_CPTAC_COprospective_Proteome_VU_20160322","S037-1-65","6","05CO026
+Primary Tumor"
+"66_CPTAC_COprospective_Proteome_VU_20160323","S037-1-66","6","11CO045
+Primary Tumor"
+"67_CPTAC_COprospective_Proteome_VU_20160324","S037-1-67","6","16CO011
+Primary Tumor"
+"68_CPTAC_COprospective_Proteome_VU_20160406","S037-1-68","6","14CO005
+Primary Tumor"
+"69_CPTAC_COprospective_Proteome_VU_20160407","S037-1-69","6","22CO006
+Primary Tumor"
+"70_CPTAC_COprospective_Proteome_VU_20160421","S037-1-70","6","11CO037
+Primary Tumor"
+"71_CPTAC_COprospective_Proteome_VU_20160414","S037-1-71","6","14CO003
+Primary Tumor"
+"72_CPTAC_COprospective_Proteome_VU_20160422","S037-1-72","6","05CO044
+Primary Tumor"
+"73_CPTAC_COprospective_Proteome_VU_20160422","S037-1-73","6","11CO036
+Primary Tumor"
+"74_CPTAC_COprospective_Proteome_VU_20160912","S037-1-74","6","11CO008
+Primary Tumor"
+"75_CPTAC_COprospective_Proteome_VU_20160502","S037-1-75","6","11CO060
+Primary Tumor"
+"76_CPTAC_COprospective_Proteome_VU_20160502","S037-1-76","6","11CO039
+Primary Tumor"
+"77_CPTAC_COprospective_Proteome_VU_20160504","S037-1-77","6","11CO070
+Primary Tumor"
+"78_CPTAC_COprospective_Proteome_VU_20160915","S037-1-78","6","11CO079
+Primary Tumor"
+"79_CPTAC_COprospective_Proteome_VU_20160510","S037-1-79","6","05CO053
+Primary Tumor"
+"80_CPTAC_COprospective_Proteome_VU_20160517","S037-1-80","6","11CO072
+Primary Tumor"
+"81_CPTAC_COprospective_Proteome_VU_20160915","S037-1-81","6","11CO027
+Primary Tumor"
+"82_CPTAC_COprospective_Proteome_VU_20160520","S037-1-82","6","11CO077
+Primary Tumor"
+"83_CPTAC_COprospective_Proteome_VU_20160524","S037-1-83","6","05CO054
+Primary Tumor"
+"84_CPTAC_COprospective_Proteome_VU_20160916","S037-1-84","6","05CO050
+Primary Tumor"
+"85_CPTAC_COprospective_Proteome_VU_20160630","S037-1-85","6","11CO058
+Primary Tumor"
+"86_CPTAC_COprospective_Proteome_VU_20160628","S037-1-86","6","11CO057
+Primary Tumor"
+"87_CPTAC_COprospective_Proteome_VU_20160701","S037-1-87","6","09CO022
+Primary Tumor"
+"88_CPTAC_COprospective_Proteome_VU_20160705","S037-1-88","6","11CO054
+Primary Tumor"
+"89_CPTAC_COprospective_Proteome_VU_20160707","S037-1-89","6","11CO053
+Primary Tumor"
+"90_CPTAC_COprospective_Proteome_VU_20160728","S037-1-90","6","11CO052
+Primary Tumor"
+"92_CPTAC_COprospective_Proteome_VU_20160728","S037-1-92","6","11CO061
+Primary Tumor"
+"93_CPTAC_COprospective_Proteome_VU_20160729","S037-1-93","6","11CO044
+Primary Tumor"
+"94_CPTAC_COprospective_Proteome_VU_20160729","S037-1-94","6","05CO045
+Primary Tumor"
+"97_CPTAC_COprospective_Proteome_VU_20160801","S037-1-97","6","11CO021
+Primary Tumor"
+"98_CPTAC_COprospective_Proteome_VU_20160804","S037-1-98","6","11CO047
+Primary Tumor"
+"99_CPTAC_COprospective_Proteome_VU_20160801","S037-1-99","6","11CO022
+Primary Tumor"
