@@ -1,0 +1,141 @@
+﻿Plex Dataset Name,Run Metadata ID,Number of Fractions,itraq_114,itraq_115,itraq_116,itraq_117
+"TCGA_13-1489-01A_42-2590-01A_36-2529-01A_Proteome_PNNL_20130518","S020-3-11","24","TCGA-13-1489
+Primary Tumor","TCGA-42-2590
+Primary Tumor","TCGA-36-2529
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-1105-01A_29-1785-01A_24-2290-01A_Proteome_PNNL_20130924","S020-3-27","24","TCGA-24-1105
+Primary Tumor","TCGA-29-1785
+Primary Tumor","TCGA-24-2290
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-1428-01A_24-1923-01A_24-1563-01A_Proteome_PNNL_20130813","S020-3-20","24","TCGA-24-1428
+Primary Tumor","TCGA-24-1923
+Primary Tumor","TCGA-24-1563
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-1430-01A_24-1466-01A_24-1552-01A_Proteome_PNNL_20130813","S020-3-21","24","TCGA-24-1430
+Primary Tumor","TCGA-24-1466
+Primary Tumor","TCGA-24-1552
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-1467-01A_29-2432-01A_25-1321-01A_Proteome_PNNL_20130303","S020-3-2","24","TCGA-24-1467
+Primary Tumor","TCGA-29-2432
+Primary Tumor","TCGA-25-1321
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-1545-01A_24-2288-01A_29-1693-01A_Proteome_PNNL_20130303","S020-3-5","24","TCGA-24-1545
+Primary Tumor","TCGA-24-2288
+Primary Tumor","TCGA-29-1693
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-1556-01A_24-2267-01A_24-2260-01A_Proteome_PNNL_20130621","S020-3-17","24","TCGA-24-1556
+Primary Tumor","TCGA-24-2267
+Primary Tumor","TCGA-24-2260
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-1604-01A_24-2020-01A_25-1320-01A_Proteome_PNNL_20130517","S020-3-9","24","TCGA-24-1604
+Primary Tumor","TCGA-24-2020
+Primary Tumor","TCGA-25-1320
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-2023-01A_24-1603-01A_61-2612-01A_Proteome_PNNL_20130302","S020-3-3","24","TCGA-24-2023
+Primary Tumor","TCGA-24-1603
+Primary Tumor","TCGA-61-2612
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_24-2295-01A_24-2027-01A_29-1768-01A_Proteome_PNNL_20130924","S020-3-26","24","TCGA-24-2295
+Primary Tumor","TCGA-24-2027
+Primary Tumor","TCGA-29-1768
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_25-1316-01A_24-1550-01A_24-1555-01A_Proteome_PNNL_20130303","S020-3-1","24","TCGA-25-1316
+Primary Tumor","TCGA-24-1550
+Primary Tumor","TCGA-24-1555
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_25-1319-01A_24-2289-01A_42-2588-01A_Proteome_PNNL_20130518","S020-3-12","24","TCGA-25-1319
+Primary Tumor","TCGA-24-2289
+Primary Tumor","TCGA-42-2588
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_25-1628-01A_13-1494-01A_24-1104-01A_Proteome_PNNL_20130303","S020-3-4","24","TCGA-25-1628
+Primary Tumor","TCGA-13-1494
+Primary Tumor","TCGA-24-1104
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_25-1630-01A_13-1499-01A_29-1775-01A_Proteome_PNNL_20130816","S020-3-23","24","TCGA-25-1630
+Primary Tumor","TCGA-13-1499
+Primary Tumor","TCGA-29-1775
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_25-2400-01A_30-1866-01A_25-2409-01A_Proteome_PNNL_20130622","S020-3-18","24","TCGA-25-2400
+Primary Tumor","TCGA-30-1866
+Primary Tumor","TCGA-25-2409
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_29-1688-01A_24-1435-01A_24-1562-01A_Proteome_PNNL_20130621","S020-3-13","24","TCGA-29-1688
+Primary Tumor","TCGA-24-1435
+Primary Tumor","TCGA-24-1562
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_29-1697-01A_13-1488-01A_25-1623-01A_Proteome_PNNL_20130923","S020-3-28","24","TCGA-29-1697
+Primary Tumor","TCGA-13-1488
+Primary Tumor","TCGA-25-1623
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_29-1762-01A_13-2071-01A_36-2543-01A_Proteome_PNNL_20130302","S020-3-6","24","TCGA-29-1762
+Primary Tumor","TCGA-13-2071
+Primary Tumor","TCGA-36-2543
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_29-1763-01A_61-1741-01A_24-2024-01A_Proteome_PNNL_20130813","S020-3-19","24","TCGA-29-1763
+Primary Tumor","TCGA-61-1741
+Primary Tumor","TCGA-24-2024
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_29-1774-01A_36-1576-01A_24-2030-01A_Proteome_PNNL_20130522","S020-3-10","24","TCGA-29-1774
+Primary Tumor","TCGA-36-1576
+Primary Tumor","TCGA-24-2030
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_29-1777-01A_61-2008-01A_24-1551-01A_Proteome_PNNL_20130518","S020-3-7","24","TCGA-29-1777
+Primary Tumor","TCGA-61-2008
+Primary Tumor","TCGA-24-1551
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_29-2414-01A_61-1995-01A_13-1484-01A_Proteome_PNNL_20130622","S020-3-14","24","TCGA-29-2414
+Primary Tumor","TCGA-61-1995
+Primary Tumor","TCGA-13-1484
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_36-1581-01A_23-1123-01A_24-1553-01A_Proteome_PNNL_20130518","S020-3-8","24","TCGA-36-1581
+Primary Tumor","TCGA-23-1123
+Primary Tumor","TCGA-24-1553
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_36-2530-01A_24-1103-01A_29-1776-01A_Proteome_PNNL_20130621","S020-3-15","24","TCGA-36-2530
+Primary Tumor","TCGA-24-1103
+Primary Tumor","TCGA-29-1776
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_61-1907-01A_23-1124-01A_25-1635-01A_Proteome_PNNL_20130622","S020-3-16","24","TCGA-61-1907
+Primary Tumor","TCGA-23-1124
+Primary Tumor","TCGA-25-1635
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_61-1914-01A_61-1900-01A_09-1664-01A_Proteome_PNNL_20130924","S020-3-25","24","TCGA-61-1914
+Primary Tumor","TCGA-61-1900
+Primary Tumor","TCGA-09-1664
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_61-2095-01A_61-1919-01A_25-2404-01A_Proteome_PNNL_20130813","S020-3-22","24","TCGA-61-2095
+Primary Tumor","TCGA-61-1919
+Primary Tumor","TCGA-25-2404
+Primary Tumor","Internal Reference
+Not Reported"
+"TCGA_61-2096-01A_61-1911-01A_13-1495-01A_Proteome_PNNL_20130924","S020-3-24","24","TCGA-61-2096
+Primary Tumor","TCGA-61-1911
+Primary Tumor","TCGA-13-1495
+Primary Tumor","Internal Reference
+Not Reported"
