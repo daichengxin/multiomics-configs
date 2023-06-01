@@ -1,0 +1,391 @@
+﻿Plex Dataset Name,Run Metadata ID,Number of Fractions,label_free
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00165_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-111","1","C3L-00165
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00165_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-187","1","C3L-00165
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00815_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-84","1","C3L-00815
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00908_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-19","1","C3L-00908
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00966_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-23","1","C3L-00966
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00966_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-108","1","C3L-00966
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00968_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-114","1","C3L-00968
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00968_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-60","1","C3L-00968
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00969_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-123","1","C3L-00969
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00969_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-90","1","C3L-00969
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00970_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-190","1","C3L-00970
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00970_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-173","1","C3L-00970
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00976_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-177","1","C3L-00976
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00976_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-186","1","C3L-00976
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00980_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-156","1","C3L-00980
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00980_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-25","1","C3L-00980
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00981_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-11","1","C3L-00981
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00981_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-81","1","C3L-00981
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00982_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-2","1","C3L-00982
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00982_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-76","1","C3L-00982
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00991_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-38","1","C3L-00991
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-00991_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-39","1","C3L-00991
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01033_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-71","1","C3L-01033
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01033_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-80","1","C3L-01033
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01034_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-150","1","C3L-01034
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01034_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-170","1","C3L-01034
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01102_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-78","1","C3L-01102
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01102_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-155","1","C3L-01102
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01106_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-85","1","C3L-01106
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01106_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-148","1","C3L-01106
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01107_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-47","1","C3L-01107
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01107_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-46","1","C3L-01107
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01459_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-101","1","C3L-01459
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01462_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-140","1","C3L-01462
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01462_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-27","1","C3L-01462
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01464_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-152","1","C3L-01464
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01464_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-144","1","C3L-01464
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01465_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-98","1","C3L-01465
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01470_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-75","1","C3L-01470
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01470_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-127","1","C3L-01470
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01665_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-48","1","C3L-01665
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01665_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-10","1","C3L-01665
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01676_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-40","1","C3L-01676
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01676_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-182","1","C3L-01676
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01681_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-65","1","C3L-01681
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01681_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-102","1","C3L-01681
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01869_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-93","1","C3L-01869
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01869_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-5","1","C3L-01869
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01929_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-153","1","C3L-01929
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01951_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-31","1","C3L-01951
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01952_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-141","1","C3L-01952
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01954_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-180","1","C3L-01954
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01958_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-164","1","C3L-01958
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01963_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-162","1","C3L-01963
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01976_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-6","1","C3L-01976
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01976_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-14","1","C3L-01976
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01978_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-15","1","C3L-01978
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-01978_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-189","1","C3L-01978
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02175_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-131","1","C3L-02175
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02176_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-17","1","C3L-02176
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02176_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-55","1","C3L-02176
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02177_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-67","1","C3L-02177
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02201_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-104","1","C3L-02201
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02202_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-96","1","C3L-02202
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02208_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-106","1","C3L-02208
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02208_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-143","1","C3L-02208
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02211_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-9","1","C3L-02211
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02211_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-32","1","C3L-02211
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02214_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-159","1","C3L-02214
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02220_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-43","1","C3L-02220
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02220_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-79","1","C3L-02220
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02346_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-117","1","C3L-02346
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02346_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-185","1","C3L-02346
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02352_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-44","1","C3L-02352
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02352_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-12","1","C3L-02352
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02364_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-179","1","C3L-02364
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02364_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-22","1","C3L-02364
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02544_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-175","1","C3L-02544
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02544_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-103","1","C3L-02544
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02551_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-138","1","C3L-02551
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02551_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-121","1","C3L-02551
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02553_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-184","1","C3L-02553
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02556_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-87","1","C3L-02556
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02556_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-77","1","C3L-02556
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02841_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-45","1","C3L-02841
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02841_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-4","1","C3L-02841
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02842_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-192","1","C3L-02842
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02842_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-53","1","C3L-02842
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02856_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-56","1","C3L-02856
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02856_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-21","1","C3L-02856
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3L-02857_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-107","1","C3L-02857
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-00647_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-74","1","C3N-00647
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-00647_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-120","1","C3N-00647
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-00715_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-13","1","C3N-00715
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-00715_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-1","1","C3N-00715
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-00721_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-89","1","C3N-00721
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-00721_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-91","1","C3N-00721
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01077_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-168","1","C3N-01077
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01077_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-50","1","C3N-01077
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01078_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-109","1","C3N-01078
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01078_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-73","1","C3N-01078
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01080_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-36","1","C3N-01080
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01080_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-132","1","C3N-01080
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01081_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-58","1","C3N-01081
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01081_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-194","1","C3N-01081
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01082_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-126","1","C3N-01082
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01082_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-133","1","C3N-01082
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01083_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-70","1","C3N-01083
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01083_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-3","1","C3N-01083
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01085_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-42","1","C3N-01085
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01085_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-137","1","C3N-01085
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01086_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-66","1","C3N-01086
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01086_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-16","1","C3N-01086
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01088_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-135","1","C3N-01088
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01088_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-191","1","C3N-01088
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01090_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-8","1","C3N-01090
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01090_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-134","1","C3N-01090
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01091_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-169","1","C3N-01091
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01091_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-154","1","C3N-01091
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01536_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-105","1","C3N-01536
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01536_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-59","1","C3N-01536
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01654_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-68","1","C3N-01654
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01654_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-139","1","C3N-01654
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01655_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-147","1","C3N-01655
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01656_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-145","1","C3N-01656
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01656_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-49","1","C3N-01656
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01657_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-130","1","C3N-01657
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01806_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-129","1","C3N-01806
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01806_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-26","1","C3N-01806
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01828_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-112","1","C3N-01828
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01828_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-94","1","C3N-01828
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01902_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-151","1","C3N-01902
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01902_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-18","1","C3N-01902
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01905_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-69","1","C3N-01905
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01905_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-29","1","C3N-01905
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01989_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-34","1","C3N-01989
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-01989_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-100","1","C3N-01989
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02005_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-35","1","C3N-02005
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02005_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-41","1","C3N-02005
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02015_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-113","1","C3N-02015
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02015_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-125","1","C3N-02015
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02063_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-88","1","C3N-02063
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02066_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-161","1","C3N-02066
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02066_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-128","1","C3N-02066
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02068_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-122","1","C3N-02068
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02068_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-82","1","C3N-02068
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02070_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-33","1","C3N-02070
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02070_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-61","1","C3N-02070
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02082_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-62","1","C3N-02082
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02082_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-193","1","C3N-02082
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02084_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-171","1","C3N-02084
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02084_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-116","1","C3N-02084
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02085_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-72","1","C3N-02085
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02085_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-92","1","C3N-02085
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02160_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-99","1","C3N-02160
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02160_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-115","1","C3N-02160
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02224_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-95","1","C3N-02224
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02224_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-181","1","C3N-02224
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02248_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-86","1","C3N-02248
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02248_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-37","1","C3N-02248
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02262_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-118","1","C3N-02262
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02263_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-20","1","C3N-02263
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02263_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-142","1","C3N-02263
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02264_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-166","1","C3N-02264
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02265_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-165","1","C3N-02265
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02265_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-136","1","C3N-02265
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02266_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-172","1","C3N-02266
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02332_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-163","1","C3N-02332
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02332_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-119","1","C3N-02332
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02338_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-176","1","C3N-02338
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02429_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-24","1","C3N-02429
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02429_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-30","1","C3N-02429
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02431_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-57","1","C3N-02431
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02431_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-157","1","C3N-02431
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02439_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-183","1","C3N-02439
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02439_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-167","1","C3N-02439
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02577_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-188","1","C3N-02577
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02577_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-146","1","C3N-02577
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02723_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-28","1","C3N-02723
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02723_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-97","1","C3N-02723
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02726_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-149","1","C3N-02726
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02726_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-7","1","C3N-02726
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02761_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-158","1","C3N-02761
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02761_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-195","1","C3N-02761
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02763_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-83","1","C3N-02763
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02763_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-52","1","C3N-02763
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02811_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-63","1","C3N-02811
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02811_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-51","1","C3N-02811
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02945_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-174","1","C3N-02945
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-02945_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-178","1","C3N-02945
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-03018_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-64","1","C3N-03018
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-03018_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-110","1","C3N-03018
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-03019_NAT.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-124","1","C3N-03019
+Solid Tissue Normal"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-03019_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-160","1","C3N-03019
+Primary Tumor"
+"CPTAC_CCRCC_W_JHU_LUMOS_C3N-03020_T.raw","CPTAC CCRCC Confirmatory Study - DIA Proteome-54","1","C3N-03020
+Primary Tumor"
