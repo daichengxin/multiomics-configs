@@ -5,7 +5,7 @@ So, we should update PDC file.
 
 1. Place re-download PDC_file_manifest file from PDC database.
 <center>
-    <img src="./example.png" width="400" height="300">
+    <img src=".\example.png" width="400" height="300">
 </center>
 
 2. Set the file path.
