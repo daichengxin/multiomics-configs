@@ -154,10 +154,10 @@ def method_run_sample(dataframe,file_list, df):
             df.loc[row_index, 'method'] = "iTRAQ"    
 
         #For DDA and DIA, first it checks if the column 'comment[proteomics data acquisition method]' exists. If it does, it looks for "Data-Independent Acquisition" or "Data-Dependent Adquisition"
-        elif 'comment[proteomics data acquisition method]' in dataframe.columns and any(item in str(dataframe.iloc[0]['comment[proteomics data acquisition method]']) for item in ['Data-Independent Adcquisition']):
+        elif 'comment[proteomics data acquisition method]' in dataframe.columns and any(item in str(dataframe.iloc[0]['comment[proteomics data acquisition method]']) for item in ['Data-Independent Acquisition']):
             df.loc[row_index, 'method'] = "DIA"
 
-        elif 'comment[proteomics data acquisition method]' in dataframe.columns and any(item in str(dataframe.iloc[0]['comment[proteomics data acquisition method]']) for item in ['Data-Dependent Adquisition']):
+        elif 'comment[proteomics data acquisition method]' in dataframe.columns and any(item in str(dataframe.iloc[0]['comment[proteomics data acquisition method]']) for item in ['Data-Dependent Acquisition']):
             df.loc[row_index, 'method'] = "DDA"
 
         #If none of them is found, DDA is set by default
