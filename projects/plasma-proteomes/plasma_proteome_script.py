@@ -6,14 +6,16 @@ from selenium.webdriver.common.keys import Keys
 import re
 import click
 import requests
+from selenium.webdriver.chrome.options import Options
 
-df = pd.DataFrame(columns=['pxd', 'doi', 'sdrf url', 'msstats url', 'method', 'samples', 'run', 'peptides'])
-driver = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument('--headless')
+driver = webdriver.Chrome(options=chrome_options)
 
 row_index = 1
 row_index_msstats=1
 
-def pubmed(paper_name):
+def pubmed(paper_name, df):
 
     #This function obtains the doi of a dataset when the doi isn't available in europepmc/PRIDE
     #I haven't been able to do it using API, so it has to use the webrowser
@@ -59,7 +61,7 @@ def pubmed(paper_name):
         pubmed_value = "NOT FOUND"
     df.loc[row_index, 'doi'] = doi
 
-def absolute(file_name, full_name, pxd_code):
+def absolute(pxd_code, full_name, file_name, df):
 
     #This function obtains the URL where msstats are located. 
     #Depending on the used method (DDA, DIA, TMT...) files are located in different folders, so all of them must be checked
@@ -74,7 +76,7 @@ def absolute(file_name, full_name, pxd_code):
     max_iterations = 6
     iteration = 0
     msstats_url = ""
-    url_sdrf = ""
+    sdrf_url = ""
 
     #When the proper file is obtained the loop is interrupted by "while not". If the maximum iteration is reached, an error message is printed
     while not file_found and iteration < max_iterations:
@@ -86,14 +88,14 @@ def absolute(file_name, full_name, pxd_code):
                 url_options = [
                     f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}/proteomicslfq/",
                     f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}/msstatsconverter/",
-                    f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}/diannconverter/"
+                    f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}/diannconvert/"
                 ]
             #If it fails, in the next loop number is used and it increases up to 6
             else:
                 url_options = [
                     f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}.{number}/proteomicslfq/",
                     f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}.{number}/msstatsconverter/",
-                    f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}.{number}/diannconverter/"
+                    f"http://ftp.pride.ebi.ac.uk/pub/databases/pride/resources/proteomes/absolute-expression/{pxd_code}.{number}/diannconvert/"
                 ]
 
             #In any case, the url is stored
@@ -112,10 +114,10 @@ def absolute(file_name, full_name, pxd_code):
                         if full_name == msstats_absolute_split:
                             msstats_url = driver.current_url + msstats_absolute_file
 
-                            #If the URL is correct, it is used to obtain the URL where the sdrf file is storaged by replacing msstatsconverter/proteomicslfq/diannconverter and pipeline_info/
-                            url_sdrf = url_msstats.replace("msstatsconverter/", "pipeline_info/")
-                            url_sdrf = url_sdrf.replace("proteomicslfq/", "pipeline_info/")
-                            url_sdrf = url_sdrf.replace("diannconverter/", "pipeline_info/") + pxd_code + ".sdrf.tsv"
+                            #If the URL is correct, it is used to obtain the URL where the sdrf file is storaged by replacing msstatsconverter/proteomicslfq/diannconverter by pipeline_info/
+                            sdrf_url = url_msstats.replace("msstatsconverter/", "pipeline_info/")
+                            sdrf_url = sdrf_url.replace("proteomicslfq/", "pipeline_info/")
+                            sdrf_url = sdrf_url.replace("diannconverter/", "pipeline_info/") + pxd_code + ".sdrf.tsv"
 
                             driver.get(url_msstats)
                             file_found = True
@@ -126,22 +128,23 @@ def absolute(file_name, full_name, pxd_code):
             
         except Exception as e:
             print("An error occurred:", str(e))
-
+            msstats_url="not found"
         number += 1
 
     if not file_found:
         print(file_name+"File not found within the maximum number of iterations.")
+        msstats_url='not found'
 
     #Both msstats and sdrf URL are stored in the dataframe
     df.loc[row_index, 'msstats url'] = msstats_url
-    df.loc[row_index, 'sdrf url'] = url_sdrf
+    df.loc[row_index, 'sdrf url'] = sdrf_url
 
-def method_run_sample(dataframe,file_list):
+def method_run_sample(dataframe,file_list, df):
     #This function obtains the used method (TMT, DDA...) and the number of samples and runs from the sdrf
     #TMT and iTRAQ are checked in "comment[label]" column.
     #DDA and DIA are checked in "comment[proteomics data acquisition method]"
     #If none of them is found, DDA is set by default
-
+      
     for file_name in file_list:
 
         if 'TMT' in str(dataframe.iloc[0]['comment[label]']):
@@ -180,33 +183,84 @@ def method_run_sample(dataframe,file_list):
     except KeyError:
         df.loc[row_index, 'run'] = "error"     
 
+def features(msstats_file_list, msstats_folder_path, df):
+    #In this step, the msstats files are searched to get the number of features (not unique)
+    for file_name in msstats_file_list:
+        file_path = os.path.join(msstats_folder_path, file_name)
+        dataframe_msstats = pd.read_csv(file_path, sep=',')
+
+        #It gets the name of the dataset from file_name to find the proper row in df
+        code = file_name.split('.')[0]
+        #Then it finds the corresponding row in the DataFrame
+        mask = df['pxd'] == code
+        #Update the values in the 3rd column of the matching rows
+        df.loc[mask, 'features'] = len(dataframe_msstats['PeptideSequence']) - 1
+
+def peptides(peptide_file_list, peptide_folder_path, df):
+    #In this step, the peptide files are searched to get the number of unique peptides
+    for file_name in peptide_file_list:
+        file_path = os.path.join(peptide_folder_path, file_name)
+        dataframe_peptides = pd.read_csv(file_path, sep=',')
+
+        #It gets the name of the dataset from file_name to find the proper row in df
+        code = file_name.split('-peptides')[0]
+        #Then it finds the corresponding row in the DataFrame
+        mask = df['pxd'] == code
+        #The number of unique peptides is obtained from the column 'PeptideCanonical'
+        #Tha value is written in the corresponding row and column 'peptides'
+        df.loc[mask, 'peptides'] = dataframe_peptides['PeptideCanonical'].nunique()
+
+def proteins(protein_file_list, protein_folder_path, df):
+    #In this step, the protein files are searched to get the number of unique proteins
+    for file_name in protein_file_list:
+        file_path = os.path.join(protein_folder_path, file_name)
+        dataframe_protein = pd.read_csv(file_path, sep=',')
+
+        #It gets the name of the dataset from file_name to find the proper row in df
+        code = file_name.split('-proteins')[0]
+        #Then it finds the corresponding row in the DataFrame
+        mask = df['pxd'] == code
+        #The number of unique proteins is obtained from the column 'ProteinName'
+        #Tha value is written in the corresponding row and column 'proteins'
+        df.loc[mask, 'proteins'] = dataframe_protein['ProteinName'].nunique()
 
 @click.command()
 @click.option("-m", "--msstats", help="Folder where msstats files are located", required=True)
 @click.option("-s", "--sdrf", help="Folder where sdrf files are located", required=True)
+@click.option("-m", "--peptide", help="Folder where peptide files are located", required=True)
+@click.option("-s", "--protein", help="Folder where protein files are located", required=True)
 @click.option("-o", "--output", help="File where output is printed", required=True)
-def main_script(msstats, sdrf, output):
+def main_script(msstats, sdrf, peptide, protein, output):
 
-#This is the main function that calls the rest if needed
-#It uses the directory where the sdrf and msstast files are stored as input, and it creates an output file
-
+    #This is the main function that calls the rest if needed
+    #It uses the directory where the sdrf and msstast files are stored as input, and it creates an output file
     global row_index
     global row_index_msstats
     #For some reason, it needs these lines (global row_index, global row_index_msstats) to have access to those parameters
 
-    folder_path = sdrf
-    file_list = os.listdir(folder_path)
+    df = pd.DataFrame(columns=['pxd', 'doi', 'sdrf url', 'msstats url', 'method', 'samples', 'run', 'features', 'peptides', 'proteins'])
+
+    #These lines create the path to the folders where filers are storaged
+    sdrf_folder_path = sdrf
+    file_list = os.listdir(sdrf_folder_path)
+
     msstats_folder_path = msstats
     msstats_file_list = os.listdir(msstats_folder_path)
 
+    peptide_folder_path = peptide
+    peptide_file_list = os.listdir(peptide_folder_path)
+
+    protein_folder_path = protein
+    protein_file_list = os.listdir(protein_folder_path)
+
+     #This first step is only to get the PXD code from the name of the file
     for file_name in file_list:
-        #This first step is only to get the PXD code from the name of the file
-        
+               
         #First, it gets the directory of each file by combining the folder path and the file name
         #Then, the name of the file is obtained (PXDXXXXX) by removing the extension
-        #Finally, gets the full_name by separating the name by . (This variable is stored in df)
+        #Finally, it gets the full_name by separating the name by . (This variable is stored in df)
 
-        file_path = os.path.join(folder_path, file_name)
+        file_path = os.path.join(sdrf_folder_path, file_name)
         dataframe = pd.read_csv(file_path, sep='\t')
         base_name = os.path.splitext(file_name)[0]
         full_name = base_name.split('.')[0]
@@ -217,58 +271,60 @@ def main_script(msstats, sdrf, output):
         else:
             first_part = base_name.split('.')[0]
         df.loc[row_index, 'pxd'] = full_name
-        PXD_code = first_part
+        pxd_code = first_part
+
+        #First, the pxd is introduced in europepmc. If it fails, it tries PRIDE. If the doi is not found in PRIDE, the title of the article is copied and pubmed() is called.
+        #If everything fails, not found is printed
 
         #The PXD is introduced in the URL and the API is accessed to obtain the doi
-        try: 
-            #Europepmc is searched by default
-            europepmc_url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query="+ PXD_code +"&format=json"
-            response = requests.get(europepmc_url)
-            json_data = response.json()      
-            doi_list = json_data['resultList']['result']
-            doi = doi_list[0]['doi'] if doi_list else ''
+        europepmc_url = "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=" + pxd_code + "&format=json"
+        response = requests.get(europepmc_url)
+        json_data = response.json()
+        result_data = json_data['resultList']['result']
+
+        #If the doi is found in europepmc it is stored, otherwise, else
+        if result_data and 'doi' in result_data[0] and result_data[0]['doi'] != '':
+            doi = result_data[0]['doi']
             df.loc[row_index, 'doi'] = doi
-
-        except:
-            #When it can't be found in europepmc, the second step is searching in PRIDE     
-            pride_url = "https://www.ebi.ac.uk/pride/ws/archive/projects/" + PXD_code
-
-            if pride_url:
-                #If the URL exists, it tries to find it
-                response = requests.get(pride_url)
+        else:
+            #Here it tries finding the doi in PRIDE     
+            pride_url = "https://www.ebi.ac.uk/pride/ws/archive/projects/" + pxd_code
+            response = requests.get(pride_url)
+            #If the json exists, try finding the doi. Otherwise, doi not found
+            try:
                 json_data = response.json()
-                if 'references' in json_data:
-                    #First, it tries to find the doi
-                    doi_list = json_data['references']
-                    doi = doi_list[0]['doi'] if doi_list else ''
+                doi_list = json_data['references']
+                if doi_list and 'doi' in doi_list[0] and doi_list[0]['doi']:
+                    doi = doi_list[0]['doi']
                     df.loc[row_index, 'doi'] = doi
+                    print(pxd_code+'pride doi')
+                #If the json exist, but the doi can not be found, try using the title of the article and call pubmed()
                 elif 'title' in json_data:
-                    #If it fails, it tries to find the title of the paper, to call the function pubmed()
                     paper_name = json_data['title']
-                    pubmed()
+                    print(pxd_code+'title')
+                    pubmed(paper_name, df)
                 #Otherwise, the doi is not found
                 else:
-                    doi = "NOT FOUND"
+                    doi = "not found"
                     df.loc[row_index, 'doi'] = doi
-            else:
-                doi = "NOT FOUND"
+            except:
+                doi = "not found"
                 df.loc[row_index, 'doi'] = doi
 
-
-        absolute(file_name, full_name, PXD_code)
-        method_run_sample(dataframe, file_list)
+        absolute(pxd_code, full_name, file_name, df)
+        method_run_sample(dataframe, file_list, df)
         row_index += 1
-    
-    #In this step, the msstats files are searched to get the number of unique peptides
-    for file_name in msstats_file_list:
-        file_path = os.path.join(msstats_folder_path, file_name)
-        dataframe = pd.read_csv(file_path, sep=',') 
 
-        unique_values = dataframe['PeptideSequence'].nunique()
-        df.loc[row_index_msstats, 'peptides'] = unique_values
-        row_index_msstats += 1
-        
+    features(msstats_file_list, msstats_folder_path, df)
+    peptides(peptide_file_list, peptide_folder_path, df)
+    proteins(protein_file_list, protein_folder_path, df)
+       
+    #This line removes rows when the data of 'msstats url' is not found
+    #this can probably be done in an easier way
+
+    df=df.drop(df[df['msstats url'] == 'not found'].index)
+     
     df.to_csv(output, index=False, sep=',')
-    
+
 if __name__ == '__main__':
-    main_script() 
+    main_script()
