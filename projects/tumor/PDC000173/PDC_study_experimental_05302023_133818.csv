@@ -1,0 +1,191 @@
+﻿Plex Dataset Name,Run Metadata ID,Number of Fractions,itraq_114,itraq_115,itraq_116,itraq_117
+"01TCGA_AO-A12D-01A_C8-A131-01A_AO-A12B-01A_Proteome_BI_20130208","S015-1-1","25","TCGA-AO-A12D
+Primary Tumor","TCGA-C8-A131
+Primary Tumor","TCGA-AO-A12B
+Primary Tumor","Internal Reference
+Not Reported"
+"02TCGA_E2-A10A-01A_BH-A18Q-01A_C8-A130-01A_Proteome_BI_20130222","S015-1-2","25","TCGA-E2-A10A
+Primary Tumor","TCGA-BH-A18Q
+Primary Tumor","TCGA-C8-A130
+Primary Tumor","Internal Reference
+Not Reported"
+"03TCGA_C8-A138-01A_E2-A154-01A_BH-A0BZ-01A_Proteome_BI_20130225","S015-1-3","25","TCGA-C8-A138
+Primary Tumor","TCGA-E2-A154
+Primary Tumor","TCGA-BH-A0BZ
+Primary Tumor","Internal Reference
+Not Reported"
+"04TCGA_A8-A09I-01A_C8-A12L-01A_A2-A0EX-01A_Proteome_BI_20130302","S015-1-4","25","TCGA-A8-A09I
+Primary Tumor","TCGA-C8-A12L
+Primary Tumor","TCGA-A2-A0EX
+Primary Tumor","Internal Reference
+Not Reported"
+"05TCGA_AO-A12D-01A_AN-A04A-01A_BH-A0AV-01A_Proteome_BI_20130310_Replicate","S015-1-5-Replicate","25","TCGA-AO-A12D
+Primary Tumor","TCGA-AN-A04A
+Primary Tumor","TCGA-BH-A0AV
+Primary Tumor","Internal Reference
+Not Reported"
+"05TCGA_AO-A12D-01A_AN-A04A-01A_BH-A0AV-01A_Proteome_BI_20130416","S015-1-5","25","TCGA-AO-A12D
+Primary Tumor","TCGA-AN-A04A
+Primary Tumor","TCGA-BH-A0AV
+Primary Tumor","Internal Reference
+Not Reported"
+"06TCGA_A2-A0D0-01A_BH-A0HK-01A_C8-A12T-01A_Proteome_BI_20130326","S015-1-6","25","TCGA-A2-A0D0
+Primary Tumor","TCGA-BH-A0HK
+Primary Tumor","TCGA-C8-A12T
+Primary Tumor","Internal Reference
+Not Reported"
+"07TCGA_A8-A06Z-01A_A2-A0D1-01A_A2-A0CM-01A_Proteome_BI_20130401","S015-1-7","25","TCGA-A8-A06Z
+Primary Tumor","TCGA-A2-A0D1
+Primary Tumor","TCGA-A2-A0CM
+Primary Tumor","Internal Reference
+Not Reported"
+"08TCGA_BH-A18U-01A_A2-A0YI-01A_A2-A0EQ-01A_Proteome_BI_20130404","S015-1-8","25","TCGA-BH-A18U
+Primary Tumor","TCGA-A2-A0YI
+Primary Tumor","TCGA-A2-A0EQ
+Primary Tumor","Internal Reference
+Not Reported"
+"09TCGA_AR-A0TY-01A_AR-A0U4-01A_BH-A0HP-01A_Proteome_BI_20130408","S015-1-9","25","TCGA-AR-A0TY
+Primary Tumor","TCGA-AR-A0U4
+Primary Tumor","TCGA-BH-A0HP
+Primary Tumor","Internal Reference
+Not Reported"
+"10TCGA_BH-A0EE-01A_AO-A0J9-01A_BH-A0E0-01A_Proteome_BI_20130412","S015-1-10","25","TCGA-BH-A0EE
+Primary Tumor","TCGA-AO-A0J9
+Primary Tumor","TCGA-BH-A0E0
+Primary Tumor","Internal Reference
+Not Reported"
+"11TCGA_AR-A1AP-01A_AN-A0FK-01A_AO-A0J6-01A_Proteome_BI_20130517","S015-1-11","25","TCGA-AR-A1AP
+Primary Tumor","TCGA-AN-A0FK
+Primary Tumor","TCGA-AO-A0J6
+Primary Tumor","Internal Reference
+Not Reported"
+"12TCGA_BH-A18V-01A_A7-A13F-01A_BH-A0E1-01A_Proteome_BI_20130520","S015-1-12","25","TCGA-BH-A18V
+Primary Tumor","TCGA-A7-A13F
+Primary Tumor","TCGA-BH-A0E1
+Primary Tumor","Internal Reference
+Not Reported"
+"13TCGA_A7-A0CE-01A_BH-A0C0-01A_A2-A0YC-01A_Proteome_BI_20130524","S015-1-13","25","TCGA-A7-A0CE
+Primary Tumor","TCGA-BH-A0C0
+Primary Tumor","TCGA-A2-A0YC
+Primary Tumor","Internal Reference
+Not Reported"
+"14TCGA_AO-A0JC-01A_A8-A08Z-01A_AR-A0TX-01A_Proteome_BI_20130527","S015-1-14","25","TCGA-AO-A0JC
+Primary Tumor","TCGA-A8-A08Z
+Primary Tumor","TCGA-AR-A0TX
+Primary Tumor","Internal Reference
+Not Reported"
+"15TCGA_D8-A13Y-01A_A8-A076-01A_AO-A126-01A_Proteome_BI_20130617","S015-1-15","25","TCGA-D8-A13Y
+Primary Tumor","TCGA-A8-A076
+Primary Tumor","TCGA-AO-A126
+Primary Tumor","Internal Reference
+Not Reported"
+"16TCGA_C8-A12P-01A_BH-A0C1-01A_A2-A0EY-01A_Proteome_BI_20130622","S015-1-16","25","TCGA-C8-A12P
+Primary Tumor","TCGA-BH-A0C1
+Primary Tumor","TCGA-A2-A0EY
+Primary Tumor","Internal Reference
+Not Reported"
+"17TCGA_AR-A1AW-01A_AR-A1AV-01A_C8-A135-01A_Proteome_BI_20130628","S015-1-17","25","TCGA-AR-A1AW
+Primary Tumor","TCGA-AR-A1AV
+Primary Tumor","TCGA-C8-A135
+Primary Tumor","Internal Reference
+Not Reported"
+"18TCGA_A2-A0EV-01A_AN-A0AM-01A_D8-A142-01A_Proteome_BI_20130625","S015-1-18","25","TCGA-A2-A0EV
+Primary Tumor","TCGA-AN-A0AM
+Primary Tumor","TCGA-D8-A142
+Primary Tumor","Internal Reference
+Not Reported"
+"19TCGA_AN-A0FL-01A_BH-A0DG-01A_AN-A0AS-01A_Proteome_BI_20130726","S015-1-19","25","TCGA-AN-A0FL
+Primary Tumor","TCGA-BH-A0DG
+Primary Tumor","TCGA-AN-A0AS
+Primary Tumor","Internal Reference
+Not Reported"
+"20TCGA_AR-A0TV-01A_C8-A12Z-01A_AO-A0JJ-01A_Proteome_BI_20130730","S015-1-20","25","TCGA-AR-A0TV
+Primary Tumor","TCGA-C8-A12Z
+Primary Tumor","TCGA-AO-A0JJ
+Primary Tumor","Internal Reference
+Not Reported"
+"21TCGA_AO-A0JE-01A_A2-A0T2-01A_AN-A0AJ-01A_Proteome_BI_20130802","S015-1-21","25","TCGA-AO-A0JE
+Primary Tumor","TCGA-A2-A0T2
+Primary Tumor","TCGA-AN-A0AJ
+Primary Tumor","Internal Reference
+Not Reported"
+"22TCGA_A7-A0CJ-01A_AO-A12F-01A_A2-A0YL-01A_Proteome_BI_20130805","S015-1-22","25","TCGA-A7-A0CJ
+Primary Tumor","TCGA-AO-A12F
+Primary Tumor","TCGA-A2-A0YL
+Primary Tumor","Internal Reference
+Not Reported"
+"23TCGA_A2-A0T7-01A_C8-A12Q-01A_A8-A079-01A_Proteome_BI_20130820","S015-1-23","25","TCGA-A2-A0T7
+Primary Tumor","TCGA-C8-A12Q
+Primary Tumor","TCGA-A8-A079
+Primary Tumor","Internal Reference
+Not Reported"
+"24TCGA_E2-A159-01A_A2-A0T3-01A_A2-A0YD-01A_Proteome_BI_20130823","S015-1-24","25","TCGA-E2-A159
+Primary Tumor","TCGA-A2-A0T3
+Primary Tumor","TCGA-A2-A0YD
+Primary Tumor","Internal Reference
+Not Reported"
+"25TCGA_AR-A0TR-01A_AO-A03O-01A_BH-A18R-01A_Proteome_BI_20130825","S015-1-25","25","TCGA-AR-A0TR
+Primary Tumor","TCGA-AO-A03O
+Primary Tumor","TCGA-BH-A18R
+Primary Tumor","Internal Reference
+Not Reported"
+"26TCGA_AO-A12E-01A_A8-A06N-01A_A2-A0T1-01A_Proteome_BI_20130909","S015-1-26","25","TCGA-AO-A12E
+Primary Tumor","TCGA-A8-A06N
+Primary Tumor","TCGA-A2-A0T1
+Primary Tumor","Internal Reference
+Not Reported"
+"27TCGA_A2-A0YG-01A_E2-A150-01A_BH-A18N-01A_Proteome_BI_20130912","S015-1-27","25","TCGA-A2-A0YG
+Primary Tumor","TCGA-E2-A150
+Primary Tumor","TCGA-BH-A18N
+Primary Tumor","Internal Reference
+Not Reported"
+"28TCGA_A7-A0CD-01A_C8-A12W-01A_AN-A0AL-01A_Proteome_BI_20130913","S015-1-28","25","TCGA-A7-A0CD
+Primary Tumor","TCGA-C8-A12W
+Primary Tumor","TCGA-AN-A0AL
+Primary Tumor","Internal Reference
+Not Reported"
+"29TCGA_A2-A0T6-01A_E2-A158-01A_E2-A15A-01A_Proteome_BI_20130918","S015-1-29","25","TCGA-A2-A0T6
+Primary Tumor","TCGA-E2-A158
+Primary Tumor","TCGA-E2-A15A
+Primary Tumor","Internal Reference
+Not Reported"
+"30TCGA_AO-A0JM-01A_C8-A12V-01A_A8-A08G-01A_Proteome_BI_20130927","S015-1-30","25","TCGA-AO-A0JM
+Primary Tumor","TCGA-C8-A12V
+Primary Tumor","TCGA-A8-A08G
+Primary Tumor","Internal Reference
+Not Reported"
+"31TCGA_A2-A0D2-01A_C8-A12U-01A_AR-A1AS-01A_Proteome_BI_20131010","S015-1-31","25","TCGA-A2-A0D2
+Primary Tumor","TCGA-C8-A12U
+Primary Tumor","TCGA-AR-A1AS
+Primary Tumor","Internal Reference
+Not Reported"
+"32TCGA_A8-A09G-01A_C8-A131-01A_C8-A134-01A_Proteome_BI_20131011","S015-1-32","25","TCGA-A8-A09G
+Primary Tumor","TCGA-C8-A131
+Primary Tumor","TCGA-C8-A134
+Primary Tumor","Internal Reference
+Not Reported"
+"33TCGA_A2-A0YF-01A_BH-A0DD-01A_BH-A0E9-01A_Proteome_BI_20131018","S015-1-33","25","TCGA-A2-A0YF
+Primary Tumor","TCGA-BH-A0DD
+Primary Tumor","TCGA-BH-A0E9
+Primary Tumor","Internal Reference
+Not Reported"
+"34TCGA_AR-A0TT-01A_AR-A1AQ-01A_AO-A12B-01A_Proteome_BI_20131022","S015-1-34","25","TCGA-AR-A0TT
+Primary Tumor","TCGA-AR-A1AQ
+Primary Tumor","TCGA-AO-A12B
+Primary Tumor","Internal Reference
+Not Reported"
+"35TCGA_A2-A0SW-01A_AO-A0JL-01A_BH-A0BV-01A_Proteome_BI_20131024","S015-1-35","25","TCGA-A2-A0SW
+Primary Tumor","TCGA-AO-A0JL
+Primary Tumor","TCGA-BH-A0BV
+Primary Tumor","Internal Reference
+Not Reported"
+"36TCGA_A2-A0YM-01A_BH-A0C7-01A_A2-A0SX-01A_Proteome_BI_20131025","S015-1-36","25","TCGA-A2-A0YM
+Primary Tumor","TCGA-BH-A0C7
+Primary Tumor","TCGA-A2-A0SX
+Primary Tumor","Internal Reference
+Not Reported"
+"37CPTAC_263d3f-I_blcdb9-I_c4155b-C_Proteome_BI_20140417","S015-1-37","25","263d3f-I
+Normal","blcdb9-I
+Normal","c4155b-C
+Normal","Internal Reference
+Not Reported"

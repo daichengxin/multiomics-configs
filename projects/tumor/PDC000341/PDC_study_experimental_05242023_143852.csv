@@ -1,0 +1,370 @@
+﻿Plex Dataset Name,Run Metadata ID,Number of Fractions,label_free
+"CPTAC_PDA_DIA_JHU_C3L-00017_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-113","1","C3L-00017
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00017_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-158","1","C3L-00017
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00102_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-176","1","C3L-00102
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00102_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-32","1","C3L-00102
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00189_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-54","1","C3L-00189
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00189_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-89","1","C3L-00189
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00277_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-48","1","C3L-00277
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00277_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-34","1","C3L-00277
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00395_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-63","1","C3L-00395
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00395_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-43","1","C3L-00395
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00401_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-33","1","C3L-00401
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00401_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-99","1","C3L-00401
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00589_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-96","1","C3L-00589
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-00589_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-3","1","C3L-00589
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00598_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-57","1","C3L-00598
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00599_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-163","1","C3L-00599
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00599_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-64","1","C3L-00599
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00622_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-75","1","C3L-00622
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00622_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-119","1","C3L-00622
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00625_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-129","1","C3L-00625
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00625_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-47","1","C3L-00625
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00640_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-77","1","C3L-00640
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00640_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-41","1","C3L-00640
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00819_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-30","1","C3L-00819
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00819_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-82","1","C3L-00819
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00881_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-130","1","C3L-00881
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00881_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-95","1","C3L-00881
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-00928_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-27","1","C3L-00928
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-00928_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-62","1","C3L-00928
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01031_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-56","1","C3L-01031
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01031_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-117","1","C3L-01031
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01036_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-151","1","C3L-01036
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01036_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-124","1","C3L-01036
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01037_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-94","1","C3L-01037
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01037_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-127","1","C3L-01037
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01051_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-166","1","C3L-01051
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01051_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-59","1","C3L-01051
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01052_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-126","1","C3L-01052
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01052_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-110","1","C3L-01052
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01053_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-14","1","C3L-01053
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01053_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-123","1","C3L-01053
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01054_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-146","1","C3L-01054
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01054_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-141","1","C3L-01054
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01124_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-122","1","C3L-01124
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01124_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-71","1","C3L-01124
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01328_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-29","1","C3L-01328
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01328_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-81","1","C3L-01328
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01453_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-93","1","C3L-01453
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-01453_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-168","1","C3L-01453
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01598_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-37","1","C3L-01598
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01598_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-5","1","C3L-01598
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01637_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-114","1","C3L-01637
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01637_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-138","1","C3L-01637
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01662_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-74","1","C3L-01662
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01687_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-61","1","C3L-01687
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-01687_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-98","1","C3L-01687
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01689_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-149","1","C3L-01689
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-01689_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-84","1","C3L-01689
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01703_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-154","1","C3L-01703
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01703_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-65","1","C3L-01703
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-01971_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-69","1","C3L-01971
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-01971_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-73","1","C3L-01971
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02109_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-106","1","C3L-02109
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02112_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-136","1","C3L-02112
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-02112_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-142","1","C3L-02112
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02115_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-115","1","C3L-02115
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-02115_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-172","1","C3L-02115
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02116_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-6","1","C3L-02116
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-02116_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-131","1","C3L-02116
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02118_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-50","1","C3L-02118
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02463_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-67","1","C3L-02463
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-02463_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-44","1","C3L-02463
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02606_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-4","1","C3L-02606
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-02606_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-100","1","C3L-02606
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02610_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-42","1","C3L-02610
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-02610_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-159","1","C3L-02610
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02613_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-22","1","C3L-02613
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-02613_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-26","1","C3L-02613
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02890_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-39","1","C3L-02890
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-02890_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-103","1","C3L-02890
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-02899_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-134","1","C3L-02899
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-02899_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-147","1","C3L-02899
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-03123_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-15","1","C3L-03123
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-03123_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-58","1","C3L-03123
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-03356_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-49","1","C3L-03356
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-03356_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-10","1","C3L-03356
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-03371_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-28","1","C3L-03371
+Not Reported
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-03371_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-137","1","C3L-03371
+Not Reported
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-03388_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-35","1","C3L-03388
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-03388_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-80","1","C3L-03388
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-03394_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-38","1","C3L-03394
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-03394_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-88","1","C3L-03394
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-03395_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-105","1","C3L-03395
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-03395_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-162","1","C3L-03395
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-03513_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-83","1","C3L-03513
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-03514_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-72","1","C3L-03514
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-03515_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-165","1","C3L-03515
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-03743_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-135","1","C3L-03743
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3L-03743_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-92","1","C3L-03743
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-04848_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-66","1","C3L-04848
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-04848_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-53","1","C3L-04848
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-04853_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-128","1","C3L-04853
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-04853_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-143","1","C3L-04853
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3L-07032_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-24","1","C3L-07032
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-07033_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-107","1","C3L-07033
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-07034_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-178","1","C3L-07034
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-07035_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-18","1","C3L-07035
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3L-07036_Normal_Duct.raw","CPTAC PDA Discovery Study - DIA Proteome-139","1","C3L-07036
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00198_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-174","1","C3N-00198
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3N-00198_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-170","1","C3N-00198
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00249_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-17","1","C3N-00249
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00249_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-23","1","C3N-00249
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00302_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-87","1","C3N-00302
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00303_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-177","1","C3N-00303
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00436_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-7","1","C3N-00436
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00436_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-104","1","C3N-00436
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00511_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-108","1","C3N-00511
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00512_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-161","1","C3N-00512
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00512_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-125","1","C3N-00512
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00513_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-86","1","C3N-00513
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00513_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-91","1","C3N-00513
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00514_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-90","1","C3N-00514
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00514_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-152","1","C3N-00514
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00516_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-164","1","C3N-00516
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00517_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-145","1","C3N-00517
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00517_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-97","1","C3N-00517
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00518_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-21","1","C3N-00518
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00518_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-155","1","C3N-00518
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00954_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-51","1","C3N-00954
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00954_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-121","1","C3N-00954
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-00957_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-1","1","C3N-00957
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-00957_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-12","1","C3N-00957
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01011_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-167","1","C3N-01011
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-01011_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-45","1","C3N-01011
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01165_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-79","1","C3N-01165
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01166_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-101","1","C3N-01166
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01167_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-116","1","C3N-01167
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01168_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-76","1","C3N-01168
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01375_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-148","1","C3N-01375
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01380_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-118","1","C3N-01380
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01381_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-52","1","C3N-01381
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01382_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-173","1","C3N-01382
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01383_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-40","1","C3N-01383
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01388_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-11","1","C3N-01388
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01502_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-9","1","C3N-01502
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01714_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-175","1","C3N-01714
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01715_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-8","1","C3N-01715
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01716_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-102","1","C3N-01716
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01997_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-2","1","C3N-01997
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-01997_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-31","1","C3N-01997
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-01998_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-144","1","C3N-01998
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-01998_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-55","1","C3N-01998
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-02069_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-109","1","C3N-02069
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-02069_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-20","1","C3N-02069
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-02768_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-153","1","C3N-02768
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-02768_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-60","1","C3N-02768
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-02944_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-13","1","C3N-02944
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-02944_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-171","1","C3N-02944
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03061_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-132","1","C3N-03061
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03670_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-19","1","C3N-03670
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-03670_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-70","1","C3N-03670
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03778_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-68","1","C3N-03778
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-03778_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-16","1","C3N-03778
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03780_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-111","1","C3N-03780
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-03780_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-78","1","C3N-03780
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03839_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-156","1","C3N-03839
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-03839_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-112","1","C3N-03839
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03840_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-120","1","C3N-03840
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-03840_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-169","1","C3N-03840
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03853_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-25","1","C3N-03853
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-03884_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-140","1","C3N-03884
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-03884_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-46","1","C3N-03884
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-04119_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-36","1","C3N-04119
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-04119_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-157","1","C3N-04119
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-04282_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-133","1","C3N-04282
+Solid Tissue Normal"
+"CPTAC_PDA_DIA_JHU_C3N-04282_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-160","1","C3N-04282
+Primary Tumor"
+"CPTAC_PDA_DIA_JHU_C3N-04283_NAT.raw","CPTAC PDA Discovery Study - DIA Proteome-150","1","C3N-04283
+Solid Tissue Normal
+Disqualified"
+"CPTAC_PDA_DIA_JHU_C3N-04283_Tumor.raw","CPTAC PDA Discovery Study - DIA Proteome-85","1","C3N-04283
+Primary Tumor"
