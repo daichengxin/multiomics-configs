@@ -1,4 +1,4 @@
-These of the list of projects we will be analysing:
+These the list of projects we will be analysing:
 - PXD000759
 - PXD000138
 - PXD004732
