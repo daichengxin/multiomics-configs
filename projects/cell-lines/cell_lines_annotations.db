@@ -1,0 +1,19 @@
+# Description: This file controls all the cell lines in quantms.org and their corresponding annotations.
+# The file is separated in a blog block as:
+#
+# // Start of the cell line block
+# // End of the cell line block
+# cellosaurus name
+# cell line
+# organism
+# organism part
+# age
+# developmental stage
+# sex
+# ancestry category
+# disease
+# cell type
+# Material
+# synonyms
+
+
