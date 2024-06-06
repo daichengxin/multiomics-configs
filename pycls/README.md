@@ -1,6 +1,26 @@
 # Cell Line Metadata Database
 
-This repository contains scripts for creating and managing a cell line metadata for the multiomics config datasets and quantms.org, leveraging ontologies and natural language processing (NLP) to annotate cell lines in SDRF files.
+This repository contains scripts for creating and managing cell line metadata for the multiomics config datasets and [quantms.org](https://quantms.org), leveraging ontologies and natural language processing (NLP) to annotate cell lines in SDRF files. 
+
+## Motivation
+
+Cell lines are a fundamental part of biological research, and they are used in a wide range of experiments. However, cell line metadata can be inconsistent and difficult to manage. Here we are creating a [DB](cl-annotations.db) that can be used to annotate/validate proteomics SDRF for cell lines studies. These are the major sources of cell line metadata:
+
+- [CelloSaurus](https://web.expasy.org/cellosaurus/): CelloSaurus is the main source used in our database. The source of the metadata is the following file [cellosaurus.txt](https://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt)
+- [BTO](https://bioportal.bioontology.org/ontologies/BTO): The BRENDA Tissue Ontology (BTO) is used to annotate an extra reference for the cell line ID. 
+- [EA](https://https://www.ebi.ac.uk/gxa): Expression Atlas has been curating for more than 10 years the metadata of multiple RNA experiments. We collect multiple cell lines experiments from EA in folder [ea](ea); and try to create a catalog of cell lines metadata as an extra source.
+
+> **Note**: Additionaly we use other resources such as [Coriell cell line Catalog](https://www.coriell.org/) and [atcc](https://www.atcc.org/) for manual annotation of cell lines in the database. 
+
+## Features for every cell line
+
+The database is created in the following path [cl-annotations.db](cl-annotations.db) and contains the following fields:
+
+- **cell line**: The cell line name as annotated in Cellsaurus `ID` 
+- **bto cell line**: The cell line name as annotated in BTO
+- **organism**: The organism of the cell line as annotated in Cellsaurus
+- **age**: The age of the cell line as annotated in Cellsaurus. If the age is not available (empty), we annotated the age from other sources such as [atcc](https://www.atcc.org/) or [Coriell cell line Catalog](https://www.coriell.org/)
+- 
 
 ## Requirements
 

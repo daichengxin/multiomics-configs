@@ -152,7 +152,7 @@ def read_cell_line_database(database):
     Each block of information is devided by //. The information for each cell lines is:
 
     cellosaurus name
-    BTO cell line
+    bto cell line
     organism
     organism part
     age
@@ -548,7 +548,7 @@ def ea_create_database(ea_folder: str, output: str) -> None:
 
     cell_lines_dict = {}
     for file in ea_files:
-        # read tab-delimtied file
+        # read tab-delimited file
         data = pd.read_csv(file, sep="\t")
 
         # remove duplicates
