@@ -11,10 +11,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
 
-nlp = spacy.load("en_core_web_md") # Load the spacy model
+nlp = spacy.load("en_core_web_md")  # Load the spacy model
+
+
 def get_cell_line_code(sdrf_file):
-    sdrf = pd.read_csv(sdrf_file, sep='\t')
-    cl_list = sdrf['characteristics[cell line]'].unique().tolist()
+    sdrf = pd.read_csv(sdrf_file, sep="\t")
+    cl_list = sdrf["characteristics[cell line]"].unique().tolist()
     return cl_list
 
 
@@ -52,12 +54,17 @@ def parse_cellosaurus_file(file_path):
             elif line.startswith("CC") and "Population" in line:
                 data["ancestry category"] = line.split(": ")[1].strip()
             elif line.startswith("DI"):
-                data["disease"] = line.split(";")[2].strip()
+                if "NCIt" in line:
+                    # Regular expression to match all disease annotations and capture the disease name
+                    pattern = r"NCIt;\s*C\d+;\s*([^;]+)"
+                    match = re.search(pattern, line)
+                    if match:
+                        data["disease"] = match.group(1)
 
         return data
 
     # Read the file and split into entries, the file is gzipped
-    with gzip.open(file_path, 'r') as file:
+    with gzip.open(file_path, "r") as file:
         content = file.read()
 
     # Split the content by entries
@@ -76,7 +83,7 @@ def read_obo_file(file_path):
     :param file_path: OBO file path
     :return: List of OBO dictionaries
     """
-    with open(file_path, 'r') as file:
+    with open(file_path, "r") as file:
         content = file.read()
 
     # Split the content by entries
@@ -119,18 +126,12 @@ def modo_dict_to_context(obo_list: list) -> str:
     return context
 
 
-# @lru_cache(maxsize=100)
-# def map_mondo(cellosaurus_disease, mondo_context):
-#     # Use the LLM to find the correct MONDO term
-#     response = nlp(question=f"What is the MONDO disease term for {cellosaurus_disease}?", context=mondo_context)
-#     return response['answer']
-
-
 def calculate_similarity(cellosaurus_text, synonyms):
     query_vec = nlp(" ".join(cellosaurus_text)).vector
     synonyms_vec = [nlp(" ".join(synonym)).vector for synonym in synonyms]
     similarities = cosine_similarity([query_vec], synonyms_vec)
     return max(similarities[0])
+
 
 def map_celllines(cellosaurus_text: str, context: list):
     # Use the LLM to find the correct MONDO term
@@ -143,6 +144,7 @@ def map_celllines(cellosaurus_text: str, context: list):
             closest_match = entry
             max_similarity = similarity
     return closest_match
+
 
 def read_cell_line_database(database):
     """
@@ -167,7 +169,7 @@ def read_cell_line_database(database):
     :return:
     """
 
-    with open(database, 'r') as file:
+    with open(database, "r") as file:
         content = file.read()
 
     # get comments and ignore them
@@ -264,7 +266,7 @@ def parse_cellosaurus_taxonomy(organism_text: str):
     :param organism_text: organism text from the cellosaurus database
     :return: return the species name and the taxonomy id
     """
-    pattern = r'NCBI_TaxID=(\d+); ! ([\w\s]+) \(([\w\s]+)\)'
+    pattern = r"NCBI_TaxID=(\d+); ! ([\w\s]+) \(([\w\s]+)\)"
     match = re.search(pattern, organism_text)
 
     if match:
@@ -276,10 +278,10 @@ def parse_cellosaurus_taxonomy(organism_text: str):
 
 def is_age_in_text(age_text: str) -> bool:
     """
-     Check if the age field contains a number is an Age if not is a developmental stage.
-     :param age_text: String text
-     :return: True if the age is a number, False otherwise
-     """
+    Check if the age field contains a number is an Age if not is a developmental stage.
+    :param age_text: String text
+    :return: True if the age is a number, False otherwise
+    """
 
     return any(char.isdigit() for char in age_text)
 
@@ -296,7 +298,9 @@ def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
     old_cl = old_cl.lower().strip()
     for cellosaurus in cellosaurus_list:
         if "name" in cellosaurus and (
-                cellosaurus["name"].lower().strip() == old_cl or is_in_synonyms(old_cl, cellosaurus)):
+            cellosaurus["name"].lower().strip() == old_cl
+            or is_in_synonyms(old_cl, cellosaurus)
+        ):
             entry = {}
             entry["cellosaurus name"] = cellosaurus["name"]
             if "bto" in cellosaurus:
@@ -304,9 +308,13 @@ def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
                 if bto_name is not None:
                     entry["bto cell line"] = bto_name
                 else:
-                    raise ValueError(f"Cell line {old_cl} not found in the BTO ontology")
+                    raise ValueError(
+                        f"Cell line {old_cl} not found in the BTO ontology"
+                    )
             if "organism" in cellosaurus:
-                scientific_name, tax = parse_cellosaurus_taxonomy(cellosaurus["organism"])
+                scientific_name, tax = parse_cellosaurus_taxonomy(
+                    cellosaurus["organism"]
+                )
                 if scientific_name is not None:
                     entry["organism"] = scientific_name
                     entry["taxonomy"] = tax
@@ -349,7 +357,7 @@ def write_database(current_cl_database: list, comments: list, database: str):
     :return:
     """
 
-    with open(database, 'w') as file:
+    with open(database, "w") as file:
         for comment in comments:
             file.write(comment + "\n")
         for entry in current_cl_database:
@@ -374,19 +382,40 @@ def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
     print("Cellosaurus context created -- ", len(context))
     return context
 
+
 def preprocess_text(text):
     # Tokenize and preprocess text
     return text.lower().strip()
 
 
-@click.command("cl-database", short_help="Create a cell lines metadata database for annotating cell lines sdrfs")
-@click.option("--cellosaurus", help="CelloSaurus database file, the file is gzipped", required=True, type=click.Path(exists=True))
-@click.option("--bto", help="BTO ontology file", required=True, type=click.Path(exists=True))
-@click.option("--mondo", help="Mondo ontology file", required=True, type=click.Path(exists=True))
-@click.option("--sdrf_path", help="SDRF folder with all existing SDRF files", required=True)
-@click.option("--database", help="Existing database file with cell lines metadata", required=True)
-@click.option("--unknown", help="Output for unknown cell lines in cellosaurus", required=True)
-def cl_database(cellosaurus: str, bto: str, mondo: str, sdrf_path: str, database: str, unknown: str) -> None:
+@click.command(
+    "cl-database",
+    short_help="Create a cell lines metadata database for annotating cell lines sdrfs",
+)
+@click.option(
+    "--cellosaurus",
+    help="CelloSaurus database file, the file is gzipped",
+    required=True,
+    type=click.Path(exists=True),
+)
+@click.option(
+    "--bto", help="BTO ontology file", required=True, type=click.Path(exists=True)
+)
+@click.option(
+    "--mondo", help="Mondo ontology file", required=True, type=click.Path(exists=True)
+)
+@click.option(
+    "--sdrf_path", help="SDRF folder with all existing SDRF files", required=True
+)
+@click.option(
+    "--database", help="Existing database file with cell lines metadata", required=True
+)
+@click.option(
+    "--unknown", help="Output for unknown cell lines in cellosaurus", required=True
+)
+def cl_database(
+    cellosaurus: str, bto: str, mondo: str, sdrf_path: str, database: str, unknown: str
+) -> None:
     """
     The following function creates a vector database using LLMs using the CelloSaurus database, BTO and EFO ontologies
     :param cellosaurus: CelloSaurus database file
@@ -409,7 +438,7 @@ def cl_database(cellosaurus: str, bto: str, mondo: str, sdrf_path: str, database
     modo = read_obo_file(mondo)
     modo_context = modo_dict_to_context(modo)
 
-    sdrf_files = glob.glob(sdrf_path + '/**/*.tsv', recursive=True)
+    sdrf_files = glob.glob(sdrf_path + "/**/*.tsv", recursive=True)
 
     cl_list = []
     for sdrf_file in sdrf_files:
@@ -426,7 +455,9 @@ def cl_database(cellosaurus: str, bto: str, mondo: str, sdrf_path: str, database
         cl_db = find_cell_line(old_cl, current_cl_database)
         if not cl_db:
             # print(f"Cell line {old_cl} not found in the database - attend to create one programmatically")
-            cl_new_entry = create_new_entry(old_cl, bto, cellosaurus_list, modo_context)  # Create a new entry
+            cl_new_entry = create_new_entry(
+                old_cl, bto, cellosaurus_list, modo_context
+            )  # Create a new entry
             if cl_new_entry is not None:
                 if current_cl_database is None:
                     current_cl_database = []
@@ -440,12 +471,21 @@ def cl_database(cellosaurus: str, bto: str, mondo: str, sdrf_path: str, database
     write_database(current_cl_database, comments, database)
 
     # Write the unknown cell lines to a file
-    with open(unknown, 'w') as file:
+    with open(unknown, "w") as file:
         for cl in non_found_cl:
             file.write(cl + "\n")
 
-@click.command("nlp-recommendation", short_help="Looks for cell lines in cellosaurus using NLP because the name do not match the cellosaurus name")
-@click.option("--cellosaurus", help="CelloSaurus database file", required=True, type=click.Path(exists=True))
+
+@click.command(
+    "nlp-recommendation",
+    short_help="Looks for cell lines in cellosaurus using NLP because the name do not match the cellosaurus name",
+)
+@click.option(
+    "--cellosaurus",
+    help="CelloSaurus database file",
+    required=True,
+    type=click.Path(exists=True),
+)
 @click.option("--unknown", help="unknown cell lines", required=True)
 @click.option("--output", help="File with the recomendations", required=True)
 def nlp_recommendation(cellosaurus: str, unknown: str, output: str) -> None:
@@ -463,21 +503,29 @@ def nlp_recommendation(cellosaurus: str, unknown: str, output: str) -> None:
 
     cellosaurus_context = cellosaurus_dict_to_context(cellosaurus_list)
 
-    with open(unknown, 'r') as file:
+    with open(unknown, "r") as file:
         content = file.read()
 
     unknown_cl = content.split("\n")
 
-    with open(output, 'w') as file:
+    with open(output, "w") as file:
         for cl in unknown_cl:
             search_term = preprocess_text(cl)
             llm_term = map_celllines(search_term, cellosaurus_context)
             file.write(f"{cl} - {llm_term}\n")
 
 
-@click.command("ea-database", short_help="Create a database from big expression atlas files")
+@click.command(
+    "ea-database", short_help="Create a database from big expression atlas files"
+)
 @click.option("--ea-folder", help="Expression Atlas folder", required=True)
-@click.option("--output", help="Output file with the database", required=True)
+@click.option(
+    "--output",
+    help="Output file with the database",
+    required=True,
+    type=click.Path(exists=False),
+    default="ea_database.db",
+)
 def ea_create_database(ea_folder: str, output: str) -> None:
     """
     The following function creates a database of celllines file from expression atlas experiments with the following information:
@@ -496,18 +544,22 @@ def ea_create_database(ea_folder: str, output: str) -> None:
     :return:
     """
 
-    ea_files = glob.glob(ea_folder + '/**/*.tsv', recursive=True)
+    ea_files = glob.glob(ea_folder + "/**/*.tsv", recursive=True)
 
     cell_lines_dict = {}
     for file in ea_files:
         # read tab-delimtied file
-        data = pd.read_csv(file, sep='\t')
+        data = pd.read_csv(file, sep="\t")
 
         # remove duplicates
-        data = data.drop_duplicates(subset = ["Sample Characteristic[organism]",
-                     "Sample Characteristic[organism part]",
-                     "Sample Characteristic[cell line]",
-                     "Sample Characteristic[disease]"])
+        data = data.drop_duplicates(
+            subset=[
+                "Sample Characteristic[organism]",
+                "Sample Characteristic[organism part]",
+                "Sample Characteristic[cell line]",
+                "Sample Characteristic[disease]",
+            ]
+        )
         columns_data = list(data.columns)
 
         # add to dictionary with cell line as key
@@ -517,68 +569,112 @@ def ea_create_database(ea_folder: str, output: str) -> None:
                 cell_lines_dict[cell_line] = {}
 
                 cell_lines_dict[cell_line]["organism"] = []
-                cell_lines_dict[cell_line]["organism"].append(row["Sample Characteristic[organism]"])
+                cell_lines_dict[cell_line]["organism"].append(
+                    row["Sample Characteristic[organism]"]
+                )
                 cell_lines_dict[cell_line]["organism part"] = []
-                cell_lines_dict[cell_line]["organism part"].append(row["Sample Characteristic[organism part]"])
+                cell_lines_dict[cell_line]["organism part"].append(
+                    row["Sample Characteristic[organism part]"]
+                )
                 cell_lines_dict[cell_line]["disease"] = []
-                cell_lines_dict[cell_line]["disease"].append(row["Sample Characteristic[disease]"])
+                cell_lines_dict[cell_line]["disease"].append(
+                    row["Sample Characteristic[disease]"]
+                )
 
                 # check if the other fields are present
                 cell_lines_dict[cell_line]["age"] = []
                 if "Sample Characteristic[age]" in columns_data:
-                    cell_lines_dict[cell_line]["age"].append(row["Sample Characteristic[age]"])
+                    cell_lines_dict[cell_line]["age"].append(
+                        row["Sample Characteristic[age]"]
+                    )
 
                 cell_lines_dict[cell_line]["developmental stage"] = []
                 if "Sample Characteristic[developmental stage]" in columns_data:
-                    cell_lines_dict[cell_line]["developmental stage"].append(row["Sample Characteristic[developmental stage]"])
+                    cell_lines_dict[cell_line]["developmental stage"].append(
+                        row["Sample Characteristic[developmental stage]"]
+                    )
 
                 cell_lines_dict[cell_line]["sex"] = []
                 if "Sample Characteristic[sex]" in columns_data:
-                    cell_lines_dict[cell_line]["sex"].append(row["Sample Characteristic[sex]"])
+                    cell_lines_dict[cell_line]["sex"].append(
+                        row["Sample Characteristic[sex]"]
+                    )
 
                 cell_lines_dict[cell_line]["ancestry category"] = []
                 if "Sample Characteristic[ancestry category]" in columns_data:
-                    cell_lines_dict[cell_line]["ancestry category"].append(row["Sample Characteristic[ancestry category]"])
+                    cell_lines_dict[cell_line]["ancestry category"].append(
+                        row["Sample Characteristic[ancestry category]"]
+                    )
             else:
                 # check that all the fields are the same, if not raise error:
-                if cell_lines_dict[cell_line]["organism"] != row["Sample Characteristic[organism]"]:
+                if (
+                    cell_lines_dict[cell_line]["organism"]
+                    != row["Sample Characteristic[organism]"]
+                ):
                     print(f"Organism is different for cell line {cell_line}")
-                if cell_lines_dict[cell_line]["organism part"] != row["Sample Characteristic[organism part]"]:
+                if (
+                    cell_lines_dict[cell_line]["organism part"]
+                    != row["Sample Characteristic[organism part]"]
+                ):
                     print(f"Organism part is different for cell line {cell_line}")
-                if row["Sample Characteristic[disease]"] not in cell_lines_dict[cell_line]["disease"]:
-                    cell_lines_dict[cell_line]["disease"].append(row["Sample Characteristic[disease]"])
-                    print(f"Disease is different for cell line {cell_line} - values are {cell_lines_dict[cell_line]['disease']} and {row['Sample Characteristic[disease]']}")
+                if (
+                    row["Sample Characteristic[disease]"]
+                    not in cell_lines_dict[cell_line]["disease"]
+                ):
+                    cell_lines_dict[cell_line]["disease"].append(
+                        row["Sample Characteristic[disease]"]
+                    )
+                    print(
+                        f"Disease is different for cell line {cell_line} - values are {cell_lines_dict[cell_line]['disease']} and {row['Sample Characteristic[disease]']}"
+                    )
 
-                if "Sample Characteristic[age]" in columns_data and row["Sample Characteristic[age]"] not in cell_lines_dict[cell_line]["age"]:
-                    cell_lines_dict[cell_line]["age"].append(row["Sample Characteristic[age]"])
+                if (
+                    "Sample Characteristic[age]" in columns_data
+                    and row["Sample Characteristic[age]"]
+                    not in cell_lines_dict[cell_line]["age"]
+                ):
+                    cell_lines_dict[cell_line]["age"].append(
+                        row["Sample Characteristic[age]"]
+                    )
                     print(f"Age is different for cell line {cell_line}")
 
-                if "Sample Characteristic[developmental stage]" in columns_data and row["Sample Characteristic[developmental stage]"] not in cell_lines_dict[cell_line]["developmental stage"]:
-                    cell_lines_dict[cell_line]["developmental stage"].append(row["Sample Characteristic[developmental stage]"])
+                if (
+                    "Sample Characteristic[developmental stage]" in columns_data
+                    and row["Sample Characteristic[developmental stage]"]
+                    not in cell_lines_dict[cell_line]["developmental stage"]
+                ):
+                    cell_lines_dict[cell_line]["developmental stage"].append(
+                        row["Sample Characteristic[developmental stage]"]
+                    )
                     print(f"Developmental stage is different for cell line {cell_line}")
 
-                if "Sample Characteristic[sex]" in columns_data and row["Sample Characteristic[sex]"] not in cell_lines_dict[cell_line]["sex"]:
-                    cell_lines_dict[cell_line]["sex"].append(row["Sample Characteristic[sex]"])
+                if (
+                    "Sample Characteristic[sex]" in columns_data
+                    and row["Sample Characteristic[sex]"]
+                    not in cell_lines_dict[cell_line]["sex"]
+                ):
+                    cell_lines_dict[cell_line]["sex"].append(
+                        row["Sample Characteristic[sex]"]
+                    )
 
-                if "Sample Characteristic[ancestry category]" in columns_data and row["Sample Characteristic[ancestry category]"] not in cell_lines_dict[cell_line]["ancestry category"]:
-                    cell_lines_dict[cell_line]["ancestry category"].append(row["Sample Characteristic[ancestry category]"])
+                if (
+                    "Sample Characteristic[ancestry category]" in columns_data
+                    and row["Sample Characteristic[ancestry category]"]
+                    not in cell_lines_dict[cell_line]["ancestry category"]
+                ):
+                    cell_lines_dict[cell_line]["ancestry category"].append(
+                        row["Sample Characteristic[ancestry category]"]
+                    )
 
                 print(f"Cell line {cell_line} already in database")
 
     # write the ea atlas database to file, every cell line entry is separated by //
-    with open(output, 'w') as file:
+    with open(output, "w") as file:
         for cell_line, values in cell_lines_dict.items():
             file.write(f"cell line: {cell_line}\n")
             for key, value in values.items():
                 file.write(f"{key}: {value}\n")
             file.write("//\n")
-
-
-
-
-
-
-
 
 
 @click.group(context_settings=CONTEXT_SETTINGS)
