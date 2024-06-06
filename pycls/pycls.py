@@ -502,21 +502,13 @@ def ea_create_database(ea_folder: str, output: str) -> None:
     for file in ea_files:
         # read tab-delimtied file
         data = pd.read_csv(file, sep='\t')
-        # select given columns:
-        # Sample Characteristic[organism]
-        # Sample Characteristic[organism part]
-        # Sample Characteristic[age]
-        # Sample Characteristic[developmental stage]
-        # Sample Characteristic[cell line]
-        # Sample Characteristic[sex]
-        # Sample Characteristic[ancestry category]
-        # Sample Characteristic[disease]
-        data = data[["Sample Characteristic[organism]",
+
+        # remove duplicates
+        data = data.drop_duplicates(subset = ["Sample Characteristic[organism]",
                      "Sample Characteristic[organism part]",
                      "Sample Characteristic[cell line]",
-                     "Sample Characteristic[disease]"]]
-        # remove duplicates
-        data = data.drop_duplicates()
+                     "Sample Characteristic[disease]"])
+        columns_data = list(data.columns)
 
         # add to dictionary with cell line as key
         for i, row in data.iterrows():
@@ -533,19 +525,19 @@ def ea_create_database(ea_folder: str, output: str) -> None:
 
                 # check if the other fields are present
                 cell_lines_dict[cell_line]["age"] = []
-                if "Sample Characteristic[age]" in data.columns:
+                if "Sample Characteristic[age]" in columns_data:
                     cell_lines_dict[cell_line]["age"].append(row["Sample Characteristic[age]"])
 
                 cell_lines_dict[cell_line]["developmental stage"] = []
-                if "Sample Characteristic[developmental stage]" in data.columns:
+                if "Sample Characteristic[developmental stage]" in columns_data:
                     cell_lines_dict[cell_line]["developmental stage"].append(row["Sample Characteristic[developmental stage]"])
 
                 cell_lines_dict[cell_line]["sex"] = []
-                if "Sample Characteristic[sex]" in data.columns:
+                if "Sample Characteristic[sex]" in columns_data:
                     cell_lines_dict[cell_line]["sex"].append(row["Sample Characteristic[sex]"])
 
                 cell_lines_dict[cell_line]["ancestry category"] = []
-                if "Sample Characteristic[ancestry category]" in data.columns:
+                if "Sample Characteristic[ancestry category]" in columns_data:
                     cell_lines_dict[cell_line]["ancestry category"].append(row["Sample Characteristic[ancestry category]"])
             else:
                 # check that all the fields are the same, if not raise error:
@@ -557,17 +549,19 @@ def ea_create_database(ea_folder: str, output: str) -> None:
                     cell_lines_dict[cell_line]["disease"].append(row["Sample Characteristic[disease]"])
                     print(f"Disease is different for cell line {cell_line} - values are {cell_lines_dict[cell_line]['disease']} and {row['Sample Characteristic[disease]']}")
 
-                if "Sample Characteristic[age]" in data.columns and cell_lines_dict[cell_line]["age"] != row["Sample Characteristic[age]"]:
+                if "Sample Characteristic[age]" in columns_data and row["Sample Characteristic[age]"] not in cell_lines_dict[cell_line]["age"]:
+                    cell_lines_dict[cell_line]["age"].append(row["Sample Characteristic[age]"])
                     print(f"Age is different for cell line {cell_line}")
 
-                if "Sample Characteristic[developmental stage]" in data.columns and cell_lines_dict[cell_line]["developmental stage"] != row["Sample Characteristic[developmental stage]"]:
+                if "Sample Characteristic[developmental stage]" in columns_data and row["Sample Characteristic[developmental stage]"] not in cell_lines_dict[cell_line]["developmental stage"]:
+                    cell_lines_dict[cell_line]["developmental stage"].append(row["Sample Characteristic[developmental stage]"])
                     print(f"Developmental stage is different for cell line {cell_line}")
 
-                if "Sample Characteristic[sex]" in data.columns and cell_lines_dict[cell_line]["sex"] != row["Sample Characteristic[sex]"]:
-                    print(f"Sex is different for cell line {cell_line}")
+                if "Sample Characteristic[sex]" in columns_data and row["Sample Characteristic[sex]"] not in cell_lines_dict[cell_line]["sex"]:
+                    cell_lines_dict[cell_line]["sex"].append(row["Sample Characteristic[sex]"])
 
-                if "Sample Characteristic[ancestry category]" in data.columns and cell_lines_dict[cell_line]["ancestry category"] != row["Sample Characteristic[ancestry category]"]:
-                    print(f"Ancestry category is different for cell line {cell_line}")
+                if "Sample Characteristic[ancestry category]" in columns_data and row["Sample Characteristic[ancestry category]"] not in cell_lines_dict[cell_line]["ancestry category"]:
+                    cell_lines_dict[cell_line]["ancestry category"].append(row["Sample Characteristic[ancestry category]"])
 
                 print(f"Cell line {cell_line} already in database")
 
