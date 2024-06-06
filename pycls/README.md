@@ -16,11 +16,19 @@ Cell lines are a fundamental part of biological research, and they are used in a
 
 The database is created in the following path [cl-annotations.db](cl-annotations.db) and contains the following fields:
 
-- **cell line**: The cell line name as annotated in Cellsaurus `ID` 
+- **cellosaurus name**: The cell line name as annotated in Cellsaurus `ID` 
 - **bto cell line**: The cell line name as annotated in BTO
 - **organism**: The organism of the cell line as annotated in Cellsaurus
 - **age**: The age of the cell line as annotated in Cellsaurus. If the age is not available (empty), we annotated the age from other sources such as [atcc](https://www.atcc.org/) or [Coriell cell line Catalog](https://www.coriell.org/)
-- 
+- **organism**: The organism of the cell line as annotated in Cellsaurus
+- **organism part**: This information is not available in Cellosaurus, we use other sources to _annotate_ this field. 
+- **developmental stage**: The developmental stage of the cell line as annotated in Cellosaurus; if the information is not available is inferred from the age of the cell line. 
+- **sex**: Sex as provided by Cellosaurus
+- **ancestry category**: The ancestry category of the cell line as annotated in Cellosaurus. If not available we use other sources. 
+- **disease**: The disease is _"agreed"_ between sources CelloSaurus, EA, and ATCC.  
+- **cell type**: The cell type is _"agreed"_ between sources CelloSaurus, EA, and ATCC.
+- **Material**: The material is _"agreed"_ between sources CelloSaurus, EA, and ATCC.
+- **synonyms**: This field is constructucted using the CelloSaurus synonyms and annotation pipelines in the library. if we find that a new synonym is available we add it to the database.
 
 ## Requirements
 
