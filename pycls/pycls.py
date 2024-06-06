@@ -6,6 +6,7 @@ import pandas as pd
 import glob
 
 import spacy
+import numpy as np
 from owlready2 import *
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -515,10 +516,23 @@ def nlp_recommendation(cellosaurus: str, unknown: str, output: str) -> None:
             file.write(f"{cl} - {llm_term}\n")
 
 
+def string_if_not_empty(param: list) -> Union[None, str]:
+    """
+    Return a string if the list is not empty
+    :param param: List
+    :return: None if the list is empty, the string otherwise
+    """
+    if param and len(param) > 0:
+        l = [x for x in param if isinstance(x, float) and ~np.isnan(x) or not isinstance(x, float) and x != None]
+        return ", ".join(l)
+    return None
+
+
 @click.command(
     "ea-database", short_help="Create a database from big expression atlas files"
 )
 @click.option("--ea-folder", help="Expression Atlas folder", required=True)
+@click.option("--ea-cl-catalog", help="Expression Atlas cell line catalog", required=True)
 @click.option(
     "--output",
     help="Output file with the database",
@@ -526,7 +540,7 @@ def nlp_recommendation(cellosaurus: str, unknown: str, output: str) -> None:
     type=click.Path(exists=False),
     default="ea_database.db",
 )
-def ea_create_database(ea_folder: str, output: str) -> None:
+def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
     """
     The following function creates a database of celllines file from expression atlas experiments with the following information:
     each cell line will contain the following information:
@@ -540,6 +554,7 @@ def ea_create_database(ea_folder: str, output: str) -> None:
     - disease
 
     :param ea_folder: Expression Atlas folder
+    :param ea_cl_catalog: Expression Atlas cell line catalog, this is a list of cell lines curated by expression atlas.
     :param output: Output file with the database
     :return:
     """
@@ -668,13 +683,59 @@ def ea_create_database(ea_folder: str, output: str) -> None:
 
                 print(f"Cell line {cell_line} already in database")
 
-    # write the ea atlas database to file, every cell line entry is separated by //
+    # read the cell line catalog
+    ae_cl_catalog = pd.read_csv(ea_cl_catalog, sep=",", header=0)
+
+    # check if the cell lines in the catalog are in the database
+    for i, row in ae_cl_catalog.iterrows():
+        if row["cell line"] in cell_lines_dict:
+            print(f"Cell line {row['cell line']} found in the database")
+            if row["organism"] not in cell_lines_dict[row["cell line"]]["organism"]:
+                cell_lines_dict[row["cell line"]]["organism"].append(row["organism"])
+            if row["organism part"] not in cell_lines_dict[row["cell line"]]["organism part"]:
+                cell_lines_dict[row["cell line"]]["organism part"].append(row["organism part"])
+            if row["disease"] not in cell_lines_dict[row["cell line"]]["disease"]:
+                cell_lines_dict[row["cell line"]]["disease"].append(row["disease"])
+            if row["age"] not in cell_lines_dict[row["cell line"]]["age"]:
+                cell_lines_dict[row["cell line"]]["age"].append(row["age"])
+            if row["developmental stage"] not in cell_lines_dict[row["cell line"]]["developmental stage"]:
+                cell_lines_dict[row["cell line"]]["developmental stage"].append(row["developmental stage"])
+            if row["sex"] not in cell_lines_dict[row["cell line"]]["sex"]:
+                cell_lines_dict[row["cell line"]]["sex"].append(row["sex"])
+            cell_lines_dict[row["cell line"]]["synonyms"] = [row["synonyms"]]
+        else:
+            print(f"Cell line {row['cell line']} not found in the database")
+            cell_lines_dict[row["cell line"]] = {}
+            cell_lines_dict[row["cell line"]]["organism"] = [row["organism"]]
+            cell_lines_dict[row["cell line"]]["organism part"] = [row["organism part"]]
+            cell_lines_dict[row["cell line"]]["disease"] = [row["disease"]]
+            cell_lines_dict[row["cell line"]]["age"] = [row["age"]]
+            cell_lines_dict[row["cell line"]]["developmental stage"] = [row["developmental stage"]]
+            cell_lines_dict[row["cell line"]]["sex"] = [row["sex"]]
+            cell_lines_dict[row["cell line"]]["synonyms"] = [row["synonyms"]]
+
+
+    # write the ea atlas database to file, separate by //
     with open(output, "w") as file:
-        for cell_line, values in cell_lines_dict.items():
-            file.write(f"cell line: {cell_line}\n")
-            for key, value in values.items():
-                file.write(f"{key}: {value}\n")
+        for cell_line, data in cell_lines_dict.items():
             file.write("//\n")
+            file.write(f"cell line: {cell_line}\n")
+            file.write(f"organism: {string_if_not_empty(data['organism'])}\n")
+            file.write(f"organism part: {string_if_not_empty(data['organism part'])}\n")
+            file.write(f"disease: {string_if_not_empty(data['disease'])}\n")
+            file.write(f"age: {string_if_not_empty(data['age'])}\n")
+            file.write(f"developmental stage: {string_if_not_empty(data['developmental stage'])}\n")
+            file.write(f"sex: {string_if_not_empty(data['sex'])}\n")
+            if "ancestry category" in data:
+                file.write(f"ancestry category: {string_if_not_empty(data['ancestry category'])}\n")
+            else:
+                file.write(f"ancestry category: None\n")
+            if "synonyms" in data:
+                file.write(f"synonyms: {string_if_not_empty(data['synonyms'])}\n")
+            else:
+                file.write(f"synonyms: None\n")
+
+
 
 
 @click.group(context_settings=CONTEXT_SETTINGS)
