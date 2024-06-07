@@ -331,28 +331,37 @@ def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
     return None
 
 
-def write_database(current_cl_database: list, comments: list, database: str):
+def write_database(current_cl_database: list, database: str) -> None:
     """
     Write the database objects to the database file
     :param current_cl_database: current cell line database list
-    :param comments: comments in the database file
     :param database: database file path
     :return:
     """
 
     with open(database, "w") as file:
-        for comment in comments:
-            file.write(comment + "\n")
-        for entry in current_cl_database:
-            file.write("//\n")
-            for key, value in entry.items():
-                if key == "synonyms":
-                    if value:
-                        value = "; ".join(value)
-                    else:
-                        value = None
-                file.write(f"{key}: {value}\n")
+        headers = ['cellosaurus name','bto cell line','organism','age','organism part','developmental stage',
+                   'sex','ancestry category','disease',	'cell type','Material','synonyms','curated'
+        ]
+        # Write the header row
+        file.write('\t'.join(headers) + '\n')
 
+        for entry in current_cl_database:
+            row = [
+                entry.get("cellosaurus name", "no available"),
+                entry.get("bto cell line", "no available"),
+                entry.get("organism", "no available"),
+                entry.get("age", "no available"),
+                entry.get("organism part", "no available"),
+                entry.get("developmental stage", "no available"),
+                entry.get("sex", "no available"),
+                entry.get("ancestry category", "no available"),
+                entry.get("disease", "no available"),
+                entry.get("cell type", "no available"),
+                entry.get("Material", "no available"),
+                entry.get("synonyms", "no available"),
+                entry.get("curated", "no available")]
+            file.write("\t".join(row) + "\n")
 
 def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
     context = []
