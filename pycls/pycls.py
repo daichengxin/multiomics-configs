@@ -21,14 +21,15 @@ def get_cell_line_code(sdrf_file):
     return cl_list
 
 
-def parse_cellosaurus_file(file_path):
+def parse_cellosaurus_file(file_path, bto: list):
     """
     Parse the CelloSaurus file and return a list of dictionaries with the parsed content
     :param file_path: CelloSaurus file path
+    :param bto: BTO ontology list
     :return: List of CelloSaurus dictionaries
     """
 
-    def parse_entry(entry):
+    def parse_entry(entry, bto: dict):
         data = {}
         if "ID   FU-OV-1" in entry:
             print(entry)
@@ -41,11 +42,22 @@ def parse_cellosaurus_file(file_path):
             elif line.startswith("SY"):
                 data["synonyms"] = line.split("SY ")[1].strip().split("; ")
             elif line.startswith("DR   BTO"):
-                data["bto cell line"] = line.split("; ")[1]
+                bto_accession = line.split("; ")[1]
+                if bto_accession in bto:
+                   data["bto cell line"] = bto[bto_accession]["name"]
+                   if "synonyms" in bto[bto_accession]:
+                       if "synonyms" in data:
+                           data["synonyms"] += bto[bto_accession]["synonyms"]
+                       else:
+                           data["synonyms"] = bto[bto_accession]["synonyms"]
             elif line.startswith("DR   EFO"):
                 data["efo"] = line.split("; ")[1]
             elif line.startswith("OX"):
                 data["organism"] = line.split("OX ")[1].strip()
+                scientific_name, tax = parse_cellosaurus_taxonomy(
+                    data["organism"]
+                )
+                data["organism"] = scientific_name
             elif line.startswith("SX"):
                 data["sex"] = line.split()[1]
             elif line.startswith("AG"):
@@ -72,13 +84,13 @@ def parse_cellosaurus_file(file_path):
     entries = content.split("//\n")
 
     # Parse each entry
-    parsed_data = [parse_entry(entry) for entry in entries if entry.strip()]
+    parsed_data = [parse_entry(entry, bto) for entry in entries if entry.strip()]
     # remove empty entries
     parsed_data = [entry for entry in parsed_data if entry]
     return parsed_data
 
 
-def read_obo_file(file_path):
+def read_obo_file(file_path) -> dict:
     """
     Read an obo file and return a list of dictionaries with the parsed content
     :param file_path: OBO file path
@@ -109,14 +121,15 @@ def read_obo_file(file_path):
                 if "synonyms" not in obo_dict:
                     obo_dict["synonyms"] = []
                 obo_dict["synonyms"].append(line.split("synonym: ")[1].strip())
+                obo_dict["synonyms"] = [synonym.replace("RELATED []", "").strip().strip('"') for synonym in obo_dict["synonyms"]]
+        if "synonyms" not in obo_dict:
+            obo_dict["synonyms"] = []
         return obo_dict
 
-    obo_list = [parse_obo_term(entry) for entry in entries if entry.strip()]
+    # Create dictionary of OBO terms, the key is the id of the obo term
+    obo_dict = {parse_obo_term(entry)["id"]: parse_obo_term(entry) for entry in entries if entry.strip() and "id:" in entry}
 
-    # remove empty entries
-    obo_list = [entry for entry in obo_list if entry]
-
-    return obo_list
+    return obo_dict
 
 
 def modo_dict_to_context(obo_list: list) -> str:
@@ -218,10 +231,10 @@ def is_in_synonyms(old_cl, cellosaurus) -> bool:
     return False
 
 
-def get_cell_line_bto(bto_code: str, bto_list: list) -> Union[None, str]:
+def get_cell_line_bto(bto_code: str, bto_list: list):
     for entry in bto_list:
         if entry["id"] == bto_code:
-            return entry["name"]
+            return entry
     return None
 
 
@@ -269,7 +282,7 @@ def validate_ages_as_sdrf(age_string: str) -> bool:
 
     return False
 
-def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
+def create_new_entry(old_cl, cellosaurus_list):
     """
     Create a new entry for a cell line not found in the database
     :param old_cl:
@@ -286,23 +299,14 @@ def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
         ):
             entry = {}
             entry["cellosaurus name"] = cellosaurus["cellosaurus name"]
-            if "bto" in cellosaurus:
-                bto_name = get_cell_line_bto(cellosaurus["bto cell line"], bto)
-                if bto_name is not None:
-                    entry["bto cell line"] = bto_name
-                else:
-                    raise ValueError(
-                        f"Cell line {old_cl} not found in the BTO ontology"
-                    )
+            if "bto cell line" in cellosaurus:
+                entry["bto cell line"] = cellosaurus["bto cell line"]
+            else:
+                entry["bto cell line"] = None
             if "cellosaurus accession" in cellosaurus:
                 entry["cellosaurus accession"] = cellosaurus["cellosaurus accession"]
             if "organism" in cellosaurus:
-                scientific_name, tax = parse_cellosaurus_taxonomy(
-                    cellosaurus["organism"]
-                )
-                if scientific_name is not None:
-                    entry["organism"] = scientific_name
-                    entry["taxonomy"] = tax
+                entry["organism"] = cellosaurus["organism"]
             entry["organism part"] = None
             if "age" in cellosaurus:
                 if is_age_in_text(cellosaurus["age"]):
@@ -428,15 +432,11 @@ def cl_database(
     # Read the current cell line database
     current_cl_database = read_cell_line_database(database)
 
-    # Parse the CelloSaurus file
-    cellosaurus_list = parse_cellosaurus_file(cellosaurus)
-
     # Read the BTO and EFO from owl files
     bto = read_obo_file(bto)
 
-    # Read the EFO from owl files
-    modo = read_obo_file(mondo)
-    modo_context = modo_dict_to_context(modo)
+    # Parse the CelloSaurus file
+    cellosaurus_list = parse_cellosaurus_file(cellosaurus, bto)
 
     sdrf_files = glob.glob(sdrf_path + "/**/*.tsv", recursive=True)
 
@@ -455,9 +455,7 @@ def cl_database(
         cl_db = find_cell_line(old_cl, current_cl_database)
         if not cl_db:
             # print(f"Cell line {old_cl} not found in the database - attend to create one programmatically")
-            cl_new_entry = create_new_entry(
-                old_cl, bto, cellosaurus_list, modo_context
-            )  # Create a new entry
+            cl_new_entry = create_new_entry(old_cl, cellosaurus_list)  # Create a new entry
             if cl_new_entry is not None:
                 if current_cl_database is None:
                     current_cl_database = []
