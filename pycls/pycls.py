@@ -678,7 +678,7 @@ def string_if_not_empty(param: list) -> Union[None, str]:
     help="Output file with the database",
     required=True,
     type=click.Path(exists=False),
-    default="ea_database.db",
+    default="ea-cls-db.tsv",
 )
 def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
     """
