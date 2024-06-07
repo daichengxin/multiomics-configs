@@ -572,7 +572,8 @@ def cl_database(
 @click.option(
     "--bto", help="BTO ontology file", required=True, type=click.Path(exists=True)
 )
-def cl_database(cellosaurus: str, output: str, bto: str) -> None:
+@click.option("--filter-species", help="Include only the following species", required=False)
+def cellosaurus_db(cellosaurus: str, output: str, bto: str, filter_species) -> None:
     """
     The following function creates a celloSaurus database from the cellosaurus file, it does some mapping to bto
     also parse organisms, diseases, etc.
@@ -586,6 +587,9 @@ def cl_database(cellosaurus: str, output: str, bto: str) -> None:
 
     # Parse the CelloSaurus file
     cellosaurus_list = parse_cellosaurus_file(cellosaurus, bto)
+    if filter_species:
+        filter_species = filter_species.split(",")
+        cellosaurus_list = [entry for entry in cellosaurus_list if entry["organism"] in filter_species]
 
     all_cellosaurus_ids = [entry["cellosaurus name"] for entry in cellosaurus_list]
 
@@ -908,6 +912,7 @@ def cli():
 cli.add_command(cl_database)
 cli.add_command(nlp_recommendation)
 cli.add_command(ea_create_database)
+cli.add_command(cellosaurus_db)
 
 if __name__ == "__main__":
     cli()
