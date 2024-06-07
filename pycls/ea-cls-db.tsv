@@ -1,4 +1,63 @@
 cell line	organism	organism part	disease	age	developmental stage	sex	ancestry category	synonyms
+786-0	Homo sapiens	renal system	renal cell carcinoma	no available	no available	no available	no available	no available
+A498	Homo sapiens	renal system	renal cell carcinoma; renal cancer	no available	no available	no available	no available	no available
+A-549 cell	Homo sapiens	epithelium of bronchiole	lung adenocarcinoma	no available	no available	no available	no available	no available
+ACHN	Homo sapiens	renal system	renal cell carcinoma; papillary renal cell carcinoma; renal cancer; renal adenocarcinoma	22 year	no available	male	no available	no available
+BT549	Homo sapiens	breast; mammary gland	invasive ductal carcinoma; breast cancer; breast ductal adenocarcinoma	72	not available	not available; female	no available	
+CCRFCEM	Homo sapiens	lymphatic part of lymphoid system	childhood T acute lymphoblastic leukemia; leukemia	no available	no available	no available	no available	no available
+Caki1	Homo sapiens	renal system	renal cell carcinoma	no available	no available	no available	no available	no available
+COLO205	Homo sapiens	colorectum	colorectal adenocarcinoma; colorectal cancer	no available	no available	no available	no available	no available
+DU 145	Homo sapiens	prostate gland	prostate carcinoma	69 year	no available	male	no available	no available
+EKVX	Homo sapiens	epithelium of bronchiole	lung adenocarcinoma; non-small cell lung carcinoma; lung cancer	not available	no available	not available	no available	no available
+NCI-H226	Homo sapiens	pleura	Pleural Epithelioid Mesothelioma; small cell lung carcinoma; mesothelioma	not available	no available	male	no available	no available
+NCI-H23	Homo sapiens	epithelium of bronchiole	lung adenocarcinoma; non-small cell lung carcinoma	51 year	no available	male	no available	no available
+NCI-H322T	Homo sapiens	lung	lung adenocarcinoma; non-small cell lung carcinoma	not available	no available	not available	no available	no available
+NCI-H460	Homo sapiens	lung	non-small cell lung adenocarcinoma; large cell lung carcinoma	not available	no available	male	no available	no available
+NCI-H522	Homo sapiens	bronchiole	lung adenocarcinoma; non-small cell lung carcinoma	58 year	no available	male	no available	no available
+HCC2998	Homo sapiens	colorectum	colorectal adenocarcinoma; colorectal cancer	no available	no available	male	no available	no available
+HCT116	Homo sapiens	colonic mucosa; colon	colorectal adenocarcinoma; colorectal cancer; colon carcinoma	48	adult	male	no available	
+HCT15	Homo sapiens	colorectum	colorectal adenocarcinoma; colorectal cancer; colon adenocarcinoma	no available	no available	no available	no available	no available
+HL-60	Homo sapiens	bone marrow; blood	adult acute myeloid leukemia; leukemia; acute promyelocytic leukemia	not available; 36	adult	not available; female	no available	
+HOP62	Homo sapiens	epithelium of bronchiole	lung adenocarcinoma; lung cancer	no available	no available	no available	no available	no available
+HOP92	Homo sapiens	lung	non-small cell lung carcinoma; lung cancer	no available	no available	no available	no available	no available
+HS578T	Homo sapiens	breast	invasive ductal carcinoma; breast cancer	no available	not available	not available	no available	no available
+HT-29	Homo sapiens	rectum	rectosigmoid adenocarcinoma; colorectal adenocarcinoma; colon adenocarcinoma	not available	no available	female	no available	no available
+IGROV-1	Homo sapiens	ovary	Ovarian Endometrioid Adenocarcinoma; ovarian carcinoma	47 year	adult	female	no available	no available
+K562	Homo sapiens	blood; bone marrow	chronic myelogenous leukemia; leukemia	53	adult	female	no available	
+KM12	Homo sapiens	colonic mucosa	colorectal adenocarcinoma; colon carcinoma; colorectal cancer	no available	no available	no available	no available	no available
+LOXIMVI	Homo sapiens	lymph node	amelanotic melanoma; melanoma	no available	no available	no available	no available	no available
+M14	Homo sapiens	skin	amelanotic melanoma; melanoma	no available	no available	male	no available	no available
+Malme3M	Homo sapiens	lung	metastatic melanoma	no available	no available	no available	no available	no available
+MCF7AdrR	Homo sapiens	fallopian tube	high grade ovarian serous adenocarcinoma	no available	no available	no available	no available	no available
+MCF-7	Homo sapiens	pleura; mammary gland	invasive ductal carcinoma; breast adenocarcinoma; invasive breast ductal carcinoma	40 year	not available	female; not available	no available	
+MDAMB231	Homo sapiens	breast; mammary gland	breast adenocarcinoma; breast cancer	51	not available; adult	not available; female	no available	MDA-MB-231
+MDAMB435	Homo sapiens	skin	amelanotic melanoma; melanoma	no available	no available	no available	no available	no available
+MOLT-4	Homo sapiens	lymphoid tissue	adult T acute lymphoblastic leukemia; acute lymphoblastic leukemia	no available	no available	male	no available	no available
+OVCAR3	Homo sapiens	fallopian tube	high grade ovarian serous adenocarcinoma; ovarian cancer	no available	adult	female	no available	no available
+OVCAR4	Homo sapiens	fallopian tube	high grade ovarian serous adenocarcinoma; ovarian cancer	no available	no available	no available	no available	no available
+OVCAR5	Homo sapiens	fallopian tube	high grade ovarian serous adenocarcinoma; ovarian cancer	no available	adult	female	no available	no available
+OVCAR8	Homo sapiens	fallopian tube; ovary	high grade ovarian serous adenocarcinoma; ovarian cancer				no available	
+PC-3	Homo sapiens	prostate gland; prostate	prostate carcinoma; prostate adenocarcinoma	62 year; 62	adult	male	no available	
+RPMI8226	Homo sapiens	blood plasma	multiple myeloma; leukemia	no available	no available	no available	no available	no available
+RXF393L	Homo sapiens	proximal renal artery	renal cell carcinoma	no available	no available	no available	no available	no available
+SF268	Homo sapiens	central nervous system	astrocytoma; central nervous system cancer; glioma	not available	no available	not available	no available	no available
+SF295	Homo sapiens	embryonic central brain glia	glioblastoma multiforme; central nervous system cancer	no available	no available	no available	no available	no available
+SF539	Homo sapiens	embryonic central brain glia	gliosarcoma; central nervous system cancer; glioma	not available	no available	not available	no available	no available
+SK-MEL-28	Homo sapiens	skin	cutaneous melanoma; melanoma	51 year	no available	male	no available	no available
+SK-MEL-2	Homo sapiens	skin	metastatic melanoma; melanoma	60 year	no available	male	no available	no available
+SK-MEL-5	Homo sapiens	skin	cutaneous melanoma; melanoma	not available	no available	not available	no available	no available
+SKOV3	Homo sapiens	ovary	ovarian serous cystadenocarcinoma; ovarian cancer; ovarian adenocarcinoma				no available	
+SN12C	Homo sapiens	renal glomerulus	renal cell carcinoma; renal cancer	no available	no available	male	no available	no available
+SNB19	Homo sapiens	central nervous system	astrocytoma; central nervous system cancer	no available	no available	no available	no available	no available
+SNB-75	Homo sapiens	embryonic central brain glia	glioblastoma multiforme	no available	no available	no available	no available	no available
+SR	Homo sapiens	blood component	anaplastic large cell lymphoma; leukemia; large cell immunoblastic lymphoma; immunoblastic large cell lymphoma	11 year	no available	male	no available	no available
+SW620	Homo sapiens	colorectum	colorectal adenocarcinoma; colon adenocarcinoma; colorectal cancer	no available	no available	male	no available	no available
+T47D	Homo sapiens	pleura; mammary gland	invasive ductal carcinoma; breast cancer; ductal carcinoma				no available	
+TK-10	Homo sapiens	renal glomerulus	clear cell renal carcinoma; renal carcinoma	46 year	no available	male	no available	no available
+U-251 MG	Homo sapiens	central nervous system	astrocytoma	no available	no available	no available	no available	no available
+UACC-257	Homo sapiens	skin	melanoma	not available	no available	not available	no available	no available
+UACC-62	Homo sapiens	skin	melanoma	no available	no available	no available	no available	no available
+UO31	Homo sapiens	renal glomerulus	renal cell carcinoma; renal cancer	no available	no available	no available	no available	no available
 TE-15	Homo sapiens	esophagus	esophageal squamous cell carcinoma	no available	no available	no available	no available	no available
 OCI-MY5	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	no available	no available	no available	no available	no available
 OCI-MY7	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	no available	no available	no available	no available	no available
@@ -63,7 +122,6 @@ HCT 116	Homo sapiens	large intestine; colon	colon carcinoma; colorectal carcinom
 HCC-95	Homo sapiens	lung	squamous cell lung carcinoma	no available	no available	no available	no available	no available
 HCC827	Homo sapiens	lung	lung adenocarcinoma	not available	no available	female	no available	no available
 EJM	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	58 year	no available	female	no available	no available
-EKVX	Homo sapiens	lung	non-small cell lung carcinoma; lung cancer	not available	no available	not available	no available	no available
 EFO-27	Homo sapiens	ovary	ovarian mucinous adenocarcinoma; ovarian adenocarcinoma	36 year	no available	female	no available	no available
 EHEB	Homo sapiens	hematopoietic system and lymphoid system	chronic lymphocytic leukemia	no available	no available	no available	no available	no available
 EFM-19	Homo sapiens	breast	breast ductal adenocarcinoma; breast carcinoma	50 year	no available	female	no available	no available
@@ -77,7 +135,6 @@ PK-1	Homo sapiens	pancreas	pancreatic ductal adenocarcinoma	no available	no avai
 DU4475	Homo sapiens	breast	breast carcinoma	70 year	not available	female; not available	no available	no available
 PE/CA-PJ41 (clone D2)	Homo sapiens	upper digestive tract	oral squamous cell carcinoma	no available	no available	no available	no available	no available
 PE/CA-PJ34 (clone C12)	Homo sapiens	upper digestive tract	basaloid squamous cell carcinoma	no available	no available	no available	no available	no available
-DU 145	Homo sapiens	prostate	prostate carcinoma	69 year	no available	male	no available	no available
 PC-9	Homo sapiens	lung	lung adenocarcinoma		adult		no available	
 Pfeiffer	Homo sapiens	hematopoietic system and lymphoid system	diffuse large B-cell lymphoma; Hodgkin's lymphoma	not available	no available	not available	no available	no available
 PF-382	Homo sapiens	hematopoietic system and lymphoid system	childhood T acute lymphoblastic leukemia	no available	no available	no available	no available	no available
@@ -116,8 +173,6 @@ UM-UC-1	Homo sapiens	urinary tract	bladder carcinoma; urinary bladder transition
 U-BLC1	Homo sapiens	urinary tract	bladder carcinoma	no available	no available	no available	no available	no available
 UACC-893	Homo sapiens	breast	invasive ductal carcinoma; breast ductal adenocarcinoma	57 year	no available	female	no available	no available
 UACC-812	Homo sapiens	breast	invasive ductal carcinoma; ductal carcinoma; breast ductal adenocarcinoma	43 year	no available	female	no available	no available
-UACC-62	Homo sapiens	skin	melanoma	no available	no available	no available	no available	no available
-UACC-257	Homo sapiens	skin	melanoma	not available	no available	not available	no available	no available
 NCI-H1048	Homo sapiens	lung	small cell lung carcinoma	not available	no available	female	no available	no available
 NCC-StC-K140	Homo sapiens	stomach	gastric carcinoma	no available	no available	no available	no available	no available
 NB-4	Homo sapiens	hematopoietic system and lymphoid system	acute promyelocytic leukemia	no available	no available	no available	no available	no available
@@ -182,7 +237,6 @@ LXF-289	Homo sapiens	lung	lung adenocarcinoma	63 year	no available	male	no avail
 LUDLU-1	Homo sapiens	lung	squamous cell lung carcinoma	no available	no available	no available	no available	no available
 LN-308	Homo sapiens	central nervous system	astrocytoma	no available	no available	no available	no available	no available
 AGS	Homo sapiens	stomach	gastric adenocarcinoma	not available	no available	not available	no available	no available
-ACHN	Homo sapiens	kidney	papillary renal cell carcinoma; renal cancer; renal adenocarcinoma	22 year	no available	male	no available	no available
 ACC-MESO-1	Homo sapiens	pleura	mesothelioma	no available	no available	no available	no available	no available
 ABC-1	Homo sapiens	lung	lung adenocarcinoma	not available	no available	not available	no available	no available
 AMO-1	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma; plasmacytoma	not available	no available	not available	no available	no available
@@ -236,10 +290,9 @@ HCC4006	Homo sapiens	lung	lung adenocarcinoma	50 year	no available	male	no avail
 HCC-44	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no available	no available	no available
 HCC-366	Homo sapiens	lung	adenosquamous lung carcinoma	no available	no available	no available	no available	no available
 HCC38	Homo sapiens	breast	breast ductal adenocarcinoma	50 year	not available	female; not available	no available	no available
-SW620	Homo sapiens	large intestine	colon adenocarcinoma; colorectal cancer; colorectal adenocarcinoma	no available	no available	male	no available	no available
 HCC-78	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no available	no available	no available
 HCC827 GR5	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no available	no available	no available
-NCI-H747	Homo sapiens	large intestine	cecum adenocarcinoma	no available	no available	no available	no available	no available
+NCI-H747	Homo sapiens	large intestine	cecum adenocarcinoma; colorectal adenocarcinoma	no available	no available	no available	no available	no available
 TE 441.T	Homo sapiens	soft tissue	rhabdomyosarcoma	no available	no available	no available	no available	no available
 TE-1	Homo sapiens	esophagus	esophageal squamous cell carcinoma	no available	no available	no available	no available	no available
 NCI-H727	Homo sapiens	lung	lung carcinoid tumor	65 year	no available	female	no available	no available
@@ -315,7 +368,6 @@ Calu-3	Homo sapiens	lung	lung adenocarcinoma	25 year	no available	male	no availa
 NCI-H2405	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no available	no available	no available
 NCI-H2444	Homo sapiens	lung	non-small cell lung carcinoma	no available	no available	no available	no available	no available
 NCI-H2347	Homo sapiens	lung	lung adenocarcinoma; non-small cell lung carcinoma	54 year	no available	female	no available	no available
-NCI-H23	Homo sapiens	lung	lung adenocarcinoma; non-small cell lung carcinoma	51 year	no available	male	no available	no available
 NCI-H2887	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no available	no available	no available
 NCI-H28	Homo sapiens	pleura	pleural mesothelioma; mesothelioma	not available	no available	not available	no available	no available
 NCI-H2452	Homo sapiens	pleura	pleural mesothelioma; mesothelioma	not available	no available	not available	no available	no available
@@ -418,7 +470,6 @@ A2058	Homo sapiens	skin	amelanotic melanoma; melanoma	43 year	no available	male	
 A-204	Homo sapiens	soft tissue	embryonal rhabdomyosarcoma	no available	no available	no available	no available	no available
 COLO-679	Homo sapiens	skin	melanoma	no available	no available	no available	no available	no available
 PC-14	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no available	no available	no available
-PC-3	Homo sapiens	prostate	prostate carcinoma; prostate adenocarcinoma	62 year; 62	adult	male	no available	
 786-O	Homo sapiens	kidney	renal cell carcinoma; renal adenocarcinoma	58 year	no available	male	no available	no available
 769-P	Homo sapiens	kidney	renal cell carcinoma; renal adenocarcinoma	63 year	no available	female	no available	no available
 8505C	Homo sapiens	thyroid gland	thyroid gland undifferentiated (anaplastic) carcinoma		adult	female	no available	
@@ -467,7 +518,6 @@ MUTZ-5	Homo sapiens	hematopoietic system and lymphoid system	B-cell acute lympho
 MV-4-11	Homo sapiens	hematopoietic system and lymphoid system	childhood acute monocytic leukemia; acute myeloid leukemia	10 year	no available	male	no available	no available
 U-118 MG	Homo sapiens	central nervous system	astrocytoma	no available	no available	no available	no available	no available
 U-178MG	Homo sapiens	central nervous system	astrocytoma	no available	no available	no available	no available	no available
-U-251 MG	Homo sapiens	central nervous system	astrocytoma	no available	no available	no available	no available	no available
 PA-TU-8902	Homo sapiens	pancreas	pancreatic adenocarcinoma	not available	no available	not available	no available	no available
 U-2 OS	Homo sapiens	bone	osteosarcoma	15 year	no available	female	no available	no available
 U-343MG	Homo sapiens	central nervous system	glioblastoma	no available	no available	no available	no available	no available
@@ -523,14 +573,12 @@ GAMG	Homo sapiens	central nervous system	glioblastoma	no available	no available	
 RL95-2	Homo sapiens	endometrium	endometrial adenosquamous carcinoma	no available	no available	no available	no available	no available
 SH-10-TC	Homo sapiens	stomach	mucinous gastric adenocarcinoma	no available	no available	no available	no available	no available
 SF-295	Homo sapiens	central nervous system	glioblastoma	no available	no available	no available	no available	no available
-SF268	Homo sapiens	central nervous system	astrocytoma; central nervous system cancer; glioma	not available	no available	not available	no available	no available
 RL	Homo sapiens	hematopoietic system and lymphoid system	diffuse large B-cell lymphoma; B-cell lymphoma	52 year	no available	male	no available	no available
-SF539	Homo sapiens	central nervous system	gliosarcoma; central nervous system cancer; glioma	not available	no available	not available	no available	no available
 Set-2	Homo sapiens	hematopoietic system and lymphoid system	adult acute megakaryoblastic leukaemia	no available	no available	no available	no available	no available
 SEM	Homo sapiens	hematopoietic system and lymphoid system	childhood B acute lymphoblastic leukemia	no available	no available	no available	no available	no available
 SF172	Homo sapiens	central nervous system	glioblastoma	no available	no available	no available	no available	no available
 SF126	Homo sapiens	central nervous system	glioblastoma	no available	no available	no available	no available	no available
-OVKATE	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian adenocarcinoma; ovarian papillary serous adenocarcinoma	40 year	no available	female	no available	no available
+OVKATE	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian adenocarcinoma; ovarian papillary serous adenocarcinoma	40 year	adult	female	no available	no available
 U-937	Homo sapiens	hematopoietic system and lymphoid system	adult acute monocytic leukemia; diffuse large B-cell lymphoma	37 year	no available	male	no available	no available
 MDA-MB-134-VI	Homo sapiens	breast	invasive lobular carcinoma; breast carcinoma	47 year	no available	female	no available	no available
 MDA-MB-157	Homo sapiens	breast	breast carcinoma; breast medullary carcinoma	44 year	no available	female	no available	no available
@@ -575,7 +623,6 @@ NCI-H2077	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no ava
 PA-TU-8988S	Homo sapiens	pancreas	pancreatic adenocarcinoma	64 year	no available	female	no available	no available
 NCI-H2085	Homo sapiens	lung	non-small cell lung carcinoma	no available	no available	no available	no available	no available
 RERF-LC-Sq1	Homo sapiens	lung	squamous cell lung carcinoma	no available	no available	no available	no available	no available
-NCI-H522	Homo sapiens	lung	lung adenocarcinoma; non-small cell lung carcinoma	58 year	no available	male	no available	no available
 NCI-H520	Homo sapiens	lung	squamous cell lung carcinoma	not available	no available	male	no available	no available
 RH-41	Homo sapiens	soft tissue	alveolar rhabdomyosarcoma	no available	no available	no available	no available	no available
 RI-1	Homo sapiens	hematopoietic system and lymphoid system	diffuse large B-cell lymphoma; B-cell lymphoma	57 year	no available	female	no available	no available
@@ -587,7 +634,6 @@ NCI-H3255	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no ava
 NCI-H322	Homo sapiens	lung	bronchoalveolar adenocarcinoma	no available	no available	no available	no available	no available
 NCI-H510	Homo sapiens	lung	small cell lung carcinoma	no available	no available	no available	no available	no available
 NCI-H508	Homo sapiens	large intestine	cecum adenocarcinoma	no available	no available	no available	no available	no available
-NCI-H460	Homo sapiens	lung	large cell lung carcinoma	not available	no available	male	no available	no available
 NCI-H446	Homo sapiens	lung	small cell lung carcinoma	61 year	no available	male	no available	no available
 T-47D	Homo sapiens	breast	invasive ductal carcinoma; breast ductal adenocarcinoma	54 year	no available	female	no available	no available
 NCI-H2122	Homo sapiens	lung	lung adenocarcinoma; non-small cell lung carcinoma	46 year	no available	female	no available	no available
@@ -656,7 +702,7 @@ OUMS-23	Homo sapiens	large intestine	colon carcinoma; colon adenocarcinoma	not a
 OV56	Homo sapiens	ovary	ovarian serous adenocarcinoma; ovarian carcinoma	46 year	no available	female	no available	no available
 OPM-2	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	56 year	no available	female	no available	no available
 OS-RC-2	Homo sapiens	kidney	renal cell carcinoma	no available	no available	no available	no available	no available
-OVISE	Homo sapiens	ovary	ovarian clear cell adenocarcinoma	40 year	no available	female	no available	no available
+OVISE	Homo sapiens	ovary	ovarian clear cell adenocarcinoma	40 year	adult	female	no available	no available
 OVK18	Homo sapiens	ovary	ovarian endometrioid adenocarcinoma	no available	no available	no available	no available	no available
 Hs 863.T	Homo sapiens	fibroblast	Ewing sarcoma	no available	no available	no available	no available	no available
 Hs 852.T	Homo sapiens	skin	melanoma	not available	no available	not available	no available	no available
@@ -672,7 +718,7 @@ HCC2157	Homo sapiens	breast	breast ductal adenocarcinoma	48 year	no available	fe
 SW579	Homo sapiens	thyroid gland	thyroid gland squamous cell carcinoma	no available	no available	no available	no available	no available
 DMS 79	Homo sapiens	lung	small cell lung carcinoma	65 year	no available	not available	no available	no available
 TUHR4TKB	Homo sapiens	kidney	renal cell carcinoma	no available	no available	no available	no available	no available
-TYK-nu	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	no available	not available	no available	no available
+TYK-nu	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	adult	not available; female	no available	no available
 U266B1	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	not available	no available	not available	no available	no available
 HCC364	Homo sapiens	lung	lung adenocarcinoma	76 year	no available	male	no available	no available
 NCI-H1299	Homo sapiens	lung	large cell lung carcinoma; non-small cell lung carcinoma	43 year; 43	adult	male	no available	
@@ -683,7 +729,6 @@ KMRC-1	Homo sapiens	kidney	clear cell renal carcinoma	no available	no available	
 KMM-1	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	62 year	no available	male	no available	no available
 NCI-H1341	Homo sapiens	lung	small cell lung carcinoma	no available	no available	no available	no available	no available
 NCI-H1355	Homo sapiens	lung	lung adenocarcinoma	53 year	no available	male	no available	no available
-KM12	Homo sapiens	large intestine	colon carcinoma; colorectal cancer	no available	no available	no available	no available	no available
 KLE	Homo sapiens	endometrium	endometrium adenocarcinoma; uterine adenocarcinoma	64 year	no available	female	no available	no available
 KM-H2	Homo sapiens	hematopoietic system and lymphoid system	Hodgkins lymphoma	no available	no available	no available	no available	no available
 KMBC-2	Homo sapiens	urinary tract	bladder carcinoma	no available	no available	no available	no available	no available
@@ -699,8 +744,8 @@ JHH-2	Homo sapiens	liver	hepatocellular carcinoma	not available	no available	not
 JHH-4	Homo sapiens	liver	hepatocellular carcinoma	not available	no available	not available	no available	no available
 JHH-5	Homo sapiens	liver	hepatocellular carcinoma	50 year	no available	male	no available	no available
 JHH-6	Homo sapiens	liver	hepatocellular carcinoma	no available	no available	no available	no available	no available
-JHOS-2	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	no available	no available	no available	no available
-JHOS-4	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	no available	no available	no available	no available
+JHOS-2	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+JHOS-4	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
 SW1116	Homo sapiens	large intestine	colon adenocarcinoma; colorectal adenocarcinoma	no available	no available	male	no available	no available
 SW 1088	Homo sapiens	central nervous system	astrocytoma	no available	no available	no available	no available	no available
 SUP-T1	Homo sapiens	hematopoietic system and lymphoid system	childhood T lymphoblastic lymphoma	no available	no available	no available	no available	no available
@@ -716,7 +761,7 @@ SNU-175	Homo sapiens	large intestine	colon adenocarcinoma; colorectal adenocarci
 SNU-1214	Homo sapiens	upper digestive tract	laryngeal squamous cell carcinoma	no available	no available	no available	no available	no available
 SNU-1272	Homo sapiens	kidney	clear cell renal carcinoma	no available	no available	no available	no available	no available
 SNU-1197	Homo sapiens	large intestine	colon adenocarcinoma	no available	no available	no available	no available	no available
-SNU-119	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	no available	no available	no available	no available
+SNU-119	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
 SK-N-FI	Homo sapiens	autonomic ganglion	neuroblastoma	11 year	no available	male	no available	no available
 KMS-34	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	60 year	no available	female	no available	no available
 KMS-28BM	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma	77 year	no available	female	no available	no available
@@ -725,7 +770,7 @@ NCI-H1437	Homo sapiens	lung	lung adenocarcinoma; non-small cell lung carcinoma	6
 NCI-H1395	Homo sapiens	lung	lung adenocarcinoma	55 year	no available	female	no available	no available
 NCI-H1436	Homo sapiens	lung	small cell lung carcinoma	no available	no available	no available	no available	no available
 SU-DHL-8	Homo sapiens	hematopoietic system and lymphoid system	diffuse large B-cell lymphoma; B-cell lymphoma	59 year	no available	male	no available	no available
-COV318	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	no available	not available	no available	no available
+COV318	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	adult	not available; female	no available	no available
 COV362	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	no available	not available	no available	no available
 KP-3	Homo sapiens	pancreas	pancreatic adenosquamous carcinoma	75 year	no available	male	no available	no available
 KP-2	Homo sapiens	pancreas	pancreatic carcinoma	not available	no available	not available	no available	no available
@@ -809,7 +854,6 @@ RPMI 8226	Homo sapiens	hematopoietic system and lymphoid system	multiple myeloma
 SNU-668	Homo sapiens	stomach	signet ring cell gastric adenocarcinoma; gastric carcinoma	68 year	no available	male	no available	no available
 SNU-738	Homo sapiens	central nervous system	oligodendroglioma	no available	no available	no available	no available	no available
 SNU-719	Homo sapiens	stomach	gastric tubular adenocarcinoma; gastric carcinoma	53 year	no available	male	no available	no available
-HT-29	Homo sapiens	large intestine	rectosigmoid adenocarcinoma; colorectal adenocarcinoma; colon adenocarcinoma	not available	no available	female	no available	no available
 HT55	Homo sapiens	large intestine	colon carcinoma; colorectal adenocarcinoma	no available	no available	not available	no available	no available
 KYSE-150	Homo sapiens	esophagus	esophageal squamous cell carcinoma; squamous cell carcinoma	49 year	no available	female	no available	no available
 KYSE-140	Homo sapiens	esophagus	esophageal squamous cell carcinoma; squamous cell carcinoma	50 year	no available	male	no available	no available
@@ -831,9 +875,7 @@ SK-LU-1	Homo sapiens	lung	lung adenocarcinoma	no available	no available	no avail
 SKM-1	Homo sapiens	hematopoietic system and lymphoid system	adult acute myeloid leukemia; myelodysplasia	not available	no available	not available	no available	no available
 SK-MEL-31	Homo sapiens	skin	melanoma	not available	no available	female	no available	no available
 SK-MEL-3	Homo sapiens	skin	melanoma	42 year	no available	female	no available	no available
-SK-MEL-28	Homo sapiens	skin	cutaneous melanoma; melanoma	51 year	no available	male	no available	no available
 SK-MEL-30	Homo sapiens	skin	cutaneous melanoma; melanoma	67 year	no available	male	no available	no available
-SK-MEL-5	Homo sapiens	skin	cutaneous melanoma; melanoma	not available	no available	not available	no available	no available
 SK-MES-1	Homo sapiens	lung	squamous cell lung carcinoma	65 year	no available	male	no available	no available
 SW403	Homo sapiens	large intestine	colon adenocarcinoma; colorectal adenocarcinoma	no available	no available	female	no available	no available
 SW480	Homo sapiens	large intestine; colon	colon adenocarcinoma	50	adult	male	no available	
@@ -858,11 +900,11 @@ KP-MRT-RY	Homo sapiens	soft tissue	rhabdoid tumor of the kidney	no available	no 
 KP-N-RT-BM-1	Homo sapiens	autonomic ganglion	neuroblastoma	no available	no available	no available	no available	no available
 ChaGo-K-1	Homo sapiens	lung	bronchogenic carcinoma; lung carcinoma	45 year	no available	male	no available	no available
 KU812	Homo sapiens	hematopoietic system and lymphoid system	blast phase chronic myelogenous leukemia, BCR-ABL1 positive; chronic myelogenous leukemia	not available	no available	male; not available	no available	no available
-KURAMOCHI	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	no available	not available	no available	no available
+KURAMOCHI	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	adult	not available; female	no available	no available
 CH-157MN	Homo sapiens	central nervous system	meningioma	no available	no available	no available	no available	no available
 CHP-212	Homo sapiens	autonomic ganglion	neuroblastoma	not available	no available	not available	no available	no available
 Toledo	Homo sapiens	hematopoietic system and lymphoid system; blood	diffuse large B-cell lymphoma; B-cell lymphoma	not available	adult	female	no available	
-TOV-112D	Homo sapiens	ovary	ovarian endometrioid adenocarcinoma; endometrioid adenocarcinoma	42 year	no available	female	no available	no available
+TOV-112D	Homo sapiens	ovary	ovarian endometrioid adenocarcinoma; endometrioid adenocarcinoma; Ovarian Endometrioid Adenocarcinoma	42 year	adult	female	no available	no available
 Tm87-16	Homo sapiens	soft tissue	extrarenal rhabdoid tumor	no available	no available	no available	no available	no available
 TO 175.T	Homo sapiens	fibroblast	Hodgkins lymphoma	no available	no available	no available	no available	no available
 TIG-3 TD	Homo sapiens	fibroblast	normal cell line	no available	no available	no available	no available	no available
@@ -891,7 +933,6 @@ NCI-H2172	Homo sapiens	lung	non-small cell lung carcinoma	not available	no avail
 NCI-H2228	Homo sapiens	lung	lung adenocarcinoma; non-small cell lung carcinoma	not available	no available	female	no available	no available
 NCI-H2227	Homo sapiens	lung	small cell lung carcinoma	no available	no available	no available	no available	no available
 NCI-H2286	Homo sapiens	lung	squamous cell lung carcinoma	no available	no available	no available	no available	no available
-NCI-H226	Homo sapiens	lung	small cell lung carcinoma; mesothelioma	not available	no available	male	no available	no available
 LCLC-103H	Homo sapiens	lung	large cell lung carcinoma	61 year	no available	male	no available	no available
 BICR 6	Homo sapiens	upper digestive tract	hypopharyngeal squamous cell carcinoma	no available	no available	no available	no available	no available
 BICR 56	Homo sapiens	upper digestive tract	tongue squamous cell carcinoma	no available	no available	no available	no available	no available
@@ -910,7 +951,6 @@ Hep G2	Homo sapiens	liver	hepatoblastoma; hepatocellular carcinoma	15 year	no av
 Hep 3B2.1-7	Homo sapiens	liver	hepatocellular carcinoma	no available	no available	no available	no available	no available
 HGC-27	Homo sapiens	stomach	gastric carcinoma	not available	no available	not available	no available	no available
 Hey-A8	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	no available	no available	no available	no available
-HL-60	Homo sapiens	hematopoietic system and lymphoid system; blood	adult acute myeloid leukemia; leukemia; acute promyelocytic leukemia	not available; 36	adult	not available; female	no available	
 HH	Homo sapiens	hematopoietic system and lymphoid system	cutaneous T-cell lymphoma	no available	no available	no available	no available	no available
 HLF	Homo sapiens	liver	hepatocellular carcinoma	no available	no available	no available	no available	no available
 HLF-a	Homo sapiens	fibroblast	squamous cell lung carcinoma	no available	no available	no available	no available	no available
@@ -948,7 +988,7 @@ NCI-H647	Homo sapiens	lung	adenosquamous lung carcinoma	no available	no availabl
 23132/87	Homo sapiens	stomach	gastric adenocarcinoma	72 year	no available	male	no available	no available
 22Rv1	Homo sapiens	prostate	prostate carcinoma	no available	no available	no available	no available	no available
 639-V	Homo sapiens	urinary tract	ureter urothelial carcinoma	no available	no available	no available	no available	no available
-59M	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma	not available	no available	female	no available	no available
+59M	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma; ovarian carcinoma; ovarian serous adenocarcinoma	not available	adult	female	no available	no available
 5637	Homo sapiens	urinary tract	bladder carcinoma	no available	no available	no available	no available	no available
 42-MG-BA	Homo sapiens	central nervous system	glioblastoma	no available	no available	no available	no available	no available
 HCC1954	Homo sapiens	breast	breast ductal adenocarcinoma	61 year	no available	female	no available	no available
@@ -1018,55 +1058,28 @@ WM1799	Homo sapiens	skin	melanoma	no available	no available	no available	no avai
 VMRC-RCW	Homo sapiens	kidney	renal cell carcinoma	no available	no available	no available	no available	no available
 WM-115	Homo sapiens	skin	melanoma	58 year	no available	female	no available	no available
 WM-793	Homo sapiens	skin	melanoma	no available	no available	no available	no available	no available
-CCRFCEM	Homo sapiens	blood	leukemia	no available	no available	no available	no available	no available
-HCT116	Homo sapiens	colon	colorectal cancer; colon carcinoma	48	adult	male	no available	
 RXF393	Homo sapiens	kidney	renal cancer; renal cell carcinoma	no available	no available	male	no available	no available
 CAKI1	Homo sapiens	kidney	renal cancer	no available	no available	no available	no available	no available
 SKMEL2	Homo sapiens	skin	melanoma	no available	no available	no available	no available	no available
-SKOV3	Homo sapiens	ovary	ovarian cancer; ovarian adenocarcinoma				no available	
-SN12C	Homo sapiens	kidney	renal cancer; renal cell carcinoma	no available	no available	male	no available	no available
 HT29	Homo sapiens	colon	colorectal cancer	no available	no available	no available	no available	no available
-K562	Homo sapiens	bone marrow	leukemia; chronic myelogenous leukemia	53	adult	female	no available	
-MDAMB231	Homo sapiens	breast; mammary gland	breast cancer; breast adenocarcinoma	51	not available; adult	not available; female	no available	MDA-MB-231
 SKMEL5	Homo sapiens	skin	melanoma	no available	no available	no available	no available	no available
 HL60	Homo sapiens	blood	leukemia	no available	no available	no available	no available	no available
-SF295	Homo sapiens	cell culture	central nervous system cancer	no available	no available	no available	no available	no available
 SKMEL28	Homo sapiens	skin	melanoma	no available	no available	no available	no available	no available
-A498	Homo sapiens	kidney	renal cancer	no available	no available	no available	no available	no available
 H322M	Homo sapiens	lung	lung cancer	no available	no available	no available	no available	no available
-OVCAR8	Homo sapiens	ovary	ovarian cancer; high grade ovarian serous adenocarcinoma				no available	
-SNB19	Homo sapiens	brain	central nervous system cancer	no available	no available	no available	no available	no available
 UACC62	Homo sapiens	::	melanoma	no available	no available	no available	no available	no available
 MALME3M	Homo sapiens		melanoma	no available	no available	no available	no available	no available
-OVCAR4	Homo sapiens	ovary	ovarian cancer	no available	no available	no available	no available	no available
-RPMI8226	Homo sapiens	blood	leukemia	no available	no available	no available	no available	no available
-T47D	Homo sapiens	breast; mammary gland	breast cancer; ductal carcinoma				no available	
-BT549	Homo sapiens	breast; mammary gland	breast cancer; invasive ductal carcinoma; breast ductal adenocarcinoma	72	not available	not available; female	no available	
 H522	Homo sapiens	lung	lung cancer	no available	no available	no available	no available	no available
 TK10	Homo sapiens	kidney	renal cancer; renal cell carcinoma	no available	no available	male	no available	no available
 UACC257	Homo sapiens		melanoma	no available	no available	no available	no available	no available
 DU145	Homo sapiens	prostate	prostate cancer; prostate carcinoma	69	adult	male	no available	
-HCT15	Homo sapiens	colon	colorectal cancer	no available	no available	no available	no available	no available
 MOLT4	Homo sapiens		leukemia	no available	no available	no available	no available	no available
 H460	Homo sapiens	lung	lung cancer	no available	no available	no available	no available	no available
 U251	Homo sapiens	brain	central nervous system cancer; glioblastoma multiforme	no available	no available	male	no available	no available
-COLO205	Homo sapiens	colon	colorectal cancer	no available	no available	no available	no available	no available
 MDAMB468	Homo sapiens	breast; mammary gland	breast cancer; breast adenocarcinoma; adenocarcinoma		not available	not available	no available	
 H226	Homo sapiens	lung	lung cancer	no available	no available	no available	no available	no available
-OVCAR3	Homo sapiens	ovary	ovarian cancer	no available	no available	no available	no available	no available
-HCC2998	Homo sapiens	colon	colorectal cancer; colorectal adenocarcinoma	no available	no available	male	no available	no available
-MDAMB435	Homo sapiens		melanoma	no available	no available	no available	no available	no available
 MCF7ADR	Homo sapiens	ovary	ovarian cancer	no available	no available	no available	no available	no available
 H23	Homo sapiens	lung	lung cancer	no available	no available	no available	no available	no available
-UO31	Homo sapiens	kidney	renal cancer	no available	no available	no available	no available	no available
-HOP62	Homo sapiens	lung	lung cancer	no available	no available	no available	no available	no available
-OVCAR5	Homo sapiens	ovary	ovarian cancer	no available	no available	no available	no available	no available
-SR	Homo sapiens		leukemia; large cell immunoblastic lymphoma; immunoblastic large cell lymphoma	11 year	no available	male	no available	no available
-HOP92	Homo sapiens	lung	lung cancer	no available	no available	no available	no available	no available
-LOXIMVI	Homo sapiens		melanoma	no available	no available	no available	no available	no available
 PC3	Homo sapiens	prostate	prostate cancer	no available	no available	no available	no available	no available
-HS578T	Homo sapiens	breast	breast cancer; invasive ductal carcinoma	no available	not available	not available	no available	no available
-M14	Homo sapiens		melanoma	no available	no available	male	no available	no available
 SLVL	Homo sapiens	hematopoietic system	diffuse large B cell lymphoma	no available	no available	female	no available	no available
 WM35	Homo sapiens	skin	melanoma	no available	no available	not available	no available	no available
 ARH-77	Homo sapiens	hematopoietic system	plasma cell leukemia	no available	no available	female	no available	no available
@@ -1211,7 +1224,6 @@ EW-1	Homo sapiens	bone	Ewing sarcoma	no available	no available	male	no available
 EW-11	Homo sapiens	bone	Ewing sarcoma	no available	no available	female	no available	no available
 SBC-1	Homo sapiens	lung	small cell lung carcinoma	no available	no available	male	no available	no available
 SBC-3	Homo sapiens	lung	small cell lung carcinoma	no available	no available	not available	no available	no available
-SK-MEL-2	Homo sapiens	skin	melanoma	60 year	no available	male	no available	no available
 SW13	Homo sapiens	adrenal gland	adrenocortical carcinoma	no available	no available	female	no available	no available
 U031	Homo sapiens	kidney	renal cell carcinoma	no available	no available	not available	no available	no available
 U-CH2	Homo sapiens	bone	chordoma	no available	no available	female	no available	no available
@@ -1273,7 +1285,7 @@ D-566MG	Homo sapiens	brain	glioblastoma multiforme	no available	no available	not
 DG-75	Homo sapiens	hematopoietic system	Burkitts lymphoma	no available	no available	male	no available	no available
 DOK	Homo sapiens	mucosa	head and neck squamous cell carcinoma; tongue dysplasia	not available	no available	male; not available	no available	no available
 DoTc2-4510	Homo sapiens	uterine cervix	cervical squamous cell carcinoma	no available	no available	female	no available	no available
-DOV13	Homo sapiens	ovary	ovarian adenocarcinoma	no available	no available	female	no available	no available
+DOV13	Homo sapiens	ovary	ovarian adenocarcinoma	no available	adult	female	no available	no available
 DSH1	Homo sapiens	urinary bladder	bladder carcinoma	no available	no available	male	no available	no available
 EB2	Homo sapiens	hematopoietic system	Burkitts lymphoma; malignant Burkitt's lymphoma	7 year	no available	female	no available	no available
 EB-3	Homo sapiens	hematopoietic system	Burkitts lymphoma; malignant Burkitt's lymphoma	3 year	no available	male	no available	no available
@@ -1339,7 +1351,7 @@ LNZTA3WT4	Homo sapiens	brain	glioblastoma multiforme	no available	no available	m
 M059J	Homo sapiens	brain	glioblastoma multiforme; glioblastoma	33 year	no available	male	no available	no available
 MC-1010	Homo sapiens	hematopoietic system	acute myeloid leukemia	no available	no available	male	no available	no available
 MC-IXC	Homo sapiens	brain	neuroblastoma	no available	no available	female	no available	no available
-ME-180	Homo sapiens	uterine cervix	cervical carcinoma	66 year	no available	female	no available	no available
+ME-180	Homo sapiens	uterine cervix	cervical carcinoma; cervical squamous cell carcinoma	66 year	adult	female	no available	no available
 MFH-ino	Homo sapiens	connective tissue	histiocytoma	no available	no available	female	no available	no available
 MHH-PREB-1	Homo sapiens	hematopoietic system	B-cell acute lymphoblastic leukemia; B-cell lymphoma	6 year	no available	male	no available	no available
 MKN28	Homo sapiens	stomach	gastric adenocarcinoma	no available	no available	female	no available	no available
@@ -1348,7 +1360,6 @@ MLMA	Homo sapiens	hematopoietic system	hairy cell leukemia	no available	no avail
 MN-60	Homo sapiens	hematopoietic system	B-cell acute lymphoblastic leukemia	no available	no available	male	no available	no available
 MOG-G-CCM	Homo sapiens	brain	anaplastic astrocytoma	no available	no available	not available	no available	no available
 MOG-G-UVW	Homo sapiens	brain	anaplastic astrocytoma	no available	no available	not available	no available	no available
-MOLT-4	Homo sapiens	hematopoietic system	acute lymphoblastic leukemia	no available	no available	male	no available	no available
 Mo-T	Homo sapiens	hematopoietic system	hairy cell leukemia	no available	no available	male	no available	no available
 MS751	Homo sapiens	uterine cervix	cervical carcinoma	47 year	no available	female	no available	no available
 MY-M12	Homo sapiens	hematopoietic system	acute leukemia	no available	no available	female	no available	no available
@@ -1372,7 +1383,7 @@ NKM-1	Homo sapiens	hematopoietic system	acute myeloid leukemia	no available	no a
 no-10	Homo sapiens	brain	anaplastic astrocytoma	no available	no available	male	no available	no available
 no-11	Homo sapiens	brain	anaplastic astrocytoma	no available	no available	female	no available	no available
 OVCA420	Homo sapiens	ovary	ovarian carcinoma; ovarian serous adenocarcinoma			female	no available	
-OVCA433	Homo sapiens	ovary	ovarian carcinoma	no available	no available	female	no available	no available
+OVCA433	Homo sapiens	ovary	ovarian carcinoma; ovarian serous adenocarcinoma	no available	adult	female	no available	no available
 OVCAR-5	Homo sapiens	ovary	ovarian adenocarcinoma	not available	no available	female	no available	no available
 OVMIU	Homo sapiens	ovary	ovarian carcinoma	no available	no available	female	no available	no available
 P30-OHK	Homo sapiens	hematopoietic system	acute lymphoblastic leukemia	no available	no available	female	no available	no available
@@ -1399,7 +1410,7 @@ PCI-30	Homo sapiens	mucosa	head and neck squamous cell carcinoma	no available	no
 PCI-38	Homo sapiens	mucosa	head and neck squamous cell carcinoma	no available	no available	not available	no available	no available
 PCI-4B	Homo sapiens	mucosa	head and neck squamous cell carcinoma	no available	no available	not available	no available	no available
 PCI-6A	Homo sapiens	mucosa	head and neck squamous cell carcinoma	no available	no available	not available	no available	no available
-PEO1	Homo sapiens	ovary	ovarian serous adenocarcinoma	no available	no available	female	no available	no available
+PEO1	Homo sapiens	ovary	ovarian serous adenocarcinoma; ovarian cystadenocarcinoma	no available	adult	female	no available	no available
 PFSK-1	Homo sapiens	brain	medulloblastoma	no available	no available	male	no available	no available
 PL18	Homo sapiens	pancreas	pancreatic adenocarcinoma	no available	no available	not available	no available	no available
 PL4	Homo sapiens	pancreas	pancreatic adenocarcinoma	no available	no available	not available	no available	no available
@@ -1522,7 +1533,7 @@ GR-M	Homo sapiens	zone of skin	melanoma	36 year	no available	male	no available	n
 GTL-16	Homo sapiens	stomach	gastric adenocarcinoma	62 year	no available	female	no available	no available
 H322T	Homo sapiens	lung	non-small cell lung carcinoma	not available	no available	not available	no available	no available
 HBL-100	Homo sapiens	breast	normal at the time of derivation	27 year	no available	female	no available	no available
-HCA-7	Homo sapiens	colon	colon adenocarcinoma	58 year	no available	female	no available	no available
+HCA-7	Homo sapiens	colon	colon adenocarcinoma; colorectal adenocarcinoma	58 year	no available	female	no available	no available
 HCC1011	Homo sapiens	kidney	renal cell carcinoma	37 year	no available	male	no available	no available
 HCC1162	Homo sapiens	uterus	uterine adenocarcinoma	not available	no available	not available	no available	no available
 HCC1171	Homo sapiens	lung	non-small cell lung carcinoma	not available	no available	not available	no available	no available
@@ -1560,7 +1571,6 @@ Hs 69ST	Homo sapiens	zone of skin	melanoma	not available	no available	not availa
 HS-Sultan	Homo sapiens	blood	lymphoma	7 year	no available	male	no available	no available
 HT-55	Homo sapiens	colon	colon carcinoma	not available	no available	not available	no available	no available
 huH-1	Homo sapiens	liver	hepatocellular carcinoma	53 year	no available	male	no available	no available
-IGROV-1	Homo sapiens	ovary	ovarian carcinoma	47 year	no available	female	no available	no available
 IM-95	Homo sapiens	stomach	gastric adenocarcinoma	not available	no available	not available	no available	no available
 IM-95m	Homo sapiens	stomach	gastric adenocarcinoma	63 year	no available	male	no available	no available
 JEKO-1	Homo sapiens	lymph node	lymphoma	78 year	no available	female	no available	no available
@@ -1579,7 +1589,6 @@ LOX-IMVI	Homo sapiens	zone of skin	melanoma	not available	no available	not avail
 LS 174T	Homo sapiens	colon	colon adenocarcinoma	not available	no available	not available	no available	no available
 LXFL529	Homo sapiens	lung	non-small cell lung carcinoma	not available	no available	not available	no available	no available
 MCF 10A	Homo sapiens	breast; mammary gland	breast fibrocystic disease	not available	not available	female; not available	no available	
-MCF-7	Homo sapiens	breast; mammary gland	breast adenocarcinoma; invasive ductal carcinoma; invasive breast ductal carcinoma	40 year	not available	female; not available	no available	
 MCF10DCIS.com	Homo sapiens	breast	breast ductal carcinoma in situ	not available	no available	not available	no available	no available
 MDA-MB-435	Homo sapiens	zone of skin; skin	melanoma; amelanotic melanoma	not available; 30		not available; male	no available	
 MIA Paca-2	Homo sapiens	pancreas	pancreatic carcinoma; pancreatic ductal adenocarcinoma	65 year; 65	adult	male	no available	
@@ -1602,7 +1611,6 @@ NCI-H2795	Homo sapiens	lung	mesothelioma	not available	no available	not availabl
 NCI-H2803	Homo sapiens	lung	mesothelioma	not available	no available	not available	no available	no available
 NCI-H2804	Homo sapiens	lung	mesothelioma	not available	no available	not available	no available	no available
 NCI-H2810	Homo sapiens	lung	mesothelioma	not available	no available	not available	no available	no available
-NCI-H322T	Homo sapiens	lung	non-small cell lung carcinoma	not available	no available	not available	no available	no available
 NCI-H920	Homo sapiens	lung	non-small cell lung carcinoma	43 year	no available	male	no available	no available
 NCI-N417	Homo sapiens	lung	small cell lung carcinoma	not available	no available	not available	no available	no available
 NIH:OVCAR-3	Homo sapiens	ovary	ovarian adenocarcinoma	not available	no available	female	no available	no available
@@ -1647,9 +1655,8 @@ SW 620	Homo sapiens	colon	colon adenocarcinoma	51 year	no available	male	no avai
 SW 837	Homo sapiens	rectum	rectal adenocarcinoma	53 year	no available	male	no available	no available
 SW 948	Homo sapiens	colon	colon adenocarcinoma	not available	no available	not available	no available	no available
 SW 982	Homo sapiens	breast	breast synovial sarcoma	25 year	no available	female	no available	no available
-TK-10	Homo sapiens	kidney	renal carcinoma	46 year	no available	male	no available	no available
 TMD8	Homo sapiens	blood	diffuse large B-cell lymphoma	62 year	no available	male	no available	no available
-TYK-nu.CP-r	Homo sapiens	ovary	ovarian carcinoma	not available	no available	not available	no available	no available
+TYK-nu.CP-r	Homo sapiens	ovary	ovarian carcinoma; high grade ovarian serous adenocarcinoma	not available	adult	not available; female	no available	no available
 U-2932	Homo sapiens	blood	B-cell lymphoma	not available	no available	not available	no available	no available
 UCSD-242l	Homo sapiens	zone of skin	melanoma	not available	no available	not available	no available	no available
 UKE-1	Homo sapiens	blood	leukemia	not available	no available	not available	no available	no available
@@ -1657,6 +1664,46 @@ WiDr	Homo sapiens	colon	colon adenocarcinoma	not available	no available	not avai
 WSU-FSCCL	Homo sapiens	lymph node	B-cell lymphoma	37 year	no available	not available	no available	no available
 YMB-1	Homo sapiens	breast	breast carcinoma	55 year	no available	female	no available	no available
 YMB-1-E	Homo sapiens	breast	breast carcinoma	55 year	no available	female	no available	no available
+A2780/CP70	Homo sapiens	ovary	Ovarian Endometrioid Adenocarcinoma	no available	adult	female	no available	no available
+CaOv3	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+primary fallopian tube epithelial cell	Homo sapiens	ovary	normal	no available	adult	female	no available	no available
+HEY A8	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+IGROV-1/CP	Homo sapiens	ovary	Ovarian Endometrioid Adenocarcinoma	no available	adult	female	no available	no available
+IOSE-397	Homo sapiens	ovary	premalignant ovarian carcinoma	no available	adult	female	no available	no available
+IOSE-7576	Homo sapiens	ovary	premalignant ovarian carcinoma	no available	adult	female	no available	no available
+ME180C13	Homo sapiens	ovary	cervical squamous cell carcinoma	no available	adult	female	no available	no available
+PEO4	Homo sapiens	ovary	ovarian cystadenocarcinoma	no available	adult	female	no available	no available
+SKOV3IP	Homo sapiens	ovary	ovarian serous cystadenocarcinoma	no available	adult	female	no available	no available
+TOV112DR	Homo sapiens	ovary	Ovarian Endometrioid Adenocarcinoma	no available	adult	female	no available	no available
+tumour tissue from individual 1	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+tumour tissue from individual 2	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+tumour tissue from individual 3	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+tumour tissue from individual 4	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+tumour tissue from individual 5	Homo sapiens	ovary	high grade ovarian serous adenocarcinoma	no available	adult	female	no available	no available
+C125PM	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+C135	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+C70	Homo sapiens	colon	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+COLO201	Homo sapiens	colon	colon adenocarcinoma	no available	no available	no available	no available	no available
+COLO320	Homo sapiens	colorectum	colon adenocarcinoma	no available	no available	no available	no available	no available
+DiFi	Homo sapiens	colon	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+DLD1	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+HCT8	Homo sapiens	ileum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+HRA19	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+Isreco-1	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+Isreco-2	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+Isreco-3	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+LIM1863	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+LIM1899	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+LIM2099	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+LIM2405	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+LIM2537	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+LIM2551	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+SNU175	Homo sapiens	colorectum	colon adenocarcinoma	no available	no available	no available	no available	no available
+SNUC2B	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+SW1222	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+VACO4S	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+VACO5	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
+VACO9P	Homo sapiens	colorectum	colorectal adenocarcinoma	no available	no available	no available	no available	no available
 BT20	Homo sapiens	breast	invasive ductal carcinoma	no available	not available	not available	no available	no available
 BT474	Homo sapiens	breast; mammary gland	invasive ductal carcinoma; breast ductal adenocarcinoma		not available	not available	no available	
 MDAMB157	Homo sapiens	breast	breast carcinoma	no available	not available	not available	no available	no available
