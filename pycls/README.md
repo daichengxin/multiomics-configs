@@ -18,7 +18,9 @@ Cell lines are a fundamental part of biological research, and they are used in a
 
 The database is created in the following path [cl-annotations-db.tsv](cl-annotations-db.tsv) and contains the following fields:
 
+- **name**: The cell line name as defined by the curation team (ai or manual).
 - **cellosaurus name**: The cell line name as annotated in Cellsaurus `ID` 
+- **cellosaurus accession**: The cell line accession as annotated in Cellsaurus `AC`
 - **bto cell line**: The cell line name as annotated in BTO
 - **organism**: The organism of the cell line as annotated in Cellsaurus
 - **organism part**: This information is not available in Cellosaurus, we use other sources to _annotate_ this field.

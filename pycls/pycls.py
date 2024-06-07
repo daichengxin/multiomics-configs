@@ -35,13 +35,13 @@ def parse_cellosaurus_file(file_path):
         lines = entry.strip().split("\n")
         for line in lines:
             if line.startswith("ID"):
-                data["name"] = line.split("ID ")[1].strip()
+                data["cellosaurus name"] = line.split("ID ")[1].strip()
             elif line.startswith("AC"):
-                data["accession"] = line.split("AC ")[1].strip()
+                data["cellosaurus accession"] = line.split("AC ")[1].strip()
             elif line.startswith("SY"):
                 data["synonyms"] = line.split("SY ")[1].strip().split("; ")
             elif line.startswith("DR   BTO"):
-                data["bto"] = line.split("; ")[1]
+                data["bto cell line"] = line.split("; ")[1]
             elif line.startswith("DR   EFO"):
                 data["efo"] = line.split("; ")[1]
             elif line.startswith("OX"):
@@ -51,22 +51,22 @@ def parse_cellosaurus_file(file_path):
             elif line.startswith("AG"):
                 data["age"] = line.split("AG ")[1].strip()
             elif line.startswith("CA"):
-                data["cell_type"] = line.split()[1]
+                data["cell type"] = line.split("CA ")[1]
             elif line.startswith("CC") and "Population" in line:
-                data["ancestry category"] = line.split(": ")[1].strip()
+                data["ancestry category"] = line.split(": ")[1].strip().replace(".", "")
             elif line.startswith("DI"):
                 if "NCIt" in line:
                     # Regular expression to match all disease annotations and capture the disease name
                     pattern = r"NCIt;\s*C\d+;\s*([^;]+)"
                     match = re.search(pattern, line)
                     if match:
-                        data["disease"] = match.group(1)
+                        data["disease"] = match.group(1).strip()
 
         return data
 
     # Read the file and split into entries, the file is gzipped
     with gzip.open(file_path, "r") as file:
-        content = file.read()
+        content = file.read().decode('utf-8')
 
     # Split the content by entries
     entries = content.split("//\n")
@@ -280,20 +280,22 @@ def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
     """
     old_cl = old_cl.lower().strip()
     for cellosaurus in cellosaurus_list:
-        if "name" in cellosaurus and (
-            cellosaurus["name"].lower().strip() == old_cl
+        if "cellosaurus name" in cellosaurus and (
+            cellosaurus["cellosaurus name"].lower().strip() == old_cl
             or is_in_synonyms(old_cl, cellosaurus)
         ):
             entry = {}
-            entry["cellosaurus name"] = cellosaurus["name"]
+            entry["cellosaurus name"] = cellosaurus["cellosaurus name"]
             if "bto" in cellosaurus:
-                bto_name = get_cell_line_bto(cellosaurus["bto"], bto)
+                bto_name = get_cell_line_bto(cellosaurus["bto cell line"], bto)
                 if bto_name is not None:
                     entry["bto cell line"] = bto_name
                 else:
                     raise ValueError(
                         f"Cell line {old_cl} not found in the BTO ontology"
                     )
+            if "cellosaurus accession" in cellosaurus:
+                entry["cellosaurus accession"] = cellosaurus["cellosaurus accession"]
             if "organism" in cellosaurus:
                 scientific_name, tax = parse_cellosaurus_taxonomy(
                     cellosaurus["organism"]
@@ -301,7 +303,7 @@ def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
                 if scientific_name is not None:
                     entry["organism"] = scientific_name
                     entry["taxonomy"] = tax
-            entry["organism part"] = cellosaurus["cell_type"]
+            entry["organism part"] = None
             if "age" in cellosaurus:
                 if is_age_in_text(cellosaurus["age"]):
                     entry["age"] = cellosaurus["age"]
@@ -327,6 +329,9 @@ def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
                 entry["synonyms"] = cellosaurus["synonyms"]
             else:
                 entry["synonyms"] = []
+            if "cell type" in cellosaurus:
+                entry["cell type"] = cellosaurus["cell type"]
+            entry["curated"] = "not curated"
             return entry
     return None
 
@@ -340,14 +345,16 @@ def write_database(current_cl_database: list, database: str) -> None:
     """
 
     with open(database, "w") as file:
-        headers = ['cellosaurus name','bto cell line','organism','age','organism part','developmental stage',
-                   'sex','ancestry category','disease',	'cell type','Material','synonyms','curated'
+        headers = ['name', 'cellosaurus name', 'bto cell line', 'organism','age', 'organism part',
+                   'developmental stage', 'sex','ancestry category','disease','cell type',
+                   'Material','synonyms','curated'
         ]
         # Write the header row
         file.write('\t'.join(headers) + '\n')
 
         for entry in current_cl_database:
             row = [
+                entry.get("name", "no available"),
                 entry.get("cellosaurus name", "no available"),
                 entry.get("bto cell line", "no available"),
                 entry.get("organism", "no available"),
@@ -361,6 +368,7 @@ def write_database(current_cl_database: list, database: str) -> None:
                 entry.get("Material", "no available"),
                 entry.get("synonyms", "no available"),
                 entry.get("curated", "no available")]
+            row = ["not available" if item is None else str(item) for item in row]
             file.write("\t".join(row) + "\n")
 
 def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
@@ -397,7 +405,7 @@ def preprocess_text(text):
     "--mondo", help="Mondo ontology file", required=True, type=click.Path(exists=True)
 )
 @click.option(
-    "--sdrf_path", help="SDRF folder with all existing SDRF files", required=True
+    "--sdrf-path", help="SDRF folder with all existing SDRF files", required=True
 )
 @click.option(
     "--database", help="Existing database file with cell lines metadata", required=True
@@ -418,7 +426,7 @@ def cl_database(
     """
 
     # Read the current cell line database
-    current_cl_database, comments = read_cell_line_database(database)
+    current_cl_database = read_cell_line_database(database)
 
     # Parse the CelloSaurus file
     cellosaurus_list = parse_cellosaurus_file(cellosaurus)
@@ -460,7 +468,7 @@ def cl_database(
         else:
             print("Cell line found in the database: ", cl_db["cellosaurus name"])
 
-    write_database(current_cl_database, comments, database)
+    write_database(current_cl_database, database)
 
     # Write the unknown cell lines to a file
     with open(unknown, "w") as file:
