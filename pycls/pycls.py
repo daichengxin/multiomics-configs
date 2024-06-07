@@ -21,7 +21,7 @@ def get_cell_line_code(sdrf_file):
     return cl_list
 
 
-def parse_cellosaurus_file(file_path, bto: list):
+def parse_cellosaurus_file(file_path, bto: dict):
     """
     Parse the CelloSaurus file and return a list of dictionaries with the parsed content
     :param file_path: CelloSaurus file path
@@ -44,19 +44,17 @@ def parse_cellosaurus_file(file_path, bto: list):
             elif line.startswith("DR   BTO"):
                 bto_accession = line.split("; ")[1]
                 if bto_accession in bto:
-                   data["bto cell line"] = bto[bto_accession]["name"]
-                   if "synonyms" in bto[bto_accession]:
-                       if "synonyms" in data:
-                           data["synonyms"] += bto[bto_accession]["synonyms"]
-                       else:
-                           data["synonyms"] = bto[bto_accession]["synonyms"]
+                    data["bto cell line"] = bto[bto_accession]["name"]
+                    if "synonyms" in bto[bto_accession]:
+                        if "synonyms" in data:
+                            data["synonyms"] += bto[bto_accession]["synonyms"]
+                        else:
+                            data["synonyms"] = bto[bto_accession]["synonyms"]
             elif line.startswith("DR   EFO"):
                 data["efo"] = line.split("; ")[1]
             elif line.startswith("OX"):
                 data["organism"] = line.split("OX ")[1].strip()
-                scientific_name, tax = parse_cellosaurus_taxonomy(
-                    data["organism"]
-                )
+                scientific_name, tax = parse_cellosaurus_taxonomy(data["organism"])
                 data["organism"] = scientific_name
             elif line.startswith("SX"):
                 data["sex"] = line.split()[1]
@@ -78,7 +76,7 @@ def parse_cellosaurus_file(file_path, bto: list):
 
     # Read the file and split into entries, the file is gzipped
     with gzip.open(file_path, "r") as file:
-        content = file.read().decode('utf-8')
+        content = file.read().decode("utf-8")
 
     # Split the content by entries
     entries = content.split("//\n")
@@ -121,15 +119,23 @@ def read_obo_file(file_path) -> dict:
                 if "synonyms" not in obo_dict:
                     obo_dict["synonyms"] = []
                 obo_dict["synonyms"].append(line.split("synonym: ")[1].strip())
-                obo_dict["synonyms"] = [synonym.replace("RELATED []","")
-                                        .replace("RELATED MS []","")
-                                        .strip().strip('"') for synonym in obo_dict["synonyms"]]
+                obo_dict["synonyms"] = [
+                    synonym.replace("RELATED []", "")
+                    .replace("RELATED MS []", "")
+                    .strip()
+                    .strip('"')
+                    for synonym in obo_dict["synonyms"]
+                ]
         if "synonyms" not in obo_dict:
             obo_dict["synonyms"] = []
         return obo_dict
 
     # Create dictionary of OBO terms, the key is the id of the obo term
-    obo_dict = {parse_obo_term(entry)["id"]: parse_obo_term(entry) for entry in entries if entry.strip() and "id:" in entry}
+    obo_dict = {
+        parse_obo_term(entry)["id"]: parse_obo_term(entry)
+        for entry in entries
+        if entry.strip() and "id:" in entry
+    }
 
     return obo_dict
 
@@ -264,6 +270,7 @@ def is_age_in_text(age_text: str) -> bool:
     """
     return any(char.isdigit() for char in age_text)
 
+
 def validate_ages_as_sdrf(age_string: str) -> bool:
     """
     Validate the age string from the SDRF. The age should be in multiple format:
@@ -283,6 +290,7 @@ def validate_ages_as_sdrf(age_string: str) -> bool:
     print(f"Age {age_string} is not valid")
 
     return False
+
 
 def create_new_entry(old_cl, cellosaurus_list):
     """
@@ -329,8 +337,6 @@ def create_new_entry(old_cl, cellosaurus_list):
                 entry["disease"] = cellosaurus["disease"]
             else:
                 entry["disease"] = None
-            # entry["bto"] = bto
-            # entry["modo"] = modo_context
             if "synonyms" in cellosaurus:
                 entry["synonyms"] = cellosaurus["synonyms"]
             else:
@@ -351,12 +357,24 @@ def write_database(current_cl_database: list, database: str) -> None:
     """
 
     with open(database, "w") as file:
-        headers = ['name', 'cellosaurus name', 'bto cell line', 'organism','age', 'organism part',
-                   'developmental stage', 'sex','ancestry category','disease','cell type',
-                   'Material','synonyms','curated'
+        headers = [
+            "name",
+            "cellosaurus name",
+            "bto cell line",
+            "organism",
+            "age",
+            "organism part",
+            "developmental stage",
+            "sex",
+            "ancestry category",
+            "disease",
+            "cell type",
+            "Material",
+            "synonyms",
+            "curated",
         ]
         # Write the header row
-        file.write('\t'.join(headers) + '\n')
+        file.write("\t".join(headers) + "\n")
 
         for entry in current_cl_database:
             row = [
@@ -373,9 +391,53 @@ def write_database(current_cl_database: list, database: str) -> None:
                 entry.get("cell type", "no available"),
                 entry.get("Material", "no available"),
                 string_if_not_empty(entry.get("synonyms", [])),
-                entry.get("curated", "no available")]
+                entry.get("curated", "no available"),
+            ]
             row = ["not available" if item is None else str(item) for item in row]
             file.write("\t".join(row) + "\n")
+
+def write_database_cellosaurus(current_cl_database: list, database: str) -> None:
+    """
+    Write the database objects to the database file
+    :param current_cl_database: current cell line database list
+    :param database: database file path
+    :return:
+    """
+
+    with open(database, "w") as file:
+        headers = [
+            "cellosaurus name",
+            "bto cell line",
+            "organism",
+            "age",
+            "developmental stage",
+            "sex",
+            "ancestry category",
+            "disease",
+            "cell type",
+            "synonyms",
+        ]
+        # Write the header row
+        file.write("\t".join(headers) + "\n")
+
+        for entry in current_cl_database:
+            row = [
+                entry.get("cellosaurus name", "no available"),
+                entry.get("bto cell line", "no available"),
+                entry.get("organism", "no available"),
+                entry.get("age", "no available"),
+                entry.get("developmental stage", "no available"),
+                entry.get("sex", "no available"),
+                entry.get("ancestry category", "no available"),
+                entry.get("disease", "no available"),
+                entry.get("cell type", "no available"),
+                string_if_not_empty(entry.get("synonyms", [])),
+            ]
+            row = ["not available" if item is None else str(item) for item in row]
+            file.write("\t".join(row) + "\n")
+
+
+
 
 def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
     context = []
@@ -419,8 +481,17 @@ def preprocess_text(text):
 @click.option(
     "--unknown", help="Output for unknown cell lines in cellosaurus", required=True
 )
+@click.option(
+    "--include-all-cellosaurus", help="Include all cellosaurus entries", is_flag=True
+)
 def cl_database(
-    cellosaurus: str, bto: str, mondo: str, sdrf_path: str, database: str, unknown: str
+    cellosaurus: str,
+    bto: str,
+    mondo: str,
+    sdrf_path: str,
+    database: str,
+    unknown: str,
+    include_all_cellosaurus: bool = False,
 ) -> None:
     """
     The following function creates a vector database using LLMs using the CelloSaurus database, BTO and EFO ontologies
@@ -449,6 +520,11 @@ def cl_database(
     cl_list = list(set(cl_list))
     print("Number of cell lines in the SDRF files: ", len(cl_list))
 
+    if include_all_cellosaurus:
+        all_cellosaurus_ids = [entry["cellosaurus name"] for entry in cellosaurus_list]
+        cl_list += all_cellosaurus_ids
+        cl_list = list(set(cl_list))
+
     # Check the database if the cell line is not already, create a new entry
     # If the cell is ready to get the information from the database.
 
@@ -457,7 +533,9 @@ def cl_database(
         cl_db = find_cell_line(old_cl, current_cl_database)
         if not cl_db:
             # print(f"Cell line {old_cl} not found in the database - attend to create one programmatically")
-            cl_new_entry = create_new_entry(old_cl, cellosaurus_list)  # Create a new entry
+            cl_new_entry = create_new_entry(
+                old_cl, cellosaurus_list
+            )  # Create a new entry
             if cl_new_entry is not None:
                 if current_cl_database is None:
                     current_cl_database = []
@@ -474,6 +552,52 @@ def cl_database(
     with open(unknown, "w") as file:
         for cl in non_found_cl:
             file.write(cl + "\n")
+
+
+@click.command(
+    "cellosaurus-database",
+    short_help="Create the cellosaurus database from the cellosaurus file",
+)
+@click.option(
+    "--cellosaurus",
+    help="CelloSaurus database file, the file is gzipped",
+    required=True,
+    type=click.Path(exists=True),
+)
+@click.option(
+    "--output", help="Output file with the cellosaurus database", required=True
+)
+@click.option(
+    "--bto", help="BTO ontology file", required=True, type=click.Path(exists=True)
+)
+def cl_database(cellosaurus: str, output: str, bto: str) -> None:
+    """
+    The following function creates a celloSaurus database from the cellosaurus file, it does some mapping to bto
+    also parse organisms, diseases, etc.
+    :param cellosaurus: CelloSaurus database file
+    :param output: Output file with the cellosaurus database
+    :param bto: BTO ontology file
+    :return:
+    """
+
+    bto = read_obo_file(bto)
+
+    # Parse the CelloSaurus file
+    cellosaurus_list = parse_cellosaurus_file(cellosaurus, bto)
+
+    all_cellosaurus_ids = [entry["cellosaurus name"] for entry in cellosaurus_list]
+
+    current_cl_database = []
+    for old_cl in all_cellosaurus_ids:
+        cl_new_entry = create_new_entry(
+            old_cl, cellosaurus_list
+        )
+        if cl_new_entry is not None:
+            current_cl_database.append(cl_new_entry)
+        else:
+            print(f"{old_cl}")
+
+    write_database_cellosaurus(current_cl_database, output)
 
 
 @click.command(
@@ -524,7 +648,14 @@ def string_if_not_empty(param: list) -> Union[None, str]:
     if param == "None":
         param = []
     if param and len(param) > 0:
-        l = [x for x in param if isinstance(x, float) and ~np.isnan(x) or not isinstance(x, float) and x != None]
+        l = [
+            x
+            for x in param
+            if isinstance(x, float)
+            and ~np.isnan(x)
+            or not isinstance(x, float)
+            and x != None
+        ]
         return "; ".join(l)
     return "no available"
 
@@ -533,7 +664,9 @@ def string_if_not_empty(param: list) -> Union[None, str]:
     "ea-database", short_help="Create a database from big expression atlas files"
 )
 @click.option("--ea-folder", help="Expression Atlas folder", required=True)
-@click.option("--ea-cl-catalog", help="Expression Atlas cell line catalog", required=True)
+@click.option(
+    "--ea-cl-catalog", help="Expression Atlas cell line catalog", required=True
+)
 @click.option(
     "--output",
     help="Output file with the database",
@@ -693,14 +826,24 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             print(f"Cell line {row['cell line']} found in the database")
             if row["organism"] not in cell_lines_dict[row["cell line"]]["organism"]:
                 cell_lines_dict[row["cell line"]]["organism"].append(row["organism"])
-            if row["organism part"] not in cell_lines_dict[row["cell line"]]["organism part"]:
-                cell_lines_dict[row["cell line"]]["organism part"].append(row["organism part"])
+            if (
+                row["organism part"]
+                not in cell_lines_dict[row["cell line"]]["organism part"]
+            ):
+                cell_lines_dict[row["cell line"]]["organism part"].append(
+                    row["organism part"]
+                )
             if row["disease"] not in cell_lines_dict[row["cell line"]]["disease"]:
                 cell_lines_dict[row["cell line"]]["disease"].append(row["disease"])
             if row["age"] not in cell_lines_dict[row["cell line"]]["age"]:
                 cell_lines_dict[row["cell line"]]["age"].append(row["age"])
-            if row["developmental stage"] not in cell_lines_dict[row["cell line"]]["developmental stage"]:
-                cell_lines_dict[row["cell line"]]["developmental stage"].append(row["developmental stage"])
+            if (
+                row["developmental stage"]
+                not in cell_lines_dict[row["cell line"]]["developmental stage"]
+            ):
+                cell_lines_dict[row["cell line"]]["developmental stage"].append(
+                    row["developmental stage"]
+                )
             if row["sex"] not in cell_lines_dict[row["cell line"]]["sex"]:
                 cell_lines_dict[row["cell line"]]["sex"].append(row["sex"])
             cell_lines_dict[row["cell line"]]["synonyms"] = [row["synonyms"]]
@@ -711,40 +854,45 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             cell_lines_dict[row["cell line"]]["organism part"] = [row["organism part"]]
             cell_lines_dict[row["cell line"]]["disease"] = [row["disease"]]
             cell_lines_dict[row["cell line"]]["age"] = [row["age"]]
-            cell_lines_dict[row["cell line"]]["developmental stage"] = [row["developmental stage"]]
+            cell_lines_dict[row["cell line"]]["developmental stage"] = [
+                row["developmental stage"]
+            ]
             cell_lines_dict[row["cell line"]]["sex"] = [row["sex"]]
             cell_lines_dict[row["cell line"]]["synonyms"] = [row["synonyms"]]
 
-
     # write the ea atlas database to file as a comma separated file.
-    with open(output, "w", newline='') as file:
+    with open(output, "w", newline="") as file:
         # Define the CSV headers
         headers = [
-            'cell line', 'organism', 'organism part',
-            'disease', 'age', 'developmental stage',
-            'sex', 'ancestry category', 'synonyms'
+            "cell line",
+            "organism",
+            "organism part",
+            "disease",
+            "age",
+            "developmental stage",
+            "sex",
+            "ancestry category",
+            "synonyms",
         ]
 
         # Write the header row
-        file.write('\t'.join(headers) + '\n')
+        file.write("\t".join(headers) + "\n")
 
         for cell_line, data in cell_lines_dict.items():
             # Construct the row
             row = [
                 cell_line,
-                string_if_not_empty(data.get('organism')),
-                string_if_not_empty(data.get('organism part')),
-                string_if_not_empty(data.get('disease')),
-                string_if_not_empty(data.get('age')),
-                string_if_not_empty(data.get('developmental stage')),
-                string_if_not_empty(data.get('sex')),
-                string_if_not_empty(data.get('ancestry category', [])),
-                string_if_not_empty(data.get('synonyms', []))
+                string_if_not_empty(data.get("organism")),
+                string_if_not_empty(data.get("organism part")),
+                string_if_not_empty(data.get("disease")),
+                string_if_not_empty(data.get("age")),
+                string_if_not_empty(data.get("developmental stage")),
+                string_if_not_empty(data.get("sex")),
+                string_if_not_empty(data.get("ancestry category", [])),
+                string_if_not_empty(data.get("synonyms", [])),
             ]
             # Write the row
-            file.write('\t'.join(row) + '\n')
-
-
+            file.write("\t".join(row) + "\n")
 
 
 @click.group(context_settings=CONTEXT_SETTINGS)
