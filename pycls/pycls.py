@@ -51,7 +51,7 @@ def parse_cellosaurus_file(file_path):
             elif line.startswith("AG"):
                 data["age"] = line.split("AG ")[1].strip()
             elif line.startswith("CA"):
-                data["cell type"] = line.split("CA ")[1]
+                data["cell type"] = line.split("CA ")[1].strip()
             elif line.startswith("CC") and "Population" in line:
                 data["ancestry category"] = line.split(": ")[1].strip().replace(".", "")
             elif line.startswith("DI"):
