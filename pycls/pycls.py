@@ -968,8 +968,15 @@ def cell_passports_to_database(cell_passports: str, output: str) -> None:
     # sublect columns
     cell_passports = cell_passports[columns]
     cell_passports = cell_passports.fillna("no available")
-
+    # convert age_at_sampling to no decimal places
+    cell_passports["age_at_sampling"] = cell_passports["age_at_sampling"].apply(lambda x: int(x) if x != "no available" else x)
     # write pandas dataframe to file
+
+    # rename some columns to match the database
+    cell_passports = cell_passports.rename(columns={"model_name": "cell line", "tissue": "organism part",
+                                                    "cancer_type": "disease", "sample_site": "second organism part",
+                                                    "gender": "sex", "cancer_type_detail": "cancer type detail",
+                                                    "species": "organism", "age_at_sampling": "age"})
     cell_passports.to_csv(output, sep="\t", index=False)
 
 
