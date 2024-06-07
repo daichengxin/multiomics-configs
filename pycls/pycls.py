@@ -727,7 +727,7 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
         ]
 
         # Write the header row
-        file.write(','.join(headers) + '\n')
+        file.write('\t'.join(headers) + '\n')
 
         for cell_line, data in cell_lines_dict.items():
             # Construct the row
@@ -743,7 +743,7 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
                 string_if_not_empty(data.get('synonyms', []))
             ]
             # Write the row
-            file.write(','.join(row) + '\n')
+            file.write('\t'.join(row) + '\n')
 
 
 
