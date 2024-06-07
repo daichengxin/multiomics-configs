@@ -7,8 +7,10 @@ This repository contains scripts for creating and managing cell line metadata fo
 Cell lines are a fundamental part of biological research, and they are used in a wide range of experiments. However, cell line metadata can be inconsistent and difficult to manage. Here we are creating a [DB](cl-annotations-db.tsv) that can be used to annotate/validate proteomics SDRF for cell lines studies. These are the major sources of cell line metadata:
 
 - [CelloSaurus](https://web.expasy.org/cellosaurus/): CelloSaurus is the main source used in our database. The source of the metadata is the following file [cellosaurus.txt](https://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt)
+- [Cell model passports](https://cog.sanger.ac.uk/cmp/download/model_list_20240110.csv): The cell model passports are a collection of cell lines from multiple sources. We use the cell model passports to annotate cell lines that are not available in CelloSaurus.
 - [BTO](https://bioportal.bioontology.org/ontologies/BTO): The BRENDA Tissue Ontology (BTO) is used to annotate an extra reference for the cell line ID. 
 - [EA](https://https://www.ebi.ac.uk/gxa): Expression Atlas has been curating for more than 10 years the metadata of multiple RNA experiments. We collect multiple cell lines experiments from EA in folder [ea](ea); and try to create a catalog of cell lines metadata as an extra source.
+- [MONDO](https://bioportal.bioontology.org/ontologies/MONDO): The Monarch Disease Ontology (MONDO) is used to annotate the disease of the cell line.
 
 > **Note**: Additionaly we use other resources such as [Coriell cell line Catalog](https://www.coriell.org/) and [atcc](https://www.atcc.org/) for manual annotation of cell lines in the database. 
 
@@ -19,8 +21,8 @@ The database is created in the following path [cl-annotations-db.tsv](cl-annotat
 - **cellosaurus name**: The cell line name as annotated in Cellsaurus `ID` 
 - **bto cell line**: The cell line name as annotated in BTO
 - **organism**: The organism of the cell line as annotated in Cellsaurus
-- **age**: The age of the cell line as annotated in Cellsaurus. If the age is not available (empty), we annotated the age from other sources such as [atcc](https://www.atcc.org/) or [Coriell cell line Catalog](https://www.coriell.org/)
-- **organism part**: This information is not available in Cellosaurus, we use other sources to _annotate_ this field. 
+- **organism part**: This information is not available in Cellosaurus, we use other sources to _annotate_ this field.
+- **age**: The age of the cell line as annotated in Cellosaurus. If the age is not available (empty), we annotated the age from other sources such as [atcc](https://www.atcc.org/) or [Coriell cell line Catalog](https://www.coriell.org/)
 - **developmental stage**: The developmental stage of the cell line as annotated in Cellosaurus; if the information is not available is inferred from the age of the cell line. 
 - **sex**: Sex as provided by Cellosaurus
 - **ancestry category**: The ancestry category of the cell line as annotated in Cellosaurus. If not available we use other sources. 
