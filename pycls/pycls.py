@@ -31,8 +31,6 @@ def parse_cellosaurus_file(file_path, bto: dict):
 
     def parse_entry(entry, bto: dict):
         data = {}
-        if "ID   FU-OV-1" in entry:
-            print(entry)
         lines = entry.strip().split("\n")
         for line in lines:
             if line.startswith("ID"):
@@ -347,6 +345,54 @@ def create_new_entry(old_cl, cellosaurus_list):
             return entry
     return None
 
+def create_new_entry_from_cellosaurus(cellosaurus):
+    """
+    Create a new entry for a cell line not found in the database
+    :param old_cl:
+    :param bto:
+    :param cellosaurus_list:
+    :param modo_context:
+    :return:
+    """
+    entry = {}
+    entry["cellosaurus name"] = cellosaurus["cellosaurus name"]
+    if "bto cell line" in cellosaurus:
+        entry["bto cell line"] = cellosaurus["bto cell line"]
+    else:
+        entry["bto cell line"] = None
+    if "cellosaurus accession" in cellosaurus:
+        entry["cellosaurus accession"] = cellosaurus["cellosaurus accession"]
+    if "organism" in cellosaurus:
+        entry["organism"] = cellosaurus["organism"]
+    entry["organism part"] = None
+    if "age" in cellosaurus:
+        if is_age_in_text(cellosaurus["age"]):
+            entry["age"] = cellosaurus["age"]
+            entry["developmental stage"] = None
+        else:
+            entry["developmental stage"] = cellosaurus["age"]
+            entry["age"] = None
+    if "sex" in cellosaurus:
+        entry["sex"] = cellosaurus["sex"]
+    else:
+        entry["sex"] = None
+    if "ancestry category" in cellosaurus:
+        entry["ancestry category"] = cellosaurus["ancestry category"]
+    else:
+        entry["ancestry category"] = None
+    if "disease" in cellosaurus:
+        entry["disease"] = cellosaurus["disease"]
+    else:
+        entry["disease"] = None
+    if "synonyms" in cellosaurus:
+        entry["synonyms"] = cellosaurus["synonyms"]
+    else:
+        entry["synonyms"] = []
+    if "cell type" in cellosaurus:
+        entry["cell type"] = cellosaurus["cell type"]
+    return entry
+
+
 
 def write_database(current_cl_database: list, database: str) -> None:
     """
@@ -582,7 +628,7 @@ def cellosaurus_db(cellosaurus: str, output: str, bto: str, filter_species) -> N
     :param bto: BTO ontology file
     :return:
     """
-
+    # Read the BTO files
     bto = read_obo_file(bto)
 
     # Parse the CelloSaurus file
@@ -591,17 +637,10 @@ def cellosaurus_db(cellosaurus: str, output: str, bto: str, filter_species) -> N
         filter_species = filter_species.split(",")
         cellosaurus_list = [entry for entry in cellosaurus_list if entry["organism"] in filter_species]
 
-    all_cellosaurus_ids = [entry["cellosaurus name"] for entry in cellosaurus_list]
-
     current_cl_database = []
-    for old_cl in all_cellosaurus_ids:
-        cl_new_entry = create_new_entry(
-            old_cl, cellosaurus_list
-        )
-        if cl_new_entry is not None:
-            current_cl_database.append(cl_new_entry)
-        else:
-            print(f"{old_cl}")
+    for cellosaurus_cl in cellosaurus_list:
+        cl_new_entry = create_new_entry_from_cellosaurus(cellosaurus_cl)
+        current_cl_database.append(cl_new_entry)
 
     write_database_cellosaurus(current_cl_database, output)
 
