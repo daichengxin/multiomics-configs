@@ -6,11 +6,11 @@ This repository contains scripts for creating and managing cell line metadata fo
 
 Cell lines are a fundamental part of biological research, and they are used in a wide range of experiments. However, cell line metadata can be inconsistent and difficult to manage. Here we are creating a [DB](cl-annotations-db.tsv) that can be used to annotate/validate proteomics SDRF for cell lines studies. These are the major sources of cell line metadata:
 
-- [CelloSaurus](https://web.expasy.org/cellosaurus/): CelloSaurus is the main source used in our database. The source of the metadata is the following file [cellosaurus.txt](https://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt)
-- [Cell model passports](https://cog.sanger.ac.uk/cmp/download/model_list_20240110.csv): The cell model passports are a collection of cell lines from multiple sources. We use the cell model passports to annotate cell lines that are not available in CelloSaurus.
-- [BTO](https://bioportal.bioontology.org/ontologies/BTO): The BRENDA Tissue Ontology (BTO) is used to annotate an extra reference for the cell line ID. 
+- [CelloSaurus](https://web.expasy.org/cellosaurus/): CelloSaurus is the main source [used in our database](cellosaurus.txt.gz). The source of the metadata can be downloaded from [cellosaurus.txt](https://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt). We converted the file to a shorter version with only the fields that we are interested and the taxonomy. We use the script `pycls cellosaurus-database` to create the database.
+- [Cell model passports](https://cog.sanger.ac.uk/cmp/download/model_list_20240110.csv): The cell model passports are a collection of cell lines from multiple sources. We use the file [model_list_20240110.csv](model_list_20240110.csv) to create a database extracting only the cell lines information `pycls cell-passports-to-database`.
 - [EA](https://https://www.ebi.ac.uk/gxa): Expression Atlas has been curating for more than 10 years the metadata of multiple RNA experiments. We collect multiple cell lines experiments from EA in folder [ea](ea); and try to create a catalog of cell lines metadata as an extra source.
 - [MONDO](https://bioportal.bioontology.org/ontologies/MONDO): The Monarch Disease Ontology (MONDO) is used to annotate the disease of the cell line.
+- [BTO](https://bioportal.bioontology.org/ontologies/BTO): The BRENDA Tissue Ontology (BTO) is used to annotate an extra reference for the cell line ID. 
 
 > **Note**: Additionally, we use other resources such as [Coriell cell line Catalog](https://www.coriell.org/), [cell bank riken](https://cell.brc.riken.jp/en/) and [atcc](https://www.atcc.org/) for manual annotation of cell lines in the database. 
 
