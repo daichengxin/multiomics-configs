@@ -366,7 +366,7 @@ def write_database(current_cl_database: list, database: str) -> None:
                 entry.get("disease", "no available"),
                 entry.get("cell type", "no available"),
                 entry.get("Material", "no available"),
-                entry.get("synonyms", "no available"),
+                string_if_not_empty(entry.get("synonyms", [])),
                 entry.get("curated", "no available")]
             row = ["not available" if item is None else str(item) for item in row]
             file.write("\t".join(row) + "\n")
