@@ -939,6 +939,39 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             # Write the row
             file.write("\t".join(row) + "\n")
 
+@click.command("cell-passports-to-database", short_help="Create a database from cell passports files")
+@click.option("--cell-passports", help="Cell passports file", required=True)
+@click.option("--output", help="Output file with the database", required=True)
+def cell_passports_to_database(cell_passports: str, output: str) -> None:
+    """
+    The following function creates a database of celllines from cell passports files with the following information:
+    each cell line will contain the following information:
+    - cell line name
+    - organism
+    - organism part
+    - age
+    - developmental
+    - sex
+    - ancestry category
+    - disease
+    - synonyms
+    :param cell_passports: path to the folder containing the cell passport files
+    :param output: path to the output file
+    :return:
+    """
+    cell_passports = pd.read_csv(cell_passports, sep=",", header=0)
+
+    # Filter by model_type = Cell Line
+    cell_passports = cell_passports[cell_passports["model_type"] == "Cell Line"]
+    print("The number of cell lines in the cell passports file is: ", len(cell_passports))
+    columns = ["model_name", "synonyms", "tissue", "cancer_type", "sample_site", "cancer_type_detail", "RRID", "species", "gender", "ethnicity", "age_at_sampling", "model_id", "sample_id", "patient_id"]
+    # sublect columns
+    cell_passports = cell_passports[columns]
+    cell_passports = cell_passports.fillna("no available")
+
+    # write pandas dataframe to file
+    cell_passports.to_csv(output, sep="\t", index=False)
+
 
 @click.group(context_settings=CONTEXT_SETTINGS)
 def cli():
@@ -952,6 +985,8 @@ cli.add_command(cl_database)
 cli.add_command(nlp_recommendation)
 cli.add_command(ea_create_database)
 cli.add_command(cellosaurus_db)
+cli.add_command(cell_passports_to_database)
+
 
 if __name__ == "__main__":
     cli()
