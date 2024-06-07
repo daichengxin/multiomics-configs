@@ -181,8 +181,8 @@ def read_cell_line_database(database):
 
 def find_cell_line(old_cl: str, current_cl_database: list) -> Union[dict, None]:
     """
-    Find a given cell line annotated in an SDRF in an standarized cell line database
-    :param old_cl: Code (e.g. HELA, A549, etc.)
+    Find a given cell line annotated in an SDRF in a standarized cell line database
+    :param old_cl: Code (e.g., HELA, A549, etc.)
     :param current_cl_database: Database of all cell lines for the multiomics configuration
     :return:
     """
@@ -247,9 +247,27 @@ def is_age_in_text(age_text: str) -> bool:
     :param age_text: String text
     :return: True if the age is a number, False otherwise
     """
-
     return any(char.isdigit() for char in age_text)
 
+def validate_ages_as_sdrf(age_string: str) -> bool:
+    """
+    Validate the age string from the SDRF. The age should be in multiple format:
+     - Year format: 1Y, 10Y, 100Y, etc.
+     - Year and Month: 40Y5M, 10Y10M, etc.
+     - Year, Month, Day: 10Y10M10D, 100Y1M3D, etc.
+     - Weeks: 8W, etc
+    All the ages could also include intervals like 10Y-20Y, 10Y-20Y5M, etc.
+    @param age_string: Age string
+    @return: True if the age is valid, False otherwise
+    """
+    # Regular expression to match the age format
+    pattern = r"(\d+Y)?(\d+M)?(\d+D)?(\d+W)?(-(\d+Y)?(\d+M)?(\d+D)?(\d+W)?)?"
+    match = re.match(pattern, age_string)
+    if match:
+        return True
+    print(f"Age {age_string} is not valid")
+
+    return False
 
 def create_new_entry(old_cl, bto, cellosaurus_list, modo_context):
     """

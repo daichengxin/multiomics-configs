@@ -4,7 +4,7 @@ This repository contains scripts for creating and managing cell line metadata fo
 
 ## Motivation
 
-Cell lines are a fundamental part of biological research, and they are used in a wide range of experiments. However, cell line metadata can be inconsistent and difficult to manage. Here we are creating a [DB](cl-annotations.db) that can be used to annotate/validate proteomics SDRF for cell lines studies. These are the major sources of cell line metadata:
+Cell lines are a fundamental part of biological research, and they are used in a wide range of experiments. However, cell line metadata can be inconsistent and difficult to manage. Here we are creating a [DB](cl-annotations-db.tsv) that can be used to annotate/validate proteomics SDRF for cell lines studies. These are the major sources of cell line metadata:
 
 - [CelloSaurus](https://web.expasy.org/cellosaurus/): CelloSaurus is the main source used in our database. The source of the metadata is the following file [cellosaurus.txt](https://ftp.expasy.org/databases/cellosaurus/cellosaurus.txt)
 - [BTO](https://bioportal.bioontology.org/ontologies/BTO): The BRENDA Tissue Ontology (BTO) is used to annotate an extra reference for the cell line ID. 
@@ -14,13 +14,12 @@ Cell lines are a fundamental part of biological research, and they are used in a
 
 ## Features for every cell line
 
-The database is created in the following path [cl-annotations.db](cl-annotations.db) and contains the following fields:
+The database is created in the following path [cl-annotations-db.tsv](cl-annotations-db.tsv) and contains the following fields:
 
 - **cellosaurus name**: The cell line name as annotated in Cellsaurus `ID` 
 - **bto cell line**: The cell line name as annotated in BTO
 - **organism**: The organism of the cell line as annotated in Cellsaurus
 - **age**: The age of the cell line as annotated in Cellsaurus. If the age is not available (empty), we annotated the age from other sources such as [atcc](https://www.atcc.org/) or [Coriell cell line Catalog](https://www.coriell.org/)
-- **organism**: The organism of the cell line as annotated in Cellsaurus
 - **organism part**: This information is not available in Cellosaurus, we use other sources to _annotate_ this field. 
 - **developmental stage**: The developmental stage of the cell line as annotated in Cellosaurus; if the information is not available is inferred from the age of the cell line. 
 - **sex**: Sex as provided by Cellosaurus
