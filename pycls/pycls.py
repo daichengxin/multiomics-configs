@@ -407,6 +407,7 @@ def write_database_cellosaurus(current_cl_database: list, database: str) -> None
     with open(database, "w") as file:
         headers = [
             "cellosaurus name",
+            "cellosaurus accession",
             "bto cell line",
             "organism",
             "age",
@@ -423,6 +424,7 @@ def write_database_cellosaurus(current_cl_database: list, database: str) -> None
         for entry in current_cl_database:
             row = [
                 entry.get("cellosaurus name", "no available"),
+                entry.get("cellosaurus accession", "no available"),
                 entry.get("bto cell line", "no available"),
                 entry.get("organism", "no available"),
                 entry.get("age", "no available"),
