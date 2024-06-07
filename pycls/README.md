@@ -12,7 +12,7 @@ Cell lines are a fundamental part of biological research, and they are used in a
 - [EA](https://https://www.ebi.ac.uk/gxa): Expression Atlas has been curating for more than 10 years the metadata of multiple RNA experiments. We collect multiple cell lines experiments from EA in folder [ea](ea); and try to create a catalog of cell lines metadata as an extra source.
 - [MONDO](https://bioportal.bioontology.org/ontologies/MONDO): The Monarch Disease Ontology (MONDO) is used to annotate the disease of the cell line.
 
-> **Note**: Additionaly we use other resources such as [Coriell cell line Catalog](https://www.coriell.org/) and [atcc](https://www.atcc.org/) for manual annotation of cell lines in the database. 
+> **Note**: Additionally, we use other resources such as [Coriell cell line Catalog](https://www.coriell.org/), [cell bank riken](https://cell.brc.riken.jp/en/) and [atcc](https://www.atcc.org/) for manual annotation of cell lines in the database. 
 
 ## Features for every cell line
 
