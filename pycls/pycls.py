@@ -149,70 +149,34 @@ def map_celllines(cellosaurus_text: str, context: list):
 
 def read_cell_line_database(database):
     """
-    The database is a dictionary with the following structure. First comments are ignored.
-    Each block of information is devided by //. The information for each cell lines is:
+    The database is a tab-delimited with the following structure. The information for each cell lines is:
 
-    cellosaurus name
-    bto cell line
-    organism
-    organism part
-    age
-    developmental stage
-    sex
-    ancestry category
-    disease
-    cell type
-    Material
-    synonyms
+    cellosaurus name: The name of the cell line in the cellosaurus database
+    bto cell line: The BTO cell line name
+    organism: The organism name
+    organism part: The organism part
+    age: Age of the individual that the cell line was derived
+    developmental stage: The developmental stage of the individual that the cell line was derived
+    sex: Sex of the individual that the cell line was derived
+    ancestry category: The ancestry category of the individual that the cell line was derived
+    disease: The disease of the individual that the cell line was derived
+    cell type: The cell type
+    Material: The material used to derive the cell line
+    synonyms: The synonyms of the cell line
+    curated: If the cell line was curated by the user: the values could be not curated, ai curated, manual curated.
 
-    The cell line is a BTO name. and the synonyms are separated by ; and the disease is a MONDO disease term.
-    :param database:
-    :return:
+    If multiple values are present for a give field; they are separated by ;
+
+    :param database: Database file path
+    :return: List of dictionaries with the database content
     """
 
-    with open(database, "r") as file:
-        content = file.read()
+    database_df = pd.read_csv(database, sep="\t", comment="#", header=0)
 
-    # get comments and ignore them
-    comments = [line for line in content.split("\n") if line.startswith("#")]
+    # Convert the dataframe to a list of dictionaries
+    database_list = database_df.to_dict(orient="records")
 
-    # Split the content by entries
-    entries = content.split("//")
-
-    def parse_database_entry(entry: str) -> dict:
-        data = {}
-        lines = entry.strip().split("\n")
-        for line in lines:
-            if line.startswith("cellosaurus name"):
-                data["cellosaurus name"] = line.split(": ")[1].strip()
-            elif line.startswith("bto cell line"):
-                data["cell line"] = line.split(": ")[1].strip()
-            elif line.startswith("organism"):
-                data["organism"] = line.split(": ")[1].strip()
-            elif line.startswith("organism part"):
-                data["organism part"] = line.split(": ")[1].strip()
-            elif line.startswith("age"):
-                data["age"] = line.split(": ")[1].strip()
-            elif line.startswith("developmental stage"):
-                data["developmental stage"] = line.split(": ")[1].strip()
-            elif line.startswith("sex"):
-                data["sex"] = line.split(": ")[1].strip()
-            elif line.startswith("ancestry category"):
-                data["ancestry category"] = line.split(": ")[1].strip()
-            elif line.startswith("disease"):
-                data["disease"] = line.split(": ")[1].strip()
-            elif line.startswith("cell type"):
-                data["cell type"] = line.split(": ")[1].strip()
-            elif line.startswith("Material"):
-                data["Material"] = line.split(": ")[1].strip()
-            elif line.startswith("synonyms"):
-                data["synonyms"] = line.split("synonyms: ")[1].strip().split("; ")
-        return data
-
-    database_list = [parse_database_entry(entry) for entry in entries if entry.strip()]
-    # remove empty entries
-    database_list = [entry for entry in database_list if entry]
-    return database_list, comments
+    return database_list
 
 
 def find_cell_line(old_cl: str, current_cl_database: list) -> Union[dict, None]:

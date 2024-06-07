@@ -28,7 +28,10 @@ The database is created in the following path [cl-annotations.db](cl-annotations
 - **disease**: The disease is _"agreed"_ between sources CelloSaurus, EA, and ATCC.  
 - **cell type**: The cell type is _"agreed"_ between sources CelloSaurus, EA, and ATCC.
 - **Material**: The material is _"agreed"_ between sources CelloSaurus, EA, and ATCC.
-- **synonyms**: This field is constructucted using the CelloSaurus synonyms and annotation pipelines in the library. if we find that a new synonym is available we add it to the database.
+- **synonyms**: This field is constructucted using the CelloSaurus synonyms and annotation pipelines in the library. if we find that a new synonym is available, we add it to the database.
+- **curated**: This field is used to annotate if the cell line has been curated by the team, the classes are _not curated_, _ai curated_, _manual curated_.
+
+> **Note**: The database is a tab-delimited file that can be easily read and search using pandas or GitHub table rendering. 
 
 ## Requirements
 
