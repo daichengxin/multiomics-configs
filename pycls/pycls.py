@@ -522,10 +522,12 @@ def string_if_not_empty(param: list) -> Union[None, str]:
     :param param: List
     :return: None if the list is empty, the string otherwise
     """
+    if param == "None":
+        param = []
     if param and len(param) > 0:
         l = [x for x in param if isinstance(x, float) and ~np.isnan(x) or not isinstance(x, float) and x != None]
-        return ", ".join(l)
-    return None
+        return "; ".join(l)
+    return "no available"
 
 
 @click.command(
@@ -715,25 +717,33 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             cell_lines_dict[row["cell line"]]["synonyms"] = [row["synonyms"]]
 
 
-    # write the ea atlas database to file, separate by //
-    with open(output, "w") as file:
+    # write the ea atlas database to file as a comma separated file.
+    with open(output, "w", newline='') as file:
+        # Define the CSV headers
+        headers = [
+            'cell line', 'organism', 'organism part',
+            'disease', 'age', 'developmental stage',
+            'sex', 'ancestry category', 'synonyms'
+        ]
+
+        # Write the header row
+        file.write(','.join(headers) + '\n')
+
         for cell_line, data in cell_lines_dict.items():
-            file.write("//\n")
-            file.write(f"cell line: {cell_line}\n")
-            file.write(f"organism: {string_if_not_empty(data['organism'])}\n")
-            file.write(f"organism part: {string_if_not_empty(data['organism part'])}\n")
-            file.write(f"disease: {string_if_not_empty(data['disease'])}\n")
-            file.write(f"age: {string_if_not_empty(data['age'])}\n")
-            file.write(f"developmental stage: {string_if_not_empty(data['developmental stage'])}\n")
-            file.write(f"sex: {string_if_not_empty(data['sex'])}\n")
-            if "ancestry category" in data:
-                file.write(f"ancestry category: {string_if_not_empty(data['ancestry category'])}\n")
-            else:
-                file.write(f"ancestry category: None\n")
-            if "synonyms" in data:
-                file.write(f"synonyms: {string_if_not_empty(data['synonyms'])}\n")
-            else:
-                file.write(f"synonyms: None\n")
+            # Construct the row
+            row = [
+                cell_line,
+                string_if_not_empty(data.get('organism')),
+                string_if_not_empty(data.get('organism part')),
+                string_if_not_empty(data.get('disease')),
+                string_if_not_empty(data.get('age')),
+                string_if_not_empty(data.get('developmental stage')),
+                string_if_not_empty(data.get('sex')),
+                string_if_not_empty(data.get('ancestry category', [])),
+                string_if_not_empty(data.get('synonyms', []))
+            ]
+            # Write the row
+            file.write(','.join(row) + '\n')
 
 
 
