@@ -121,7 +121,9 @@ def read_obo_file(file_path) -> dict:
                 if "synonyms" not in obo_dict:
                     obo_dict["synonyms"] = []
                 obo_dict["synonyms"].append(line.split("synonym: ")[1].strip())
-                obo_dict["synonyms"] = [synonym.replace("RELATED []", "").strip().strip('"') for synonym in obo_dict["synonyms"]]
+                obo_dict["synonyms"] = [synonym.replace("RELATED []","")
+                                        .replace("RELATED MS []","")
+                                        .strip().strip('"') for synonym in obo_dict["synonyms"]]
         if "synonyms" not in obo_dict:
             obo_dict["synonyms"] = []
         return obo_dict
