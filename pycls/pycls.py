@@ -946,15 +946,21 @@ def cell_passports_to_database(cell_passports: str, output: str) -> None:
     """
     The following function creates a database of celllines from cell passports files with the following information:
     each cell line will contain the following information:
-    - cell line name
-    - organism
-    - organism part
-    - age
-    - developmental
-    - sex
-    - ancestry category
-    - disease
-    - synonyms
+    model name -> cell line
+    synonyms
+    tissue -> organism part
+    cancer_type_detail -> disease second
+    sample_site -> second organism part
+    RRID -> cellosaurus accession
+    species -> organism
+    cancer_type -> disease
+    gender -> sex
+    ethnicity -> ancestry category
+    age
+    model_id
+    sample_id
+    patient_id
+
     :param cell_passports: path to the folder containing the cell passport files
     :param output: path to the output file
     :return:
@@ -976,7 +982,7 @@ def cell_passports_to_database(cell_passports: str, output: str) -> None:
     cell_passports = cell_passports.rename(columns={"model_name": "cell line", "tissue": "organism part",
                                                     "cancer_type": "disease", "sample_site": "second organism part",
                                                     "gender": "sex", "cancer_type_detail": "cancer type detail",
-                                                    "species": "organism", "age_at_sampling": "age"})
+                                                    "species": "organism", "age_at_sampling": "age", "ethnicity": "ancestry category", "RRID": "cellosaurus accession"})
     cell_passports.to_csv(output, sep="\t", index=False)
 
 
