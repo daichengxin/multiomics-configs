@@ -21,7 +21,45 @@ def get_cell_line_code(sdrf_file):
     return cl_list
 
 
-def parse_cellosaurus_file(file_path, bto: dict):
+def get_sampling_site(cellosaurus_comment: str) -> Union[None, str]:
+    """
+    Extract the sampling site from the cellosaurus comment field
+    :param cellosaurus_comment: Cellosaurus comment field
+    :return: Sampling site
+    """
+    # The regular expression pattern to match "In situ", "Colon", and the UBERON accession
+    pattern = r"Derived from site:\s*(.+?);\s*(.+?);\s*UBERON=(UBERON_\d{7})"
+
+    # Search for the pattern in the text
+    match = re.search(pattern, cellosaurus_comment)
+
+    if match:
+        tissue = match.group(2)
+        return tissue
+    return None
+
+
+def get_cell_type(cellosaurus_comment: str) -> Union[None, str]:
+    """
+    Extract the cell type from the cellosaurus comment field
+    :param cellosaurus_comment: Cellosaurus comment field
+    :return: Cell type
+    """
+    # The regular expression pattern to match the cell type and the CL accession
+    pattern = r"Cell type:\s*(.+?);\s*CL=(CL_\d{7})"
+
+    # Search for the pattern in the text
+    match = re.search(pattern, cellosaurus_comment)
+
+    # Check if a match is found and print the results
+    if match:
+        cell_type = match.group(2)
+        cell_type = cell_type.replace("_", ":").strip()
+        return cell_type
+    return None
+
+
+def parse_cellosaurus_file(file_path, bto: dict, cl_type: dict):
     """
     Parse the CelloSaurus file and return a list of dictionaries with the parsed content
     :param file_path: CelloSaurus file path
@@ -29,8 +67,25 @@ def parse_cellosaurus_file(file_path, bto: dict):
     :return: List of CelloSaurus dictionaries
     """
 
-    def parse_entry(entry, bto: dict):
-        data = {}
+    def parse_entry(entry, bto: dict, cl_type: dict):
+        # init the data dictionary also add None to all the fields
+        data = {
+            "cellosaurus name": "no available",
+            "cellosaurus accession": "no available",
+            "bto cell line": "no available",
+            "efo": "no available",
+            "organism": "no available",
+            "age": "no available",
+            "developmental stage": "no available",
+            "sex": "no available",
+            "ancestry category": "no available",
+            "disease": "no available",
+            "cell type": "no available",
+            "sampling site": "no available",
+            "synonyms": [],
+        }
+
+
         lines = entry.strip().split("\n")
         for line in lines:
             if line.startswith("ID"):
@@ -58,8 +113,6 @@ def parse_cellosaurus_file(file_path, bto: dict):
                 data["sex"] = line.split()[1]
             elif line.startswith("AG"):
                 data["age"] = line.split("AG ")[1].strip()
-            elif line.startswith("CA"):
-                data["cell type"] = line.split("CA ")[1].strip()
             elif line.startswith("CC") and "Population" in line:
                 data["ancestry category"] = line.split(": ")[1].strip().replace(".", "")
             elif line.startswith("DI"):
@@ -69,6 +122,12 @@ def parse_cellosaurus_file(file_path, bto: dict):
                     match = re.search(pattern, line)
                     if match:
                         data["disease"] = match.group(1).strip()
+            elif line.startswith("CC") and "Derived from site" in line:
+                data["sampling site"] = get_sampling_site(line)
+            elif line.startswith("CC") and "Cell type" in line:
+                code_cl = get_cell_type(line)
+                if code_cl is not None and code_cl in cl_type:
+                    data["cell type"] = cl_type[code_cl]["name"]
 
         return data
 
@@ -80,7 +139,7 @@ def parse_cellosaurus_file(file_path, bto: dict):
     entries = content.split("//\n")
 
     # Parse each entry
-    parsed_data = [parse_entry(entry, bto) for entry in entries if entry.strip()]
+    parsed_data = [parse_entry(entry, bto, cl_type) for entry in entries if entry.strip()]
     # remove empty entries
     parsed_data = [entry for entry in parsed_data if entry]
     return parsed_data
@@ -345,6 +404,7 @@ def create_new_entry(old_cl, cellosaurus_list):
             return entry
     return None
 
+
 def create_new_entry_from_cellosaurus(cellosaurus):
     """
     Create a new entry for a cell line not found in the database
@@ -390,8 +450,9 @@ def create_new_entry_from_cellosaurus(cellosaurus):
         entry["synonyms"] = []
     if "cell type" in cellosaurus:
         entry["cell type"] = cellosaurus["cell type"]
+    if "sampling site" in cellosaurus:
+        entry["sampling site"] = cellosaurus["sampling site"]
     return entry
-
 
 
 def write_database(current_cl_database: list, database: str) -> None:
@@ -442,6 +503,7 @@ def write_database(current_cl_database: list, database: str) -> None:
             row = ["not available" if item is None else str(item) for item in row]
             file.write("\t".join(row) + "\n")
 
+
 def write_database_cellosaurus(current_cl_database: list, database: str) -> None:
     """
     Write the database objects to the database file
@@ -462,6 +524,7 @@ def write_database_cellosaurus(current_cl_database: list, database: str) -> None
             "ancestry category",
             "disease",
             "cell type",
+            "sampling site",
             "synonyms",
         ]
         # Write the header row
@@ -479,12 +542,11 @@ def write_database_cellosaurus(current_cl_database: list, database: str) -> None
                 entry.get("ancestry category", "no available"),
                 entry.get("disease", "no available"),
                 entry.get("cell type", "no available"),
+                entry.get("sampling site", "no available"),
                 string_if_not_empty(entry.get("synonyms", [])),
             ]
             row = ["not available" if item is None else str(item) for item in row]
             file.write("\t".join(row) + "\n")
-
-
 
 
 def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
@@ -618,24 +680,35 @@ def cl_database(
 @click.option(
     "--bto", help="BTO ontology file", required=True, type=click.Path(exists=True)
 )
-@click.option("--filter-species", help="Include only the following species", required=False)
-def cellosaurus_db(cellosaurus: str, output: str, bto: str, filter_species) -> None:
+@click.option(
+    "--cl", help="Cell type ontology file", required=True, type=click.Path(exists=True)
+)
+@click.option(
+    "--filter-species", help="Include only the following species", required=False
+)
+def cellosaurus_db(
+    cellosaurus: str, output: str, bto: str, cl: str, filter_species
+) -> None:
     """
     The following function creates a celloSaurus database from the cellosaurus file, it does some mapping to bto
     also parse organisms, diseases, etc.
     :param cellosaurus: CelloSaurus database file
     :param output: Output file with the cellosaurus database
     :param bto: BTO ontology file
+    :param cl: Cell type ontology file
     :return:
     """
     # Read the BTO files
     bto = read_obo_file(bto)
+    cl_type = read_obo_file(cl)
 
     # Parse the CelloSaurus file
-    cellosaurus_list = parse_cellosaurus_file(cellosaurus, bto)
+    cellosaurus_list = parse_cellosaurus_file(cellosaurus, bto, cl_type)
     if filter_species:
         filter_species = filter_species.split(",")
-        cellosaurus_list = [entry for entry in cellosaurus_list if entry["organism"] in filter_species]
+        cellosaurus_list = [
+            entry for entry in cellosaurus_list if entry["organism"] in filter_species
+        ]
 
     current_cl_database = []
     for cellosaurus_cl in cellosaurus_list:
@@ -939,7 +1012,11 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             # Write the row
             file.write("\t".join(row) + "\n")
 
-@click.command("cell-passports-to-database", short_help="Create a database from cell passports files")
+
+@click.command(
+    "cell-passports-to-database",
+    short_help="Create a database from cell passports files",
+)
 @click.option("--cell-passports", help="Cell passports file", required=True)
 @click.option("--output", help="Output file with the database", required=True)
 def cell_passports_to_database(cell_passports: str, output: str) -> None:
@@ -950,7 +1027,7 @@ def cell_passports_to_database(cell_passports: str, output: str) -> None:
     synonyms
     tissue -> organism part
     cancer_type_detail -> disease second
-    sample_site -> second organism part
+    sample_site -> sampling site
     RRID -> cellosaurus accession
     species -> organism
     cancer_type -> disease
@@ -969,20 +1046,49 @@ def cell_passports_to_database(cell_passports: str, output: str) -> None:
 
     # Filter by model_type = Cell Line
     cell_passports = cell_passports[cell_passports["model_type"] == "Cell Line"]
-    print("The number of cell lines in the cell passports file is: ", len(cell_passports))
-    columns = ["model_name", "synonyms", "tissue", "cancer_type", "sample_site", "cancer_type_detail", "RRID", "species", "gender", "ethnicity", "age_at_sampling", "model_id", "sample_id", "patient_id"]
+    print(
+        "The number of cell lines in the cell passports file is: ", len(cell_passports)
+    )
+    columns = [
+        "model_name",
+        "synonyms",
+        "tissue",
+        "cancer_type",
+        "sample_site",
+        "cancer_type_detail",
+        "RRID",
+        "species",
+        "gender",
+        "ethnicity",
+        "age_at_sampling",
+        "model_id",
+        "sample_id",
+        "patient_id",
+    ]
     # sublect columns
     cell_passports = cell_passports[columns]
     cell_passports = cell_passports.fillna("no available")
     # convert age_at_sampling to no decimal places
-    cell_passports["age_at_sampling"] = cell_passports["age_at_sampling"].apply(lambda x: int(x) if x != "no available" else x)
+    cell_passports["age_at_sampling"] = cell_passports["age_at_sampling"].apply(
+        lambda x: int(x) if x != "no available" else x
+    )
     # write pandas dataframe to file
 
     # rename some columns to match the database
-    cell_passports = cell_passports.rename(columns={"model_name": "cell line", "tissue": "organism part",
-                                                    "cancer_type": "disease", "sample_site": "second organism part",
-                                                    "gender": "sex", "cancer_type_detail": "cancer type detail",
-                                                    "species": "organism", "age_at_sampling": "age", "ethnicity": "ancestry category", "RRID": "cellosaurus accession"})
+    cell_passports = cell_passports.rename(
+        columns={
+            "model_name": "cell line",
+            "tissue": "organism part",
+            "cancer_type": "disease",
+            "sample_site": "sampling site",
+            "gender": "sex",
+            "cancer_type_detail": "cancer type detail",
+            "species": "organism",
+            "age_at_sampling": "age",
+            "ethnicity": "ancestry category",
+            "RRID": "cellosaurus accession",
+        }
+    )
     cell_passports.to_csv(output, sep="\t", index=False)
 
 
