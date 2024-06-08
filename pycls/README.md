@@ -54,10 +54,10 @@ python -m spacy download en_core_web_md
 
 ## Scripts
 
-### pycls cell-passports-to-database
+### pycls cell-passports-database
 
 #### Summary
-The `cell-passports-to-database` command reads a CSV file containing cell passport data, filters it to include only cell lines, processes and renames specific columns, and then writes the processed data to an output file in tab-separated format.
+The `cell-passports-database` command reads a CSV file containing cell passport data, filters it to include only cell lines, processes and renames specific columns, and then writes the processed data to an output file in tab-separated format.
 
 #### Example Usage
 
@@ -65,8 +65,8 @@ The `cell-passports-to-database` command reads a CSV file containing cell passpo
 pycls cell-passports-to-database --cell-passports path/to/cell_passports.csv --output path/to/output.tsv
 ```
 
-#### Code Analysis
-Inputs
+#### Inputs
+
 - cell-passports: path to the folder containing the cell passport files
 - output: path to the output file
  
@@ -78,5 +78,62 @@ Inputs
 - Convert the age_at_sampling column to integers where applicable.
 - Write the processed data to the specified output file in tab-separated format.
  
-#### Outputs
-A tab-separated file containing the processed cell passport data.
+#### Final Output
+
+The final output is a TSV file containing the processed cell passport data [cell-passports-db.tsv](cell-passports-db.tsv).
+
+### pycls ae-database
+
+#### Summary
+The `ea-database` command creates a database of cell lines from Expression Atlas files. It reads multiple TSV files from a specified folder, processes the data to remove duplicates, and aggregates information about each cell line. The function then checks this data against a provided cell line catalog from expression atlas, updates the database accordingly, and writes the final database to an output file in TSV format.
+
+#### Example Usage
+
+```sh
+pycls ea-database --ea-folder path/to/ea_folder --ea-cl-catalog path/to/ea_cl_catalog.csv --output path/to/output.tsv
+```
+
+#### Inputs
+- ea_folder: Path to the folder containing Expression Atlas files.
+- ea_cl_catalog: Path to the Expression Atlas cell line catalog CSV file.
+- output: Path to the output file where the database will be saved.
+ 
+#### Flow
+- Read all TSV files from the specified ea_folder.
+- Process each file to remove duplicates and aggregate cell line information.
+- Compare and update the aggregated data with the cell line catalog.
+- Write the final database to the specified output file in TSV format.
+
+#### Final Output
+
+The final output is a TSV file containing the processed cell line [data from Expression Atlas](ea-cls-db.tsv). 
+
+### pycls cellosaurus-database
+
+#### Summary
+The `cellosaurus-database` command creates a CelloSaurus database by parsing a gzipped [CelloSaurus file](cellosaurus.txt.gz) and mapping its data to the BTO and Cell type ontologies. It filters the data based on specified species and writes the processed data to an output file.
+
+#### Example Usage
+
+```sh
+pycls cellosaurus-database --cellosaurus path/to/cellosaurus.gz --output path/to/output.txt --bto path/to/bto.obo --cl path/to/cl.obo --filter-species "Homo sapiens,Mus musculus"
+```
+
+#### Inputs
+- cellosaurus: Path to the gzipped CelloSaurus database file.
+- output: Path to the output file where the processed database will be saved.
+- bto: Path to the BTO ontology file.
+- cl: Path to the Cell type ontology file.
+- filter-species: Optional, a comma-separated list of species to include in the output.
+ 
+#### Flow
+- Read the BTO and Cell type ontology files using read_obo_file.
+- Parse the CelloSaurus file using parse_cellosaurus_file.
+- If filter_species is provided, filter the parsed data to include only the specified species.
+- Create new entries from the parsed CelloSaurus data using create_new_entry_from_cellosaurus.
+- Write the processed data to the output file using write_database_cellosaurus.
+
+#### Final Output 
+
+The final output is a TSV of all filtered cell lines from [Cellosaurus database](cellosaurus-db.tsv).
+ 
