@@ -18,20 +18,21 @@ Cell lines are a fundamental part of biological research, and they are used in a
 
 The database is created in the following path [cl-annotations-db.tsv](cl-annotations-db.tsv) and contains the following fields:
 
-- **name**: The cell line name as defined by the curation team (ai or manual).
+- **cell line**: The cell line name as defined by the curation team (ai or manual).
 - **cellosaurus name**: The cell line name as annotated in Cellsaurus `ID` 
 - **cellosaurus accession**: The cell line accession as annotated in Cellsaurus `AC`
 - **bto cell line**: The cell line name as annotated in BTO
 - **organism**: The organism of the cell line as annotated in Cellsaurus
 - **organism part**: This information is not available in Cellosaurus, we use other sources to _annotate_ this field.
+- **sampling site**: The sampling site of the cell line as annotated in Cellosaurus. If the information is not available, we use other sources to _annotate_ this field.
 - **age**: The age of the cell line as annotated in Cellosaurus. If the age is not available (empty), we annotated the age from other sources such as [atcc](https://www.atcc.org/) or [Coriell cell line Catalog](https://www.coriell.org/)
 - **developmental stage**: The developmental stage of the cell line as annotated in Cellosaurus; if the information is not available is inferred from the age of the cell line. 
 - **sex**: Sex as provided by Cellosaurus
 - **ancestry category**: The ancestry category of the cell line as annotated in Cellosaurus. If not available we use other sources. 
-- **disease**: The disease is _"agreed"_ between sources CelloSaurus, EA, and ATCC.  
-- **cell type**: The cell type is _"agreed"_ between sources CelloSaurus, EA, and ATCC.
-- **Material**: The material is _"agreed"_ between sources CelloSaurus, EA, and ATCC.
-- **synonyms**: This field is constructucted using the CelloSaurus synonyms and annotation pipelines in the library. if we find that a new synonym is available, we add it to the database.
+- **disease**: The disease is _"agreed"_ among sources.  
+- **cell type**: The cell type is _"agreed"_ among sources.
+- **Material**: The material is _"agreed"_ among sources.
+- **synonyms**: This field is built using all the accessions and synonyms from all sources.
 - **curated**: This field is used to annotate if the cell line has been curated by the team, the classes are _not curated_, _ai curated_, _manual curated_.
 
 > **Note**: The database is a tab-delimited file that can be easily read and search using pandas or GitHub table rendering. 
