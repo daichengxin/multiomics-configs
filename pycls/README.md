@@ -19,10 +19,10 @@ Cell lines are a fundamental part of biological research, and they are used in a
 The database is created in the following path [cl-annotations-db.tsv](cl-annotations-db.tsv) and contains the following fields:
 
 - **cell line**: The cell line name as defined by the curation team (ai or manual).
-- **cellosaurus name**: The cell line name as annotated in Cellsaurus `ID` 
+- **cellosaurus name**: The cell line name as annotated in Cellosaurus `ID` 
 - **cellosaurus accession**: The cell line accession as annotated in Cellsaurus `AC`
 - **bto cell line**: The cell line name as annotated in BTO
-- **organism**: The organism of the cell line as annotated in Cellsaurus
+- **organism**: The organism of the cell line as annotated in Cellosaurus
 - **organism part**: This information is not available in Cellosaurus, we use other sources to _annotate_ this field.
 - **sampling site**: The sampling site of the cell line as annotated in Cellosaurus. If the information is not available, we use other sources to _annotate_ this field.
 - **age**: The age of the cell line as annotated in Cellosaurus. If the age is not available (empty), we annotated the age from other sources such as [atcc](https://www.atcc.org/) or [Coriell cell line Catalog](https://www.coriell.org/)
@@ -72,7 +72,7 @@ Inputs
  
 #### Flow
 - Read the CSV file specified by cell_passports.
-- Filter the data to include only rows where model_type is "Cell Line".
+- Filter the data to include only rows where model_type is "Cell Line."
 - Select and rename specific columns.
 - Fill missing values with "no available".
 - Convert the age_at_sampling column to integers where applicable.
