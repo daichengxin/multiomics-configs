@@ -1,4 +1,5 @@
 import gzip
+import os
 from typing import Union
 
 import click
@@ -8,8 +9,10 @@ import glob
 
 import spacy
 import numpy as np
+from huggingface_hub import login
 from owlready2 import *
 from sklearn.metrics.pairwise import cosine_similarity
+from transformers import pipeline
 
 CONTEXT_SETTINGS = dict(help_option_names=["-h", "--help"])
 
@@ -670,9 +673,6 @@ def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
     return context
 
 
-def preprocess_text(text):
-    # Tokenize and preprocess text
-    return text.lower().strip()
 
 
 @click.command(
@@ -730,42 +730,47 @@ def cellosaurus_db(
 
 
 @click.command(
-    "nlp-recommendation",
-    short_help="Looks for cell lines in cellosaurus using NLP because the name do not match the cellosaurus name",
-)
-@click.option(
-    "--cellosaurus",
-    help="CelloSaurus database file",
-    required=True,
-    type=click.Path(exists=True),
+    "mistral-recommendation",
+    short_help="Looks for cell lines in cellosaurus using Mixtral LLM because the name do not match the cellosaurus name",
 )
 @click.option("--unknown", help="unknown cell lines", required=True)
 @click.option("--output", help="File with the recommendations", required=True)
-def nlp_recommendation(cellosaurus: str, unknown: str, output: str) -> None:
+def mistral_recommendation(unknown: str, output: str) -> None:
     """
     The following function creates a vector database using LLMs using the CelloSaurus database, BTO and EFO ontologies
-    :param cellosaurus: CelloSaurus database file
-    :param bto: BTO ontology file
-    :param efo: EFO ontology file
+    :param unknown: File with the unknown cell lines
     :param output: Output file with a vector database constructed using LLMs
     :return:
     """
 
-    # Parse the CelloSaurus file
-    cellosaurus_list = parse_cellosaurus_file(cellosaurus)
-
-    cellosaurus_context = cellosaurus_dict_to_context(cellosaurus_list)
+    login(token=os.environ.get("HUGGINGFACE_TOKEN"))
 
     with open(unknown, "r") as file:
         content = file.read()
 
     unknown_cl = content.split("\n")
 
+    model_name = "mistralai/Mistral-7B-Instruct-v0.3"  # Replace with the actual path to the model
+    generator = pipeline("text-generation", model=model_name, truncation=True)
+
+    def get_cell_line_name(cell_code):
+        prompt = f"Provide the Cellosaurus cell line name for the code {cell_code}:"
+        response = generator(prompt, max_length=50, num_return_sequences=1)
+        return response[0]['generated_text'].strip()
+
+    cell_line_names = {}
+
+    for cell_line in unknown_cl:
+        cell_line_names[cell_line] = get_cell_line_name(cell_line)
+        print(f"{cell_line}: {cell_line_names[cell_line]}")
+
+    # Print the results
     with open(output, "w") as file:
-        for cl in unknown_cl:
-            search_term = preprocess_text(cl)
-            llm_term = map_celllines(search_term, cellosaurus_context)
-            file.write(f"{cl} - {llm_term}\n")
+        for code, name in cell_line_names.items():
+            print(f"{code}: {name}")
+            file.write(f"{code} - {name}\n")
+
+
 
 
 def string_if_not_empty(param: list) -> Union[None, str]:
@@ -1138,6 +1143,7 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
     required=False,
     type=click.Path(exists=True)
 )
+@click.option("--include-all-cellpassports", help="Include all cell passports cell lines", is_flag=True)
 @click.option(
     "--unknown", help="Output for unknown cell lines in cellosaurus", required=True
 )
@@ -1147,6 +1153,7 @@ def cl_database(
         ea_database: str,
         cell_passports_database: str,
         sdrf_path: str,
+        include_all_cellpassports: bool,
         unknown: str,
 ) -> None:
     """
@@ -1159,20 +1166,18 @@ def cl_database(
     """
 
     cls = []  # List of cell lines
-    if sdrf_path is None:
+    if sdrf_path is None and not include_all_cellpassports:
         raise ValueError("The cell lines that wants to be added search from existing SDRF must be provided")
-    else:
+    if sdrf_path is not None:
         sdrf_files = glob.glob(sdrf_path + "/**/*.tsv", recursive=True)
         for sdrf_file in sdrf_files:
             cls += get_cell_line_code(sdrf_file)
-
-        cls = list(set(cls))
         print("Number of cell lines in the SDRF files: ", len(cls))
 
     # Read the current cell line database
     current_cl_database = read_cell_line_database(database)
 
-    # Parse the CelloSaurus file and transform list to dictionary of cellosaurus where key is cellosaurus name
+    # Parse the CelloSaurus file and transform the list to dictionary of cellosaurus where key is cellosaurus name
     cellosaurus = pandas.read_csv(cellosaurus_database, sep="\t", header=0, dtype=str)
     cellosaurus = cellosaurus.to_dict(orient="records")
     cellosaurus = [{k: str(v) for k, v in record.items()} for record in cellosaurus]
@@ -1189,6 +1194,13 @@ def cl_database(
     cell_passports = cell_passports.to_dict(orient="records")
     cell_passports = [{k: str(v) for k, v in record.items()} for record in cell_passports]
     cell_passports = {entry["cell line"]: entry for entry in cell_passports}
+
+    if include_all_cellpassports:
+        # get cell lines names from cell pass
+        cls += [value["cell line"] for key, value in cell_passports.items()]
+
+    cls = list(set(cls))
+    print("Final number of cell lines to annotated -- {}".format(str(len(cls))))
 
     # Add the cell lines that are not in the current cell line database
     non_found_cl = []
@@ -1263,6 +1275,7 @@ def cl_database(
             file.write(cl + "\n")
 
 
+
 @click.group(context_settings=CONTEXT_SETTINGS)
 def cli():
     """
@@ -1272,10 +1285,11 @@ def cli():
 
 
 cli.add_command(cl_database)
-cli.add_command(nlp_recommendation)
+cli.add_command(mistral_recommendation)
 cli.add_command(ea_create_database)
 cli.add_command(cellosaurus_db)
 cli.add_command(cell_passports_to_database)
+
 
 if __name__ == "__main__":
     cli()
