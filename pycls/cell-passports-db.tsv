@@ -1,4 +1,4 @@
-cell line	synonyms	organism part	disease	second organism part	cancer type detail	cellosaurus accession	organism	sex	ancestry category	age	model_id	sample_id	patient_id
+cell line	synonyms	organism part	disease	sampling site	cancer type detail	cellosaurus accession	organism	sex	ancestry category	age	model_id	sample_id	patient_id
 PK-59	no available	Pancreas	Pancreatic Carcinoma	Liver	Pancreatic Carcinoma	CVCL_4897	Homo Sapiens	Unknown	Unknown	no available	SIDM01774	SIDS01659	SIDP01578
 SNU-1033	no available	Large Intestine	Colorectal Carcinoma	Rectum	Rectal Adenocarcinoma	CVCL_5002	Homo Sapiens	Female	East Asian	45	SIDM00192	SIDS00612	SIDP00541
 SNU-466	no available	Central Nervous System	Glioblastoma	Brain	Glioblastoma	CVCL_5064	Homo Sapiens	Male	Unknown	61	SIDM01447	SIDS01466	SIDP01347
