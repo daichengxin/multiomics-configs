@@ -356,6 +356,7 @@ def validate_ages_as_sdrf(age_string: str) -> bool:
 
     return False
 
+
 def get_age_consensus(cell_passport_entry, cellosaurus_entry, ae_entry):
     """
     The Age in SDRF could be in multiple formats, we will use the following rules to get the age:
@@ -367,14 +368,35 @@ def get_age_consensus(cell_passport_entry, cellosaurus_entry, ae_entry):
 
     """
     if (cell_passport_entry is not None and "age" in cell_passport_entry
-            and cell_passport_entry["age"] != "no available") and int(cell_passport_entry["age"]) > 0:
+        and cell_passport_entry["age"] != "no available") and int(cell_passport_entry["age"]) > 0:
         return str(cell_passport_entry["age"]) + "Y"
     if cellosaurus_entry is not None and "age" in cellosaurus_entry and cellosaurus_entry["age"] != "no available":
         return cellosaurus_entry["age"]
-    if ae_entry is not None and "age" in ae_entry and ae_entry["age"] != "no available" and ae_entry["age"] != "nan" and "available" not in ae_entry["age"]:
+    if ae_entry is not None and "age" in ae_entry and ae_entry["age"] != "no available" and ae_entry[
+        "age"] != "nan" and "available" not in ae_entry["age"]:
         age = ae_entry["age"].upper().replace("YEAR", "").strip()
         return str(age) + "Y"
     return "no available"
+
+
+def estimate_developmental_stage(age_string: str) -> str:
+    """
+    Estimate the developmental stage from the age string
+    """
+    # remove Y from age and check if is integer
+    age = age_string.replace("Y", "")
+    if age.isdigit():
+        age = int(age)
+        if 1 <= age < 3:
+            return "Child"
+        elif 3 <= age < 18:
+            return "Juvenile"
+        elif 18 <= age < 65:
+            return "Adult"
+        elif age >= 65:
+            return "Elderly"
+    return "no available"
+
 
 def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[dict, None]:
     """
@@ -427,7 +449,8 @@ def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[
 
     # Set the organism using the cellosaurus entry and cell passport entry
     if cellosaurus_entry is not None and cell_passport_entry is not None:
-        if cellosaurus_entry["organism"].lower() != cell_passport_entry["organism"].lower() and cellosaurus_entry["organism"] != "no available" and cell_passport_entry["organism"] != "no available":
+        if cellosaurus_entry["organism"].lower() != cell_passport_entry["organism"].lower() and cellosaurus_entry[
+            "organism"] != "no available" and cell_passport_entry["organism"] != "no available":
             raise ValueError(f"Organism mismatch: {cellosaurus_entry['organism']} vs {cell_passport_entry['organism']}")
         elif cell_passport_entry["organism"].lower() != "no available":
             entry["organism"] = cellosaurus_entry["organism"].title()
@@ -438,9 +461,11 @@ def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[
 
     # Set the sampling site using the cell passport entry, cell
 
-    if cell_passport_entry is not None and cell_passport_entry["sampling site"].lower() != "no available" and cell_passport_entry["sampling site"].lower() != "unknown":
+    if cell_passport_entry is not None and cell_passport_entry["sampling site"].lower() != "no available" and \
+            cell_passport_entry["sampling site"].lower() != "unknown":
         entry["sampling site"][0] = cell_passport_entry["sampling site"].title()
-    if cellosaurus_entry is not None and cellosaurus_entry["sampling site"].lower() != "no available" and cellosaurus_entry["sampling site"].lower() != "unknown":
+    if cellosaurus_entry is not None and cellosaurus_entry["sampling site"].lower() != "no available" and \
+            cellosaurus_entry["sampling site"].lower() != "unknown":
         entry["sampling site"][1] = cellosaurus_entry["sampling site"].title()
 
     if cell_passport_entry is not None and cell_passport_entry["disease"].lower() != "no available":
@@ -448,7 +473,7 @@ def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[
     if cellosaurus_entry is not None and cellosaurus_entry["disease"].lower() != "no available":
         entry["disease"][1] = cellosaurus_entry["disease"].title()
 
-    #Set organism part using the cell passport entry
+    # Set organism part using the cell passport entry
     if cell_passport_entry is not None and cell_passport_entry["organism part"].lower() != "no available":
         entry["organism part"] = cell_passport_entry["organism part"]
     elif ae_entry is not None and ae_entry["organism part"].lower() != "no available":
@@ -457,7 +482,7 @@ def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[
     # Set the age using cell passports, cellosaurus, and ae entries
     entry["age"] = get_age_consensus(cell_passport_entry, cellosaurus_entry, ae_entry)
 
-    #Set sex using the cell passport entry
+    # Set sex using the cell passport entry
     if cell_passport_entry is not None and cell_passport_entry["sex"].lower() != "no available":
         entry["sex"] = cell_passport_entry["sex"]
     elif cellosaurus_entry is not None and cellosaurus_entry["sex"].lower() != "no available":
@@ -478,13 +503,19 @@ def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[
     # Synonyms are the union of the cell passport and cellosaurus synonyms and each one of them
     # should be unique
     if cell_passport_entry is not None and "available" not in cell_passport_entry["synonyms"]:
-            entry["synonyms"] += [cell_line.upper().strip() for cell_line in cell_passport_entry["synonyms"].split(";")]
+        entry["synonyms"] += [cell_line.upper().strip() for cell_line in cell_passport_entry["synonyms"].split(";")]
     if cellosaurus_entry is not None and "available" not in cellosaurus_entry:
         entry["synonyms"] += [cell_line.upper().strip() for cell_line in cellosaurus_entry["synonyms"].split(";")]
     if ae_entry is not None and "available" not in ae_entry["synonyms"]:
         entry["synonyms"] += [cell_line.upper().strip() for cell_line in ae_entry["synonyms"].split(";")]
     # Remove duplicates in the synonym list
     entry["synonyms"] = list(set(entry["synonyms"]))
+
+    # development stage
+    if cellosaurus_entry is not None and "available" not in cellosaurus_entry["developmental stage"].lower():
+        entry["developmental stage"] = cellosaurus_entry["developmental stage"].title()
+    elif entry["age"] != "no available":
+        entry["developmental stage"] = estimate_developmental_stage(entry["age"])
 
     if entry == original or entry["organism"] == "no available":
         return None
@@ -552,9 +583,9 @@ def write_database(current_cl_database: list, database: str) -> None:
     """
 
     with open(database, "w") as file:
-        headers = ["cell line","cellosaurus name","cellosaurus accession","bto cell line",
-                   "organism","organism part","sampling site", "sampling site", "age","developmental stage","sex",
-                   "ancestry category","disease", "disease","cell type","Material","synonyms","curated"]
+        headers = ["cell line", "cellosaurus name", "cellosaurus accession", "bto cell line",
+                   "organism", "organism part", "sampling site", "sampling site", "age", "developmental stage", "sex",
+                   "ancestry category", "disease", "disease", "cell type", "Material", "synonyms", "curated"]
         # Write the header row
         file.write("\t".join(headers) + "\n")
 
@@ -572,7 +603,7 @@ def write_database(current_cl_database: list, database: str) -> None:
                    entry.get("sex", "no available"),
                    entry.get("ancestry category", "no available"),
                    entry.get("disease")[0],
-                entry.get("disease")[1],
+                   entry.get("disease")[1],
                    entry.get("cell type", "no available"),
                    entry.get("Material", "no available"),
                    string_if_not_empty(entry.get("synonyms", [])),
