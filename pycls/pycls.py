@@ -2,6 +2,7 @@ import gzip
 from typing import Union
 
 import click
+import pandas
 import pandas as pd
 import glob
 
@@ -85,7 +86,6 @@ def parse_cellosaurus_file(file_path, bto: dict, cl_type: dict):
             "synonyms": [],
         }
 
-
         lines = entry.strip().split("\n")
         for line in lines:
             if line.startswith("ID"):
@@ -139,7 +139,9 @@ def parse_cellosaurus_file(file_path, bto: dict, cl_type: dict):
     entries = content.split("//\n")
 
     # Parse each entry
-    parsed_data = [parse_entry(entry, bto, cl_type) for entry in entries if entry.strip()]
+    parsed_data = [
+        parse_entry(entry, bto, cl_type) for entry in entries if entry.strip()
+    ]
     # remove empty entries
     parsed_data = [entry for entry in parsed_data if entry]
     return parsed_data
@@ -229,19 +231,22 @@ def read_cell_line_database(database):
     """
     The database is a tab-delimited with the following structure. The information for each cell lines is:
 
-    cellosaurus name: The name of the cell line in the cellosaurus database
-    bto cell line: The BTO cell line name
-    organism: The organism name
-    organism part: The organism part
-    age: Age of the individual that the cell line was derived
-    developmental stage: The developmental stage of the individual that the cell line was derived
-    sex: Sex of the individual that the cell line was derived
-    ancestry category: The ancestry category of the individual that the cell line was derived
-    disease: The disease of the individual that the cell line was derived
-    cell type: The cell type
-    Material: The material used to derive the cell line
-    synonyms: The synonyms of the cell line
-    curated: If the cell line was curated by the user: the values could be not curated, ai curated, manual curated.
+    cell line: Selected cell line name (e.g., A549, HELA, etc.)
+    cellosaurus name: Cellosaurus name
+    cellosaurus accession: Cellosaurus accession
+    bto cell line: BTO cell line
+    organism: Organism of the cell line
+    organism part: Organism part of the cell line
+    sampling site:	Sampling site of the cell line
+    age: Age of the cell line
+    developmental stage: Developmental stage of the cell line
+    sex: Sex of the cell line
+    ancestry category: Ancestry category of the cell line
+    disease: Disease associated with the cell line
+    cell type: Cell type of the cell line
+    Material: Material used to grow the cell line
+    synonyms: Synonyms for the cell line
+    curated: The cell line has been curated or not. Possible values (curated, not curated, ai curated)
 
     If multiple values are present for a give field; they are separated by ;
 
@@ -249,7 +254,7 @@ def read_cell_line_database(database):
     :return: List of dictionaries with the database content
     """
 
-    database_df = pd.read_csv(database, sep="\t", comment="#", header=0)
+    database_df = pd.read_csv(database, sep="\t", comment="#", header=0, dtype=str)
 
     # Convert the dataframe to a list of dictionaries
     database_list = database_df.to_dict(orient="records")
@@ -274,6 +279,9 @@ def find_cell_line(old_cl: str, current_cl_database: list) -> Union[dict, None]:
                 return entry
         if "cellosaurus name" in entry:
             if entry["cellosaurus name"].lower().strip() == old_cl:
+                return entry
+        if "bto cell line" in entry:
+            if entry["bto cell line"].lower().strip() == old_cl:
                 return entry
         for synonym in entry["synonyms"]:
             if synonym.lower().strip() == old_cl:
@@ -348,61 +356,120 @@ def validate_ages_as_sdrf(age_string: str) -> bool:
 
     return False
 
+def get_age_consensus(cell_passport_entry, cellosaurus_entry, ae_entry):
+    """
+    The Age in SDRF could be in multiple formats, we will use the following rules to get the age:
+    Year format: 1Y, 10Y, 100Y, etc.
+    Year and Month: 40Y5M, 10Y10M, etc.
+    Year, Month, Day: 10Y10M10D, 100Y1M3D, 0Y9M etc.
+    Weeks: 8W, etc
+    All the ages could also include intervals like 10Y-20Y, 10Y-20Y5M, etc.
 
-def create_new_entry(old_cl, cellosaurus_list):
     """
-    Create a new entry for a cell line not found in the database
-    :param old_cl:
-    :param bto:
-    :param cellosaurus_list:
-    :param modo_context:
-    :return:
+    if (cell_passport_entry is not None and "age" in cell_passport_entry
+            and cell_passport_entry["age"] != "no available") and int(cell_passport_entry["age"]) > 0:
+        return str(cell_passport_entry["age"]) + "Y"
+    if cellosaurus_entry is not None and "age" in cellosaurus_entry and cellosaurus_entry["age"] != "no available":
+        return cellosaurus_entry["age"]
+    if ae_entry is not None and "age" in ae_entry and ae_entry["age"] != "no available" and ae_entry["age"] != "nan" and "available" not in ae_entry["age"]:
+        age = ae_entry["age"].upper().replace("YEAR", "").strip()
+        return str(age) + "Y"
+    return "no available"
+
+def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[dict, None]:
     """
-    old_cl = old_cl.lower().strip()
-    for cellosaurus in cellosaurus_list:
-        if "cellosaurus name" in cellosaurus and (
-            cellosaurus["cellosaurus name"].lower().strip() == old_cl
-            or is_in_synonyms(old_cl, cellosaurus)
-        ):
-            entry = {}
-            entry["cellosaurus name"] = cellosaurus["cellosaurus name"]
-            if "bto cell line" in cellosaurus:
-                entry["bto cell line"] = cellosaurus["bto cell line"]
-            else:
-                entry["bto cell line"] = None
-            if "cellosaurus accession" in cellosaurus:
-                entry["cellosaurus accession"] = cellosaurus["cellosaurus accession"]
-            if "organism" in cellosaurus:
-                entry["organism"] = cellosaurus["organism"]
-            entry["organism part"] = None
-            if "age" in cellosaurus:
-                if is_age_in_text(cellosaurus["age"]):
-                    entry["age"] = cellosaurus["age"]
-                    entry["developmental stage"] = None
-                else:
-                    entry["developmental stage"] = cellosaurus["age"]
-                    entry["age"] = None
-            if "sex" in cellosaurus:
-                entry["sex"] = cellosaurus["sex"]
-            else:
-                entry["sex"] = None
-            if "ancestry category" in cellosaurus:
-                entry["ancestry category"] = cellosaurus["ancestry category"]
-            else:
-                entry["ancestry category"] = None
-            if "disease" in cellosaurus:
-                entry["disease"] = cellosaurus["disease"]
-            else:
-                entry["disease"] = None
-            if "synonyms" in cellosaurus:
-                entry["synonyms"] = cellosaurus["synonyms"]
-            else:
-                entry["synonyms"] = []
-            if "cell type" in cellosaurus:
-                entry["cell type"] = cellosaurus["cell type"]
-            entry["curated"] = "not curated"
-            return entry
-    return None
+    The entry is a dictionary with the following fields:
+    cell line
+    cellosaurus name
+    cellosaurus accession
+    bto cell line
+    organism
+    organism part
+    sampling site
+    age
+    developmental stage
+    sex
+    ancestry category
+    disease
+    cell type
+    Material
+    synonyms
+    curated
+    """
+    # Create a new entry
+    entry = {"cell line": "no available",
+             "cellosaurus name": "no available",
+             "cellosaurus accession": "no available",
+             "bto cell line": "no available",
+             "organism": "no available",
+             "organism part": "no available",
+             "sampling site": ["no available", "no available"],
+             "age": "no available",
+             "developmental stage": "no available",
+             "sex": "no available",
+             "ancestry category": "no available",
+             "disease": ["no available", "no available"],
+             "cell type": "no available",
+             "Material": "no available",
+             "synonyms": [],
+             "curated": "not curated"
+             }
+    original = entry.copy()
+    # The cell passport is the reference for the database, we will use it for the cell line name.
+    if cell_passport_entry is not None:
+        entry["cell line"] = cell_passport_entry["cell line"]
+
+    if cellosaurus_entry is not None:
+        entry["cellosaurus name"] = cellosaurus_entry["cellosaurus name"]
+        entry["cellosaurus accession"] = cellosaurus_entry["cellosaurus accession"]
+        if "bto cell line" in cellosaurus_entry:
+            entry["bto cell line"] = cellosaurus_entry["bto cell line"]
+
+    # Set the organism using the cellosaurus entry and cell passport entry
+    if cellosaurus_entry is not None and cell_passport_entry is not None:
+        if cellosaurus_entry["organism"].lower() != cell_passport_entry["organism"].lower() and cellosaurus_entry["organism"] != "no available" and cell_passport_entry["organism"] != "no available":
+            raise ValueError(f"Organism mismatch: {cellosaurus_entry['organism']} vs {cell_passport_entry['organism']}")
+        elif cell_passport_entry["organism"].lower() != "no available":
+            entry["organism"] = cellosaurus_entry["organism"].title()
+        elif cellosaurus_entry["organism"].lower() != "no available":
+            entry["organism"] = cellosaurus_entry["organism"].title()
+        else:
+            entry["organism"] = "no available"
+
+    # Set the sampling site using the cell passport entry, cell
+
+    if cell_passport_entry is not None and cell_passport_entry["sampling site"].lower() != "no available" and cell_passport_entry["sampling site"].lower() != "unknown":
+        entry["sampling site"][0] = cell_passport_entry["sampling site"].title()
+    if cellosaurus_entry is not None and cellosaurus_entry["sampling site"].lower() != "no available" and cellosaurus_entry["sampling site"].lower() != "unknown":
+        entry["sampling site"][1] = cellosaurus_entry["sampling site"].title()
+
+    if cell_passport_entry is not None and cell_passport_entry["disease"].lower() != "no available":
+        entry["disease"][0] = cell_passport_entry["disease"].title()
+    if cellosaurus_entry is not None and cellosaurus_entry["disease"].lower() != "no available":
+        entry["disease"][1] = cellosaurus_entry["disease"].title()
+
+    #Set organism part using the cell passport entry
+    if cell_passport_entry is not None and cell_passport_entry["organism part"].lower() != "no available":
+        entry["organism part"] = cell_passport_entry["organism part"]
+    elif ae_entry is not None and ae_entry["organism part"].lower() != "no available":
+        entry["organism part"] = ae_entry["organism part"].title()
+
+    # Set the age using cell passports, cellosaurus, and ae entries
+    entry["age"] = get_age_consensus(cell_passport_entry, cellosaurus_entry, ae_entry)
+
+    #Set sex using the cell passport entry
+    if cell_passport_entry is not None and cell_passport_entry["sex"].lower() != "no available":
+        entry["sex"] = cell_passport_entry["sex"]
+    elif cellosaurus_entry is not None and cellosaurus_entry["sex"].lower() != "no available":
+        entry["sex"] = cellosaurus_entry["sex"]
+    elif ae_entry is not None and "available" not in ae_entry["sex"].lower():
+        entry["sex"] = ae_entry["sex"].title()
+
+    if entry == original:
+        return None
+
+    entry["curated"] = "not curated"
+    return entry
 
 
 def create_new_entry_from_cellosaurus(cellosaurus):
@@ -464,43 +531,33 @@ def write_database(current_cl_database: list, database: str) -> None:
     """
 
     with open(database, "w") as file:
-        headers = [
-            "name",
-            "cellosaurus name",
-            "bto cell line",
-            "organism",
-            "age",
-            "organism part",
-            "developmental stage",
-            "sex",
-            "ancestry category",
-            "disease",
-            "cell type",
-            "Material",
-            "synonyms",
-            "curated",
-        ]
+        headers = ["cell line","cellosaurus name","cellosaurus accession","bto cell line",
+                   "organism","organism part","sampling site", "sampling site", "age","developmental stage","sex",
+                   "ancestry category","disease", "disease","cell type","Material","synonyms","curated"]
         # Write the header row
         file.write("\t".join(headers) + "\n")
 
         for entry in current_cl_database:
-            row = [
-                entry.get("name", "no available"),
-                entry.get("cellosaurus name", "no available"),
-                entry.get("bto cell line", "no available"),
-                entry.get("organism", "no available"),
-                entry.get("age", "no available"),
-                entry.get("organism part", "no available"),
-                entry.get("developmental stage", "no available"),
-                entry.get("sex", "no available"),
-                entry.get("ancestry category", "no available"),
-                entry.get("disease", "no available"),
-                entry.get("cell type", "no available"),
-                entry.get("Material", "no available"),
-                string_if_not_empty(entry.get("synonyms", [])),
-                entry.get("curated", "no available"),
-            ]
-            row = ["not available" if item is None else str(item) for item in row]
+            row = [entry.get("cell line", "no available"),
+                   entry.get("cellosaurus name", "no available"),
+                   entry.get("cellosaurus accession", "no available"),
+                   entry.get("bto cell line", "no available"),
+                   entry.get("organism", "no available"),
+                   entry.get("organism part", "no available"),
+                   entry.get("sampling site")[0],
+                   entry.get("sampling site")[1],
+                   entry.get("age", "no available"),
+                   entry.get("developmental stage", "no available"),
+                   entry.get("sex", "no available"),
+                   entry.get("ancestry category", "no available"),
+                   entry.get("disease")[0],
+                entry.get("disease")[1],
+                   entry.get("cell type", "no available"),
+                   entry.get("Material", "no available"),
+                   string_if_not_empty(entry.get("synonyms", [])),
+                   entry.get("curated", "not curated")]
+
+            row = ["no available" if item is None else str(item) for item in row]
             file.write("\t".join(row) + "\n")
 
 
@@ -545,7 +602,7 @@ def write_database_cellosaurus(current_cl_database: list, database: str) -> None
                 entry.get("sampling site", "no available"),
                 string_if_not_empty(entry.get("synonyms", [])),
             ]
-            row = ["not available" if item is None else str(item) for item in row]
+            row = ["no available" if item is None else str(item) for item in row]
             file.write("\t".join(row) + "\n")
 
 
@@ -564,104 +621,6 @@ def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
 def preprocess_text(text):
     # Tokenize and preprocess text
     return text.lower().strip()
-
-
-@click.command(
-    "cl-database",
-    short_help="Create a cell lines metadata database for annotating cell lines sdrfs",
-)
-@click.option(
-    "--cellosaurus",
-    help="CelloSaurus database file, the file is gzipped",
-    required=True,
-    type=click.Path(exists=True),
-)
-@click.option(
-    "--bto", help="BTO ontology file", required=True, type=click.Path(exists=True)
-)
-@click.option(
-    "--mondo", help="Mondo ontology file", required=True, type=click.Path(exists=True)
-)
-@click.option(
-    "--sdrf-path", help="SDRF folder with all existing SDRF files", required=True
-)
-@click.option(
-    "--database", help="Existing database file with cell lines metadata", required=True
-)
-@click.option(
-    "--unknown", help="Output for unknown cell lines in cellosaurus", required=True
-)
-@click.option(
-    "--include-all-cellosaurus", help="Include all cellosaurus entries", is_flag=True
-)
-def cl_database(
-    cellosaurus: str,
-    bto: str,
-    mondo: str,
-    sdrf_path: str,
-    database: str,
-    unknown: str,
-    include_all_cellosaurus: bool = False,
-) -> None:
-    """
-    The following function creates a vector database using LLMs using the CelloSaurus database, BTO and EFO ontologies
-    :param cellosaurus: CelloSaurus database file
-    :param bto: BTO ontology file
-    :param efo: EFO ontology file
-    :param output: Output file with a vector database constructed using LLMs
-    :return:
-    """
-
-    # Read the current cell line database
-    current_cl_database = read_cell_line_database(database)
-
-    # Read the BTO and EFO from owl files
-    bto = read_obo_file(bto)
-
-    # Parse the CelloSaurus file
-    cellosaurus_list = parse_cellosaurus_file(cellosaurus, bto)
-
-    sdrf_files = glob.glob(sdrf_path + "/**/*.tsv", recursive=True)
-
-    cl_list = []
-    for sdrf_file in sdrf_files:
-        cl_list += get_cell_line_code(sdrf_file)
-
-    cl_list = list(set(cl_list))
-    print("Number of cell lines in the SDRF files: ", len(cl_list))
-
-    if include_all_cellosaurus:
-        all_cellosaurus_ids = [entry["cellosaurus name"] for entry in cellosaurus_list]
-        cl_list += all_cellosaurus_ids
-        cl_list = list(set(cl_list))
-
-    # Check the database if the cell line is not already, create a new entry
-    # If the cell is ready to get the information from the database.
-
-    non_found_cl = []
-    for old_cl in cl_list:
-        cl_db = find_cell_line(old_cl, current_cl_database)
-        if not cl_db:
-            # print(f"Cell line {old_cl} not found in the database - attend to create one programmatically")
-            cl_new_entry = create_new_entry(
-                old_cl, cellosaurus_list
-            )  # Create a new entry
-            if cl_new_entry is not None:
-                if current_cl_database is None:
-                    current_cl_database = []
-                current_cl_database.append(cl_new_entry)
-            else:
-                print(f"{old_cl}")
-                non_found_cl.append(old_cl)
-        else:
-            print("Cell line found in the database: ", cl_db["cellosaurus name"])
-
-    write_database(current_cl_database, database)
-
-    # Write the unknown cell lines to a file
-    with open(unknown, "w") as file:
-        for cl in non_found_cl:
-            file.write(cl + "\n")
 
 
 @click.command(
@@ -687,7 +646,7 @@ def cl_database(
     "--filter-species", help="Include only the following species", required=False
 )
 def cellosaurus_db(
-    cellosaurus: str, output: str, bto: str, cl: str, filter_species
+        cellosaurus: str, output: str, bto: str, cl: str, filter_species
 ) -> None:
     """
     The following function creates a celloSaurus database from the cellosaurus file, it does some mapping to bto
@@ -770,12 +729,13 @@ def string_if_not_empty(param: list) -> Union[None, str]:
             x
             for x in param
             if isinstance(x, float)
-            and ~np.isnan(x)
-            or not isinstance(x, float)
-            and x != None
+               and ~np.isnan(x)
+               or not isinstance(x, float)
+               and x != None
         ]
         return "; ".join(l)
     return "no available"
+
 
 @click.command(
     "cell-passports-database",
@@ -953,18 +913,18 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             else:
                 # check that all the fields are the same, if not raise error:
                 if (
-                    cell_lines_dict[cell_line]["organism"]
-                    != row["Sample Characteristic[organism]"]
+                        cell_lines_dict[cell_line]["organism"]
+                        != row["Sample Characteristic[organism]"]
                 ):
                     print(f"Organism is different for cell line {cell_line}")
                 if (
-                    cell_lines_dict[cell_line]["organism part"]
-                    != row["Sample Characteristic[organism part]"]
+                        cell_lines_dict[cell_line]["organism part"]
+                        != row["Sample Characteristic[organism part]"]
                 ):
                     print(f"Organism part is different for cell line {cell_line}")
                 if (
-                    row["Sample Characteristic[disease]"]
-                    not in cell_lines_dict[cell_line]["disease"]
+                        row["Sample Characteristic[disease]"]
+                        not in cell_lines_dict[cell_line]["disease"]
                 ):
                     cell_lines_dict[cell_line]["disease"].append(
                         row["Sample Characteristic[disease]"]
@@ -974,9 +934,9 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
                     )
 
                 if (
-                    "Sample Characteristic[age]" in columns_data
-                    and row["Sample Characteristic[age]"]
-                    not in cell_lines_dict[cell_line]["age"]
+                        "Sample Characteristic[age]" in columns_data
+                        and row["Sample Characteristic[age]"]
+                        not in cell_lines_dict[cell_line]["age"]
                 ):
                     cell_lines_dict[cell_line]["age"].append(
                         row["Sample Characteristic[age]"]
@@ -984,9 +944,9 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
                     print(f"Age is different for cell line {cell_line}")
 
                 if (
-                    "Sample Characteristic[developmental stage]" in columns_data
-                    and row["Sample Characteristic[developmental stage]"]
-                    not in cell_lines_dict[cell_line]["developmental stage"]
+                        "Sample Characteristic[developmental stage]" in columns_data
+                        and row["Sample Characteristic[developmental stage]"]
+                        not in cell_lines_dict[cell_line]["developmental stage"]
                 ):
                     cell_lines_dict[cell_line]["developmental stage"].append(
                         row["Sample Characteristic[developmental stage]"]
@@ -994,18 +954,18 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
                     print(f"Developmental stage is different for cell line {cell_line}")
 
                 if (
-                    "Sample Characteristic[sex]" in columns_data
-                    and row["Sample Characteristic[sex]"]
-                    not in cell_lines_dict[cell_line]["sex"]
+                        "Sample Characteristic[sex]" in columns_data
+                        and row["Sample Characteristic[sex]"]
+                        not in cell_lines_dict[cell_line]["sex"]
                 ):
                     cell_lines_dict[cell_line]["sex"].append(
                         row["Sample Characteristic[sex]"]
                     )
 
                 if (
-                    "Sample Characteristic[ancestry category]" in columns_data
-                    and row["Sample Characteristic[ancestry category]"]
-                    not in cell_lines_dict[cell_line]["ancestry category"]
+                        "Sample Characteristic[ancestry category]" in columns_data
+                        and row["Sample Characteristic[ancestry category]"]
+                        not in cell_lines_dict[cell_line]["ancestry category"]
                 ):
                     cell_lines_dict[cell_line]["ancestry category"].append(
                         row["Sample Characteristic[ancestry category]"]
@@ -1023,8 +983,8 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             if row["organism"] not in cell_lines_dict[row["cell line"]]["organism"]:
                 cell_lines_dict[row["cell line"]]["organism"].append(row["organism"])
             if (
-                row["organism part"]
-                not in cell_lines_dict[row["cell line"]]["organism part"]
+                    row["organism part"]
+                    not in cell_lines_dict[row["cell line"]]["organism part"]
             ):
                 cell_lines_dict[row["cell line"]]["organism part"].append(
                     row["organism part"]
@@ -1034,8 +994,8 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             if row["age"] not in cell_lines_dict[row["cell line"]]["age"]:
                 cell_lines_dict[row["cell line"]]["age"].append(row["age"])
             if (
-                row["developmental stage"]
-                not in cell_lines_dict[row["cell line"]]["developmental stage"]
+                    row["developmental stage"]
+                    not in cell_lines_dict[row["cell line"]]["developmental stage"]
             ):
                 cell_lines_dict[row["cell line"]]["developmental stage"].append(
                     row["developmental stage"]
@@ -1090,6 +1050,167 @@ def ea_create_database(ea_folder: str, ea_cl_catalog: str, output: str) -> None:
             # Write the row
             file.write("\t".join(row) + "\n")
 
+
+@click.command(
+    "cl-database",
+    short_help="Create a cell lines metadata database for annotating cell lines SDRFs",
+)
+@click.option("--database",
+              help="Current database file with cell lines",
+              required=True,
+              type=click.Path(exists=True)
+              )
+@click.option(
+    "--cellosaurus-database",
+    help="CelloSaurus database file",
+    required=True,
+    type=click.Path(exists=True),
+    default="cellosaurus-db.tsv",
+)
+@click.option(
+    "--ea-database",
+    help="EA Atlas database file",
+    required=True,
+    type=click.Path(exists=True),
+    default="ea-cls-db.tsv",
+)
+@click.option(
+    "--cell-passports-database",
+    help="Cell passports database file",
+    required=True,
+    type=click.Path(exists=True),
+    default="cell-passports-db.tsv")
+@click.option(
+    "--sdrf-path",
+    help="SDRF folder with all existing SDRF files",
+    required=False,
+    type=click.Path(exists=True)
+)
+@click.option(
+    "--unknown", help="Output for unknown cell lines in cellosaurus", required=True
+)
+def cl_database(
+        database: str,
+        cellosaurus_database: str,
+        ea_database: str,
+        cell_passports_database: str,
+        sdrf_path: str,
+        unknown: str,
+) -> None:
+    """
+    The following function creates a vector database using LLMs using the CelloSaurus database, BTO and EFO ontologies
+    :param cellosaurus: CelloSaurus database file
+    :param bto: BTO ontology file
+    :param efo: EFO ontology file
+    :param output: Output file with a vector database constructed using LLMs
+    :return:
+    """
+
+    cls = []  # List of cell lines
+    if sdrf_path is None:
+        raise ValueError("The cell lines that wants to be added search from existing SDRF must be provided")
+    else:
+        sdrf_files = glob.glob(sdrf_path + "/**/*.tsv", recursive=True)
+        for sdrf_file in sdrf_files:
+            cls += get_cell_line_code(sdrf_file)
+
+        cls = list(set(cls))
+        print("Number of cell lines in the SDRF files: ", len(cls))
+
+    # Read the current cell line database
+    current_cl_database = read_cell_line_database(database)
+
+    # Parse the CelloSaurus file and transform list to dictionary of cellosaurus where key is cellosaurus name
+    cellosaurus = pandas.read_csv(cellosaurus_database, sep="\t", header=0, dtype=str)
+    cellosaurus = cellosaurus.to_dict(orient="records")
+    cellosaurus = [{k: str(v) for k, v in record.items()} for record in cellosaurus]
+    cellosaurus = {entry["cellosaurus name"]: entry for entry in cellosaurus}
+
+    # Parse the EA Atlas file and transform list to dictionary of ea atlas where key is cell line
+    ea_atlas = pandas.read_csv(ea_database, sep="\t", header=0, dtype=str)
+    ea_atlas = ea_atlas.to_dict(orient="records")
+    ea_atlas = [{k: str(v) for k, v in record.items()} for record in ea_atlas]
+    ea_atlas = {entry["cell line"]: entry for entry in ea_atlas}
+
+    # Parse the cell passports file and transform list to dictionary of cell passports where key is cell line
+    cell_passports = pandas.read_csv(cell_passports_database, sep="\t", header=0, dtype=str)
+    cell_passports = cell_passports.to_dict(orient="records")
+    cell_passports = [{k: str(v) for k, v in record.items()} for record in cell_passports]
+    cell_passports = {entry["cell line"]: entry for entry in cell_passports}
+
+    # Add the cell lines that are not in the current cell line database
+    non_found_cl = []
+
+    def find_cell_line_cellosaurus(cl: str, cellosaurus: dict) -> Union[dict, None]:
+        for key, cellosaurus_entry in cellosaurus.items():
+            if cellosaurus_entry["cellosaurus name"].lower() == cl.lower():
+                return cellosaurus_entry
+            if "synonyms" in cellosaurus_entry:
+                for synonym in cellosaurus_entry["synonyms"]:
+                    if cl.lower() in synonym.lower():
+                        return cellosaurus_entry
+            if "cellosaurus accession" in cellosaurus_entry:
+                if cellosaurus_entry["cellosaurus accession"].lower() == cl.lower():
+                    return cellosaurus_entry
+        return None
+
+    def find_cell_line_cell_passports(cl: str, cell_passports: dict) -> Union[dict, None]:
+        for key, cell_passports_entry in cell_passports.items():
+            if cell_passports_entry["cell line"].lower() == cl.lower():
+                return cell_passports_entry
+            if "synonyms" in cell_passports_entry:
+                for synonym in cell_passports_entry["synonyms"]:
+                    if cl.lower() in synonym.lower():
+                        return cell_passports_entry
+            if "cellosaurus accession" in cell_passports_entry:
+                if cell_passports_entry["cellosaurus accession"].lower() == cl.lower():
+                    return cell_passports_entry
+        return None
+
+    def find_cell_line_ea_atlas(cl: str, ea_atlas: dict) -> Union[dict, None]:
+        for key, ea_atlas_entry in ea_atlas.items():
+            if ea_atlas_entry["cell line"].lower() == cl.lower():
+                return ea_atlas_entry
+            if "synonyms" in ea_atlas_entry:
+                for synonym in ea_atlas_entry["synonyms"]:
+                    if cl.lower() in synonym.lower():
+                        return ea_atlas_entry
+        return None
+
+    for cl in cls:
+        if find_cell_line(cl, current_cl_database) is None:
+            cellosaurus_entry = find_cell_line_cellosaurus(cl, cellosaurus)
+            cell_passports_entry = find_cell_line_cell_passports(cl, cell_passports)
+            ea_atlas_entry = find_cell_line_ea_atlas(cl, ea_atlas)
+
+            if cell_passports_entry is not None:
+                for key, value in cellosaurus.items():
+                    # if the cellosaurus is not found using the cell line name try to find it througth cell passports
+                    if value["cellosaurus accession"].lower() == cell_passports_entry["cellosaurus accession"].lower():
+                        cellosaurus_entry = value
+                        break
+
+            if cellosaurus_entry is not None:
+                for key, value in cell_passports.items():
+                    # if the cell passports are not found using the cell line name try to find it througth cellosaurus
+                    if value["cellosaurus accession"].lower() == cellosaurus_entry["cellosaurus accession"].lower():
+                        cell_passports_entry = value
+                        break
+            new_cl_entry = create_new_entry(cellosaurus_entry, cell_passports_entry, ea_atlas_entry)
+            if new_cl_entry is not None:
+                current_cl_database.append(new_cl_entry)
+            else:
+                non_found_cl.append(cl)
+
+        else:
+            print(f"Cell line {cl} already in the database")
+
+    write_database(current_cl_database, database)
+    with open(unknown, "w") as file:
+        for cl in non_found_cl:
+            file.write(cl + "\n")
+
+
 @click.group(context_settings=CONTEXT_SETTINGS)
 def cli():
     """
@@ -1103,7 +1224,6 @@ cli.add_command(nlp_recommendation)
 cli.add_command(ea_create_database)
 cli.add_command(cellosaurus_db)
 cli.add_command(cell_passports_to_database)
-
 
 if __name__ == "__main__":
     cli()
