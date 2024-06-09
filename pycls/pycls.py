@@ -410,7 +410,7 @@ def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[
              "ancestry category": "no available",
              "disease": ["no available", "no available"],
              "cell type": "no available",
-             "Material": "no available",
+             "Material type": "cell",
              "synonyms": [],
              "curated": "not curated"
              }
@@ -465,7 +465,28 @@ def create_new_entry(cellosaurus_entry, cell_passport_entry, ae_entry) -> Union[
     elif ae_entry is not None and "available" not in ae_entry["sex"].lower():
         entry["sex"] = ae_entry["sex"].title()
 
-    if entry == original:
+    # Set ancestry category using the cell passport entry
+    if cellosaurus_entry is not None and cellosaurus_entry["ancestry category"].lower() != "no available":
+        entry["ancestry category"] = cellosaurus_entry["ancestry category"]
+    elif cell_passport_entry is not None and cell_passport_entry["ancestry category"].lower() != "no available":
+        entry["ancestry category"] = cell_passport_entry["ancestry category"]
+
+    # Set cell type using the cellosaurus entry
+    if cellosaurus_entry is not None and "available" not in cellosaurus_entry["cell type"].lower():
+        entry["cell type"] = cellosaurus_entry["cell type"]
+
+    # Synonyms are the union of the cell passport and cellosaurus synonyms and each one of them
+    # should be unique
+    if cell_passport_entry is not None and "available" not in cell_passport_entry["synonyms"]:
+            entry["synonyms"] += [cell_line.upper().strip() for cell_line in cell_passport_entry["synonyms"].split(";")]
+    if cellosaurus_entry is not None and "available" not in cellosaurus_entry:
+        entry["synonyms"] += [cell_line.upper().strip() for cell_line in cellosaurus_entry["synonyms"].split(";")]
+    if ae_entry is not None and "available" not in ae_entry["synonyms"]:
+        entry["synonyms"] += [cell_line.upper().strip() for cell_line in ae_entry["synonyms"].split(";")]
+    # Remove duplicates in the synonym list
+    entry["synonyms"] = list(set(entry["synonyms"]))
+
+    if entry == original or entry["organism"] == "no available":
         return None
 
     entry["curated"] = "not curated"
