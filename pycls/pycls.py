@@ -758,18 +758,6 @@ def write_database_cellosaurus(current_cl_database: list, database: str) -> None
             file.write("\t".join(row) + "\n")
 
 
-def cellosaurus_dict_to_context(cellosaurus_list: list) -> list:
-    context = []
-    for entry in cellosaurus_list:
-        if "synonyms" in entry:
-            synonyms = "; ".join(entry["synonyms"])
-        if "name" in entry:
-            context.append(f"{synonyms}; {entry['name']}")
-    context = [preprocess_text(entry) for entry in context]
-    print("Cellosaurus context created -- ", len(context))
-    return context
-
-
 @click.command(
     "cellosaurus-database",
     short_help="Create the cellosaurus database from the cellosaurus file",
@@ -1322,12 +1310,12 @@ def cl_database(
     # Add the cell lines that are not in the current cell line database
     non_found_cl = []
 
-    ai_synonyms = None
+    ai_synonyms_dic = None
     if ai_synonyms is not None:
-        ai_synonyms = pandas.read_csv(ai_synonyms, sep="\t", header=0, dtype=str)
-        ai_synonyms = ai_synonyms.to_dict(orient="records")
-        ai_synonyms = [{k: str(v) for k, v in record.items()} for record in ai_synonyms]
-        ai_synonyms = {entry["cell line"]: entry for entry in ai_synonyms}
+        ai_synonyms_dic = pandas.read_csv(ai_synonyms, sep="\t", header=0, dtype=str)
+        ai_synonyms_dic = ai_synonyms_dic.to_dict(orient="records")
+        ai_synonyms_dic = [{k: str(v) for k, v in record.items()} for record in ai_synonyms_dic]
+        ai_synonyms_dic = {entry["cell line"]: entry for entry in ai_synonyms_dic}
 
     def find_cell_line_cellosaurus(cl: str, cellosaurus: dict) -> Union[dict, None]:
         for key, cellosaurus_entry in cellosaurus.items():
@@ -1372,16 +1360,18 @@ def cl_database(
             if ai_synonyms_entry["cell line"].lower() == cl.lower():
                 return ai_synonyms_entry["cell line"]
             if "synonyms" in ai_synonyms_entry:
-                for synonym in ai_synonyms_entry["synonyms"]:
+                for synonym in ai_synonyms_entry["synonyms"].split(";"):
                     if cl.lower() in synonym.lower():
                         return ai_synonyms_entry["cell line"]
         return cl
 
     for cl in cls:
+        if cl.lower() == "lancap":
+            print("yes")
         if find_cell_line(cl, current_cl_database) is None:
 
-            if ai_synonyms is not None:
-                cl = find_in_synonyms_table(cl, ai_synonyms)
+            if ai_synonyms_dic is not None:
+                cl = find_in_synonyms_table(cl, ai_synonyms_dic)
 
             cellosaurus_entry = find_cell_line_cellosaurus(cl, cellosaurus)
             cell_passports_entry = find_cell_line_cell_passports(cl, cell_passports)
