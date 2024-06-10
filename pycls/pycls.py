@@ -1366,7 +1366,7 @@ def cl_database(
         return cl
 
     for cl in cls:
-        if cl.lower() == "HT29":
+        if cl.lower() == "HT-29":
             print("yes")
         if find_cell_line(cl, current_cl_database) is None:
 
