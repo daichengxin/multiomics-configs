@@ -247,7 +247,7 @@ def read_cell_line_database(database):
     ancestry category: Ancestry category of the cell line
     disease: Disease associated with the cell line
     cell type: Cell type of the cell line
-    Material: Material used to grow the cell line
+    Material type: Material used to grow the cell line
     synonyms: Synonyms for the cell line
     curated: The cell line has been curated or not. Possible values (curated, not curated, ai curated)
 
@@ -442,7 +442,7 @@ def create_new_entry(
     ancestry category
     disease
     cell type
-    Material
+    Material type
     synonyms
     curated
     """
@@ -698,7 +698,7 @@ def write_database(current_cl_database: list, database: str) -> None:
             "ancestry category",
             "disease",
             "cell type",
-            "Material",
+            "Material type",
             "synonyms",
             "curated",
         ]
@@ -720,7 +720,7 @@ def write_database(current_cl_database: list, database: str) -> None:
                 entry.get("ancestry category", "no available"),
                 get_string_available(entry.get("disease", ["no available", "no available"])),
                 entry.get("cell type", "no available"),
-                entry.get("Material", "no available"),
+                entry.get("Material type", "no available"),
                 string_if_not_empty(entry.get("synonyms", [])),
                 entry.get("curated", "not curated"),
             ]
