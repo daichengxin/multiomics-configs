@@ -265,6 +265,12 @@ def read_cell_line_database(database):
     # Convert the dataframe to a list of dictionaries
     database_list = database_df.to_dict(orient="records")
 
+    # convert disease and sampling site to list divided by ;
+    for entry in database_list:
+        entry["disease"] = entry["disease"].split(";")
+        entry["sampling site"] = entry["sampling site"].split(";")
+        entry["synonyms"] = entry["synonyms"].split(";")
+
     return database_list
 
 
@@ -405,9 +411,11 @@ def estimate_developmental_stage(age_string: str) -> str:
     age = age_string.replace("Y", "")
     if age.isdigit():
         age = int(age)
-        if 1 <= age < 3:
-            return "Child"
-        elif 3 <= age < 18:
+        if 1 <= age <= 2:
+            return "Infant"
+        elif 3 <= age < 12:
+            return "Children"
+        elif 12 <= age < 18:
             return "Juvenile"
         elif 18 <= age < 65:
             return "Adult"
@@ -503,24 +511,24 @@ def create_new_entry(
         and cell_passport_entry["sampling site"].lower() != "no available"
         and cell_passport_entry["sampling site"].lower() != "unknown"
     ):
-        entry["sampling site"][0] = cell_passport_entry["sampling site"].title()
+        entry["sampling site"][0] = cell_passport_entry["sampling site"].strip().title()
     if (
         cellosaurus_entry is not None
         and cellosaurus_entry["sampling site"].lower() != "no available"
         and cellosaurus_entry["sampling site"].lower() != "unknown"
     ):
-        entry["sampling site"][1] = cellosaurus_entry["sampling site"].title()
+        entry["sampling site"][1] = cellosaurus_entry["sampling site"].strip().title()
 
     if (
         cell_passport_entry is not None
         and cell_passport_entry["disease"].lower() != "no available"
     ):
-        entry["disease"][0] = cell_passport_entry["disease"].title()
+        entry["disease"][0] = cell_passport_entry["disease"].strip().title()
     if (
         cellosaurus_entry is not None
         and cellosaurus_entry["disease"].lower() != "no available"
     ):
-        entry["disease"][1] = cellosaurus_entry["disease"].title()
+        entry["disease"][1] = cellosaurus_entry["disease"].strip().title()
 
     # Set organism part using the cell passport entry
     if (
@@ -529,7 +537,7 @@ def create_new_entry(
     ):
         entry["organism part"] = cell_passport_entry["organism part"]
     elif ae_entry is not None and ae_entry["organism part"].lower() != "no available":
-        entry["organism part"] = ae_entry["organism part"].title()
+        entry["organism part"] = ae_entry["organism part"].strip().title()
 
     # Set the age using cell passports, cellosaurus, and ae entries
     entry["age"] = get_age_consensus(cell_passport_entry, cellosaurus_entry, ae_entry)
@@ -662,6 +670,18 @@ def write_database(current_cl_database: list, database: str) -> None:
     :param database: database file path
     :return:
     """
+    def get_string_available(list_values: list)-> str:
+
+        # split some of the words in the list by , and add the list to the values
+        list_values = [value.split(",") for value in list_values]
+        list_values = [item for sublist in list_values for item in sublist]
+        # remove duplicates
+        list_values = list(set(list_values))
+        # remove the no available values from list
+        list_values = [value.title() for value in list_values if value != "no available"]
+        if not list_values:
+            return "no available"
+        return "; ".join(list_values)
 
     with open(database, "w") as file:
         headers = [
@@ -672,12 +692,10 @@ def write_database(current_cl_database: list, database: str) -> None:
             "organism",
             "organism part",
             "sampling site",
-            "sampling site",
             "age",
             "developmental stage",
             "sex",
             "ancestry category",
-            "disease",
             "disease",
             "cell type",
             "Material",
@@ -695,14 +713,12 @@ def write_database(current_cl_database: list, database: str) -> None:
                 entry.get("bto cell line", "no available"),
                 entry.get("organism", "no available"),
                 entry.get("organism part", "no available"),
-                entry.get("sampling site")[0],
-                entry.get("sampling site")[1],
+                get_string_available(entry.get("sampling site", ["no available", "no available"])),
                 entry.get("age", "no available"),
                 entry.get("developmental stage", "no available"),
                 entry.get("sex", "no available"),
                 entry.get("ancestry category", "no available"),
-                entry.get("disease")[0],
-                entry.get("disease")[1],
+                get_string_available(entry.get("disease", ["no available", "no available"])),
                 entry.get("cell type", "no available"),
                 entry.get("Material", "no available"),
                 string_if_not_empty(entry.get("synonyms", [])),
@@ -1366,8 +1382,6 @@ def cl_database(
         return cl
 
     for cl in cls:
-        if cl.lower() == "HT-29":
-            print("yes")
         if find_cell_line(cl, current_cl_database) is None:
 
             if ai_synonyms_dic is not None:
@@ -1396,6 +1410,7 @@ def cl_database(
                     ):
                         cell_passports_entry = value
                         break
+
             if (
                 cellosaurus_entry is None
                 and cell_passports_entry is None
