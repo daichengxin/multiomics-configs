@@ -388,12 +388,12 @@ CHSA0108	CHSA0108	CVCL_X484	no available	Homo Sapiens	Bone	no available	no avail
 CHSA8926	CHSA8926	CVCL_X485	no available	Homo Sapiens	Bone	no available	no available	no available	Male	Caucasian	Chondrosarcoma	no available	cell	CHSA 8926	curated
 CS1	CS-1 [Human chondrosarcoma]	CVCL_T023	no available	Homo Sapiens	Bone	Bone;  Humerus	62Y	Adult	Male	Caucasian	Chondrosarcoma	no available	cell	CS1; CS-1; CHSA CELL LINE	curated
 Hs-819-T	Hs 819.T	CVCL_0928	no available	Homo Sapiens	Bone	Bone	60Y	Adult	Male	Caucasian	Chondrosarcoma	fibroblast	cell	HS819.T; HS-819-T; HS819T	curated
-CII	CII	CVCL_0D73	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	47Y	Adult	Female	no available	Chronic Lymphocytic Leukemia; Other Blood Cancers	no available	cell	CLL-CII	curated
-HG-3	HG-3	CVCL_Y547	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	70Y	Elderly	Male	White	Chronic Lymphocytic Leukemia; Other Blood Cancers	no available	cell	HG3	curated
-MEC-1	MEC-1	CVCL_1870	MEC-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	61Y	Adult	Male	Caucasian	Chronic Lymphocytic Leukemia; Other Blood Cancers	no available	cell	MEC1 CELL; MEC1	curated
-MEC-2	MEC-2	CVCL_1871	MEC-2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	62Y	Adult	Male	Caucasian	Chronic Lymphocytic Leukemia; Other Blood Cancers	no available	cell	MEC2; MEC2 CELL	curated
-PGA-1	PGA-1	CVCL_Y545	no available	Homo Sapiens	Haematopoietic and Lymphoid	no available	no available	no available	Male	Caucasian	Chronic Lymphocytic Leukemia; Other Blood Cancers	no available	cell	PG A1; PGA1; CLL-PGA	curated
-WA-OSEL	WA-OSEL	CVCL_Y549	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	Adult	Male	no available	Chronic Lymphocytic Leukemia; Other Blood Cancers	no available	cell	WA-OSEL; WA OSEL; WAOSEL4	curated
+CII	CII	CVCL_0D73	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	47Y	Adult	Female	no available	Chronic lymphocytic leukemia	no available	cell	CLL-CII	curated
+HG-3	HG-3	CVCL_Y547	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	70Y	Elderly	Male	White	Chronic lymphocytic leukemia	no available	cell	HG3	curated
+MEC-1	MEC-1	CVCL_1870	MEC-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	61Y	Adult	Male	Caucasian	Chronic lymphocytic leukemia	no available	cell	MEC1 CELL; MEC1	curated
+MEC-2	MEC-2	CVCL_1871	MEC-2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	62Y	Adult	Male	Caucasian	Chronic lymphocytic leukemia	no available	cell	MEC2; MEC2 CELL	curated
+PGA-1	PGA-1	CVCL_Y545	no available	Homo Sapiens	Haematopoietic and Lymphoid	no available	no available	no available	Male	Caucasian	Chronic lymphocytic leukemia	no available	cell	PG A1; PGA1; CLL-PGA	curated
+WA-OSEL	WA-OSEL	CVCL_Y549	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	Adult	Male	no available	Chronic lymphocytic leukemia	no available	cell	WA-OSEL; WA OSEL; WAOSEL4	curated
 P2UR_K-562	no available	no available	no available	Homo Sapiens	Haematopoietic and Lymphoid	no available	53Y	Adult	Female	no available	Chronic Myelogenous Leukemia	no available	cell	P2UR_K-562	curated
 KP363T	KP363T	CVCL_EG34	no available	Homo Sapiens	no available	Colon	80Y	Elderly	Male	no available	Colon Adenocarcinoma	no available	cell	KP-363T	curated
 C10	C10	CVCL_5245	no available	Homo Sapiens	Large Intestine	Colon;  Descending	71Y	Elderly	Male	no available	Colon adenocarcinoma	no available	cell	C10	curated
