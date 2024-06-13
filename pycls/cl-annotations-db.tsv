@@ -85,8 +85,8 @@ SNU-739	SNU-739	CVCL_5088	no available	Homo Sapiens	Liver	Liver	52Y	Adult	Male	K
 SNU-761	SNU-761	CVCL_5089	no available	Homo Sapiens	Liver	Liver	49Y	Adult	Male	Korean	Adult hepatocellular carcinoma	no available	cell	SNU761; NCI-SNU-761	curated
 SNU-878	SNU-878	CVCL_5102	no available	Homo Sapiens	Liver	Liver	54Y	Adult	Female	Korean	Adult hepatocellular carcinoma	no available	cell	NCI-SNU-878; SNU878	curated
 SNU-886	SNU-886	CVCL_5103	no available	Homo Sapiens	Liver	Liver	57Y	Adult	Male	Korean	Adult hepatocellular carcinoma	no available	cell	SNU886; NCI-SNU-886	curated
-Mac-2A	Mac-2A	CVCL_H637	no available	Homo Sapiens	Blood	Skin Tumour Nodules	47Y	Adult	Male	White	Alk-Negative; Other Blood Cancers; Anaplastic Large Cell Lymphoma	no available	cell	MAC-2A; MAC2A; MCG-2A; PB-2A	curated
-Mac-2B	Mac-2B	CVCL_H638	no available	Homo Sapiens	Blood	Skin Tumour Nodules	47Y	Adult	Male	White	Alk-Negative; Other Blood Cancers; Anaplastic Large Cell Lymphoma	no available	cell	MAC-2B; MCG-2B	curated
+Mac-2A	Mac-2A	CVCL_H637	no available	Homo Sapiens	Blood	Skin Tumour Nodules	47Y	Adult	Male	White	Alk-Negative; Anaplastic Large Cell Lymphoma	no available	cell	MAC-2A; MAC2A; MCG-2A; PB-2A	curated
+Mac-2B	Mac-2B	CVCL_H638	no available	Homo Sapiens	Blood	Skin Tumour Nodules	47Y	Adult	Male	White	Alk-Negative; Anaplastic Large Cell Lymphoma	no available	cell	MAC-2B; MCG-2B	curated
 DL-40	DL-40	CVCL_2889	no available	Homo Sapiens	Blood	Peripheral Blood	64Y	Adult	Female	Japanese	Alk-Negative; T-Cell Non-Hodgkin'S Lymphoma; Anaplastic Large Cell Lymphoma	T cell	cell	DL40	curated
 FE-PD	FE-PD	CVCL_H614	FEPD cell	Homo Sapiens	Blood	Peripheral Blood	46Y	Adult	no available	no available	Alk-Negative; T-Cell Non-Hodgkin'S Lymphoma; Anaplastic Large Cell Lymphoma	T cell	cell	FEPD	curated
 DEL	DEL	CVCL_1170	no available	Homo Sapiens	Blood	Pleural Effusion	12Y	Juvenile	Male	Caucasian	Alk-Positive; T-Cell Non-Hodgkin'S Lymphoma; Anaplastic Large Cell Lymphoma	no available	cell	DEL	curated
@@ -124,15 +124,15 @@ SW1088	SW1088	CVCL_1715	SW-1088 cell	Homo Sapiens	Central Nervous System	Brain	7
 U-118-MG	U-118MG	CVCL_0633	U-118MG cell	Homo Sapiens	Central Nervous System	Brain	50Y	Adult	Male	Caucasian	Brain astrocytoma	no available	cell	U-118-MG-CELL; 118 MG; U118; U-118-MG; U-118 MG; U118MG; 118 MG CELL; 118MG CELL; U-118 CELL; U118-MG; 118MG; U-118 MG CELL; U118 CELL; U118-MG CELL	curated
 U-178MG	U-178MG	CVCL_A758	no available	Homo Sapiens	Central Nervous System	Brain	56Y	Adult	Male	Caucasian	Brain astrocytoma	no available	cell	U178-MG; U-178 MG; 178MG; 178 MG(5); MG 178; 178 MG; U-178; U-178-MG; U178MG; U 178 MG	curated
 U251	U-251MG	CVCL_0021	U-251MG cell	Homo Sapiens	Central Nervous System	Parietal Lobe; Brain	75Y	Elderly	Male	Caucasian	Brain astrocytoma	no available	cell	U-251MG; U251-MG; 251MG; U251; U-251; 251 MG; U-251 MG CELL; U-251_MG; U-251 CELL; U-251 MG; 251 MG(6); U-251MG CELL; U251MG; U251 CELL; U251N; U251MG CELL; U-251-MG	curated
-93T449	93T449	CVCL_U614	no available	Homo Sapiens	Soft Tissue	Retroperitoneal Space; Retroperitoneum	68Y	Elderly	Female	Caucasian	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma; Other Solid Cancers	no available	cell	93T449	curated
-94T778	94T778	CVCL_U613	no available	Homo Sapiens	Soft Tissue	Retroperitoneal Space; Retroperitoneum	69Y	Elderly	Female	Caucasian	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma; Other Solid Cancers	no available	cell	94T778	curated
-95T1000	95T1000	CVCL_WU67	no available	Homo Sapiens	Soft Tissue	Thigh Muscle	48Y	Adult	Male	no available	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma; Other Solid Cancers	no available	cell	95T1000	curated
-BT-12	BT-12	CVCL_M155	no available	Homo Sapiens	Soft Tissue	Posterior Fossa; Brain	2M	no available	Female	Caucasian	Atypical Teratoid/Rhabdoid Tumor; Other Solid Cancers	no available	cell	BT12	curated
-BT-16	BT-16	CVCL_M156	no available	Homo Sapiens	Soft Tissue	no available	2Y	Infant	Male	no available	Atypical Teratoid/Rhabdoid Tumor; Other Solid Cancers	no available	cell	BT16	curated
-CHLA-06-ATRT	CHLA-06-ATRT	CVCL_AQ42	no available	Homo Sapiens	Soft Tissue	Cerebellum; Brain	4M	no available	Female	no available	Atypical Teratoid/Rhabdoid Tumor; Other Solid Cancers	no available	cell	CHLA06ATRT; CHLA-06	curated
-CHLA-266	CHLA-266	CVCL_M149	no available	Homo Sapiens	Soft Tissue	Posterior Fossa; Brain	2Y	Infant	Female	White	Atypical Teratoid/Rhabdoid Tumor; Other Solid Cancers	no available	cell	CHLA266	curated
-COG-AR-359	COG-AR-359	CVCL_RS25	no available	Homo Sapiens	Soft Tissue	Brain	no available	Children	no available	no available	Atypical Teratoid/Rhabdoid Tumor; Other Solid Cancers	no available	cell	COGAR359	curated
-COG-AR-382	COG-AR-382	CVCL_RS26	no available	Homo Sapiens	Soft Tissue	Abdomen	no available	Children	no available	no available	Atypical Teratoid/Rhabdoid Tumor; Other Solid Cancers	no available	cell	COG-AR-382	curated
+93T449	93T449	CVCL_U614	no available	Homo Sapiens	Soft Tissue	Retroperitoneal Space; Retroperitoneum	68Y	Elderly	Female	Caucasian	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma	no available	cell	93T449	curated
+94T778	94T778	CVCL_U613	no available	Homo Sapiens	Soft Tissue	Retroperitoneal Space; Retroperitoneum	69Y	Elderly	Female	Caucasian	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma	no available	cell	94T778	curated
+95T1000	95T1000	CVCL_WU67	no available	Homo Sapiens	Soft Tissue	Thigh Muscle	48Y	Adult	Male	no available	Atypical Lipomatous Tumor/Well Differentiated Liposarcoma	no available	cell	95T1000	curated
+BT-12	BT-12	CVCL_M155	no available	Homo Sapiens	Soft Tissue	Posterior Fossa; Brain	2M	no available	Female	Caucasian	Atypical Teratoid/Rhabdoid Tumor	no available	cell	BT12	curated
+BT-16	BT-16	CVCL_M156	no available	Homo Sapiens	Soft Tissue	no available	2Y	Infant	Male	no available	Atypical Teratoid/Rhabdoid Tumor	no available	cell	BT16	curated
+CHLA-06-ATRT	CHLA-06-ATRT	CVCL_AQ42	no available	Homo Sapiens	Soft Tissue	Cerebellum; Brain	4M	no available	Female	no available	Atypical Teratoid/Rhabdoid Tumor	no available	cell	CHLA06ATRT; CHLA-06	curated
+CHLA-266	CHLA-266	CVCL_M149	no available	Homo Sapiens	Soft Tissue	Posterior Fossa; Brain	2Y	Infant	Female	White	Atypical Teratoid/Rhabdoid Tumor	no available	cell	CHLA266	curated
+COG-AR-359	COG-AR-359	CVCL_RS25	no available	Homo Sapiens	Soft Tissue	Brain	no available	Children	no available	no available	Atypical Teratoid/Rhabdoid Tumor	no available	cell	COGAR359	curated
+COG-AR-382	COG-AR-382	CVCL_RS26	no available	Homo Sapiens	Soft Tissue	Abdomen	no available	Children	no available	no available	Atypical Teratoid/Rhabdoid Tumor	no available	cell	COG-AR-382	curated
 KASUMI-2	Kasumi-2	CVCL_0590	no available	Homo Sapiens	Blood	Bone Marrow	15Y	Juvenile	Male	Japanese	B Acute Lymphoblastic Leukemia With T(1; B-Lymphoblastic Leukemia	no available	cell	KASUMI2; KASUMI-2	curated
 MHH-CALL-3	MHH-CALL-3	CVCL_0089	no available	Homo Sapiens	Blood	Bone Marrow	11Y	Children	Female	Caucasian	B Acute Lymphoblastic Leukemia With T(1; B-Lymphoblastic Leukemia	no available	cell	MHH-CALL 3; MHHCALL3; MHH-CALL3; MHH CALL 3	curated
 RCH-ACV	RCH-ACV	CVCL_1851	RCH-ACV cell	Homo Sapiens	Blood	Bone Marrow	8Y	Children	Female	Caucasian	B Acute Lymphoblastic Leukemia With T(1; B-Lymphoblastic Leukemia	no available	cell	RCH; RCHACV	curated
@@ -273,7 +273,7 @@ UM-UC-7	UM-UC-7	CVCL_2752	no available	Homo Sapiens	Bladder	Urinary Bladder; Bla
 UM-UC-9	UM-UC-9	CVCL_2753	UM-UC-9 cell	Homo Sapiens	Bladder	Urinary Bladder; Bladder	no available	no available	no available	no available	Bladder Carcinoma	no available	cell	UNIVERSITY OF MICHIGAN-UROTHELIAL CARCINOMA-9; UMUC-9 CELL; UNIVERSITY OF MICHIGAN-UROTHELIAL CARCINOMA-9 CELL; UC-9; UMUC9	curated
 VM-CUB-1	VM-CUB-1	CVCL_1786	no available	Homo Sapiens	Bladder	Urinary Bladder	no available	no available	Male	Caucasian	Bladder Carcinoma	no available	cell	VMCUB-1; VMCUB1; VM-CUB-I; VM-CUB1; VM CUB 1	curated
 639-V	639V	CVCL_1048	no available	Homo Sapiens	Bladder	Left Ureter; Ureter	69Y	Elderly	Male	Caucasian	Ureter transitional cell carcinoma	no available	cell	639-V; 639 V; 639V	curated
-SCaBER	SCaBER	CVCL_3599	SCaBER cell	Homo Sapiens	Bladder	Urinary Bladder	58Y	Adult	Male	African American	Ureter transitional cell carcinoma; Bladder Carcinoma	no available	cell	SCABER	curated
+SCaBER	SCaBER	CVCL_3599	SCaBER cell	Homo Sapiens	Bladder	Urinary Bladder	58Y	Adult	Male	African American	Ureter transitional cell carcinoma	no available	cell	SCABER	curated
 1181N1	1181N1	CVCL_D317	no available	Homo Sapiens	Brain	Brain	50Y	Adult	Male	Caucasian	Brain astrocytoma	no available	cell	118MG-1181N1	curated
 1321N1	1321N1	CVCL_0110	1321-N1 cell	Homo Sapiens	Brain	Brain	50Y	Adult	Male	Caucasian	Brain astrocytoma	no available	cell	1321-N1; 1321 N1 CELL; 1321N1 CELL; 1321 N1	curated
 AU565	AU565	CVCL_1074	AU-565 cell	Homo Sapiens	Breast	Pleural Effusion	43Y	Adult	Female	Caucasian	Breast Adenocarcinoma	no available	cell	AU 565; AU-565; AU565 CELL	curated
@@ -333,12 +333,12 @@ JIMT-1	JIMT-1	CVCL_2077	JIMT-1 cell	Homo Sapiens	Breast	Pleural Effusion	62Y	Adu
 SUM-185PE	SUM185PE	CVCL_5591	SUM-185PE cell	Homo Sapiens	Breast	Plueral Effusion; Pleural Effusion	no available	no available	no available	no available	Breast Ductal Carcinoma	no available	cell	SUM-185PE; SUM185PE CELL; SUM-185; SUM 185PE; SUM 185; SUM-185 CELL; SUM185 CELL; 185PE; SUM185; SUM 185 CELL	curated
 SUM-159PT	SUM159PT	CVCL_5423	SUM-159PT cell	Homo Sapiens	Breast	Breast	71Y	Elderly	no available	no available	Breast Pleomorphic Carcinoma; Breast Carcinoma	no available	cell	SUM 159PT; SUM 159 CELL; SUM 159; SUM159 CELL; SUM-159 CELL; 159 PT; SUM 159PT CELL; SUM-159PT; SUM-159-PT; 159PT; SUM159; SUM-159; SUM159PT CELL	curated
 HCC1806	HCC1806	CVCL_1258	HCC-1806 cell	Homo Sapiens	Breast	Breast; Mammary Gland	60Y	Adult	Female	African American	Breast Squamous Cell Carcinoma; Breast Carcinoma;  Acantholytic Variant	no available	cell	HAMON CANCER CENTER 1806; HCC-1806; HCC1806; HCC1806 CELL	curated
-BICR10	BICR 10	CVCL_2307	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity	no available	no available	Female	Caucasian	Buccal Mucosa Squamous Cell Carcinoma; Oral Cavity Carcinoma	no available	cell	BICR-10 R; BICR10; BICR-10; BEATSON INSTITUTE FOR CANCER RESEARCH 10	curated
-H413	H413	CVCL_2465	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	53Y	Adult	Female	no available	Buccal Mucosa Squamous Cell Carcinoma; Oral Cavity Carcinoma	no available	cell	H413	curated
-HO-1-N-1	HO-1-N-1	CVCL_1284	HO-1-N-1 cell	Homo Sapiens	Head and Neck	Buccal Mucosa	no available	no available	Male	Japanese	Buccal Mucosa Squamous Cell Carcinoma; Oral Cavity Carcinoma	no available	cell	NAKATA-1; HO-1-N-1; HO1-N-1; HO1-N1; HO1N1	curated
-ORL-195	ORL-195	CVCL_VJ43	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	61Y	Adult	Female	Indian	Buccal Mucosa Squamous Cell Carcinoma; Oral Cavity Carcinoma	no available	cell	195T; ORL-195T	curated
-ORL-204	ORL-204	CVCL_VJ45	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	76Y	Elderly	Male	Indian	Buccal Mucosa Squamous Cell Carcinoma; Oral Cavity Carcinoma	no available	cell	204T; ORL-204T	curated
-ORL-214	ORL-214	CVCL_VJ47	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	49Y	Adult	Female	Indian	Buccal Mucosa Squamous Cell Carcinoma; Oral Cavity Carcinoma	no available	cell	ORL-214T; 214T	curated
+BICR10	BICR 10	CVCL_2307	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity	no available	no available	Female	Caucasian	Buccal mucosa squamous cell carcinoma	no available	cell	BICR-10 R; BICR10; BICR-10; BEATSON INSTITUTE FOR CANCER RESEARCH 10	curated
+H413	H413	CVCL_2465	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	53Y	Adult	Female	no available	Buccal mucosa squamous cell carcinoma	no available	cell	H413	curated
+HO-1-N-1	HO-1-N-1	CVCL_1284	HO-1-N-1 cell	Homo Sapiens	Head and Neck	Buccal Mucosa	no available	no available	Male	Japanese	Buccal mucosa squamous cell carcinoma	no available	cell	NAKATA-1; HO-1-N-1; HO1-N-1; HO1-N1; HO1N1	curated
+ORL-195	ORL-195	CVCL_VJ43	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	61Y	Adult	Female	Indian	Buccal mucosa squamous cell carcinoma	no available	cell	195T; ORL-195T	curated
+ORL-204	ORL-204	CVCL_VJ45	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	76Y	Elderly	Male	Indian	Buccal mucosa squamous cell carcinoma	no available	cell	204T; ORL-204T	curated
+ORL-214	ORL-214	CVCL_VJ47	no available	Homo Sapiens	Head and Neck	Buccal Mucosa; Oral Cavity; Buccal Mucosa	49Y	Adult	Female	Indian	Buccal mucosa squamous cell carcinoma	no available	cell	ORL-214T; 214T	curated
 BL-41	BL-41	CVCL_1087	BL-41 cell	Homo Sapiens	Haematopoietic and Lymphoid	no available	8Y	Children	Male	Caucasian	Burkitt lymphoma	B cell	cell	BL 41; IARC-BL41; BL41; IARC BL41; BL 041; IARC-BL-41; IARC/BL 41; IARC BL 41; IARC/BL41	curated
 BL-70	BL-70	CVCL_1088	BL-70 cell	Homo Sapiens	Haematopoietic and Lymphoid	no available	16Y	Juvenile	Male	Caucasian	Burkitt lymphoma	B cell	cell	BL 70; IARC-BL70; IARC BL 70; BL70; IARC/BL 70; IARC BL70; IARC/BL70	curated
 BLUE-1	BLUE-1	CVCL_1967	no available	Homo Sapiens	Haematopoietic and Lymphoid	Bone Marrow	29Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	BLUE1	curated
@@ -374,7 +374,7 @@ HCS-2	HCS-2	CVCL_2918	no available	Homo Sapiens	Cervix	Uterus; Cervix	42Y	Adult	
 OMC-1	OMC-1 [Human cervical carcinoma]	CVCL_1623	no available	Homo Sapiens	Cervix	Lymph Node; Left Supraclavicular Lymph Node	52Y	Adult	Female	Japanese	Cervical Squamous Cell Carcinoma	no available	cell	OMC1; OSAKA MEDICAL COLLEGE-1	curated
 AML-193	AML-193	CVCL_1071	AML-193 cell	Homo Sapiens	Blood	Peripheral Blood	13Y	Juvenile	Female	African American and Caucasian	Childhood acute myeloid leukemia	no available	cell	AML193; AML193 CELL	curated
 P31-FUJ	P31/FUJ	CVCL_1632	P31/FUJ cell	Homo Sapiens	Blood	Peripheral Blood	7Y	Children	Male	Japanese	Childhood acute myeloid leukemia	no available	cell	P31-FUJ; P-31:FUJ; P31 FUJ; P31/FUJIOKA; P31FUJ	curated
-SUP-T1	SUP-T1	CVCL_1714	SUP-T1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Pleural Effusion	8Y	Children	Male	Caucasian	Childhood T Lymphoblastic Lymphoma; T-Lymphoblastic Leukemia	T cell	cell	SUPT-1; VB; SUP T-1; SUP-T1; SUP T1; STANFORD UNIVERSITY PEDIATRIC T-CELL LINE 1; TSUP-1; SUPT1	curated
+SUP-T1	SUP-T1	CVCL_1714	SUP-T1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Pleural Effusion	8Y	Children	Male	Caucasian	T-cell childhood lymphoblastic lymphoma; T-Lymphoblastic Leukemia	T cell	cell	SUPT-1; VB; SUP T-1; SUP-T1; SUP T1; STANFORD UNIVERSITY PEDIATRIC T-CELL LINE 1; TSUP-1; SUPT1	curated
 CCC-5	CCC-5	CVCL_LM83	no available	Homo Sapiens	Liver	Pleural Effusion	59Y	Adult	Male	no available	Cholangiocarcinoma; Biliary Tract Carcinoma	no available	cell	CCC5	curated
 ECC2	ECC2	CVCL_A1UI	no available	Homo Sapiens	Biliary Tract	Bile Duct	no available	no available	no available	no available	Cholangiocarcinoma; Biliary Tract Carcinoma	no available	cell	ECC2	curated
 EGI-1	EGI-1	CVCL_1193	no available	Homo Sapiens	Biliary Tract	Bile Duct	52Y	Adult	Male	Caucasian	Cholangiocarcinoma; Biliary Tract Carcinoma	no available	cell	EGI1; EGI-1	curated
@@ -481,33 +481,33 @@ EN	EN	CVCL_2034	no available	Homo Sapiens	Endometrium	Endometrium; Cervical Endo
 HEC-251	HEC-251	CVCL_2927	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	53Y	Adult	Female	Japanese	Endometrial Carcinoma	no available	cell	HEC251	curated
 HOUA-I	HOUA-I	CVCL_3867	no available	Homo Sapiens	Endometrium	Endometrium	55Y	Adult	Female	Japanese	Endometrial Carcinoma	no available	cell	HOUA-1; HOUA; HOUAI	curated
 TEN	TEN	CVCL_E063	no available	Homo Sapiens	Endometrium	Endometrium	74Y	Elderly	Female	Japanese	Endometrial Carcinoma	no available	cell	TEN	curated
-AN3-CA	AN3-CA	CVCL_0028	AN3CA cell	Homo Sapiens	Endometrium	Lymph Node; Endometrium	55Y	Adult	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	AN3; AN3 CA; AN3CA; AN3_CA; AN-3; ACANTHOSIS NIGRICANS 3RD ATTEMPT-CARCINOMA	curated
-COLO-684	COLO 684	CVCL_1132	no available	Homo Sapiens	Endometrium	Endometrium	63Y	Adult	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	COLO #684; COLO684; COLO-684; COLORADO 684	curated
-COLO-685	COLO 685	CVCL_1991	no available	Homo Sapiens	Endometrium	Endometrium	63Y	Adult	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	COLORADO 685; COLO #685; COLO685; COLO-685	curated
-HEC-1	HEC-1	CVCL_1274	no available	Homo Sapiens	Endometrium	Endometrium	71Y	Elderly	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HUMAN ENDOMETRIAL CANCER-1; HEC1; HEC-B-296	curated
-HEC-1-A	HEC-1-A	CVCL_0293	HEC-1-A cell	Homo Sapiens	Endometrium	Endometrium	71Y	Elderly	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC-1-A; HEC1A; HEC-1A; HEC1-A; HEC1A CELL; HEC-1A CELL	curated
-HEC-1-B	HEC-1-B	CVCL_0294	HEC-1-B cell	Homo Sapiens	Endometrium	Endometrium	71Y	Elderly	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC-1-B; HEC-1B; HEC-1B CELL; HEC1-B; HEC1B CELL; HEC1B	curated
-HEC-108	HEC-108	CVCL_2923	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC108	curated
-HEC-116	HEC-116	CVCL_2924	no available	Homo Sapiens	Uterus	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC116	curated
-HEC-151	HEC-151	CVCL_2925	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC151	curated
-HEC-265	HEC-265	CVCL_2928	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	59Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC265	curated
-HEC-50B	HEC-50B	CVCL_2929	no available	Homo Sapiens	Endometrium	Ascites; Peritoneal Fluid	no available	no available	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC-50 CLONE B; HEC-50; HEC50B; HEC50	curated
-HEC-59	HEC-59	CVCL_2930	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HEC59	curated
-HHUA	HHUA	CVCL_3866	no available	Homo Sapiens	Endometrium	Endometrium	54Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	HHUA-1	curated
-Ishikawa	Ishikawa	CVCL_2529	Ishikawa cell	Homo Sapiens	Endometrium	Uterus; Endometrium	39Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	ISHI CELL; ISHIKAWA; ISHIKAWA CELL; ISHI	curated
-Ishikawa(Heraklio)02ER-	Ishikawa (Heraklio) 02 ER-	CVCL_6543	no available	Homo Sapiens	Endometrium	Uterus; Endometrium	39Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	ISHIKAWAHERAKLIO02ER; ER-02 ISH; ISHIKAWA(HERAKLIO)02ER-	curated
-JHUEM-1	JHUEM-1	CVCL_4655	no available	Homo Sapiens	Endometrium	Endometrium	56Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	JHUEM1	curated
-JHUEM-2	JHUEM-2	CVCL_4656	no available	Homo Sapiens	Endometrium	Endometrium	62Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	JHUEM2	curated
-JHUEM-3	JHUEM-3	CVCL_4657	no available	Homo Sapiens	Endometrium	Endometrium	60Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	JHUEM3	curated
-JHUEM-7	JHUEM-7	CVCL_4658	no available	Homo Sapiens	Endometrium	Endometrium	58Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	JHUEM7	curated
-KLE	KLE	CVCL_1329	KLE cell	Homo Sapiens	Endometrium	Endometrium	64Y	Adult	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	KLE	curated
-MFE-280	MFE-280	CVCL_1405	no available	Homo Sapiens	Endometrium	Endometrium	77Y	Elderly	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	MFE 280; MFE280	curated
-MFE-296	MFE-296	CVCL_1406	no available	Homo Sapiens	Endometrium	Endometrium	68Y	Elderly	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	MFE296; MFE 296	curated
-SNG-M	SNG-M	CVCL_1707	no available	Homo Sapiens	Endometrium	Obturator Lymph Node; Lymph Node	52Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	SNGM	curated
-SNG-P	SNG-P	CVCL_S914	no available	Homo Sapiens	Endometrium	Endometrium	52Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Adenocarcinoma	no available	cell	SNG-P	curated
-MFE-319	MFE-319	CVCL_2112	no available	Homo Sapiens	Endometrium	Endometrium	81Y	Elderly	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenosquamous Carcinoma	no available	cell	MFE319	curated
-RL95-2	RL95-2	CVCL_0505	RL95-2 cell	Homo Sapiens	Endometrium	Endometrium	65Y	Elderly	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenosquamous Carcinoma	no available	cell	RL952; RL95 CELL; RL95; RL-95-2; RL-952; RL-95 CELL; RL-95-2 CELL; RL95_2	curated
-HEC-6	HEC-6	CVCL_2931	no available	Homo Sapiens	Endometrium	Endometrium; Uterine Body	48Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Endometrioid Adenocarcinoma;  Variant With Squamous Differentiation	no available	cell	HEC6	curated
+AN3-CA	AN3-CA	CVCL_0028	AN3CA cell	Homo Sapiens	Endometrium	Lymph Node; Endometrium	55Y	Adult	Female	Caucasian	Endometrial adenocarcinoma	no available	cell	AN3; AN3 CA; AN3CA; AN3_CA; AN-3; ACANTHOSIS NIGRICANS 3RD ATTEMPT-CARCINOMA	curated
+COLO-684	COLO 684	CVCL_1132	no available	Homo Sapiens	Endometrium	Endometrium	63Y	Adult	Female	Caucasian	Endometrial adenocarcinoma	no available	cell	COLO #684; COLO684; COLO-684; COLORADO 684	curated
+COLO-685	COLO 685	CVCL_1991	no available	Homo Sapiens	Endometrium	Endometrium	63Y	Adult	Female	Caucasian	Endometrial adenocarcinoma	no available	cell	COLORADO 685; COLO #685; COLO685; COLO-685	curated
+HEC-1	HEC-1	CVCL_1274	no available	Homo Sapiens	Endometrium	Endometrium	71Y	Elderly	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HUMAN ENDOMETRIAL CANCER-1; HEC1; HEC-B-296	curated
+HEC-1-A	HEC-1-A	CVCL_0293	HEC-1-A cell	Homo Sapiens	Endometrium	Endometrium	71Y	Elderly	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC-1-A; HEC1A; HEC-1A; HEC1-A; HEC1A CELL; HEC-1A CELL	curated
+HEC-1-B	HEC-1-B	CVCL_0294	HEC-1-B cell	Homo Sapiens	Endometrium	Endometrium	71Y	Elderly	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC-1-B; HEC-1B; HEC-1B CELL; HEC1-B; HEC1B CELL; HEC1B	curated
+HEC-108	HEC-108	CVCL_2923	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC108	curated
+HEC-116	HEC-116	CVCL_2924	no available	Homo Sapiens	Uterus	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC116	curated
+HEC-151	HEC-151	CVCL_2925	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC151	curated
+HEC-265	HEC-265	CVCL_2928	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	59Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC265	curated
+HEC-50B	HEC-50B	CVCL_2929	no available	Homo Sapiens	Endometrium	Ascites; Peritoneal Fluid	no available	no available	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC-50 CLONE B; HEC-50; HEC50B; HEC50	curated
+HEC-59	HEC-59	CVCL_2930	no available	Homo Sapiens	Endometrium	Uterine Corpus; Endometrium	no available	no available	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HEC59	curated
+HHUA	HHUA	CVCL_3866	no available	Homo Sapiens	Endometrium	Endometrium	54Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	HHUA-1	curated
+Ishikawa	Ishikawa	CVCL_2529	Ishikawa cell	Homo Sapiens	Endometrium	Uterus; Endometrium	39Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	ISHI CELL; ISHIKAWA; ISHIKAWA CELL; ISHI	curated
+Ishikawa(Heraklio)02ER-	Ishikawa (Heraklio) 02 ER-	CVCL_6543	no available	Homo Sapiens	Endometrium	Uterus; Endometrium	39Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	ISHIKAWAHERAKLIO02ER; ER-02 ISH; ISHIKAWA(HERAKLIO)02ER-	curated
+JHUEM-1	JHUEM-1	CVCL_4655	no available	Homo Sapiens	Endometrium	Endometrium	56Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	JHUEM1	curated
+JHUEM-2	JHUEM-2	CVCL_4656	no available	Homo Sapiens	Endometrium	Endometrium	62Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	JHUEM2	curated
+JHUEM-3	JHUEM-3	CVCL_4657	no available	Homo Sapiens	Endometrium	Endometrium	60Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	JHUEM3	curated
+JHUEM-7	JHUEM-7	CVCL_4658	no available	Homo Sapiens	Endometrium	Endometrium	58Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	JHUEM7	curated
+KLE	KLE	CVCL_1329	KLE cell	Homo Sapiens	Endometrium	Endometrium	64Y	Adult	Female	Caucasian	Endometrial adenocarcinoma	no available	cell	KLE	curated
+MFE-280	MFE-280	CVCL_1405	no available	Homo Sapiens	Endometrium	Endometrium	77Y	Elderly	Female	Caucasian	Endometrial adenocarcinoma	no available	cell	MFE 280; MFE280	curated
+MFE-296	MFE-296	CVCL_1406	no available	Homo Sapiens	Endometrium	Endometrium	68Y	Elderly	Female	Caucasian	Endometrial adenocarcinoma	no available	cell	MFE296; MFE 296	curated
+SNG-M	SNG-M	CVCL_1707	no available	Homo Sapiens	Endometrium	Obturator Lymph Node; Lymph Node	52Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	SNGM	curated
+SNG-P	SNG-P	CVCL_S914	no available	Homo Sapiens	Endometrium	Endometrium	52Y	Adult	Female	Japanese	Endometrial adenocarcinoma	no available	cell	SNG-P	curated
+MFE-319	MFE-319	CVCL_2112	no available	Homo Sapiens	Endometrium	Endometrium	81Y	Elderly	Female	Caucasian	Endometrial adenosquamous carcinoma	no available	cell	MFE319	curated
+RL95-2	RL95-2	CVCL_0505	RL95-2 cell	Homo Sapiens	Endometrium	Endometrium	65Y	Elderly	Female	Caucasian	Endometrial adenosquamous carcinoma	no available	cell	RL952; RL95 CELL; RL95; RL-95-2; RL-952; RL-95 CELL; RL-95-2 CELL; RL95_2	curated
+HEC-6	HEC-6	CVCL_2931	no available	Homo Sapiens	Endometrium	Endometrium; Uterine Body	48Y	Adult	Female	Japanese	Endometrial adenosquamous carcinoma	no available	cell	HEC6	curated
 VA-ES-BJ	VA-ES-BJ	CVCL_1785	no available	Homo Sapiens	Soft Tissue	Bone Marrow	41Y	Adult	Male	Caucasian	Epithelioid Sarcoma	no available	cell	VALHALLA-EPITHELIOID SARCOMA-BJ; VAESBJ	curated
 ESO51	ESO-51	CVCL_2036	no available	Homo Sapiens	Esophagus	Distal; Esophagus	74Y	Elderly	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	ESO51	curated
 KYAE-1	KYAE-1	CVCL_1825	no available	Homo Sapiens	Esophagus	Esophagus; Pleural Effusion	60Y	Adult	Male	Japanese	Esophageal adenocarcinoma	no available	cell	KYAE; KYAE1	curated
@@ -548,37 +548,37 @@ TE-6	TE-6	CVCL_1765	TE-6 cell	Homo Sapiens	Esophagus	Esophagus	71Y	Elderly	Male	
 TE-7	TE-7	CVCL_9972	no available	Homo Sapiens	Esophagus	no available	no available	no available	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE7	curated
 TE-8	TE-8	CVCL_1766	TE-8 cell	Homo Sapiens	Esophagus	Esophagus	63Y	Adult	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE8; TE8 CELL	curated
 TE-9	TE-9	CVCL_1767	no available	Homo Sapiens	Esophagus	Pleural Effusion	48Y	Adult	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE9	curated
-Hs-822-T	Hs 822.T	CVCL_0933	no available	Homo Sapiens	Bone	Bone	9Y	Children	Female	White	Ewing'S Sarcoma	fibroblast	cell	HS822T; HS-822-T	curated
-Hs-863-T	Hs 863.T	CVCL_0959	no available	Homo Sapiens	Bone	Bone	5Y	Children	Female	Caucasian	Ewing'S Sarcoma	fibroblast	cell	HS-863-T; HS863T	curated
-A673	A-673	CVCL_0080	A-673 cell	Homo Sapiens	Bone	Muscle	15Y	Juvenile	Female	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	NAN; A673 CELL; A673; RMS1598; RMS 1598	curated
-CADO-ES1	CADO-ES1	CVCL_1103	no available	Homo Sapiens	Bone	Pleural Effusion	19Y	Adult	Female	Japanese	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	ESCADO1; CADO-ES; CADOES1; CADO-ES-1; CENTER FOR ADULT DISEASES OSAKA-EWING SARCOMA 1; CADO ES1	curated
-CHLA-99	CHLA-99	CVCL_0B50	no available	Homo Sapiens	Bone	no available	no available	Children	no available	no available	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	CHLA99	curated
-ES3	ES3	CVCL_1199	no available	Homo Sapiens	Bone	no available	12Y	Juvenile	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	ES-3	curated
-ES4	ES4	CVCL_1200	no available	Homo Sapiens	Bone	no available	18Y	Adult	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	ES-4	curated
-ES5	ES5	CVCL_1201	no available	Homo Sapiens	Bone	no available	16Y	Juvenile	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	ES5	curated
-ES6	ES6	CVCL_1202	no available	Homo Sapiens	Bone	no available	17Y	Juvenile	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	ES-6	curated
-ES7	ES7	CVCL_1203	no available	Homo Sapiens	Bone	no available	15Y	Juvenile	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	ES-7	curated
-ES8	ES8	CVCL_1204	no available	Homo Sapiens	Bone	no available	10Y	Children	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	ES-8	curated
-EW-1	EW-1	CVCL_1208	no available	Homo Sapiens	Bone	Pleural Effusion	19Y	Adult	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	EW1; IARC-EW 1; IARC-EW1; IARC-EW-1	curated
-EW-11	EW-11	CVCL_1209	no available	Homo Sapiens	Bone	Mediastinal Lymph Node	11Y	Children	Female	no available	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW11; EW11; IARC-EW-11; IARC-EW 11	curated
-EW-12	EW-12	CVCL_1210	no available	Homo Sapiens	Bone	no available	no available	no available	Female	no available	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	EW12; IARC-EW-12; IARC-EW12; IARC-EW 12	curated
-EW-13	EW-13	CVCL_1211	no available	Homo Sapiens	Bone	no available	no available	no available	Male	no available	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW-13; EW13; IARC-EW13; IARC-EW 13	curated
-EW-16	EW-16	CVCL_1212	no available	Homo Sapiens	Bone	no available	no available	no available	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW-16; EW16; IARC-EW 16; IARC-EW16	curated
-EW-18	EW-18	CVCL_1213	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW-18; EW18	curated
-EW-2	EW-2	CVCL_3446	no available	Homo Sapiens	Bone	Peripheral Blood	19Y	Adult	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW2; EW2; IARC-EW 2; IARC-EW-2	curated
-EW-22	EW-22	CVCL_1214	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW-22; EW22	curated
-EW-24	EW-24	CVCL_1215	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW-24; EW24	curated
-EW-3	EW-3	CVCL_1216	no available	Homo Sapiens	Bone	Pleural Effusion	14Y	Juvenile	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	EW3; IARC-EW 3; IARC-EW3; IARC-EW-3	curated
-EW-7	EW-7	CVCL_1217	no available	Homo Sapiens	Bone	Pleural Effusion	20Y	Adult	Female	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	IARC-EW7; IARC-EW-7; EW7; IARC-EW 7	curated
-EWS-502	EWS-502	CVCL_S740	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	EWS502; EWS/502	curated
-EWS-834	EWS-834	CVCL_AW95	no available	Homo Sapiens	Bone	no available	no available	no available	no available	no available	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	EWS834	curated
-MHH-ES-1	MHH-ES-1	CVCL_1411	no available	Homo Sapiens	Bone	Ascites	12Y	Juvenile	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	MHH-ES1; MHHES1	curated
-RD-ES	RD-ES	CVCL_2169	RD-ES cell	Homo Sapiens	Bone	Bone;  Humerus	19Y	Adult	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	RDES-1; RDES	curated
-RH-1	EW-8	CVCL_1658	Rh-1 cell	Homo Sapiens	Bone	Bone Marrow	no available	no available	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	RH1; SJRH1; RH1 CELL; SJRH-1; RH-1; RH1 RH-1; EW8(RH1); EW8	curated
-SK-ES-1	SK-ES-1	CVCL_0627	no available	Homo Sapiens	Bone	Bone	18Y	Adult	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	SK-ES-1; SK-ES; SK-ES1; SK ES 01; SKES1; SKES-1	curated
-TC-106	TC-106	CVCL_F531	no available	Homo Sapiens	Bone	Scalp	19Y	Adult	Male	no available	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	TC106	curated
-TC-71	TC-71	CVCL_2213	TC-71 cell	Homo Sapiens	Bone	Humerus;  Humerus; Bone	22Y	Adult	Male	Caucasian	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	GM11654; TC71	curated
-TTC-466	TTC-466	CVCL_A444	no available	Homo Sapiens	Bone	Pleural Effusion; Lung	4Y-5Y	Children	Female	no available	Ewing'S Sarcoma; Ewing Sarcoma	no available	cell	TCC466; TTC466	curated
+Hs-822-T	Hs 822.T	CVCL_0933	no available	Homo Sapiens	Bone	Bone	9Y	Children	Female	White	Ewing sarcoma	fibroblast	cell	HS822T; HS-822-T	curated
+Hs-863-T	Hs 863.T	CVCL_0959	no available	Homo Sapiens	Bone	Bone	5Y	Children	Female	Caucasian	Ewing sarcoma	fibroblast	cell	HS-863-T; HS863T	curated
+A673	A-673	CVCL_0080	A-673 cell	Homo Sapiens	Bone	Muscle	15Y	Juvenile	Female	Caucasian	Ewing sarcoma	no available	cell	NAN; A673 CELL; A673; RMS1598; RMS 1598	curated
+CADO-ES1	CADO-ES1	CVCL_1103	no available	Homo Sapiens	Bone	Pleural Effusion	19Y	Adult	Female	Japanese	Ewing sarcoma	no available	cell	ESCADO1; CADO-ES; CADOES1; CADO-ES-1; CENTER FOR ADULT DISEASES OSAKA-EWING SARCOMA 1; CADO ES1	curated
+CHLA-99	CHLA-99	CVCL_0B50	no available	Homo Sapiens	Bone	no available	no available	Children	no available	no available	Ewing sarcoma	no available	cell	CHLA99	curated
+ES3	ES3	CVCL_1199	no available	Homo Sapiens	Bone	no available	12Y	Juvenile	Male	Caucasian	Ewing sarcoma	no available	cell	ES-3	curated
+ES4	ES4	CVCL_1200	no available	Homo Sapiens	Bone	no available	18Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	ES-4	curated
+ES5	ES5	CVCL_1201	no available	Homo Sapiens	Bone	no available	16Y	Juvenile	Male	Caucasian	Ewing sarcoma	no available	cell	ES5	curated
+ES6	ES6	CVCL_1202	no available	Homo Sapiens	Bone	no available	17Y	Juvenile	Male	Caucasian	Ewing sarcoma	no available	cell	ES-6	curated
+ES7	ES7	CVCL_1203	no available	Homo Sapiens	Bone	no available	15Y	Juvenile	Male	Caucasian	Ewing sarcoma	no available	cell	ES-7	curated
+ES8	ES8	CVCL_1204	no available	Homo Sapiens	Bone	no available	10Y	Children	Male	Caucasian	Ewing sarcoma	no available	cell	ES-8	curated
+EW-1	EW-1	CVCL_1208	no available	Homo Sapiens	Bone	Pleural Effusion	19Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	EW1; IARC-EW 1; IARC-EW1; IARC-EW-1	curated
+EW-11	EW-11	CVCL_1209	no available	Homo Sapiens	Bone	Mediastinal Lymph Node	11Y	Children	Female	no available	Ewing sarcoma	no available	cell	IARC-EW11; EW11; IARC-EW-11; IARC-EW 11	curated
+EW-12	EW-12	CVCL_1210	no available	Homo Sapiens	Bone	no available	no available	no available	Female	no available	Ewing sarcoma	no available	cell	EW12; IARC-EW-12; IARC-EW12; IARC-EW 12	curated
+EW-13	EW-13	CVCL_1211	no available	Homo Sapiens	Bone	no available	no available	no available	Male	no available	Ewing sarcoma	no available	cell	IARC-EW-13; EW13; IARC-EW13; IARC-EW 13	curated
+EW-16	EW-16	CVCL_1212	no available	Homo Sapiens	Bone	no available	no available	no available	Male	Caucasian	Ewing sarcoma	no available	cell	IARC-EW-16; EW16; IARC-EW 16; IARC-EW16	curated
+EW-18	EW-18	CVCL_1213	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing sarcoma	no available	cell	IARC-EW-18; EW18	curated
+EW-2	EW-2	CVCL_3446	no available	Homo Sapiens	Bone	Peripheral Blood	19Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	IARC-EW2; EW2; IARC-EW 2; IARC-EW-2	curated
+EW-22	EW-22	CVCL_1214	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing sarcoma	no available	cell	IARC-EW-22; EW22	curated
+EW-24	EW-24	CVCL_1215	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing sarcoma	no available	cell	IARC-EW-24; EW24	curated
+EW-3	EW-3	CVCL_1216	no available	Homo Sapiens	Bone	Pleural Effusion	14Y	Juvenile	Male	Caucasian	Ewing sarcoma	no available	cell	EW3; IARC-EW 3; IARC-EW3; IARC-EW-3	curated
+EW-7	EW-7	CVCL_1217	no available	Homo Sapiens	Bone	Pleural Effusion	20Y	Adult	Female	Caucasian	Ewing sarcoma	no available	cell	IARC-EW7; IARC-EW-7; EW7; IARC-EW 7	curated
+EWS-502	EWS-502	CVCL_S740	no available	Homo Sapiens	Bone	no available	no available	no available	no available	Caucasian	Ewing sarcoma	no available	cell	EWS502; EWS/502	curated
+EWS-834	EWS-834	CVCL_AW95	no available	Homo Sapiens	Bone	no available	no available	no available	no available	no available	Ewing sarcoma	no available	cell	EWS834	curated
+MHH-ES-1	MHH-ES-1	CVCL_1411	no available	Homo Sapiens	Bone	Ascites	12Y	Juvenile	Male	Caucasian	Ewing sarcoma	no available	cell	MHH-ES1; MHHES1	curated
+RD-ES	RD-ES	CVCL_2169	RD-ES cell	Homo Sapiens	Bone	Bone;  Humerus	19Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	RDES-1; RDES	curated
+RH-1	EW-8	CVCL_1658	Rh-1 cell	Homo Sapiens	Bone	Bone Marrow	no available	no available	Male	Caucasian	Ewing sarcoma	no available	cell	RH1; SJRH1; RH1 CELL; SJRH-1; RH-1; RH1 RH-1; EW8(RH1); EW8	curated
+SK-ES-1	SK-ES-1	CVCL_0627	no available	Homo Sapiens	Bone	Bone	18Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	SK-ES-1; SK-ES; SK-ES1; SK ES 01; SKES1; SKES-1	curated
+TC-106	TC-106	CVCL_F531	no available	Homo Sapiens	Bone	Scalp	19Y	Adult	Male	no available	Ewing sarcoma	no available	cell	TC106	curated
+TC-71	TC-71	CVCL_2213	TC-71 cell	Homo Sapiens	Bone	Humerus;  Humerus; Bone	22Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	GM11654; TC71	curated
+TTC-466	TTC-466	CVCL_A444	no available	Homo Sapiens	Bone	Pleural Effusion; Lung	4Y-5Y	Children	Female	no available	Ewing sarcoma	no available	cell	TCC466; TTC466	curated
 TC-138	TC-138	CVCL_4Z30	no available	Homo Sapiens	Bone	no available	no available	no available	no available	no available	Ewing'S Sarcoma; Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor	no available	cell	TC138	curated
 TC-205	TC-205	CVCL_4Z31	no available	Homo Sapiens	Bone	no available	no available	no available	no available	no available	Ewing'S Sarcoma; Ewing Sarcoma/Peripheral Primitive Neuroectodermal Tumor	no available	cell	TC205	curated
 AGPN	AGPN	CVCL_X981	no available	Homo Sapiens	Bone	no available	no available	no available	no available	no available	Ewing'S Sarcoma; Primitive Neuroectodermal Tumor	no available	cell	CB-AGPN; CBAGPN	curated
@@ -592,25 +592,25 @@ BB49-HNC	BB49-HNC	CVCL_1077	no available	Homo Sapiens	Head and Neck	no available
 KOSC-2	KOSC-2	CVCL_1337	KOSC-2 cell	Homo Sapiens	Head and Neck	Floor Of Mouth; Oral Cavity	51Y	Adult	Male	Japanese	Floor Of Mouth Squamous Cell Carcinoma; Head And Neck Carcinoma	no available	cell	KOSC2CL343; KOBE UNIVERSITY ORAL SQUAMOUS CELL CULTURE-2; KOSC2 CELL; KOSC2; KOSC-2 CL3-43	curated
 TGBC1TKB	TGBC1TKB	CVCL_1769	no available	Homo Sapiens	Biliary Tract	Lymph Node	no available	no available	Female	Japanese	Gallbladder Undifferentiated Carcinoma; Biliary Tract Carcinoma	no available	cell	TGBC1-TKB; TGBC-1; TGBC1; TGBC-1-TKB; TGBC-1TKB	curated
 TGBC2TKB	TGBC2TKB	CVCL_3339	no available	Homo Sapiens	Biliary Tract	Lymph Node; Gall Bladder	no available	no available	Female	Japanese	Gallbladder Undifferentiated Carcinoma; Biliary Tract Carcinoma	no available	cell	TGBC-2; TGBC2; TGBC-2TKB; TGBC-2-TKB	curated
-23132-87	23132/87	CVCL_1046	no available	Homo Sapiens	Stomach	Stomach	72Y	Elderly	Male	Caucasian	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	23132; 23132-87; 2313287; ST 23132; ST23132	curated
-AGS	AGS	CVCL_0139	AGS cell	Homo Sapiens	Stomach	Stomach	54Y	Adult	Female	Caucasian	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	AGS	curated
-FU97	Fu97	CVCL_2908	FU-97 cell	Homo Sapiens	Stomach	Stomach	66Y	Elderly	Female	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	FU-97; FU97; FU97 CELL	curated
-GCIY	GCIY	CVCL_1228	no available	Homo Sapiens	Stomach	Ascites	39Y	Adult	Female	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	GCIY	curated
-Hs-746T	Hs 746.T	CVCL_0333	no available	Homo Sapiens	Stomach	Skeletal Muscle; Left Leg	74Y	Elderly	Male	Caucasian	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	HS746T; 746T; HS746-T; HS 746T; HS-746T	curated
-IM-95	IM95	CVCL_2961	IM-95 cell	Homo Sapiens	Stomach	Stomach	63Y	Adult	Male	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	IM-95; IM95; IM95 CELL	curated
-KE-39	KE-39	CVCL_3385	no available	Homo Sapiens	Stomach	Lymph Node	77Y	Elderly	Male	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	KE39	curated
-MKN45	MKN45	CVCL_0434	MKN-45 cell	Homo Sapiens	Stomach	Liver	62Y	Adult	Female	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	MKN45 CELL; MKN-45; MKN 45	curated
-NUGC-2	NUGC-2	CVCL_1611	NUGC-2 cell	Homo Sapiens	Stomach	Paragastric Lymph Node; Lymph Node	56Y	Adult	Female	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	NU-GC-2; NAGOYA UNIVERSITY-GASTRIC CANCER-2; NUGC2 CELL; NUGC-2; NUGC2	curated
-NUGC-3	NUGC-3	CVCL_1612	NUGC-3 cell	Homo Sapiens	Stomach	Brachialis Muscle; Brachial Muscle	72Y	Elderly	Male	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	NUGC3 CELL; NU-GC-3; NAGOYA UNIVERSITY-GASTRIC CANCER-3; NUGC3	curated
-RERF-GC-1B	RERF-GC-1B	CVCL_3152	no available	Homo Sapiens	Stomach	Pyloric Lymph Node; Pyloric Lymph Nodes	41Y	Adult	Male	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	RADIATION EFFECTS RESEARCH FOUNDATION-GASTRIC CANCER-1B; RERFGC1B	curated
-SNU-1	SNU-1	CVCL_0099	SNU-1 cell	Homo Sapiens	Stomach	Stomach	44Y	Adult	Male	Korean	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	NCI-SNU-1; SNU1; SNU1 CELL	curated
-SNU-16	SNU-16	CVCL_0076	SNU-16 cell	Homo Sapiens	Stomach	Ascites	33Y	Adult	Female	Korean	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	SNU16; NCI-SNU-16	curated
-SNU-5	SNU-5	CVCL_0078	SNU-5 cell	Homo Sapiens	Stomach	Ascites	33Y	Adult	Female	Korean	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	SNU5; NCI-SNU-5	curated
-SNU-520	SNU-520	CVCL_5072	no available	Homo Sapiens	Stomach	Stomach	60Y	Adult	Female	Korean	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	NCI-SNU-520; SNU520	curated
-SNU-620	SNU-620	CVCL_5079	SNU-620 cell	Homo Sapiens	Stomach	Ascites	59Y	Adult	Female	Korean	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	SNU620; NCI-SNU-620	curated
-SNU-638	SNU-638	CVCL_0102	SNU-638 cell	Homo Sapiens	Stomach	Ascites	48Y	Adult	Male	Korean	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	SNU638 CELL; SNU638	curated
-STS-0421	STS-0421	CVCL_X508	no available	Homo Sapiens	Stomach	no available	no available	no available	no available	Caucasian	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	STS 0421; STS0421	curated
-TMK-1	TMK-1	CVCL_4384	TMK-1 cell	Homo Sapiens	Stomach	Lymph Node	21Y	Adult	Male	Japanese	Gastric Adenocarcinoma; Gastric Carcinoma	no available	cell	TMK1; TMK1 CELL	curated
+23132-87	23132/87	CVCL_1046	no available	Homo Sapiens	Stomach	Stomach	72Y	Elderly	Male	Caucasian	Gastric adenocarcinoma	no available	cell	23132; 23132-87; 2313287; ST 23132; ST23132	curated
+AGS	AGS	CVCL_0139	AGS cell	Homo Sapiens	Stomach	Stomach	54Y	Adult	Female	Caucasian	Gastric adenocarcinoma	no available	cell	AGS	curated
+FU97	Fu97	CVCL_2908	FU-97 cell	Homo Sapiens	Stomach	Stomach	66Y	Elderly	Female	Japanese	Gastric adenocarcinoma	no available	cell	FU-97; FU97; FU97 CELL	curated
+GCIY	GCIY	CVCL_1228	no available	Homo Sapiens	Stomach	Ascites	39Y	Adult	Female	Japanese	Gastric adenocarcinoma	no available	cell	GCIY	curated
+Hs-746T	Hs 746.T	CVCL_0333	no available	Homo Sapiens	Stomach	Skeletal Muscle; Left Leg	74Y	Elderly	Male	Caucasian	Gastric adenocarcinoma	no available	cell	HS746T; 746T; HS746-T; HS 746T; HS-746T	curated
+IM-95	IM95	CVCL_2961	IM-95 cell	Homo Sapiens	Stomach	Stomach	63Y	Adult	Male	Japanese	Gastric adenocarcinoma	no available	cell	IM-95; IM95; IM95 CELL	curated
+KE-39	KE-39	CVCL_3385	no available	Homo Sapiens	Stomach	Lymph Node	77Y	Elderly	Male	Japanese	Gastric adenocarcinoma	no available	cell	KE39	curated
+MKN45	MKN45	CVCL_0434	MKN-45 cell	Homo Sapiens	Stomach	Liver	62Y	Adult	Female	Japanese	Gastric adenocarcinoma	no available	cell	MKN45 CELL; MKN-45; MKN 45	curated
+NUGC-2	NUGC-2	CVCL_1611	NUGC-2 cell	Homo Sapiens	Stomach	Paragastric Lymph Node; Lymph Node	56Y	Adult	Female	Japanese	Gastric adenocarcinoma	no available	cell	NU-GC-2; NAGOYA UNIVERSITY-GASTRIC CANCER-2; NUGC2 CELL; NUGC-2; NUGC2	curated
+NUGC-3	NUGC-3	CVCL_1612	NUGC-3 cell	Homo Sapiens	Stomach	Brachialis Muscle; Brachial Muscle	72Y	Elderly	Male	Japanese	Gastric adenocarcinoma	no available	cell	NUGC3 CELL; NU-GC-3; NAGOYA UNIVERSITY-GASTRIC CANCER-3; NUGC3	curated
+RERF-GC-1B	RERF-GC-1B	CVCL_3152	no available	Homo Sapiens	Stomach	Pyloric Lymph Node; Pyloric Lymph Nodes	41Y	Adult	Male	Japanese	Gastric adenocarcinoma	no available	cell	RADIATION EFFECTS RESEARCH FOUNDATION-GASTRIC CANCER-1B; RERFGC1B	curated
+SNU-1	SNU-1	CVCL_0099	SNU-1 cell	Homo Sapiens	Stomach	Stomach	44Y	Adult	Male	Korean	Gastric adenocarcinoma	no available	cell	NCI-SNU-1; SNU1; SNU1 CELL	curated
+SNU-16	SNU-16	CVCL_0076	SNU-16 cell	Homo Sapiens	Stomach	Ascites	33Y	Adult	Female	Korean	Gastric adenocarcinoma	no available	cell	SNU16; NCI-SNU-16	curated
+SNU-5	SNU-5	CVCL_0078	SNU-5 cell	Homo Sapiens	Stomach	Ascites	33Y	Adult	Female	Korean	Gastric adenocarcinoma	no available	cell	SNU5; NCI-SNU-5	curated
+SNU-520	SNU-520	CVCL_5072	no available	Homo Sapiens	Stomach	Stomach	60Y	Adult	Female	Korean	Gastric adenocarcinoma	no available	cell	NCI-SNU-520; SNU520	curated
+SNU-620	SNU-620	CVCL_5079	SNU-620 cell	Homo Sapiens	Stomach	Ascites	59Y	Adult	Female	Korean	Gastric adenocarcinoma	no available	cell	SNU620; NCI-SNU-620	curated
+SNU-638	SNU-638	CVCL_0102	SNU-638 cell	Homo Sapiens	Stomach	Ascites	48Y	Adult	Male	Korean	Gastric adenocarcinoma	no available	cell	SNU638 CELL; SNU638	curated
+STS-0421	STS-0421	CVCL_X508	no available	Homo Sapiens	Stomach	no available	no available	no available	no available	Caucasian	Gastric adenocarcinoma	no available	cell	STS 0421; STS0421	curated
+TMK-1	TMK-1	CVCL_4384	TMK-1 cell	Homo Sapiens	Stomach	Lymph Node	21Y	Adult	Male	Japanese	Gastric adenocarcinoma	no available	cell	TMK1; TMK1 CELL	curated
 MKN1	MKN1	CVCL_1415	MKN-1 cell	Homo Sapiens	Stomach	Lymph Node	72Y	Elderly	Male	Japanese	Gastric Adenosquamous Carcinoma; Gastric Carcinoma	no available	cell	MKN-1; MKN 1; MKN1 CELL	curated
 GSS	GSS	CVCL_8876	no available	Homo Sapiens	Stomach	Liver	75Y	Elderly	Male	Japanese	Gastric Carcinoma	no available	cell	GSS	curated
 GSU	GSU	CVCL_8877	no available	Homo Sapiens	Stomach	Ascites	37Y	Adult	Male	Japanese	Gastric Carcinoma	no available	cell	GSU	curated
@@ -709,10 +709,10 @@ D-336MG	D-336MG	CVCL_1156	no available	Homo Sapiens	Central Nervous System	Brain
 GI-1	GI-1	CVCL_1231	no available	Homo Sapiens	Central Nervous System	no available	61Y	Adult	Male	Japanese	Glioblastoma; Gliosarcoma	no available	cell	GI1	curated
 SF539	SF539	CVCL_1691	SF-539 cell	Homo Sapiens	Central Nervous System	no available	34Y	Adult	Female	Caucasian	Glioblastoma; Gliosarcoma	no available	cell	SF.539; SF-539 BT; SF-539; SF539 CELL; SF 539	curated
 LN-464	LN-464	CVCL_3962	LN-464 cell	Homo Sapiens	Central Nervous System	no available	no available	no available	no available	Caucasian	Glioblastoma; Melanoma	no available	cell	LN 464; LN464; LN464 CELL	curated
-BONNA-12	BONNA-12	CVCL_1090	no available	Homo Sapiens	Haematopoietic and Lymphoid	Spleen	46Y	Adult	Male	Caucasian	Hairy Cell Leukemia; Other Blood Cancers	no available	cell	BONNA12; BONNA-12	curated
-HC-1	HC-1	CVCL_1243	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	56Y	Adult	Male	Caucasian	Hairy Cell Leukemia; Other Blood Cancers	no available	cell	HC1	curated
-MLMA	MLMA	CVCL_1419	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peritoneal Effusion	32Y	Adult	Female	Japanese	Hairy Cell Leukemia; Other Blood Cancers	no available	cell	MLMA	curated
-Mo-T	Mo	CVCL_1439	Mo-T cell	Homo Sapiens	Haematopoietic and Lymphoid	Spleen	33Y	Adult	Male	Caucasian	Hairy Cell Leukemia; Other Blood Cancers	T cell	cell	MO; MO CELL; MOT; MO-T; MO T CELL; MO T	curated
+BONNA-12	BONNA-12	CVCL_1090	no available	Homo Sapiens	Haematopoietic and Lymphoid	Spleen	46Y	Adult	Male	Caucasian	Hairy Cell Leukemia	no available	cell	BONNA12; BONNA-12	curated
+HC-1	HC-1	CVCL_1243	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	56Y	Adult	Male	Caucasian	Hairy Cell Leukemia	no available	cell	HC1	curated
+MLMA	MLMA	CVCL_1419	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peritoneal Effusion	32Y	Adult	Female	Japanese	Hairy Cell Leukemia	no available	cell	MLMA	curated
+Mo-T	Mo	CVCL_1439	Mo-T cell	Homo Sapiens	Haematopoietic and Lymphoid	Spleen	33Y	Adult	Male	Caucasian	Hairy Cell Leukemia	T cell	cell	MO; MO CELL; MOT; MO-T; MO T CELL; MO T	curated
 PE-CA-PJ34_Clone-C12	PE/CA-PJ34 (clone C12)	CVCL_2679	no available	Homo Sapiens	Head and Neck	Oral Cavity	60Y	Adult	Male	Caucasian	Head And Neck Carcinoma; Head And Neck Basaloid Carcinoma	no available	cell	PECAPJ34CLONEC12; PE/CA-PJ-34; PE CA PJ34; PLAEPI 34; PJ34; PECAPJ34; PE/CA-PJ34	curated
 BICR6	BICR 6	CVCL_2314	no available	Homo Sapiens	Head and Neck	Hypopharynx; Pharynx	no available	no available	Male	Caucasian	Head And Neck Carcinoma; Hypopharyngeal Squamous Cell Carcinoma	no available	cell	BEATSON INSTITUTE FOR CANCER RESEARCH 6; BICR-6; BICR6	curated
 FADU	FaDu	CVCL_1218	FaDu cell	Homo Sapiens	Head and Neck	Hypopharynx; Pharynx	56Y	Adult	Male	Indian	Head And Neck Carcinoma; Hypopharyngeal Squamous Cell Carcinoma	no available	cell	FADU	curated
@@ -834,33 +834,33 @@ MDA-MB-134-VI	MDA-MB-134-VI	CVCL_0617	no available	Homo Sapiens	Breast	Pleural E
 MDA-MB-330	MDA-MB-330	CVCL_0619	no available	Homo Sapiens	Breast	Pleural Effusion	43Y	Adult	Female	Caucasian	Invasive Breast Lobular Carcinoma; Breast Carcinoma	no available	cell	MDA-330; MDAMB330; MD ANDERSON-METASTATIC BREAST-330; MDA330	curated
 SUM-44PE	SUM44PE	CVCL_3424	SUM-44PE cell	Homo Sapiens	Breast	Pleural Effusion	no available	no available	no available	no available	Invasive Breast Lobular Carcinoma; Breast Carcinoma	no available	cell	SUM 44; SUM-44; SUM44 CELL; SUM44PE CELL; SUM-44 CELL; SUM 44PE; SUM44PE; SUM44; SUM-44PE; SUM-44 PE; 44PE; SUM 44PE CELL	curated
 HKA-1	HKA-1	CVCL_2943	no available	Homo Sapiens	Skin	Right Cheek; Skin	77Y	Elderly	Female	Japanese	Keratoacanthoma; Head And Neck Carcinoma	no available	cell	HKA1	curated
-CAKI-1	Caki-1	CVCL_0234	Caki-1 cell	Homo Sapiens	Kidney	Skin	49Y	Adult	Male	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	CAKI-1; CAKI 1; CAKI1; CAKI.1; CAKI1 CELL	curated
-KMRC-1	KMRC-1	CVCL_2983	no available	Homo Sapiens	Kidney	Kidney	no available	Adult	Male	Japanese	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KMRC1	curated
-KMRC-2	KMRC-2	CVCL_2984	no available	Homo Sapiens	Kidney	Kidney	no available	Adult	Male	Japanese	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KMRC2	curated
-KMRC-20	KMRC-20	CVCL_2986	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Japanese	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KMRC20	curated
-KMRC-3	KMRC-3	CVCL_2985	no available	Homo Sapiens	Kidney	Kidney	no available	Adult	Male	Japanese	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KMRC3	curated
-OS-RC-2	OS-RC-2	CVCL_1626	OS-RC-2 cell	Homo Sapiens	Kidney	Kidney	52Y	Adult	Male	Japanese	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	OSRC2 CELL; RC-2 CELL; OSRC2; RC-2	curated
-RCC-AB	KTCTL-21	CVCL_5868	no available	Homo Sapiens	Kidney	no available	49Y	Adult	Male	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	RCCAB; KTCTL-21; RCC-AB; KTCTL21	curated
-RCC-ER	KTCTL-13	CVCL_5870	no available	Homo Sapiens	Kidney	Kidney	57Y	Adult	Male	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	RCC-ER; KTCTL 13; KTCTL-13; RCCER; KTCTL13	curated
-RCC-FG2	KTCTL-26A	CVCL_5873	no available	Homo Sapiens	Kidney	Kidney	77Y	Elderly	Male	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KTCTL26A; KTCTL-26A; RCC-FG2; RCCFG2	curated
-RCC-JF	KTCTL-140	CVCL_5879	no available	Homo Sapiens	Kidney	Kidney	65Y	Elderly	Female	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KTCTL-140; RCCJF; KTCTL140; RCC-JF	curated
-RCC-JW	KTCTL-195	CVCL_5880	no available	Homo Sapiens	Kidney	Kidney	46Y	Adult	Male	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KTCTL-195; RCCJW; KTCTL195; RCC-JW	curated
-RCC-MF	KTCTL-1M	CVCL_5884	no available	Homo Sapiens	Kidney	Kidney	63Y	Adult	Male	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	KTCTL-1M; RCCMF; KTCTL1M; RCC-MF	curated
-RCC4	RCC4	CVCL_0498	RCC-4 cell	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	RCC4 CELL; RCC-4	curated
-RCC4-emptyvector	RCC4/empty vector	CVCL_UY81	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	RCC4 PLUS VECTOR ALONE	curated
-RCC4-VHL	RCC4/VHL	CVCL_2706	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	RCC4 VHL(+); RCC4-PVHL; RCC4PLUSVHL	curated
-SLR21	SLR21	CVCL_V607	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	SLR 21	curated
-SLR23	SLR23	CVCL_V609	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	SLR 23	curated
-SLR24	SLR24	CVCL_V610	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	SLR 24	curated
-SLR25	SLR25	CVCL_V611	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	SLR 25	curated
-SLR26	SLR26	CVCL_V612	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	SLR 26	curated
-SNU-1272	SNU-1272	CVCL_8788	no available	Homo Sapiens	Kidney	Kidney	63Y	Adult	Female	Korean	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	NCI-SNU-1272; SNU1272	curated
-SNU-349	SNU-349	CVCL_5054	no available	Homo Sapiens	Kidney	Kidney	68Y	Elderly	Male	Korean	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	SNU349; NCI-SNU-349	curated
-TK10	TK-10	CVCL_1773	TK-10 cell	Homo Sapiens	Kidney	Kidney	43Y	Adult	Male	no available	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	TK10 CELL; TK 10; TK10; TK.10	curated
-TUHR10TKB	TUHR10TKB	CVCL_5952	TUHR-10TKB cell	Homo Sapiens	Kidney	Kidney	69Y	Elderly	Male	Japanese	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	TUHR-10TKB; TUHR10TKB CELL; OGTS	curated
-UM-RC-2	UM-RC-2	CVCL_2739	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	UMRC-2; UMRC2; UNIVERSITY OF MICHIGAN-RENAL CARCINOMA-2	curated
-UM-RC-3	UM-RC-3	CVCL_2740	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	no available	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	UMRC3; UNIVERSITY OF MICHIGAN-RENAL CARCINOMA-3; UMRC-3	curated
-UOK101	UOK101	CVCL_B076	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Kidney Carcinoma; Clear Cell Renal Cell Carcinoma	no available	cell	UOK 101; UOK-101	curated
+CAKI-1	Caki-1	CVCL_0234	Caki-1 cell	Homo Sapiens	Kidney	Skin	49Y	Adult	Male	Caucasian	Clear cell renal cell carcinoma	no available	cell	CAKI-1; CAKI 1; CAKI1; CAKI.1; CAKI1 CELL	curated
+KMRC-1	KMRC-1	CVCL_2983	no available	Homo Sapiens	Kidney	Kidney	no available	Adult	Male	Japanese	Clear cell renal cell carcinoma	no available	cell	KMRC1	curated
+KMRC-2	KMRC-2	CVCL_2984	no available	Homo Sapiens	Kidney	Kidney	no available	Adult	Male	Japanese	Clear cell renal cell carcinoma	no available	cell	KMRC2	curated
+KMRC-20	KMRC-20	CVCL_2986	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Japanese	Clear cell renal cell carcinoma	no available	cell	KMRC20	curated
+KMRC-3	KMRC-3	CVCL_2985	no available	Homo Sapiens	Kidney	Kidney	no available	Adult	Male	Japanese	Clear cell renal cell carcinoma	no available	cell	KMRC3	curated
+OS-RC-2	OS-RC-2	CVCL_1626	OS-RC-2 cell	Homo Sapiens	Kidney	Kidney	52Y	Adult	Male	Japanese	Clear cell renal cell carcinoma	no available	cell	OSRC2 CELL; RC-2 CELL; OSRC2; RC-2	curated
+RCC-AB	KTCTL-21	CVCL_5868	no available	Homo Sapiens	Kidney	no available	49Y	Adult	Male	Caucasian	Clear cell renal cell carcinoma	no available	cell	RCCAB; KTCTL-21; RCC-AB; KTCTL21	curated
+RCC-ER	KTCTL-13	CVCL_5870	no available	Homo Sapiens	Kidney	Kidney	57Y	Adult	Male	Caucasian	Clear cell renal cell carcinoma	no available	cell	RCC-ER; KTCTL 13; KTCTL-13; RCCER; KTCTL13	curated
+RCC-FG2	KTCTL-26A	CVCL_5873	no available	Homo Sapiens	Kidney	Kidney	77Y	Elderly	Male	Caucasian	Clear cell renal cell carcinoma	no available	cell	KTCTL26A; KTCTL-26A; RCC-FG2; RCCFG2	curated
+RCC-JF	KTCTL-140	CVCL_5879	no available	Homo Sapiens	Kidney	Kidney	65Y	Elderly	Female	Caucasian	Clear cell renal cell carcinoma	no available	cell	KTCTL-140; RCCJF; KTCTL140; RCC-JF	curated
+RCC-JW	KTCTL-195	CVCL_5880	no available	Homo Sapiens	Kidney	Kidney	46Y	Adult	Male	Caucasian	Clear cell renal cell carcinoma	no available	cell	KTCTL-195; RCCJW; KTCTL195; RCC-JW	curated
+RCC-MF	KTCTL-1M	CVCL_5884	no available	Homo Sapiens	Kidney	Kidney	63Y	Adult	Male	Caucasian	Clear cell renal cell carcinoma	no available	cell	KTCTL-1M; RCCMF; KTCTL1M; RCC-MF	curated
+RCC4	RCC4	CVCL_0498	RCC-4 cell	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	RCC4 CELL; RCC-4	curated
+RCC4-emptyvector	RCC4/empty vector	CVCL_UY81	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	RCC4 PLUS VECTOR ALONE	curated
+RCC4-VHL	RCC4/VHL	CVCL_2706	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	RCC4 VHL(+); RCC4-PVHL; RCC4PLUSVHL	curated
+SLR21	SLR21	CVCL_V607	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	SLR 21	curated
+SLR23	SLR23	CVCL_V609	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	SLR 23	curated
+SLR24	SLR24	CVCL_V610	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	SLR 24	curated
+SLR25	SLR25	CVCL_V611	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	SLR 25	curated
+SLR26	SLR26	CVCL_V612	no available	Homo Sapiens	Kidney	no available	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	SLR 26	curated
+SNU-1272	SNU-1272	CVCL_8788	no available	Homo Sapiens	Kidney	Kidney	63Y	Adult	Female	Korean	Clear cell renal cell carcinoma	no available	cell	NCI-SNU-1272; SNU1272	curated
+SNU-349	SNU-349	CVCL_5054	no available	Homo Sapiens	Kidney	Kidney	68Y	Elderly	Male	Korean	Clear cell renal cell carcinoma	no available	cell	SNU349; NCI-SNU-349	curated
+TK10	TK-10	CVCL_1773	TK-10 cell	Homo Sapiens	Kidney	Kidney	43Y	Adult	Male	no available	Clear cell renal cell carcinoma	no available	cell	TK10 CELL; TK 10; TK10; TK.10	curated
+TUHR10TKB	TUHR10TKB	CVCL_5952	TUHR-10TKB cell	Homo Sapiens	Kidney	Kidney	69Y	Elderly	Male	Japanese	Clear cell renal cell carcinoma	no available	cell	TUHR-10TKB; TUHR10TKB CELL; OGTS	curated
+UM-RC-2	UM-RC-2	CVCL_2739	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	UMRC-2; UMRC2; UNIVERSITY OF MICHIGAN-RENAL CARCINOMA-2	curated
+UM-RC-3	UM-RC-3	CVCL_2740	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	no available	Clear cell renal cell carcinoma	no available	cell	UMRC3; UNIVERSITY OF MICHIGAN-RENAL CARCINOMA-3; UMRC-3	curated
+UOK101	UOK101	CVCL_B076	no available	Homo Sapiens	Kidney	Kidney	no available	no available	no available	Caucasian	Clear cell renal cell carcinoma	no available	cell	UOK 101; UOK-101	curated
 SK-NEP-1	SK-NEP-1	CVCL_0631	no available	Homo Sapiens	Kidney	Pleural Effusion	25Y	Adult	Female	Caucasian	Kidney Carcinoma; Ewing Sarcoma	no available	cell	SKNEP; SKNEP-1; SKNEP1	curated
 CCLF_PEDS_0001_T	CCLF-PEDS-0001-T	CVCL_B3PK	no available	Homo Sapiens	Kidney	Kidney	no available	Children	Male	no available	Kidney Carcinoma; Kidney Medullary Carcinoma	no available	cell	PEDS005T SUSP; CCLF_PEDS_0001_T	curated
 ACHN	ACHN	CVCL_1067	ACHN cell	Homo Sapiens	Kidney	Pleural Effusion	22Y	Adult	Male	Caucasian	Kidney Carcinoma; Papillary Renal Cell Carcinoma	no available	cell	ACHN	curated
@@ -922,7 +922,7 @@ NCI-H2444	NCI-H2444	CVCL_1552	no available	Homo Sapiens	Lung	Lung	no available	n
 RF-1	RF-1	CVCL_3580	no available	Homo Sapiens	Haematopoietic and Lymphoid	no available	62Y	Adult	Male	no available	Lymphoma; B-cell non-hodgkin lymphoma	no available	cell	RF1	curated
 RF-48	RF-48	CVCL_1657	no available	Homo Sapiens	Haematopoietic and Lymphoid	no available	62Y	Adult	Male	no available	Lymphoma; B-cell non-hodgkin lymphoma	no available	cell	RF48	curated
 LIM1215	LIM1215	CVCL_2574	LIM1215 cell	Homo Sapiens	Large Intestine	Omentum	34Y	Adult	no available	Caucasian	Lynch Syndrome; Colorectal Carcinoma	no available	cell	LIM 1215; LIM1215; LIM-1215; LIM 1215 CELL	curated
-D-458MED	D458 Med	CVCL_1161	no available	Homo Sapiens	Central Nervous System	Cerebrospinal Fluid	6Y-7Y	Children	no available	no available	Medulloblastoma; Other Solid Cancers	no available	cell	D-458 MED;  D-458MED;  D458MED;  MED 458;  D458;  D-458	curated
+D-458MED	D458 Med	CVCL_1161	no available	Homo Sapiens	Central Nervous System	Cerebrospinal Fluid	6Y-7Y	Children	no available	no available	Medulloblastoma	no available	cell	D-458 MED;  D-458MED;  D458MED;  MED 458;  D458;  D-458	curated
 92-1	no available	no available	no available	Homo Sapiens	Eye	Right Orbit	76Y	Elderly	Female	no available	Melanoma	no available	cell	92-1	curated
 A101D	A101D	CVCL_1057	no available	Homo Sapiens	Skin	Lymph Node; Skin	56Y	Adult	Male	Caucasian	Melanoma	no available	cell	A-101D	curated
 A375_CJ2	no available	no available	no available	Homo Sapiens	Skin	Skin	54Y	Adult	Female	no available	Melanoma	no available	cell	A375_CJ2	curated
@@ -994,46 +994,46 @@ WM1799	WM1799	CVCL_A341	no available	Homo Sapiens	Skin	no available	no available
 WM88	WM88	CVCL_6805	no available	Homo Sapiens	Skin	no available	no available	no available	no available	Caucasian	Melanoma	no available	cell	WM-88; WC00123; WM 88	curated
 WM983A	WM983A	CVCL_6808	no available	Homo Sapiens	Skin	Skin	54Y	Adult	no available	Caucasian	Melanoma	no available	cell	WM983-A; WM-983A; WM 983A; WC00048	curated
 WM983B	WM983B	CVCL_6809	WM-983/B cell	Homo Sapiens	Skin	Lymph Node; Inguinal Lymph Node	54Y	Adult	no available	Caucasian	Melanoma	no available	cell	WC00066; WM 983B; WM-983B; WM-983/B; WM983-B	curated
-A2058	A2058	CVCL_1059	A-2058 cell	Homo Sapiens	Skin	Lymph Node	43Y	Adult	Male	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	A 2058 CELL; A-2058; A2058 CELL; A 2058	curated
-A375	A-375	CVCL_0132	A-375 cell	Homo Sapiens	Skin	Skin	54Y	Adult	Female	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	A375-MEL; A375 CELL; A375MEL; A 375; A375	curated
-A375_CJ1	A375-RMR	CVCL_A1VP	no available	Homo Sapiens	Skin	Skin	54Y	Adult	Female	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	A375 SKIN CJ1; A375-CJ1; A375 RMR	curated
-A375_CJ3	A375-RMR SCH 0.25	CVCL_B3PJ	no available	Homo Sapiens	Skin	Skin	54Y	Adult	Female	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	A375 SKIN CJ3; A375-CJ3	curated
-C32	C32 [Human melanoma]	CVCL_1097	no available	Homo Sapiens	Skin	Skin	53Y	Adult	Male	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	C32R; C32 MEL; C-32; C32-MEL	curated
-Hs-695-T	Hs 695T	CVCL_0851	no available	Homo Sapiens	Skin	Lymph Node	26Y	Adult	Male	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	HS-695-T; HS 695.T; HS-695T; HS695; HS 695T; HS695T	curated
-LOXIMVI	LOX-IMVI	CVCL_1381	LOX-IMVI cell	Homo Sapiens	Skin	Axillary Lymph Node	58Y	Adult	Male	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	LOX IMVI; LOX CELL; LOXIMVI CELL; LOXIMVI; LOX IMVI CELL; LOX; LOX/IMVI; LOXIM-VI	curated
-M14	M14	CVCL_1395	M14 melanoma cell	Homo Sapiens	Skin	Hypodermis; Right Buttock	33Y	Adult	Male	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	UCLA SO M14 CELL; M-14; UCLASO-M14; M-14 CELL; M-14 MELANOMA CELL; UCLA-SO-M14; M14-MEL CELL; UCLA-SO-M14 CELL; MELANOMA 14; M14-MEL; M14 CELL; UCLA-SO-14; MELANOMA 14 CELL; UCLA SO M14	curated
-MDA-MB-435	MDA-MB-435	CVCL_0417	MDA-MB-435 cell	Homo Sapiens	Skin	Hypodermis; Right Buttock	33Y	Adult	Male	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	MDA 435; MDA-435; MDA-MB435; MDAMB435; MDA-MB435 CELL; NAN; MDA.MB.435; MDA-435 CELL; MDA435; MD ANDERSON-METASTATIC BREAST-435; MDA 435 CELL	curated
-MDA-MB-435S	MDA-MB-435S	CVCL_0622	MDA-MB-435S cell	Homo Sapiens	Skin	Hypodermis; Right Buttock	33Y	Adult	Male	Caucasian	Melanoma; Amelanotic Melanoma	no available	cell	BRCL15; MDA-MB-435-S CELL; MDAMB435S; MDA-MB-435S; MDA-MB-435 S; MDA-MB-435 S CELL; MDA-MB-435-S	curated
-MM127	MM127	CVCL_2601	no available	Homo Sapiens	Skin	Hypodermis	no available	no available	Male	no available	Melanoma; Amelanotic Melanoma	no available	cell	MM-127	curated
-MM253	MM253	CVCL_2604	no available	Homo Sapiens	Skin	Lymph Node	46Y	Adult	no available	no available	Melanoma; Amelanotic Melanoma	no available	cell	MM 253	curated
-MM485	MM485	CVCL_2610	no available	Homo Sapiens	Skin	Lymph Node	no available	no available	Male	no available	Melanoma; Amelanotic Melanoma	no available	cell	MM 485	curated
-COLO-679	COLO 679	CVCL_1130	no available	Homo Sapiens	Skin	Soft Tissue	47Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	COLORADO 679; COLO-679; COLO679; COLO #679	curated
-COLO-794	COLO 794	CVCL_2408	no available	Homo Sapiens	Skin	Skin	14Y	Juvenile	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	COLO #794; COLO 794; COLO-794; COLO794; COLORADO 794	curated
-COLO-800	COLO 800	CVCL_1135	no available	Homo Sapiens	Skin	Hypodermis	14Y	Juvenile	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	COLORADO 800; COLO-800; COLO #800; COLO800	curated
-COLO-818	COLO 818	CVCL_1998	no available	Homo Sapiens	Skin	Hypodermis	14Y	Juvenile	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	COLO #818; COLO818; COLO-818; COLORADO 818	curated
-COLO-829	COLO 829	CVCL_1137	no available	Homo Sapiens	Skin	Skin	45Y	Adult	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	COLO #829; COLO-829; COLO829; COLORADO 829; COLO 829	curated
-COLO-849	COLO 849	CVCL_2002	no available	Homo Sapiens	Skin	Right Axillary Lymph Node	43Y	Adult	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	COLO 849; COLO849; COLO #849; COLORADO 849; COLO-849	curated
-G-MEL	G-mel	CVCL_W798	no available	Homo Sapiens	Skin	no available	no available	no available	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	G-MEL	curated
-Hs-944-T	Hs 944.T	CVCL_1040	no available	Homo Sapiens	Skin	no available	51Y	Adult	no available	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	HS944; HS944T; HS-944-T; HS 944; HS 944T	curated
-IGR-1	IGR-1	CVCL_1303	no available	Homo Sapiens	Skin	Inguinal Lymph Node; Groin Lymph Node	42Y	Adult	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	IGR 1; IGR1; INSTITUT GUSTAVE ROUSSY-1	curated
-IPC-298	IPC-298	CVCL_1307	IPC-298 cell	Homo Sapiens	Skin	Skin	64Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	IPC 298; IPC298 CELL; IPC298	curated
-K029	K029	CVCL_5143	no available	Homo Sapiens	Skin	no available	no available	no available	no available	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	K029	curated
-K029AX	K029AX	CVCL_8784	no available	Homo Sapiens	Skin	no available	no available	no available	no available	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	K029AX	curated
-MEL-JUSO	Mel JuSo	CVCL_1403	MEL-JUSO cell	Homo Sapiens	Skin	Skin	58Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	MELJUSO CELL; MELJUSO; MEL JUSO; JUSO; MEL-JUSO	curated
-Mewo	MeWo	CVCL_0445	MEWO cell	Homo Sapiens	Skin	Lymph Node	78Y	Elderly	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	MEVO; ME-WO; MEVO CELL; HTB-65 CELL; EST50; MEL-MEWO; MEWO; SK-MEL-MEWO; MEWO CELL; BI-MEL; ME WO	curated
-SK-MEL-19	SK-MEL-19	CVCL_6025	no available	Homo Sapiens	Skin	no available	50Y	Adult	Male	no available	Melanoma; Cutaneous Melanoma	no available	cell	SK-MEL-19; SKMEL19; AL-MEL; SK-MEL19; SKMEL-19; SK MEL19	curated
-SK-MEL-28	SK-MEL-28	CVCL_0526	SK-MEL-28 cell	Homo Sapiens	Skin	Skin	51Y	Adult	Male	Caucasian	Melanoma; Cutaneous Melanoma	melanocyte of skin	cell	SK MEL28; SK-MEL28; SK.MEL.28; SK-MEL 28; SKMEL-28; P-36; SKMEL-28 CELL; SK28; SKMEL28; SKML-28; P36; SK-MEL-28; SK-MEL28 CELL; SK MEL-28; AU-MEL; SK MEL 28	curated
-SK-MEL-3	SK-MEL-3	CVCL_0550	SK-MEL-3 cell	Homo Sapiens	Skin	Lymph Node	42Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	SK-MEL-3; SK-MEL3; SKMEL3	curated
-SK-MEL-30	SK-MEL-30	CVCL_0039	SK-MEL-30 cell	Homo Sapiens	Skin	no available	67Y	Elderly	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	SK-MEL-30; SKMEL30; SK MEL 30; SKMEL-30; AW-MEL; SK MEL30	curated
-SK-MEL-31	SK-MEL-31	CVCL_0600	no available	Homo Sapiens	Skin	no available	33Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	SKMEL-31; AX-MEL; SK-MEL-31; SKMEL31	curated
-SK-MEL-5	SK-MEL-5	CVCL_0527	SK-MEL-5 cell	Homo Sapiens	Skin	Lymph Node; Axillary Lymph Node	24Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	SK-MEL-5; SK-MEL5; SKMEL-5 CELL; SKMEL5; SK MEL 5; SKMEL-5; AA-MEL; SK.MEL.5	curated
-WM-164	WM164	CVCL_7928	no available	Homo Sapiens	Skin	Arm;  Skin	22Y	Adult	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	WM 164; WM-164	curated
-WM1552C	WM1552C	CVCL_6472	no available	Homo Sapiens	Skin	Hypodermis	72Y	Elderly	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	WM1552; WM 1552C; EST73; WM-1552; WM-1552C	curated
-WM278	WM278	CVCL_6473	WM-278 cell	Homo Sapiens	Skin	Skin	62Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	WM-278; WM 278; WC00054; WM278 CELL	curated
-WM35	WM35	CVCL_0580	WM-35 cell	Homo Sapiens	Skin	Skin	24Y	Adult	Female	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	WM35 CELL; WM-35; WM 35; WC00060	curated
-WM793B	WM793	CVCL_8787	WM-793B cell	Homo Sapiens	Skin	Skin	37Y	Adult	Male	Caucasian	Melanoma; Cutaneous Melanoma	no available	cell	WM 793; WM-793; WM 793B CELL; WM-793B; WM-793 CELL; WML 793; WM793 CELL; WM 793 CELL; WM793B; WM 793B; WC00062; WM793B CELL	curated
+A2058	A2058	CVCL_1059	A-2058 cell	Homo Sapiens	Skin	Lymph Node	43Y	Adult	Male	Caucasian	Amelanotic melanoma	no available	cell	A 2058 CELL; A-2058; A2058 CELL; A 2058	curated
+A375	A-375	CVCL_0132	A-375 cell	Homo Sapiens	Skin	Skin	54Y	Adult	Female	Caucasian	Amelanotic melanoma	no available	cell	A375-MEL; A375 CELL; A375MEL; A 375; A375	curated
+A375_CJ1	A375-RMR	CVCL_A1VP	no available	Homo Sapiens	Skin	Skin	54Y	Adult	Female	Caucasian	Amelanotic melanoma	no available	cell	A375 SKIN CJ1; A375-CJ1; A375 RMR	curated
+A375_CJ3	A375-RMR SCH 0.25	CVCL_B3PJ	no available	Homo Sapiens	Skin	Skin	54Y	Adult	Female	Caucasian	Amelanotic melanoma	no available	cell	A375 SKIN CJ3; A375-CJ3	curated
+C32	C32 [Human melanoma]	CVCL_1097	no available	Homo Sapiens	Skin	Skin	53Y	Adult	Male	Caucasian	Amelanotic melanoma	no available	cell	C32R; C32 MEL; C-32; C32-MEL	curated
+Hs-695-T	Hs 695T	CVCL_0851	no available	Homo Sapiens	Skin	Lymph Node	26Y	Adult	Male	Caucasian	Amelanotic melanoma	no available	cell	HS-695-T; HS 695.T; HS-695T; HS695; HS 695T; HS695T	curated
+LOXIMVI	LOX-IMVI	CVCL_1381	LOX-IMVI cell	Homo Sapiens	Skin	Axillary Lymph Node	58Y	Adult	Male	Caucasian	Amelanotic melanoma	no available	cell	LOX IMVI; LOX CELL; LOXIMVI CELL; LOXIMVI; LOX IMVI CELL; LOX; LOX/IMVI; LOXIM-VI	curated
+M14	M14	CVCL_1395	M14 melanoma cell	Homo Sapiens	Skin	Hypodermis; Right Buttock	33Y	Adult	Male	Caucasian	Amelanotic melanoma	no available	cell	UCLA SO M14 CELL; M-14; UCLASO-M14; M-14 CELL; M-14 MELANOMA CELL; UCLA-SO-M14; M14-MEL CELL; UCLA-SO-M14 CELL; MELANOMA 14; M14-MEL; M14 CELL; UCLA-SO-14; MELANOMA 14 CELL; UCLA SO M14	curated
+MDA-MB-435	MDA-MB-435	CVCL_0417	MDA-MB-435 cell	Homo Sapiens	Skin	Hypodermis; Right Buttock	33Y	Adult	Male	Caucasian	Amelanotic melanoma	no available	cell	MDA 435; MDA-435; MDA-MB435; MDAMB435; MDA-MB435 CELL; NAN; MDA.MB.435; MDA-435 CELL; MDA435; MD ANDERSON-METASTATIC BREAST-435; MDA 435 CELL	curated
+MDA-MB-435S	MDA-MB-435S	CVCL_0622	MDA-MB-435S cell	Homo Sapiens	Skin	Hypodermis; Right Buttock	33Y	Adult	Male	Caucasian	Amelanotic melanoma	no available	cell	BRCL15; MDA-MB-435-S CELL; MDAMB435S; MDA-MB-435S; MDA-MB-435 S; MDA-MB-435 S CELL; MDA-MB-435-S	curated
+MM127	MM127	CVCL_2601	no available	Homo Sapiens	Skin	Hypodermis	no available	no available	Male	no available	Amelanotic melanoma	no available	cell	MM-127	curated
+MM253	MM253	CVCL_2604	no available	Homo Sapiens	Skin	Lymph Node	46Y	Adult	no available	no available	Amelanotic melanoma	no available	cell	MM 253	curated
+MM485	MM485	CVCL_2610	no available	Homo Sapiens	Skin	Lymph Node	no available	no available	Male	no available	Amelanotic melanoma	no available	cell	MM 485	curated
+COLO-679	COLO 679	CVCL_1130	no available	Homo Sapiens	Skin	Soft Tissue	47Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	COLORADO 679; COLO-679; COLO679; COLO #679	curated
+COLO-794	COLO 794	CVCL_2408	no available	Homo Sapiens	Skin	Skin	14Y	Juvenile	Male	Caucasian	Cutaneous melanoma	no available	cell	COLO #794; COLO 794; COLO-794; COLO794; COLORADO 794	curated
+COLO-800	COLO 800	CVCL_1135	no available	Homo Sapiens	Skin	Hypodermis	14Y	Juvenile	Male	Caucasian	Cutaneous melanoma	no available	cell	COLORADO 800; COLO-800; COLO #800; COLO800	curated
+COLO-818	COLO 818	CVCL_1998	no available	Homo Sapiens	Skin	Hypodermis	14Y	Juvenile	Male	Caucasian	Cutaneous melanoma	no available	cell	COLO #818; COLO818; COLO-818; COLORADO 818	curated
+COLO-829	COLO 829	CVCL_1137	no available	Homo Sapiens	Skin	Skin	45Y	Adult	Male	Caucasian	Cutaneous melanoma	no available	cell	COLO #829; COLO-829; COLO829; COLORADO 829; COLO 829	curated
+COLO-849	COLO 849	CVCL_2002	no available	Homo Sapiens	Skin	Right Axillary Lymph Node	43Y	Adult	Male	Caucasian	Cutaneous melanoma	no available	cell	COLO 849; COLO849; COLO #849; COLORADO 849; COLO-849	curated
+G-MEL	G-mel	CVCL_W798	no available	Homo Sapiens	Skin	no available	no available	no available	Male	Caucasian	Cutaneous melanoma	no available	cell	G-MEL	curated
+Hs-944-T	Hs 944.T	CVCL_1040	no available	Homo Sapiens	Skin	no available	51Y	Adult	no available	Caucasian	Cutaneous melanoma	no available	cell	HS944; HS944T; HS-944-T; HS 944; HS 944T	curated
+IGR-1	IGR-1	CVCL_1303	no available	Homo Sapiens	Skin	Inguinal Lymph Node; Groin Lymph Node	42Y	Adult	Male	Caucasian	Cutaneous melanoma	no available	cell	IGR 1; IGR1; INSTITUT GUSTAVE ROUSSY-1	curated
+IPC-298	IPC-298	CVCL_1307	IPC-298 cell	Homo Sapiens	Skin	Skin	64Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	IPC 298; IPC298 CELL; IPC298	curated
+K029	K029	CVCL_5143	no available	Homo Sapiens	Skin	no available	no available	no available	no available	Caucasian	Cutaneous melanoma	no available	cell	K029	curated
+K029AX	K029AX	CVCL_8784	no available	Homo Sapiens	Skin	no available	no available	no available	no available	Caucasian	Cutaneous melanoma	no available	cell	K029AX	curated
+MEL-JUSO	Mel JuSo	CVCL_1403	MEL-JUSO cell	Homo Sapiens	Skin	Skin	58Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	MELJUSO CELL; MELJUSO; MEL JUSO; JUSO; MEL-JUSO	curated
+Mewo	MeWo	CVCL_0445	MEWO cell	Homo Sapiens	Skin	Lymph Node	78Y	Elderly	Male	Caucasian	Cutaneous melanoma	no available	cell	MEVO; ME-WO; MEVO CELL; HTB-65 CELL; EST50; MEL-MEWO; MEWO; SK-MEL-MEWO; MEWO CELL; BI-MEL; ME WO	curated
+SK-MEL-19	SK-MEL-19	CVCL_6025	no available	Homo Sapiens	Skin	no available	50Y	Adult	Male	no available	Cutaneous melanoma	no available	cell	SK-MEL-19; SKMEL19; AL-MEL; SK-MEL19; SKMEL-19; SK MEL19	curated
+SK-MEL-28	SK-MEL-28	CVCL_0526	SK-MEL-28 cell	Homo Sapiens	Skin	Skin	51Y	Adult	Male	Caucasian	Cutaneous melanoma	melanocyte of skin	cell	SK MEL28; SK-MEL28; SK.MEL.28; SK-MEL 28; SKMEL-28; P-36; SKMEL-28 CELL; SK28; SKMEL28; SKML-28; P36; SK-MEL-28; SK-MEL28 CELL; SK MEL-28; AU-MEL; SK MEL 28	curated
+SK-MEL-3	SK-MEL-3	CVCL_0550	SK-MEL-3 cell	Homo Sapiens	Skin	Lymph Node	42Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	SK-MEL-3; SK-MEL3; SKMEL3	curated
+SK-MEL-30	SK-MEL-30	CVCL_0039	SK-MEL-30 cell	Homo Sapiens	Skin	no available	67Y	Elderly	Male	Caucasian	Cutaneous melanoma	no available	cell	SK-MEL-30; SKMEL30; SK MEL 30; SKMEL-30; AW-MEL; SK MEL30	curated
+SK-MEL-31	SK-MEL-31	CVCL_0600	no available	Homo Sapiens	Skin	no available	33Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	SKMEL-31; AX-MEL; SK-MEL-31; SKMEL31	curated
+SK-MEL-5	SK-MEL-5	CVCL_0527	SK-MEL-5 cell	Homo Sapiens	Skin	Lymph Node; Axillary Lymph Node	24Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	SK-MEL-5; SK-MEL5; SKMEL-5 CELL; SKMEL5; SK MEL 5; SKMEL-5; AA-MEL; SK.MEL.5	curated
+WM-164	WM164	CVCL_7928	no available	Homo Sapiens	Skin	Arm;  Skin	22Y	Adult	Male	Caucasian	Cutaneous melanoma	no available	cell	WM 164; WM-164	curated
+WM1552C	WM1552C	CVCL_6472	no available	Homo Sapiens	Skin	Hypodermis	72Y	Elderly	Male	Caucasian	Cutaneous melanoma	no available	cell	WM1552; WM 1552C; EST73; WM-1552; WM-1552C	curated
+WM278	WM278	CVCL_6473	WM-278 cell	Homo Sapiens	Skin	Skin	62Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	WM-278; WM 278; WC00054; WM278 CELL	curated
+WM35	WM35	CVCL_0580	WM-35 cell	Homo Sapiens	Skin	Skin	24Y	Adult	Female	Caucasian	Cutaneous melanoma	no available	cell	WM35 CELL; WM-35; WM 35; WC00060	curated
+WM793B	WM793	CVCL_8787	WM-793B cell	Homo Sapiens	Skin	Skin	37Y	Adult	Male	Caucasian	Cutaneous melanoma	no available	cell	WM 793; WM-793; WM 793B CELL; WM-793B; WM-793 CELL; WML 793; WM793 CELL; WM 793 CELL; WM793B; WM 793B; WC00062; WM793B CELL	curated
 ACN	ACN	CVCL_1068	no available	Homo Sapiens	Peripheral Nervous System	no available	no available	no available	no available	Caucasian	Melanoma; Neuroblastoma	no available	cell	ACN	curated
-COLO-738	COLO 738	CVCL_2407	no available	Homo Sapiens	Soft Tissue	no available	no available	no available	Female	no available	Melanoma; Other Solid Cancers	no available	cell	COLO 738; COLO-738; COLORADO 738; MFHL-2	curated
+COLO-738	COLO 738	CVCL_2407	no available	Homo Sapiens	Soft Tissue	no available	no available	no available	Female	no available	Melanoma	no available	cell	COLO 738; COLO-738; COLORADO 738; MFHL-2	curated
 Mel-202	Mel202	CVCL_C301	no available	Homo Sapiens	Eye	Eye;  Uvea	no available	no available	no available	no available	Melanoma; Uveal Melanoma	no available	cell	EST128; MEL-202; MEL 202; MEL202	curated
 Mel-270	Mel270	CVCL_C302	no available	Homo Sapiens	Eye	Eye;  Uvea	no available	no available	Male	no available	Melanoma; Uveal Melanoma	no available	cell	MEL270; MEL 270; MEL-270	curated
 Mel-285	Mel285	CVCL_C303	no available	Homo Sapiens	Eye	Eye;  Uvea	49Y	no available	Female	White	Melanoma; Uveal Melanoma	no available	cell	MEL285; MEL-285; MEL 285	curated
@@ -1602,7 +1602,7 @@ PEO23	PEO23	CVCL_2689	no available	Homo Sapiens	Ovary	Ascites	no available	no av
 PEO4	PEO4	CVCL_2690	PEO-4 cell	Homo Sapiens	Ovary	Ascites	no available	no available	Female	Caucasian	Ovarian Cystadenocarcinoma; Ovarian Carcinoma	no available	cell	PEO4 CELL; PEO-4; PE04	curated
 PEO6	PEO6	CVCL_2691	PEO-6 cell	Homo Sapiens	Ovary	Ascites	no available	no available	Female	Caucasian	Ovarian Cystadenocarcinoma; Ovarian Carcinoma	no available	cell	PEO6 CELL; PEO-6; PE06	curated
 TO14	TO14	CVCL_2734	no available	Homo Sapiens	Ovary	Omentum	no available	no available	no available	no available	Ovarian Cystadenocarcinoma; Ovarian Carcinoma	no available	cell	T014	curated
-RKN	RKN	CVCL_3156	no available	Homo Sapiens	Soft Tissue	Ovary	45Y	Adult	Female	Japanese	Ovarian Leiomyosarcoma; Other Sarcomas	no available	cell	RKN	curated
+RKN	RKN	CVCL_3156	no available	Homo Sapiens	Soft Tissue	Ovary	45Y	Adult	Female	Japanese	Ovarian Leiomyosarcoma	no available	cell	RKN	curated
 COV644	COV644	CVCL_2425	no available	Homo Sapiens	Ovary	Ovary	no available	no available	Female	Caucasian	Ovarian Mucinous Adenocarcinoma; Ovarian Carcinoma	no available	cell	COV-644	curated
 EFO-27	EFO-27	CVCL_1192	EFO-27 cell	Homo Sapiens	Ovary	Omentum	36Y	Adult	Female	Caucasian	Ovarian Mucinous Adenocarcinoma; Ovarian Carcinoma	no available	cell	EFO27; EFO 27 CELL; EFO 27; EFO27 CELL	curated
 JHOM-1	JHOM-1	CVCL_4644	no available	Homo Sapiens	Ovary	Ovary	88Y	Elderly	Female	Japanese	Ovarian Mucinous Adenocarcinoma; Ovarian Carcinoma	no available	cell	JHOM1	curated
@@ -1800,128 +1800,128 @@ SCMC-RM2-1	SCMC-RM2-1	CVCL_A668	no available	Homo Sapiens	Soft Tissue	Bone Marro
 SMS-CTR	SMS-CTR	CVCL_A770	no available	Homo Sapiens	Soft Tissue	Pelvic Region	1Y	Infant	Male	no available	Rhabdomyosarcoma; Embryonal Rhabdomyosarcoma	no available	cell	SMS_CTR; SMSCTR	curated
 TTC-442	TTC-442	CVCL_B255	no available	Homo Sapiens	Soft Tissue	Liver	10Y	Children	no available	no available	Rhabdomyosarcoma; Embryonal Rhabdomyosarcoma	no available	cell	TTC442; TU-442; A91; TC-442	curated
 DL	DL [Human lung rhabdoid tumor]	CVCL_U760	no available	Homo Sapiens	Soft Tissue	Lung	1Y2M	no available	Infant	no available	Rhabdomyosarcoma; Extrarenal Rhabdoid Tumor	no available	cell	DL	curated
-A388	A-388	CVCL_1063	no available	Homo Sapiens	Skin	Lymph Node	86Y	Elderly	Male	Caucasian	Skin Squamous Cell Carcinoma; Other Solid Cancers	no available	cell	A388	curated
-A431	A-431	CVCL_0037	A-431 cell	Homo Sapiens	Skin	Skin;  Epidermis	85Y	Elderly	Female	Caucasian	Skin Squamous Cell Carcinoma; Other Solid Cancers	no available	cell	NAN; A431 CELL; A431; A431/P	curated
-DJM-1	DJM-1	CVCL_1172	no available	Homo Sapiens	Skin	Skin	87Y	Elderly	Female	Japanese	Skin Squamous Cell Carcinoma; Other Solid Cancers	no available	cell	DJM1	curated
-HSC-1	HSC-1	CVCL_2807	HSC-1 cell	Homo Sapiens	Skin	Skin; Hand; Skin	75Y	Elderly	Male	Japanese	Skin Squamous Cell Carcinoma; Other Solid Cancers	no available	cell	HSC-I; HSC1	curated
-HSC-5	HSC-5 [Human skin squamous cell carcinoma]	CVCL_0314	no available	Homo Sapiens	Skin	Skin	75Y	Elderly	Male	Japanese	Skin Squamous Cell Carcinoma; Other Solid Cancers	no available	cell	HSC5	curated
-COLO-668	COLO 668	CVCL_1128	no available	Homo Sapiens	Lung	Brain	47Y	Adult	Female	no available	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	COLORADO 668; COLO 668; COLO-668; COLO668	curated
-COR-L24	COR-L24	CVCL_2409	no available	Homo Sapiens	Lung	Lymph Node	71Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	COR L24; CORL24	curated
-COR-L279	COR-L279	CVCL_1140	no available	Homo Sapiens	Lung	Lymph Node	63Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	CORL279; COR L279; LUCL4	curated
-COR-L303	COR-L303	CVCL_2411	no available	Homo Sapiens	Lung	Lung	no available	no available	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	COR L303; CORL303	curated
-COR-L311	COR-L311	CVCL_2412	no available	Homo Sapiens	Lung	Lung	63Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	CORL311	curated
-COR-L47	COR-L47	CVCL_2415	no available	Homo Sapiens	Lung	Bone Marrow	67Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	COR L47; CORL47	curated
-COR-L51	COR-L51	CVCL_2416	no available	Homo Sapiens	Lung	Pleural Effusion	71Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	CORL51; COR L51	curated
-COR-L88	COR-L88	CVCL_1141	no available	Homo Sapiens	Lung	Pleural Effusion	55Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	COR L88; CORL88	curated
-COR-L95	COR-L95	CVCL_2418	no available	Homo Sapiens	Lung	Bronchus; Lung	64Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	CORL95	curated
-CPC-N	CPC-N	CVCL_1146	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	CPC.N; CPCN; CPN	curated
-DMS-114	DMS 114	CVCL_1174	DMS-114 cell	Homo Sapiens	Lung	Lung	68Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	DMS114; DARMOUTH MEDICAL SCHOOL 114; DMS-114; DMS 114 CELL; DMS114 CELL	curated
-DMS-153	DMS 153	CVCL_1175	no available	Homo Sapiens	Lung	Liver	44Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	DARMOUTH MEDICAL SCHOOL 153; DMS153; DMS-153	curated
-DMS-273	DMS 273	CVCL_1176	DMS-273 cell	Homo Sapiens	Lung	Pleural Effusion	50Y	Adult	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	DMS273 CELL; DARMOUTH MEDICAL SCHOOL 273; DMS-273; DMS273; DMS 273 CELL	curated
-DMS-454	DMS 454	CVCL_2438	no available	Homo Sapiens	Lung	Lung	no available	no available	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	DMS-454; DARMOUTH MEDICAL SCHOOL 454; DMS454	curated
-DMS-53	DMS 53	CVCL_1177	DMS-53 cell	Homo Sapiens	Lung	Lung	54Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	DMS53; DMS 53 CELL; DARMOUTH MEDICAL SCHOOL 53; DMS-53; DMS53 CELL	curated
-DMS-79	DMS 79	CVCL_1178	no available	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	DARMOUTH MEDICAL SCHOOL 79; DMS79; DMS-79	curated
-HCC-33	HCC33	CVCL_2058	HCC-33 cell	Homo Sapiens	Lung	Pleural Effusion	52Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	HAMON CANCER CENTER 33; HCC0033; HCC-33	curated
-IST-SL1	IST-SL1	CVCL_1313	no available	Homo Sapiens	Lung	Supraclavicular Lymph Node	60Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	ISTSL1; ISTITUTO SCIENTIFICO TUMORI-SMALL CELL LUNG 1; IST SL1	curated
-IST-SL2	IST-SL2	CVCL_1314	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	IST SL2; ISTSL2; ISTITUTO SCIENTIFICO TUMORI-SMALL CELL LUNG 2	curated
-LB647-SCLC	LB647-SCLC	CVCL_1368	no available	Homo Sapiens	Lung	no available	no available	no available	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	LB647SCLC	curated
-LU-134-A	Lu-134-A	CVCL_1387	no available	Homo Sapiens	Lung	Lung	80Y	Elderly	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	LU134A; LU-134-A; LU-134A; LU-134-A-H; NCC-C-LU-134-A-H; LU-134; LU134-A-H; LU134AH; LU134; LU-134-AH	curated
-LU-134-B	Lu-134-B	CVCL_1388	Lu-134-B cell	Homo Sapiens	Lung	Lung	80Y	Elderly	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCC-C-LU-134-B-S; LU134B CELL; LU-134-B; LU-134B; LU134B	curated
-LU-135	Lu-135	CVCL_1389	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	LU135; LU-135; NCC-C-LU-135	curated
-LU-139	Lu-139	CVCL_1390	no available	Homo Sapiens	Lung	Lung	63Y	Adult	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	LU139; NCC-C-LU-139; LU-139	curated
-LU-165	Lu-165	CVCL_1391	no available	Homo Sapiens	Lung	Lymph Node	50Y	Adult	Male	Indonesian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	LU165; LU-165	curated
-MS-1	MS-1 [Human lung carcinoma]	CVCL_1429	no available	Homo Sapiens	Lung	Pleural Effusion	54Y	Adult	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	MS-1-L; MS1	curated
-NCI-H1048	NCI-H1048	CVCL_1453	NCI-H1048 cell	Homo Sapiens	Lung	Pleural Effusion	53Y	Adult	Female	African American	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1048 CELL; H1048; H-1048; H1048 CELL; NCIH1048	curated
-NCI-H1092	NCI-H1092	CVCL_1454	no available	Homo Sapiens	Lung	Bone Marrow	67Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H1092; H-1092; NCIH1092	curated
-NCI-H1105	NCI-H1105	CVCL_1455	no available	Homo Sapiens	Lung	Lymph Node	73Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1105; NCIH1105; H1105	curated
-NCI-H1184	NCI-H1184	CVCL_1458	no available	Homo Sapiens	Lung	Lymph Node	42Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1184; H1184; NCIH1184	curated
-NCI-H128	NCI-H128	CVCL_1460	NCI-H128 cell	Homo Sapiens	Lung	Pleural Effusion	60Y	Adult	Male	African American	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H128 CELL; H-128; NCI-128; H128; NCIH128; H-128 CELL; NCI-H-128	curated
-NCI-H1304	NCI-H1304	CVCL_1462	no available	Homo Sapiens	Lung	no available	no available	no available	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH1304; H-1304; H1304	curated
-NCI-H1339	NCI-H1339	CVCL_A472	no available	Homo Sapiens	Lung	Pleural Effusion	49Y	Adult	Female	White	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH1339; H-1339; H1339	curated
-NCI-H1341	NCI-H1341	CVCL_1463	no available	Homo Sapiens	Lung	Cervix; Uterus;  Cervix	26Y	Adult	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1341; H1341; NCIH1341	curated
-NCI-H1417	NCI-H1417	CVCL_1469	no available	Homo Sapiens	Lung	Lung	61Y	Adult	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H1417; H-1417; NCIH1417	curated
-NCI-H1436	NCI-H1436	CVCL_1471	no available	Homo Sapiens	Lung	Lymph Node	39Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1436; NCIH1436; H1436	curated
-NCI-H146	NCI-H146	CVCL_1473	NCI-H146 cell	Homo Sapiens	Lung	Bone Marrow	59Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H146 CELL; H146; H-146; H-146 CELL; NCIH146	curated
-NCI-H1618	NCI-H1618	CVCL_1480	no available	Homo Sapiens	Lung	Bone Marrow	55Y	Adult	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1618; NCIH1618; H1618	curated
-NCI-H1688	NCI-H1688	CVCL_1487	NCI-H1688 cell	Homo Sapiens	Lung	Liver	50Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H1688; H-1688; H1688 CELL; NCIH1688; H-1688 CELL	curated
-NCI-H1694	NCI-H1694	CVCL_1489	no available	Homo Sapiens	Lung	Ascites	61Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH1694; H-1694; H1694	curated
-NCI-H1836	NCI-H1836	CVCL_1498	NCI-H1836 cell	Homo Sapiens	Lung	Lung	52Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1836; H1836 CELL; H1836; NCIH1836	curated
-NCI-H187	NCI-H187	CVCL_1501	NCI-H187 cell	Homo Sapiens	Lung	Pleural Effusion	47Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-187; NCIH187; H-187 CELL; H187 CELL; H187	curated
-NCI-H1870	NCI-H1870	CVCL_1502	no available	Homo Sapiens	Lung	no available	no available	no available	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H1870; H-1870	curated
-NCI-H1876	NCI-H1876	CVCL_1503	no available	Homo Sapiens	Lung	Lymph Node	59Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1876; H1876; NCIH1876	curated
-NCI-H1881	NCI-H1881	CVCL_A513	no available	Homo Sapiens	Lung	Bone Marrow	59Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1881; H1881	curated
-NCI-H1882	NCI-H1882	CVCL_1504	no available	Homo Sapiens	Lung	Bone Marrow	59Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-1882; H1882	curated
-NCI-H1930	NCI-H1930	CVCL_1507	no available	Homo Sapiens	Lung	Lymph Node	41Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H1930; NCIH1930; H-1930	curated
-NCI-H196	NCI-H196	CVCL_1509	NCI-H196 cell	Homo Sapiens	Lung	Pleural Effusion	68Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H196; H-196 CELL; NCIH196; H196 CELL; H-196	curated
-NCI-H1963	NCI-H1963	CVCL_1510	NCI-H1963 cell	Homo Sapiens	Lung	Lung	56Y	Adult	Male	African American	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H1963 CELL; NCIH1963; H-1963; H1963; H-1963 CELL	curated
-NCI-H2029	NCI-H2029	CVCL_1516	NCI-H2029 cell	Homo Sapiens	Lung	Lymph Node	69Y	Elderly	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H2029; H-2029 CELL; H-2029; NCIH2029; H2029 CELL	curated
-NCI-H2081	NCI-H2081	CVCL_1522	no available	Homo Sapiens	Lung	Pleural Effusion	59Y	Adult	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-2081; NCIH2081; H2081	curated
-NCI-H209	NCI-H209	CVCL_1525	NCI-H209 cell	Homo Sapiens	Lung	Bone Marrow	55Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H209; NCIH209; H-209; H-209 CELL; H209 CELL	curated
-NCI-H211	NCI-H211	CVCL_1529	NCI-H211 cell	Homo Sapiens	Lung	Bone Marrow	50Y	Adult	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-211; H211 CELL; NCIH211; H211	curated
-NCI-H2141	NCI-H2141	CVCL_1534	NCI-H2141 cell	Homo Sapiens	Lung	Lymph Node	58Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H2141 CELL; H2141; NCIH2141; H-2141	curated
-NCI-H2171	NCI-H2171	CVCL_1536	NCI-H2171 cell	Homo Sapiens	Lung	Pleural Effusion	50Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H2171; H-2171; NCIH2171; H2171 CELL; H-2171 CELL	curated
-NCI-H2196	NCI-H2196	CVCL_1539	no available	Homo Sapiens	Lung	Bone Marrow	67Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH2196; H-2196; H2196	curated
-NCI-H2227	NCI-H2227	CVCL_1542	no available	Homo Sapiens	Lung	Lung	54Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH2227; H-2227; H2227	curated
-NCI-H250	NCI-H250	CVCL_1554	no available	Homo Sapiens	Lung	Brain	34Y	Adult	Male	African American	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H250; H-250; NCIH250	curated
-NCI-H345	NCI-H345	CVCL_1558	NCI-H345 cell	Homo Sapiens	Lung	Bone Marrow	64Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCI H345; H-345 CELL; H345; NCIH345; H-345; H345 CELL	curated
-NCI-H378	NCI-H378	CVCL_1560	no available	Homo Sapiens	Lung	Pleural Effusion	66Y	Elderly	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-378; H378; NCIH378	curated
-NCI-H446	NCI-H446	CVCL_1562	no available	Homo Sapiens	Lung	Pleural Effusion	61Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH446; H446; NCI-446; H-446	curated
-NCI-H510A	NCI-H510A	CVCL_1565	NCI-H510 cell	Homo Sapiens	Lung	Adrenal Gland	56Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH510; H-510 CELL; H-510; H510; H510A; NCI-H510; H-510A; H510 CELL	curated
-NCI-H524	NCI-H524	CVCL_1568	NCI-H524 cell	Homo Sapiens	Lung	Lymph Node	63Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H524; NCIH524; H524 CELL; H-524	curated
-NCI-H526	NCI-H526	CVCL_1569	NCI-H526 cell	Homo Sapiens	Lung	Bone Marrow	55Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-526; H526 CELL; H526; NCIH526	curated
-NCI-H64	NCI-H64	CVCL_1573	no available	Homo Sapiens	Lung	Lymph Node	48Y	Adult	Female	Black	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-64; NCIH64; H64	curated
-NCI-H69	NCI-H69	CVCL_1579	NCI-H69 cell	Homo Sapiens	Lung	Pleural Effusion	55Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H69 CELL; NCIH69; NCI-H-69; NCI H69; H69/P; H69; NCI-HUT-69; H-69; H-69 CELL; NCI-H69C; H69C	curated
-NCI-H740	NCI-H740	CVCL_1586	NCI-H740 cell	Homo Sapiens	Lung	Lymph Node	63Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H740; H-740; H-740 CELL; NCIH740; H740 CELL	curated
-NCI-H748	NCI-H748	CVCL_1588	no available	Homo Sapiens	Lung	Lymph Node	62Y	Adult	Male	African American	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	NCIH748; H-748; H748	curated
-NCI-H82	NCI-H82	CVCL_1591	NCI-H82 cell	Homo Sapiens	Lung	Pleural Effusion	40Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H-82 CELL; NCI-H-82; H82SCLC; NCIH82; H82; H-82; NCI H82; H82 CELL	curated
-NCI-H841	NCI-H841	CVCL_1595	no available	Homo Sapiens	Lung	Lung	51Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H841; NCIH841; H-841; NCI-841	curated
-NCI-H847	NCI-H847	CVCL_1596	no available	Homo Sapiens	Lung	Pleural Effusion	63Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H847; H-847; NCIH847	curated
-NCI-H889	NCI-H889	CVCL_1598	NCI-H889 cell	Homo Sapiens	Lung	Lymph Node	69Y	Elderly	Female	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	H889 CELL; H-889 CELL; NCIH889; H889; H-889	curated
-RERF-LC-FM	RERF-LC-FM	CVCL_1653	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	no available	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-FM; LC-FM; RERFLCFM	curated
-SBC-1	SBC-1	CVCL_1676	SBC-1 cell	Homo Sapiens	Lung	Lung	46Y	Adult	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	LC817; SBC1	curated
-SBC-2	SBC-2 [Human SCLC]	CVCL_W531	no available	Homo Sapiens	Lung	Lung	46Y	Adult	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	SBC-2	curated
-SBC-3	SBC-3	CVCL_1678	no available	Homo Sapiens	Lung	Bone Marrow	24Y	Adult	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	SBC3	curated
-SBC-5	SBC-5	CVCL_1679	no available	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Japanese	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	SBC5	curated
-SCLC-21H	SCLC-21H	CVCL_0024	no available	Homo Sapiens	Lung	Pleural Effusion	46Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	SCLC21H	curated
-SCLC-22H	SCLC-22H	CVCL_2186	no available	Homo Sapiens	Lung	Pleural Effusion; Pericardial Effusion	46Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	SCLC22H	curated
-SHP-77	SHP-77	CVCL_1693	SHP-77 cell	Homo Sapiens	Lung	Left Upper Lobe; Lung	54Y	Adult	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	no available	cell	SHADYSIDE HOSPITAL PITTSBURGH-77; SHP77	curated
-SW1271	SW1271	CVCL_1716	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Caucasian	Small Cell Lung Carcinoma; Lung Small Cell Carcinoma	epithelial cell	cell	SW 1271; SW-1271	curated
-HLF-a	HLF-a	CVCL_2255	no available	Homo Sapiens	Lung	Lung	54Y	Adult	Female	African American	Squamous Cell Lung Carcinoma	fibroblast of lung	cell	HLFA	curated
-COR-L32	COR-L32	CVCL_2413	no available	Homo Sapiens	Lung	Bone Marrow	no available	no available	no available	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	CORL32; COR L32	curated
-EBC-1	EBC-1	CVCL_2891	EBC-1 cell	Homo Sapiens	Lung	Skin	69Y	Elderly	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	EBC-1/ORIGINAL; EBC1; EBC1 CELL	curated
-GT3TKB	GT3TKB	CVCL_1237	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	GT3TKB	curated
-HARA	HARA [Human squamous cell lung carcinoma]	CVCL_2914	no available	Homo Sapiens	Lung	Pleural Effusion	57Y	Adult	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	KCC-C1	curated
-HCC-15	HCC15	CVCL_2057	no available	Homo Sapiens	Lung	Lung	47Y	Adult	Male	African American	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	HCC-15; HAMON CANCER CENTER 15; HCC0015	curated
-HCC-2450	HCC2450	CVCL_5133	no available	Homo Sapiens	Lung	Lung	52Y	Adult	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	HAMON CANCER CENTER 2450; HCC-2450	curated
-HCC-2814	HCC2814	CVCL_V586	no available	Homo Sapiens	Lung	no available	55Y	Adult	no available	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	HCC-2814; HAMON CANCER CENTER 2814	curated
-HCC1588	HCC1588	CVCL_A351	no available	Homo Sapiens	Lung	Lung	63Y	Adult	Female	African American	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	HCC-1588; HAMON CANCER CENTER 1588	curated
-HCC1897	HCC1897	CVCL_V578	no available	Homo Sapiens	Lung	no available	47Y	Adult	Male	African American	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	HAMON CANCER CENTER 1897; HCC-1897	curated
-HCC95	HCC95	CVCL_5137	HCC-95 cell	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	HAMON CANCER CENTER 95; HCC95 CELL; HCC 95 CELL; HCC0095; HCC-95	curated
-KNS-62	KNS-62	CVCL_1335	no available	Homo Sapiens	Lung	Brain	49Y	Adult	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	KNS62	curated
-LC-1-sq	LC-1/sq	CVCL_3008	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	LC-1 SQ; LC-1-SQ; LC-1SQ; LC1/SQ; LC-1; LC1SQ; LC1-SQ; LC1; LUNG CANCER-1/SQUAMOUS	curated
-LC-1-sq-SF	LC-1/sq-SF	CVCL_5480	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	LC1_SQ-SF; LC-1-SQ-SF; LC1SQSF; LC-1/SQ-SERUM FREE	curated
-LC-1F	LC-1F	CVCL_1372	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	"LUNG CANCER-1/SQUAMOUS, FLOATING VARIANT; LC1F"	curated
-LK-2	LK-2	CVCL_1377	no available	Homo Sapiens	Lung	Lung	74Y	Elderly	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	LK 2; LK2	curated
-LOU-NH91	LOU-NH91	CVCL_2104	no available	Homo Sapiens	Lung	Lower Right Lung Lobe;  Right Lower Lobe; Lung	64Y	Adult	Female	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	LOUNH91; LOU-NH-91	curated
-LUDLU-1	LUDLU-1	CVCL_2582	no available	Homo Sapiens	Lung	no available	72Y	Elderly	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	LUDLU1; LUDLU-1; LUDLU 1	curated
-NCI-H1385	NCI-H1385	CVCL_1466	no available	Homo Sapiens	Lung	Lymph Node	49Y	Adult	Female	African American	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	H-1385; H1385; NCIH1385	curated
-NCI-H1703	NCI-H1703	CVCL_1490	NCI-H1703 cell	Homo Sapiens	Lung	Lung	54Y	Adult	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	NCI-H 1703 CELL; H1703; H-1703; H-1703 CELL; NAN; NCIH1703; H1703 CELL	curated
-NCI-H2066	NCI-H2066	CVCL_1520	no available	Homo Sapiens	Lung	Lung	70Y	Elderly	Female	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	H-2066; H2066; NCIH2066	curated
-NCI-H2170	NCI-H2170	CVCL_1535	NCI-H2170 cell	Homo Sapiens	Lung	no available	no available	no available	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	NCIH2170; H-2170 CELL; H-2170; H2170 CELL; NCIH2170 CELL; H2170	curated
-NCI-H2286	NCI-H2286	CVCL_1545	no available	Homo Sapiens	Lung	Lung	57Y	Adult	Female	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	H-2286; NCIH2286; H2286	curated
-NCI-H2882	NCI-H2882	CVCL_5158	no available	Homo Sapiens	Lung	Pleural Effusion	61Y	Adult	Female	no available	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	H2882; H-2882; NCIH2882	curated
-NCI-H2887	NCI-H2887	CVCL_5159	no available	Homo Sapiens	Lung	Lung	31Y	Adult	no available	no available	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	H-2887; H2887; NCIH2887	curated
-NCI-H520	NCI-H520	CVCL_1566	NCI-H520 cell	Homo Sapiens	Lung	Lung	no available	no available	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	H-520; H520; NCI-HUT-520; H520 CELL; NCIH520; H-520 CELL; NCI-H 520 CELL	curated
-RERF-LC-AI	RERF-LC-A1	CVCL_4402	RERF-LC-AI cell	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	RERF-LC-A1 CELL; RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-AI; AOI; RERF-LCAI; RERF-LC-AI; RERFLCAI; LC-AI CELL; RERF-LC-A1	curated
-RERF-LC-MA	RERF-LC-MA	CVCL_3153	no available	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	LC-MA; MATSUSHIMA; LCMA; RERF-LCMA; RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-MA	curated
-RERF-LC-Sq1	RERF-LC-Sq1	CVCL_1656	no available	Homo Sapiens	Lung	Lung	74Y	Elderly	Female	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-SQUAMOUS 1; RERFLCSQ1; RERF-LC-SQ-1	curated
-SK-MES-1	SK-MES-1	CVCL_0630	SK-MES-1 cell	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	SKMES; SK-MES-1; SK-MES1; SK MES 1; SK-MES; SKMES1; SKMES-1	curated
-Sq-1	Sq-1	CVCL_4900	no available	Homo Sapiens	Lung	no available	no available	no available	no available	Japanese	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	SQ1; SQ-1	curated
-SW900	SW900	CVCL_1731	SW-900 cell	Homo Sapiens	Lung	Lung	53Y	Adult	Male	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	SW900 CELL; SW-900; SW 900; SW 900 CELL	curated
-VMRC-LCP	VMRC-LCP	CVCL_1788	no available	Homo Sapiens	Lung	Lung	no available	no available	no available	Caucasian	Squamous Cell Lung Carcinoma; Lung Squamous Cell Carcinoma	no available	cell	VIRGINIA MASON RESEARCH CENTER-LUNG CANCER P; VMRCLCP; PATTON	curated
+A388	A-388	CVCL_1063	no available	Homo Sapiens	Skin	Lymph Node	86Y	Elderly	Male	Caucasian	Skin Squamous Cell Carcinoma	no available	cell	A388	curated
+A431	A-431	CVCL_0037	A-431 cell	Homo Sapiens	Skin	Skin;  Epidermis	85Y	Elderly	Female	Caucasian	Skin Squamous Cell Carcinoma	no available	cell	NAN; A431 CELL; A431; A431/P	curated
+DJM-1	DJM-1	CVCL_1172	no available	Homo Sapiens	Skin	Skin	87Y	Elderly	Female	Japanese	Skin Squamous Cell Carcinoma	no available	cell	DJM1	curated
+HSC-1	HSC-1	CVCL_2807	HSC-1 cell	Homo Sapiens	Skin	Skin; Hand; Skin	75Y	Elderly	Male	Japanese	Skin Squamous Cell Carcinoma	no available	cell	HSC-I; HSC1	curated
+HSC-5	HSC-5 [Human skin squamous cell carcinoma]	CVCL_0314	no available	Homo Sapiens	Skin	Skin	75Y	Elderly	Male	Japanese	Skin Squamous Cell Carcinoma	no available	cell	HSC5	curated
+COLO-668	COLO 668	CVCL_1128	no available	Homo Sapiens	Lung	Brain	47Y	Adult	Female	no available	Small cell lung carcinoma	no available	cell	COLORADO 668; COLO 668; COLO-668; COLO668	curated
+COR-L24	COR-L24	CVCL_2409	no available	Homo Sapiens	Lung	Lymph Node	71Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	COR L24; CORL24	curated
+COR-L279	COR-L279	CVCL_1140	no available	Homo Sapiens	Lung	Lymph Node	63Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	CORL279; COR L279; LUCL4	curated
+COR-L303	COR-L303	CVCL_2411	no available	Homo Sapiens	Lung	Lung	no available	no available	Female	Caucasian	Small cell lung carcinoma	no available	cell	COR L303; CORL303	curated
+COR-L311	COR-L311	CVCL_2412	no available	Homo Sapiens	Lung	Lung	63Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	CORL311	curated
+COR-L47	COR-L47	CVCL_2415	no available	Homo Sapiens	Lung	Bone Marrow	67Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	COR L47; CORL47	curated
+COR-L51	COR-L51	CVCL_2416	no available	Homo Sapiens	Lung	Pleural Effusion	71Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	CORL51; COR L51	curated
+COR-L88	COR-L88	CVCL_1141	no available	Homo Sapiens	Lung	Pleural Effusion	55Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	COR L88; CORL88	curated
+COR-L95	COR-L95	CVCL_2418	no available	Homo Sapiens	Lung	Bronchus; Lung	64Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	CORL95	curated
+CPC-N	CPC-N	CVCL_1146	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Caucasian	Small cell lung carcinoma	no available	cell	CPC.N; CPCN; CPN	curated
+DMS-114	DMS 114	CVCL_1174	DMS-114 cell	Homo Sapiens	Lung	Lung	68Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	DMS114; DARMOUTH MEDICAL SCHOOL 114; DMS-114; DMS 114 CELL; DMS114 CELL	curated
+DMS-153	DMS 153	CVCL_1175	no available	Homo Sapiens	Lung	Liver	44Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	DARMOUTH MEDICAL SCHOOL 153; DMS153; DMS-153	curated
+DMS-273	DMS 273	CVCL_1176	DMS-273 cell	Homo Sapiens	Lung	Pleural Effusion	50Y	Adult	Female	Caucasian	Small cell lung carcinoma	no available	cell	DMS273 CELL; DARMOUTH MEDICAL SCHOOL 273; DMS-273; DMS273; DMS 273 CELL	curated
+DMS-454	DMS 454	CVCL_2438	no available	Homo Sapiens	Lung	Lung	no available	no available	Male	Caucasian	Small cell lung carcinoma	no available	cell	DMS-454; DARMOUTH MEDICAL SCHOOL 454; DMS454	curated
+DMS-53	DMS 53	CVCL_1177	DMS-53 cell	Homo Sapiens	Lung	Lung	54Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	DMS53; DMS 53 CELL; DARMOUTH MEDICAL SCHOOL 53; DMS-53; DMS53 CELL	curated
+DMS-79	DMS 79	CVCL_1178	no available	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	DARMOUTH MEDICAL SCHOOL 79; DMS79; DMS-79	curated
+HCC-33	HCC33	CVCL_2058	HCC-33 cell	Homo Sapiens	Lung	Pleural Effusion	52Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	HAMON CANCER CENTER 33; HCC0033; HCC-33	curated
+IST-SL1	IST-SL1	CVCL_1313	no available	Homo Sapiens	Lung	Supraclavicular Lymph Node	60Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	ISTSL1; ISTITUTO SCIENTIFICO TUMORI-SMALL CELL LUNG 1; IST SL1	curated
+IST-SL2	IST-SL2	CVCL_1314	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Caucasian	Small cell lung carcinoma	no available	cell	IST SL2; ISTSL2; ISTITUTO SCIENTIFICO TUMORI-SMALL CELL LUNG 2	curated
+LB647-SCLC	LB647-SCLC	CVCL_1368	no available	Homo Sapiens	Lung	no available	no available	no available	Male	Caucasian	Small cell lung carcinoma	no available	cell	LB647SCLC	curated
+LU-134-A	Lu-134-A	CVCL_1387	no available	Homo Sapiens	Lung	Lung	80Y	Elderly	Male	Japanese	Small cell lung carcinoma	no available	cell	LU134A; LU-134-A; LU-134A; LU-134-A-H; NCC-C-LU-134-A-H; LU-134; LU134-A-H; LU134AH; LU134; LU-134-AH	curated
+LU-134-B	Lu-134-B	CVCL_1388	Lu-134-B cell	Homo Sapiens	Lung	Lung	80Y	Elderly	Male	Japanese	Small cell lung carcinoma	no available	cell	NCC-C-LU-134-B-S; LU134B CELL; LU-134-B; LU-134B; LU134B	curated
+LU-135	Lu-135	CVCL_1389	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Small cell lung carcinoma	no available	cell	LU135; LU-135; NCC-C-LU-135	curated
+LU-139	Lu-139	CVCL_1390	no available	Homo Sapiens	Lung	Lung	63Y	Adult	Male	Japanese	Small cell lung carcinoma	no available	cell	LU139; NCC-C-LU-139; LU-139	curated
+LU-165	Lu-165	CVCL_1391	no available	Homo Sapiens	Lung	Lymph Node	50Y	Adult	Male	Indonesian	Small cell lung carcinoma	no available	cell	LU165; LU-165	curated
+MS-1	MS-1 [Human lung carcinoma]	CVCL_1429	no available	Homo Sapiens	Lung	Pleural Effusion	54Y	Adult	Male	Japanese	Small cell lung carcinoma	no available	cell	MS-1-L; MS1	curated
+NCI-H1048	NCI-H1048	CVCL_1453	NCI-H1048 cell	Homo Sapiens	Lung	Pleural Effusion	53Y	Adult	Female	African American	Small cell lung carcinoma	no available	cell	H-1048 CELL; H1048; H-1048; H1048 CELL; NCIH1048	curated
+NCI-H1092	NCI-H1092	CVCL_1454	no available	Homo Sapiens	Lung	Bone Marrow	67Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	H1092; H-1092; NCIH1092	curated
+NCI-H1105	NCI-H1105	CVCL_1455	no available	Homo Sapiens	Lung	Lymph Node	73Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-1105; NCIH1105; H1105	curated
+NCI-H1184	NCI-H1184	CVCL_1458	no available	Homo Sapiens	Lung	Lymph Node	42Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-1184; H1184; NCIH1184	curated
+NCI-H128	NCI-H128	CVCL_1460	NCI-H128 cell	Homo Sapiens	Lung	Pleural Effusion	60Y	Adult	Male	African American	Small cell lung carcinoma	no available	cell	H128 CELL; H-128; NCI-128; H128; NCIH128; H-128 CELL; NCI-H-128	curated
+NCI-H1304	NCI-H1304	CVCL_1462	no available	Homo Sapiens	Lung	no available	no available	no available	Female	Caucasian	Small cell lung carcinoma	no available	cell	NCIH1304; H-1304; H1304	curated
+NCI-H1339	NCI-H1339	CVCL_A472	no available	Homo Sapiens	Lung	Pleural Effusion	49Y	Adult	Female	White	Small cell lung carcinoma	no available	cell	NCIH1339; H-1339; H1339	curated
+NCI-H1341	NCI-H1341	CVCL_1463	no available	Homo Sapiens	Lung	Cervix; Uterus;  Cervix	26Y	Adult	Female	Caucasian	Small cell lung carcinoma	no available	cell	H-1341; H1341; NCIH1341	curated
+NCI-H1417	NCI-H1417	CVCL_1469	no available	Homo Sapiens	Lung	Lung	61Y	Adult	Female	Caucasian	Small cell lung carcinoma	no available	cell	H1417; H-1417; NCIH1417	curated
+NCI-H1436	NCI-H1436	CVCL_1471	no available	Homo Sapiens	Lung	Lymph Node	39Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-1436; NCIH1436; H1436	curated
+NCI-H146	NCI-H146	CVCL_1473	NCI-H146 cell	Homo Sapiens	Lung	Bone Marrow	59Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H146 CELL; H146; H-146; H-146 CELL; NCIH146	curated
+NCI-H1618	NCI-H1618	CVCL_1480	no available	Homo Sapiens	Lung	Bone Marrow	55Y	Adult	Female	Caucasian	Small cell lung carcinoma	no available	cell	H-1618; NCIH1618; H1618	curated
+NCI-H1688	NCI-H1688	CVCL_1487	NCI-H1688 cell	Homo Sapiens	Lung	Liver	50Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H1688; H-1688; H1688 CELL; NCIH1688; H-1688 CELL	curated
+NCI-H1694	NCI-H1694	CVCL_1489	no available	Homo Sapiens	Lung	Ascites	61Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	NCIH1694; H-1694; H1694	curated
+NCI-H1836	NCI-H1836	CVCL_1498	NCI-H1836 cell	Homo Sapiens	Lung	Lung	52Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-1836; H1836 CELL; H1836; NCIH1836	curated
+NCI-H187	NCI-H187	CVCL_1501	NCI-H187 cell	Homo Sapiens	Lung	Pleural Effusion	47Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-187; NCIH187; H-187 CELL; H187 CELL; H187	curated
+NCI-H1870	NCI-H1870	CVCL_1502	no available	Homo Sapiens	Lung	no available	no available	no available	Female	Caucasian	Small cell lung carcinoma	no available	cell	H1870; H-1870	curated
+NCI-H1876	NCI-H1876	CVCL_1503	no available	Homo Sapiens	Lung	Lymph Node	59Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-1876; H1876; NCIH1876	curated
+NCI-H1881	NCI-H1881	CVCL_A513	no available	Homo Sapiens	Lung	Bone Marrow	59Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-1881; H1881	curated
+NCI-H1882	NCI-H1882	CVCL_1504	no available	Homo Sapiens	Lung	Bone Marrow	59Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-1882; H1882	curated
+NCI-H1930	NCI-H1930	CVCL_1507	no available	Homo Sapiens	Lung	Lymph Node	41Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H1930; NCIH1930; H-1930	curated
+NCI-H196	NCI-H196	CVCL_1509	NCI-H196 cell	Homo Sapiens	Lung	Pleural Effusion	68Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	H196; H-196 CELL; NCIH196; H196 CELL; H-196	curated
+NCI-H1963	NCI-H1963	CVCL_1510	NCI-H1963 cell	Homo Sapiens	Lung	Lung	56Y	Adult	Male	African American	Small cell lung carcinoma	no available	cell	H1963 CELL; NCIH1963; H-1963; H1963; H-1963 CELL	curated
+NCI-H2029	NCI-H2029	CVCL_1516	NCI-H2029 cell	Homo Sapiens	Lung	Lymph Node	69Y	Elderly	Female	Caucasian	Small cell lung carcinoma	no available	cell	H2029; H-2029 CELL; H-2029; NCIH2029; H2029 CELL	curated
+NCI-H2081	NCI-H2081	CVCL_1522	no available	Homo Sapiens	Lung	Pleural Effusion	59Y	Adult	Female	Caucasian	Small cell lung carcinoma	no available	cell	H-2081; NCIH2081; H2081	curated
+NCI-H209	NCI-H209	CVCL_1525	NCI-H209 cell	Homo Sapiens	Lung	Bone Marrow	55Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H209; NCIH209; H-209; H-209 CELL; H209 CELL	curated
+NCI-H211	NCI-H211	CVCL_1529	NCI-H211 cell	Homo Sapiens	Lung	Bone Marrow	50Y	Adult	Female	Caucasian	Small cell lung carcinoma	no available	cell	H-211; H211 CELL; NCIH211; H211	curated
+NCI-H2141	NCI-H2141	CVCL_1534	NCI-H2141 cell	Homo Sapiens	Lung	Lymph Node	58Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H2141 CELL; H2141; NCIH2141; H-2141	curated
+NCI-H2171	NCI-H2171	CVCL_1536	NCI-H2171 cell	Homo Sapiens	Lung	Pleural Effusion	50Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H2171; H-2171; NCIH2171; H2171 CELL; H-2171 CELL	curated
+NCI-H2196	NCI-H2196	CVCL_1539	no available	Homo Sapiens	Lung	Bone Marrow	67Y	Elderly	Male	Caucasian	Small cell lung carcinoma	no available	cell	NCIH2196; H-2196; H2196	curated
+NCI-H2227	NCI-H2227	CVCL_1542	no available	Homo Sapiens	Lung	Lung	54Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	NCIH2227; H-2227; H2227	curated
+NCI-H250	NCI-H250	CVCL_1554	no available	Homo Sapiens	Lung	Brain	34Y	Adult	Male	African American	Small cell lung carcinoma	no available	cell	H250; H-250; NCIH250	curated
+NCI-H345	NCI-H345	CVCL_1558	NCI-H345 cell	Homo Sapiens	Lung	Bone Marrow	64Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	NCI H345; H-345 CELL; H345; NCIH345; H-345; H345 CELL	curated
+NCI-H378	NCI-H378	CVCL_1560	no available	Homo Sapiens	Lung	Pleural Effusion	66Y	Elderly	Female	Caucasian	Small cell lung carcinoma	no available	cell	H-378; H378; NCIH378	curated
+NCI-H446	NCI-H446	CVCL_1562	no available	Homo Sapiens	Lung	Pleural Effusion	61Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	NCIH446; H446; NCI-446; H-446	curated
+NCI-H510A	NCI-H510A	CVCL_1565	NCI-H510 cell	Homo Sapiens	Lung	Adrenal Gland	56Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	NCIH510; H-510 CELL; H-510; H510; H510A; NCI-H510; H-510A; H510 CELL	curated
+NCI-H524	NCI-H524	CVCL_1568	NCI-H524 cell	Homo Sapiens	Lung	Lymph Node	63Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H524; NCIH524; H524 CELL; H-524	curated
+NCI-H526	NCI-H526	CVCL_1569	NCI-H526 cell	Homo Sapiens	Lung	Bone Marrow	55Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-526; H526 CELL; H526; NCIH526	curated
+NCI-H64	NCI-H64	CVCL_1573	no available	Homo Sapiens	Lung	Lymph Node	48Y	Adult	Female	Black	Small cell lung carcinoma	no available	cell	H-64; NCIH64; H64	curated
+NCI-H69	NCI-H69	CVCL_1579	NCI-H69 cell	Homo Sapiens	Lung	Pleural Effusion	55Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H69 CELL; NCIH69; NCI-H-69; NCI H69; H69/P; H69; NCI-HUT-69; H-69; H-69 CELL; NCI-H69C; H69C	curated
+NCI-H740	NCI-H740	CVCL_1586	NCI-H740 cell	Homo Sapiens	Lung	Lymph Node	63Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H740; H-740; H-740 CELL; NCIH740; H740 CELL	curated
+NCI-H748	NCI-H748	CVCL_1588	no available	Homo Sapiens	Lung	Lymph Node	62Y	Adult	Male	African American	Small cell lung carcinoma	no available	cell	NCIH748; H-748; H748	curated
+NCI-H82	NCI-H82	CVCL_1591	NCI-H82 cell	Homo Sapiens	Lung	Pleural Effusion	40Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H-82 CELL; NCI-H-82; H82SCLC; NCIH82; H82; H-82; NCI H82; H82 CELL	curated
+NCI-H841	NCI-H841	CVCL_1595	no available	Homo Sapiens	Lung	Lung	51Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H841; NCIH841; H-841; NCI-841	curated
+NCI-H847	NCI-H847	CVCL_1596	no available	Homo Sapiens	Lung	Pleural Effusion	63Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	H847; H-847; NCIH847	curated
+NCI-H889	NCI-H889	CVCL_1598	NCI-H889 cell	Homo Sapiens	Lung	Lymph Node	69Y	Elderly	Female	Caucasian	Small cell lung carcinoma	no available	cell	H889 CELL; H-889 CELL; NCIH889; H889; H-889	curated
+RERF-LC-FM	RERF-LC-FM	CVCL_1653	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	no available	Japanese	Small cell lung carcinoma	no available	cell	RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-FM; LC-FM; RERFLCFM	curated
+SBC-1	SBC-1	CVCL_1676	SBC-1 cell	Homo Sapiens	Lung	Lung	46Y	Adult	Male	Japanese	Small cell lung carcinoma	no available	cell	LC817; SBC1	curated
+SBC-2	SBC-2 [Human SCLC]	CVCL_W531	no available	Homo Sapiens	Lung	Lung	46Y	Adult	Male	Japanese	Small cell lung carcinoma	no available	cell	SBC-2	curated
+SBC-3	SBC-3	CVCL_1678	no available	Homo Sapiens	Lung	Bone Marrow	24Y	Adult	Male	Japanese	Small cell lung carcinoma	no available	cell	SBC3	curated
+SBC-5	SBC-5	CVCL_1679	no available	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Japanese	Small cell lung carcinoma	no available	cell	SBC5	curated
+SCLC-21H	SCLC-21H	CVCL_0024	no available	Homo Sapiens	Lung	Pleural Effusion	46Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	SCLC21H	curated
+SCLC-22H	SCLC-22H	CVCL_2186	no available	Homo Sapiens	Lung	Pleural Effusion; Pericardial Effusion	46Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	SCLC22H	curated
+SHP-77	SHP-77	CVCL_1693	SHP-77 cell	Homo Sapiens	Lung	Left Upper Lobe; Lung	54Y	Adult	Male	Caucasian	Small cell lung carcinoma	no available	cell	SHADYSIDE HOSPITAL PITTSBURGH-77; SHP77	curated
+SW1271	SW1271	CVCL_1716	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Caucasian	Small cell lung carcinoma	epithelial cell	cell	SW 1271; SW-1271	curated
+HLF-a	HLF-a	CVCL_2255	no available	Homo Sapiens	Lung	Lung	54Y	Adult	Female	African American	Squamous cell lung carcinoma	fibroblast of lung	cell	HLFA	curated
+COR-L32	COR-L32	CVCL_2413	no available	Homo Sapiens	Lung	Bone Marrow	no available	no available	no available	Caucasian	Squamous cell lung carcinoma	no available	cell	CORL32; COR L32	curated
+EBC-1	EBC-1	CVCL_2891	EBC-1 cell	Homo Sapiens	Lung	Skin	69Y	Elderly	Male	Japanese	Squamous cell lung carcinoma	no available	cell	EBC-1/ORIGINAL; EBC1; EBC1 CELL	curated
+GT3TKB	GT3TKB	CVCL_1237	no available	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Japanese	Squamous cell lung carcinoma	no available	cell	GT3TKB	curated
+HARA	HARA [Human squamous cell lung carcinoma]	CVCL_2914	no available	Homo Sapiens	Lung	Pleural Effusion	57Y	Adult	Male	Japanese	Squamous cell lung carcinoma	no available	cell	KCC-C1	curated
+HCC-15	HCC15	CVCL_2057	no available	Homo Sapiens	Lung	Lung	47Y	Adult	Male	African American	Squamous cell lung carcinoma	no available	cell	HCC-15; HAMON CANCER CENTER 15; HCC0015	curated
+HCC-2450	HCC2450	CVCL_5133	no available	Homo Sapiens	Lung	Lung	52Y	Adult	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	HAMON CANCER CENTER 2450; HCC-2450	curated
+HCC-2814	HCC2814	CVCL_V586	no available	Homo Sapiens	Lung	no available	55Y	Adult	no available	Caucasian	Squamous cell lung carcinoma	no available	cell	HCC-2814; HAMON CANCER CENTER 2814	curated
+HCC1588	HCC1588	CVCL_A351	no available	Homo Sapiens	Lung	Lung	63Y	Adult	Female	African American	Squamous cell lung carcinoma	no available	cell	HCC-1588; HAMON CANCER CENTER 1588	curated
+HCC1897	HCC1897	CVCL_V578	no available	Homo Sapiens	Lung	no available	47Y	Adult	Male	African American	Squamous cell lung carcinoma	no available	cell	HAMON CANCER CENTER 1897; HCC-1897	curated
+HCC95	HCC95	CVCL_5137	HCC-95 cell	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	HAMON CANCER CENTER 95; HCC95 CELL; HCC 95 CELL; HCC0095; HCC-95	curated
+KNS-62	KNS-62	CVCL_1335	no available	Homo Sapiens	Lung	Brain	49Y	Adult	Male	Japanese	Squamous cell lung carcinoma	no available	cell	KNS62	curated
+LC-1-sq	LC-1/sq	CVCL_3008	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Squamous cell lung carcinoma	no available	cell	LC-1 SQ; LC-1-SQ; LC-1SQ; LC1/SQ; LC-1; LC1SQ; LC1-SQ; LC1; LUNG CANCER-1/SQUAMOUS	curated
+LC-1-sq-SF	LC-1/sq-SF	CVCL_5480	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Squamous cell lung carcinoma	no available	cell	LC1_SQ-SF; LC-1-SQ-SF; LC1SQSF; LC-1/SQ-SERUM FREE	curated
+LC-1F	LC-1F	CVCL_1372	no available	Homo Sapiens	Lung	Lung	69Y	Elderly	Male	Japanese	Squamous cell lung carcinoma	no available	cell	"LUNG CANCER-1/SQUAMOUS, FLOATING VARIANT; LC1F"	curated
+LK-2	LK-2	CVCL_1377	no available	Homo Sapiens	Lung	Lung	74Y	Elderly	Male	Japanese	Squamous cell lung carcinoma	no available	cell	LK 2; LK2	curated
+LOU-NH91	LOU-NH91	CVCL_2104	no available	Homo Sapiens	Lung	Lower Right Lung Lobe;  Right Lower Lobe; Lung	64Y	Adult	Female	Caucasian	Squamous cell lung carcinoma	no available	cell	LOUNH91; LOU-NH-91	curated
+LUDLU-1	LUDLU-1	CVCL_2582	no available	Homo Sapiens	Lung	no available	72Y	Elderly	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	LUDLU1; LUDLU-1; LUDLU 1	curated
+NCI-H1385	NCI-H1385	CVCL_1466	no available	Homo Sapiens	Lung	Lymph Node	49Y	Adult	Female	African American	Squamous cell lung carcinoma	no available	cell	H-1385; H1385; NCIH1385	curated
+NCI-H1703	NCI-H1703	CVCL_1490	NCI-H1703 cell	Homo Sapiens	Lung	Lung	54Y	Adult	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	NCI-H 1703 CELL; H1703; H-1703; H-1703 CELL; NAN; NCIH1703; H1703 CELL	curated
+NCI-H2066	NCI-H2066	CVCL_1520	no available	Homo Sapiens	Lung	Lung	70Y	Elderly	Female	Caucasian	Squamous cell lung carcinoma	no available	cell	H-2066; H2066; NCIH2066	curated
+NCI-H2170	NCI-H2170	CVCL_1535	NCI-H2170 cell	Homo Sapiens	Lung	no available	no available	no available	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	NCIH2170; H-2170 CELL; H-2170; H2170 CELL; NCIH2170 CELL; H2170	curated
+NCI-H2286	NCI-H2286	CVCL_1545	no available	Homo Sapiens	Lung	Lung	57Y	Adult	Female	Caucasian	Squamous cell lung carcinoma	no available	cell	H-2286; NCIH2286; H2286	curated
+NCI-H2882	NCI-H2882	CVCL_5158	no available	Homo Sapiens	Lung	Pleural Effusion	61Y	Adult	Female	no available	Squamous cell lung carcinoma	no available	cell	H2882; H-2882; NCIH2882	curated
+NCI-H2887	NCI-H2887	CVCL_5159	no available	Homo Sapiens	Lung	Lung	31Y	Adult	no available	no available	Squamous cell lung carcinoma	no available	cell	H-2887; H2887; NCIH2887	curated
+NCI-H520	NCI-H520	CVCL_1566	NCI-H520 cell	Homo Sapiens	Lung	Lung	no available	no available	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	H-520; H520; NCI-HUT-520; H520 CELL; NCIH520; H-520 CELL; NCI-H 520 CELL	curated
+RERF-LC-AI	RERF-LC-A1	CVCL_4402	RERF-LC-AI cell	Homo Sapiens	Lung	Pleural Effusion	no available	no available	Male	Japanese	Squamous cell lung carcinoma	no available	cell	RERF-LC-A1 CELL; RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-AI; AOI; RERF-LCAI; RERF-LC-AI; RERFLCAI; LC-AI CELL; RERF-LC-A1	curated
+RERF-LC-MA	RERF-LC-MA	CVCL_3153	no available	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	LC-MA; MATSUSHIMA; LCMA; RERF-LCMA; RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-MA	curated
+RERF-LC-Sq1	RERF-LC-Sq1	CVCL_1656	no available	Homo Sapiens	Lung	Lung	74Y	Elderly	Female	Japanese	Squamous cell lung carcinoma	no available	cell	RADIATION EFFECTS RESEARCH FOUNDATION-LUNG CANCER-SQUAMOUS 1; RERFLCSQ1; RERF-LC-SQ-1	curated
+SK-MES-1	SK-MES-1	CVCL_0630	SK-MES-1 cell	Homo Sapiens	Lung	Pleural Effusion	65Y	Elderly	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	SKMES; SK-MES-1; SK-MES1; SK MES 1; SK-MES; SKMES1; SKMES-1	curated
+Sq-1	Sq-1	CVCL_4900	no available	Homo Sapiens	Lung	no available	no available	no available	no available	Japanese	Squamous cell lung carcinoma	no available	cell	SQ1; SQ-1	curated
+SW900	SW900	CVCL_1731	SW-900 cell	Homo Sapiens	Lung	Lung	53Y	Adult	Male	Caucasian	Squamous cell lung carcinoma	no available	cell	SW900 CELL; SW-900; SW 900; SW 900 CELL	curated
+VMRC-LCP	VMRC-LCP	CVCL_1788	no available	Homo Sapiens	Lung	Lung	no available	no available	no available	Caucasian	Squamous cell lung carcinoma	no available	cell	VIRGINIA MASON RESEARCH CENTER-LUNG CANCER P; VMRCLCP; PATTON	curated
 A253	A-253	CVCL_1060	A-253 cell	Homo Sapiens	Head and Neck	Submaxillary Salivary Gland;  Submandibular Gland; Salivary Gland	54Y	Adult	Male	Caucasian	Submandibular Gland Squamous Cell Carcinoma; Head And Neck Carcinoma	no available	cell	A253; A253 CELL; A 253	curated
 1273-99	1273/99	CVCL_N588	no available	Homo Sapiens	Soft Tissue	no available	no available	no available	no available	no available	Synovial sarcoma	no available	cell	1273-99; 1273; 127399	curated
-SCS214	SCS214	CVCL_WU91	no available	Homo Sapiens	Soft Tissue	no available	no available	no available	no available	no available	Synovial Sarcoma; Other Solid Cancers	no available	cell	SCS-214	curated
+SCS214	SCS214	CVCL_WU91	no available	Homo Sapiens	Soft Tissue	no available	no available	no available	no available	no available	Synovial Sarcoma	no available	cell	SCS-214	curated
 A3	Jurkat clone A3	CVCL_1061	A3 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	JURKAT CLONE A3 CELL; A3; JURKAT A3 CELL	curated
 AGR-ON	CEM-ON	CVCL_J395	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	AGR-ON	curated
 ALL-SIL	ALL-SIL	CVCL_1805	ALL-SIL cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	17Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	SIL-ALL; ALLSIL; SIL-ALL CELL	curated
@@ -1947,7 +1947,7 @@ P12-ICHIKAWA	P12-Ichikawa	CVCL_1630	P12-ICHIKAWA cell	Homo Sapiens	Haematopoieti
 PEER	Peer	CVCL_1913	PEER cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	PEER	curated
 PF-382	PF-382	CVCL_1641	no available	Homo Sapiens	Haematopoietic and Lymphoid	Pleural Effusion	6Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	PF382	curated
 RPMI-8402	RPMI-8402	CVCL_1667	RPMI-8402 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	16Y	Juvenile	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	ROSWELL PARK MEMORIAL INSTITUTE 8402; RPMI 8402; RPMI8402; 8402	curated
-MOTN-1	MOTN-1	CVCL_2127	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	65Y	Elderly	Female	Japanese	T-Cell Large Granular Lymphocyte Leukemia; Other Blood Cancers	T cell	cell	MOTN1	curated
+MOTN-1	MOTN-1	CVCL_2127	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	65Y	Elderly	Female	Japanese	T-Cell Large Granular Lymphocyte Leukemia	T cell	cell	MOTN1	curated
 SMZ-1	SMZ-1	CVCL_RL84	no available	Homo Sapiens	Haematopoietic and Lymphoid	Ascites	46Y	Adult	Male	Japanese	T-Cell Non-Hodgkin Lymphoma; T-Cell Non-Hodgkin'S Lymphoma	T cell	cell	SMZ1	curated
 MYLA	no available	no available	no available	Homo Sapiens	Haematopoietic and Lymphoid	no available	no available	no available	no available	no available	T-Cell Non-Hodgkin'S Lymphoma	no available	cell	MYLA	curated
 OCI-Ly12	OCI-Ly12	CVCL_8796	no available	Homo Sapiens	Haematopoietic and Lymphoid	Lymph Node	37Y	Adult	Male	no available	T-Cell Non-Hodgkin'S Lymphoma; Grade 1 Follicular Lymphoma	no available	cell	OCI-LY 12; OCI LY12; OCI-LY-12; OCI-LY12; OCILY12; LY12	curated
@@ -1989,13 +1989,13 @@ ORL-150	ORL-150	CVCL_VJ37	no available	Homo Sapiens	Tongue	Tongue	76Y	Elderly	Ma
 ORL-153	ORL-153	CVCL_VJ38	no available	Homo Sapiens	Tongue	Tongue	36Y	Adult	Male	Indian	Tongue squamous cell carcinoma	no available	cell	153T; ORL-153T	curated
 ORL-156	ORL-156	CVCL_VJ39	no available	Homo Sapiens	Tongue	Tongue	38Y	Adult	Male	Chinese	Tongue squamous cell carcinoma	no available	cell	156T; ORL-156T	curated
 ORL-166	ORL-166	CVCL_VJ40	no available	Homo Sapiens	Tongue	Tongue	66Y	Elderly	Female	Malaysian	Tongue squamous cell carcinoma	no available	cell	166T; ORL-166T	curated
-GCT	GCT	CVCL_1229	no available	Homo Sapiens	Soft Tissue	Pleural Effusion; Lung	29Y	Adult	Male	Caucasian	Undifferentiated Pleomorphic Sarcoma; Other Sarcomas	no available	cell	GIANT CELL TUMOR	curated
-MFH-ino	MFH-ino	CVCL_1407	no available	Homo Sapiens	Soft Tissue	no available	45Y	Adult	Female	Japanese	Undifferentiated Pleomorphic Sarcoma; Other Sarcomas	no available	cell	MFHINO; MFH-INO	curated
-EMTOKA	EMTOKA	CVCL_E115	no available	Homo Sapiens	Uterus	Uterus	64Y	Adult	Female	Japanese	Uterine Carcinosarcoma; Other Solid Cancers	no available	cell	EMTOKA	curated
-HTMMT	HTMMT	CVCL_8721	no available	Homo Sapiens	Uterus	Uterus	66Y	Elderly	Female	Japanese	Uterine Carcinosarcoma; Other Solid Cancers	no available	cell	HTMMT	curated
-SNU-1077	SNU-1077	CVCL_5007	no available	Homo Sapiens	Uterus	Endometrium	60Y	Adult	Female	Korean	Uterine Carcinosarcoma; Other Solid Cancers	no available	cell	SNU1077	curated
-SNU-685	SNU-685	CVCL_5083	no available	Homo Sapiens	Uterus	Endometrium	70Y	Elderly	Female	Korean	Uterine Carcinosarcoma; Other Solid Cancers	no available	cell	SNU685; NCI-SNU-685	curated
-MES-SA	MES-SA	CVCL_1404	no available	Homo Sapiens	Uterus	Uterus	56Y	Adult	Female	Caucasian	Uterine Corpus Sarcoma; Other Sarcomas	no available	cell	MESSA	curated
-MES-SA-Dx-5	MES-SA/Dx5	CVCL_2598	no available	Homo Sapiens	Uterus	Uterus	56Y	Adult	Female	Caucasian	Uterine Corpus Sarcoma; Other Sarcomas	no available	cell	DX5; MESSA DX5; MESSADX5; MESSA-DX5; MES-SA DX5; MESSA/DX5; MES-SA/DX-5; MES-SA-DX5	curated
-MES-SA-MX2	MES-SA/MX2	CVCL_2599	no available	Homo Sapiens	Uterus	Uterus	56Y	Adult	Female	Caucasian	Uterine Corpus Sarcoma; Other Sarcomas	no available	cell	MESSA/MX2; MESSAMX2; MES-SA/MX2; MES-SA-MX2	curated
-SK-LMS-1	SK-LMS-1	CVCL_0628	SK-LMS-1 cell	Homo Sapiens	Soft Tissue	Vulva	43Y	Adult	Female	Caucasian	Vulvar Leiomyosarcoma; Other Sarcomas	no available	cell	SKLMS-1; SKLMS1	curated
+GCT	GCT	CVCL_1229	no available	Homo Sapiens	Soft Tissue	Pleural Effusion; Lung	29Y	Adult	Male	Caucasian	Undifferentiated Pleomorphic Sarcoma	no available	cell	GIANT CELL TUMOR	curated
+MFH-ino	MFH-ino	CVCL_1407	no available	Homo Sapiens	Soft Tissue	no available	45Y	Adult	Female	Japanese	Undifferentiated Pleomorphic Sarcoma	no available	cell	MFHINO; MFH-INO	curated
+EMTOKA	EMTOKA	CVCL_E115	no available	Homo Sapiens	Uterus	Uterus	64Y	Adult	Female	Japanese	Uterine carcinosarcoma	no available	cell	EMTOKA	curated
+HTMMT	HTMMT	CVCL_8721	no available	Homo Sapiens	Uterus	Uterus	66Y	Elderly	Female	Japanese	Uterine carcinosarcoma	no available	cell	HTMMT	curated
+SNU-1077	SNU-1077	CVCL_5007	no available	Homo Sapiens	Uterus	Endometrium	60Y	Adult	Female	Korean	Uterine carcinosarcoma	no available	cell	SNU1077	curated
+SNU-685	SNU-685	CVCL_5083	no available	Homo Sapiens	Uterus	Endometrium	70Y	Elderly	Female	Korean	Uterine carcinosarcoma	no available	cell	SNU685; NCI-SNU-685	curated
+MES-SA	MES-SA	CVCL_1404	no available	Homo Sapiens	Uterus	Uterus	56Y	Adult	Female	Caucasian	Uterine Corpus Sarcoma	no available	cell	MESSA	curated
+MES-SA-Dx-5	MES-SA/Dx5	CVCL_2598	no available	Homo Sapiens	Uterus	Uterus	56Y	Adult	Female	Caucasian	Uterine Corpus Sarcoma	no available	cell	DX5; MESSA DX5; MESSADX5; MESSA-DX5; MES-SA DX5; MESSA/DX5; MES-SA/DX-5; MES-SA-DX5	curated
+MES-SA-MX2	MES-SA/MX2	CVCL_2599	no available	Homo Sapiens	Uterus	Uterus	56Y	Adult	Female	Caucasian	Uterine Corpus Sarcoma	no available	cell	MESSA/MX2; MESSAMX2; MES-SA/MX2; MES-SA-MX2	curated
+SK-LMS-1	SK-LMS-1	CVCL_0628	SK-LMS-1 cell	Homo Sapiens	Soft Tissue	Vulva	43Y	Adult	Female	Caucasian	Vulvar Leiomyosarcoma	no available	cell	SKLMS-1; SKLMS1	curated
