@@ -445,15 +445,15 @@ SW626	SW626	CVCL_1725	SW-626 cell	Homo Sapiens	Large Intestine	Ovary	46Y	Adult	F
 SW948	SW948	CVCL_0632	SW-948 cell	Homo Sapiens	Large Intestine	Colon	81Y	Elderly	Female	Caucasian	Colon adenocarcinoma	no available	cell	SW948 CELL; SW 948; SW-948	curated
 T84	T84	CVCL_0555	T-84 cell	Homo Sapiens	Large Intestine	Lung	72Y	Elderly	Male	Caucasian	Colon adenocarcinoma	no available	cell	T84 CELL; T 84; T-84	curated
 WIDR	WiDr	CVCL_2760	WiDr cell	Homo Sapiens	Large Intestine	Colon	44Y	Adult	Female	Caucasian	Colon adenocarcinoma	no available	cell	LED-WIDR; WIDR-TC; WIDR; WIDRTC; WIDR/S	curated
-COLO-678	COLO 678	CVCL_1129	Colo-678 cell	Homo Sapiens	Large Intestine	Lymph Node	69Y	Elderly	Male	Caucasian	Colon Carcinoma; Colorectal Carcinoma	no available	cell	COLO #678; COLO678; COLORADO 678; COLO-678; COLO-678 CELL	curated
-Geo	GEO	CVCL_0271	GEO cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon Carcinoma; Colorectal Carcinoma	no available	cell	HCT-GEO; HCT GEO; GEO	curated
-HCT-116	HCT 116	CVCL_0291	HCT-116 cell	Homo Sapiens	Large Intestine	Colon	48Y	Adult	Male	Caucasian	Colon Carcinoma; Colorectal Carcinoma	no available	cell	HTC-116 CELL; HCT-166 CELL; HCT116WT; COCL2; NAN; HCT-116; HCT116 CELL; HCT_116; HTC 116 CELL; HCT.116; HCT116; HTC116 CELL; HCT 116 CELL	curated
-HT-115	HT115	CVCL_2520	HT-115 cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	Caucasian	Colon Carcinoma; Colorectal Carcinoma	no available	cell	HT 115; HT-115; HT 115 CELL; HT115 CELL	curated
-KM12	KM12	CVCL_1331	KM-12 cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	Caucasian	Colon Carcinoma; Colorectal Carcinoma	no available	cell	KM-12; KM.12; KM12 CELL	curated
-MDST8	MDST8	CVCL_2588	no available	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	Caucasian	Colon Carcinoma; Colorectal Carcinoma	no available	cell	T8	curated
-RKO	RKO	CVCL_0504	RKO cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon Carcinoma; Colorectal Carcinoma	no available	cell	RKO	curated
-RKO-E6	RKO-E6	CVCL_3787	RKO-E6 cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon Carcinoma; Colorectal Carcinoma	no available	cell	RKOE6	curated
-JVE253	JVE253	CVCL_EG28	no available	Homo Sapiens	no available	Liver	48Y	Adult	Female	no available	Colon Mucinous Adenocarcinoma	no available	cell	JVE-253	curated
+COLO-678	COLO 678	CVCL_1129	Colo-678 cell	Homo Sapiens	Large Intestine	Lymph Node	69Y	Elderly	Male	Caucasian	Colon carcinoma	no available	cell	COLO #678; COLO678; COLORADO 678; COLO-678; COLO-678 CELL	curated
+Geo	GEO	CVCL_0271	GEO cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon carcinoma	no available	cell	HCT-GEO; HCT GEO; GEO	curated
+HCT-116	HCT 116	CVCL_0291	HCT-116 cell	Homo Sapiens	Large Intestine	Colon	48Y	Adult	Male	Caucasian	Colon carcinoma	no available	cell	HTC-116 CELL; HCT-166 CELL; HCT116WT; COCL2; NAN; HCT-116; HCT116 CELL; HCT_116; HTC 116 CELL; HCT.116; HCT116; HTC116 CELL; HCT 116 CELL	curated
+HT-115	HT115	CVCL_2520	HT-115 cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	Caucasian	Colon carcinoma	no available	cell	HT 115; HT-115; HT 115 CELL; HT115 CELL	curated
+KM12	KM12	CVCL_1331	KM-12 cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	Caucasian	Colon carcinoma	no available	cell	KM-12; KM.12; KM12 CELL	curated
+MDST8	MDST8	CVCL_2588	no available	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	Caucasian	Colon carcinoma	no available	cell	T8	curated
+RKO	RKO	CVCL_0504	RKO cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon carcinoma	no available	cell	RKO	curated
+RKO-E6	RKO-E6	CVCL_3787	RKO-E6 cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon carcinoma	no available	cell	RKOE6	curated
+JVE253	JVE253	CVCL_EG28	no available	Homo Sapiens	no available	Liver	48Y	Adult	Female	no available	Colon mucinous adenocarcinoma	no available	cell	JVE-253	curated
 C125-PM	C125-PM	CVCL_8175	no available	Homo Sapiens	Large Intestine	no available	no available	no available	no available	no available	Colorectal Adenocarcinoma	no available	cell	C125; C125PM	curated
 Hs-255-T	Hs 255.T	CVCL_0707	no available	Homo Sapiens	Large Intestine	Colon	46Y	Adult	Female	Caucasian	Colorectal Carcinoma	fibroblast	cell	HS255; HS255T; HS-255-T	curated
 Hs-675-T	Hs 675.T	CVCL_0836	no available	Homo Sapiens	Large Intestine	Colon	no available	no available	Male	Caucasian	Colorectal Carcinoma	fibroblast	cell	HS675; HS675T; HS-675-T; 675T	curated
