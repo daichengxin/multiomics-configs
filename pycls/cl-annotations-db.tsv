@@ -454,26 +454,26 @@ MDST8	MDST8	CVCL_2588	no available	Homo Sapiens	Large Intestine	Colon	no availab
 RKO	RKO	CVCL_0504	RKO cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon Carcinoma; Colorectal Carcinoma	no available	cell	RKO	curated
 RKO-E6	RKO-E6	CVCL_3787	RKO-E6 cell	Homo Sapiens	Large Intestine	Colon	no available	no available	no available	no available	Colon Carcinoma; Colorectal Carcinoma	no available	cell	RKOE6	curated
 JVE253	JVE253	CVCL_EG28	no available	Homo Sapiens	no available	Liver	48Y	Adult	Female	no available	Colon Mucinous Adenocarcinoma	no available	cell	JVE-253	curated
-C125-PM	C125-PM	CVCL_8175	no available	Homo Sapiens	Large Intestine	no available	no available	no available	no available	no available	Colorectal Adenocarcinoma; Colorectal Carcinoma	no available	cell	C125; C125PM	curated
+C125-PM	C125-PM	CVCL_8175	no available	Homo Sapiens	Large Intestine	no available	no available	no available	no available	no available	Colorectal Adenocarcinoma	no available	cell	C125; C125PM	curated
 Hs-255-T	Hs 255.T	CVCL_0707	no available	Homo Sapiens	Large Intestine	Colon	46Y	Adult	Female	Caucasian	Colorectal Carcinoma	fibroblast	cell	HS255; HS255T; HS-255-T	curated
 Hs-675-T	Hs 675.T	CVCL_0836	no available	Homo Sapiens	Large Intestine	Colon	no available	no available	Male	Caucasian	Colorectal Carcinoma	fibroblast	cell	HS675; HS675T; HS-675-T; 675T	curated
 Hs-698-T	Hs 698.T	CVCL_0855	no available	Homo Sapiens	Large Intestine	Connective Tissue	70Y	Elderly	Male	South Asian	Colorectal Carcinoma	fibroblast	cell	HS-698-T; HS698T	curated
 JVE-127	no available	no available	no available	Homo Sapiens	Large Intestine	Ascending Colon	60Y	Adult	Male	no available	Colorectal Carcinoma	no available	cell	JVE-127	curated
-C84	C84	CVCL_5250	no available	Homo Sapiens	Large Intestine	Caecum; Cecum	67Y	Elderly	Male	no available	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	C84	curated
-LS-411N	LS411N	CVCL_1385	no available	Homo Sapiens	Large Intestine	Cecum	32Y	Adult	Male	Caucasian	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	LS-411N; LS 411; LS-411; LS411	curated
-LS-513	LS513	CVCL_1386	no available	Homo Sapiens	Large Intestine	Ileocecal Valve; Cecum; Intestine	63Y	Adult	Male	Caucasian	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	LS-513; LS 513	curated
-LS1034	LS1034	CVCL_1382	no available	Homo Sapiens	Large Intestine	Cecum	54Y	Adult	Male	Caucasian	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	LS 1034; LS-1034	curated
-NCI-H508	NCI-H508	CVCL_1564	no available	Homo Sapiens	Large Intestine	Abdominal Wall	55Y	Adult	Male	Caucasian	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	H-508; H508; NCI H508; NCIH508	curated
-NCI-H716	NCI-H716	CVCL_1581	NCI-H716 cell	Homo Sapiens	Large Intestine	Ascites	33Y	Adult	Male	Caucasian	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	NCI H716; H716; H-716; NCIH716	curated
-NCI-H747	NCI-H747	CVCL_1587	no available	Homo Sapiens	Large Intestine	Lymph Node; Common Duct Node	69Y	Elderly	Male	Caucasian	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	NCI-747; H-747; NCIH747; NCI747; H747; NCI H747	curated
-SNU-C2A	SNU-C2A	CVCL_1709	no available	Homo Sapiens	Large Intestine	Cecum	43Y	Adult	Female	Korean	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	SNUC2A; NCI-SNU-C2A; C2A	curated
-SNU-C2B	SNU-C2B	CVCL_1710	no available	Homo Sapiens	Large Intestine	Cecum	43Y	Adult	Female	Korean	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	SNUC2B; NCI-SNU-C2B	curated
-SNU-C5	SNU-C5	CVCL_5112	no available	Homo Sapiens	Large Intestine	Cecum; Colon	77Y	Elderly	Female	Korean	Colorectal Carcinoma; Cecum Adenocarcinoma	no available	cell	NCI-SNU-C5; SNU-C5/WT; SNUC5	curated
+C84	C84	CVCL_5250	no available	Homo Sapiens	Large Intestine	Caecum; Cecum	67Y	Elderly	Male	no available	Cecum Adenocarcinoma	no available	cell	C84	curated
+LS-411N	LS411N	CVCL_1385	no available	Homo Sapiens	Large Intestine	Cecum	32Y	Adult	Male	Caucasian	Cecum Adenocarcinoma	no available	cell	LS-411N; LS 411; LS-411; LS411	curated
+LS-513	LS513	CVCL_1386	no available	Homo Sapiens	Large Intestine	Ileocecal Valve; Cecum; Intestine	63Y	Adult	Male	Caucasian	Cecum Adenocarcinoma	no available	cell	LS-513; LS 513	curated
+LS1034	LS1034	CVCL_1382	no available	Homo Sapiens	Large Intestine	Cecum	54Y	Adult	Male	Caucasian	Cecum Adenocarcinoma	no available	cell	LS 1034; LS-1034	curated
+NCI-H508	NCI-H508	CVCL_1564	no available	Homo Sapiens	Large Intestine	Abdominal Wall	55Y	Adult	Male	Caucasian	Cecum Adenocarcinoma	no available	cell	H-508; H508; NCI H508; NCIH508	curated
+NCI-H716	NCI-H716	CVCL_1581	NCI-H716 cell	Homo Sapiens	Large Intestine	Ascites	33Y	Adult	Male	Caucasian	Cecum Adenocarcinoma	no available	cell	NCI H716; H716; H-716; NCIH716	curated
+NCI-H747	NCI-H747	CVCL_1587	no available	Homo Sapiens	Large Intestine	Lymph Node; Common Duct Node	69Y	Elderly	Male	Caucasian	Cecum Adenocarcinoma	no available	cell	NCI-747; H-747; NCIH747; NCI747; H747; NCI H747	curated
+SNU-C2A	SNU-C2A	CVCL_1709	no available	Homo Sapiens	Large Intestine	Cecum	43Y	Adult	Female	Korean	Cecum Adenocarcinoma	no available	cell	SNUC2A; NCI-SNU-C2A; C2A	curated
+SNU-C2B	SNU-C2B	CVCL_1710	no available	Homo Sapiens	Large Intestine	Cecum	43Y	Adult	Female	Korean	Cecum Adenocarcinoma	no available	cell	SNUC2B; NCI-SNU-C2B	curated
+SNU-C5	SNU-C5	CVCL_5112	no available	Homo Sapiens	Large Intestine	Cecum; Colon	77Y	Elderly	Female	Korean	Cecum Adenocarcinoma	no available	cell	NCI-SNU-C5; SNU-C5/WT; SNUC5	curated
 DiFi	DiFi	CVCL_6895	DiFi cell	Homo Sapiens	Large Intestine	Ascites	46Y	Adult	Female	Caucasian	Colorectal Carcinoma; Gardner Syndrome	no available	cell	DIFI	curated
 KMCH-1	KMCH-1	CVCL_7970	KMCH cell	Homo Sapiens	Liver	Liver	52Y	Adult	Male	Japanese	Combined Hepatocellular Carcinoma And Cholangiocarcinoma; Hepatocellular Carcinoma	no available	cell	KMCH; KMCH1	curated
 1205Lu	1205Lu	CVCL_5239	1205-Lu cell	Homo Sapiens	Skin	Skin	37Y	Adult	Male	Caucasian	Cutaneous Melanoma	no available	cell	WM-1205LU; LU1205; 1205-LU; WM 1205LU; WC00058; 1205LU CELL; WM1205; WM1205LU; 1205 LU CELL; 1205 LU	curated
 451Lu	451Lu	CVCL_6357	WM-451Lu cell	Homo Sapiens	Skin	Arm;  Skin	22Y	Adult	Male	Caucasian	Cutaneous Melanoma	no available	cell	WM 451-LU; WM451LU CELL; WM-451LU; WM451LU; LU451; WC00059; 451-LU; WM451; 451LU; WM 451-LU CELL; EST81	curated
-CAL-78	CAL-78	CVCL_1809	no available	Homo Sapiens	Bone	Skeletal Muscle; Thigh Muscle; Thigh	76Y	Elderly	Male	Caucasian	Dedifferentiated Chondrosarcoma; Chondrosarcoma	no available	cell	CAL 78; CENTRE ANTOINE LACASSAGNE-78; CAL78	curated
+CAL-78	CAL-78	CVCL_1809	no available	Homo Sapiens	Bone	Skeletal Muscle; Thigh Muscle; Thigh	76Y	Elderly	Male	Caucasian	Dedifferentiated chondrosarcoma	no available	cell	CAL 78; CENTRE ANTOINE LACASSAGNE-78; CAL78	curated
 HSJD-DIPG-007	HSJD-DIPG-007	CVCL_VU70	no available	Homo Sapiens	Central Nervous System	Brainstem;  Pons; Brain	6Y	Children	no available	no available	Diffuse Intrinsic Pontine Glioma; Glioma	no available	cell	HOSPITAL SANT JOAN DE DEU-DIFFUSE INTRINSIC PONTINE GLIOMA-007; HSJD-DIPG007; DIPG007	curated
 KARPAS-231	Karpas-231	CVCL_1822	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	71Y	Elderly	Female	Caucasian	Diffuse Large B-Cell Lymphoma; B-Lymphoblastic Leukemia	no available	cell	KARPAS-231; KARPAS 231; K231; KARPAS231	curated
 EFE-184	EFE-184	CVCL_1191	no available	Homo Sapiens	Endometrium	Ascites	69Y	Elderly	Female	Caucasian	Endometrial Carcinoma	no available	cell	EFE184	curated
@@ -508,13 +508,13 @@ SNG-P	SNG-P	CVCL_S914	no available	Homo Sapiens	Endometrium	Endometrium	52Y	Adul
 MFE-319	MFE-319	CVCL_2112	no available	Homo Sapiens	Endometrium	Endometrium	81Y	Elderly	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenosquamous Carcinoma	no available	cell	MFE319	curated
 RL95-2	RL95-2	CVCL_0505	RL95-2 cell	Homo Sapiens	Endometrium	Endometrium	65Y	Elderly	Female	Caucasian	Endometrial Carcinoma; Endometrial Adenosquamous Carcinoma	no available	cell	RL952; RL95 CELL; RL95; RL-95-2; RL-952; RL-95 CELL; RL-95-2 CELL; RL95_2	curated
 HEC-6	HEC-6	CVCL_2931	no available	Homo Sapiens	Endometrium	Endometrium; Uterine Body	48Y	Adult	Female	Japanese	Endometrial Carcinoma; Endometrial Endometrioid Adenocarcinoma;  Variant With Squamous Differentiation	no available	cell	HEC6	curated
-VA-ES-BJ	VA-ES-BJ	CVCL_1785	no available	Homo Sapiens	Soft Tissue	Bone Marrow	41Y	Adult	Male	Caucasian	Epithelioid Sarcoma; Other Sarcomas	no available	cell	VALHALLA-EPITHELIOID SARCOMA-BJ; VAESBJ	curated
-ESO51	ESO-51	CVCL_2036	no available	Homo Sapiens	Esophagus	Distal; Esophagus	74Y	Elderly	Male	Caucasian	Esophageal Carcinoma; Esophageal Adenocarcinoma	no available	cell	ESO51	curated
-KYAE-1	KYAE-1	CVCL_1825	no available	Homo Sapiens	Esophagus	Esophagus; Pleural Effusion	60Y	Adult	Male	Japanese	Esophageal Carcinoma; Esophageal Adenocarcinoma	no available	cell	KYAE; KYAE1	curated
-OACM5-1	OACM5.1 C	CVCL_1842	no available	Homo Sapiens	Esophagus	Lymph Node	47Y	Adult	Male	Caucasian	Esophageal Carcinoma; Esophageal Adenocarcinoma	no available	cell	OACM51; OACM5.1; OACM5_1; OAC-M5.1 C; OACM5-1; OACM5.1 C; OAC-M5.1	curated
-OACp4C	OACP4 C	CVCL_1843	no available	Homo Sapiens	Esophagus	Gastro-Oesophageal Junction (Cardia)	55Y	Adult	Male	Caucasian	Esophageal Carcinoma; Esophageal Adenocarcinoma	no available	cell	OACP4C; OAC-P4C	curated
-OE19	OE19	CVCL_1622	no available	Homo Sapiens	Esophagus	Esophagus	72Y	Elderly	Male	White	Esophageal Carcinoma; Esophageal Adenocarcinoma	no available	cell	JROECL19; OEC19; NAN; OE-19; JROECL 19	curated
-SK-GT-4	SK-GT-4	CVCL_2195	no available	Homo Sapiens	Esophagus	Distal; Esophagus	89Y	Elderly	Male	Caucasian	Esophageal Carcinoma; Esophageal Adenocarcinoma	no available	cell	SK4; SKGT4	curated
+VA-ES-BJ	VA-ES-BJ	CVCL_1785	no available	Homo Sapiens	Soft Tissue	Bone Marrow	41Y	Adult	Male	Caucasian	Epithelioid Sarcoma	no available	cell	VALHALLA-EPITHELIOID SARCOMA-BJ; VAESBJ	curated
+ESO51	ESO-51	CVCL_2036	no available	Homo Sapiens	Esophagus	Distal; Esophagus	74Y	Elderly	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	ESO51	curated
+KYAE-1	KYAE-1	CVCL_1825	no available	Homo Sapiens	Esophagus	Esophagus; Pleural Effusion	60Y	Adult	Male	Japanese	Esophageal adenocarcinoma	no available	cell	KYAE; KYAE1	curated
+OACM5-1	OACM5.1 C	CVCL_1842	no available	Homo Sapiens	Esophagus	Lymph Node	47Y	Adult	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	OACM51; OACM5.1; OACM5_1; OAC-M5.1 C; OACM5-1; OACM5.1 C; OAC-M5.1	curated
+OACp4C	OACP4 C	CVCL_1843	no available	Homo Sapiens	Esophagus	Gastro-Oesophageal Junction (Cardia)	55Y	Adult	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	OACP4C; OAC-P4C	curated
+OE19	OE19	CVCL_1622	no available	Homo Sapiens	Esophagus	Esophagus	72Y	Elderly	Male	White	Esophageal adenocarcinoma	no available	cell	JROECL19; OEC19; NAN; OE-19; JROECL 19	curated
+SK-GT-4	SK-GT-4	CVCL_2195	no available	Homo Sapiens	Esophagus	Distal; Esophagus	89Y	Elderly	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	SK4; SKGT4	curated
 COLO-680N	COLO 680N	CVCL_1131	no available	Homo Sapiens	Esophagus	Esophagus; Oesophagus	57Y	Adult	Female	African American	Esophageal Squamous Cell Carcinoma	no available	cell	COLORADO 680N; COLO #680N; COLO-680N; COLO680N	curated
 EC-GI-10	EC-GI-10	CVCL_1187	no available	Homo Sapiens	Esophagus	Lymph Node	65Y	Elderly	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	EC-GI; ECGI10	curated
 HCE-4	HCE-4	CVCL_1271	HCE-4 cell	Homo Sapiens	Esophagus	Esophagus	50Y	Adult	Female	African American	Esophageal Squamous Cell Carcinoma	no available	cell	HCE4	curated
