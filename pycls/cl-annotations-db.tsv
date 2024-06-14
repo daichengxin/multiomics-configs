@@ -52,7 +52,7 @@ HuH-28	HuH-28	CVCL_2955	no available	Homo Sapiens	Biliary Tract	Liver	37Y	Adult	
 RBE	RBE	CVCL_4896	no available	Homo Sapiens	Biliary Tract	Liver	64Y	Adult	Female	Japanese	Intrahepatic Cholangiocarcinoma	no available	cell	RBE	curated
 SG231	SG231	CVCL_0519	SG231 cell	Homo Sapiens	Biliary Tract	Liver	42Y	Adult	Male	no available	Intrahepatic Cholangiocarcinoma	no available	cell	PCI-SG231 CELL; PCI-SG231; PCI:SG231; PCI:SG231 CELL; PCI:SG-231	curated
 KKU-100	KKU-100	CVCL_3996	KKU-100 cell	Homo Sapiens	Biliary Tract	Liver	65Y	Elderly	Female	Southeast Asian; Thai	Opisthorchis Viverrini-Related Cholangiocarcinoma; Biliary Tract Carcinoma	no available	cell	K100; KKU100	curated
-KKU-M213	KKU-213A	CVCL_M261	no available	Homo Sapiens	Biliary Tract	Liver; Biliary Tract	58Y	Adult	Male	Southeast Asian; Thai	Opisthorchis Viverrini-Related Cholangiocarcinoma; Biliary Tract Carcinoma	no available	cell	KKU-M213; KKU-213; KKU213; M213; KKUM213	curated
+KKU-M213	KKU-213A	CVCL_M261	no available	Homo Sapiens	Biliary Tract	Liver	58Y	Adult	Male	Southeast Asian; Thai	Opisthorchis Viverrini-Related Cholangiocarcinoma; Biliary Tract Carcinoma	no available	cell	KKU-M213; KKU-213; KKU213; M213; KKUM213	curated
 SNU-1079	SNU-1079	CVCL_5008	no available	Homo Sapiens	Biliary Tract	Liver; Intrahepatic Bile Duct	no available	no available	no available	Korean	Intrahepatic Cholangiocarcinoma	no available	cell	SNU 1079; NCI-SNU-1079; SNU1079	curated
 TGBC1TKB	TGBC1TKB	CVCL_1769	no available	Homo Sapiens	Biliary Tract	Lymph Node	no available	no available	Female	Japanese	Gallbladder Undifferentiated Carcinoma	no available	cell	TGBC1-TKB; TGBC-1; TGBC1; TGBC-1-TKB; TGBC-1TKB	curated
 TGBC2TKB	TGBC2TKB	CVCL_3339	no available	Homo Sapiens	Biliary Tract	Lymph Node; Gall Bladder	no available	no available	Female	Japanese	Gallbladder Undifferentiated Carcinoma	no available	cell	TGBC-2; TGBC2; TGBC-2TKB; TGBC-2-TKB	curated
@@ -77,7 +77,7 @@ KMBC-2	KMBC-2	CVCL_2977	no available	Homo Sapiens	Bladder	no available	no availa
 SW1710	SW1710	CVCL_1721	no available	Homo Sapiens	Bladder	no available	84Y	Elderly	Female	Caucasian	Bladder Carcinoma	no available	cell	SW-1710; SW 1710	curated
 253J	253J	CVCL_7935	253J cell	Homo Sapiens	Bladder	Retroperitoneal Lymph Node	53Y	Adult	Male	Caucasian	Bladder Carcinoma	no available	cell	253J P CELL; 253-J CELL; 253JP; 253JP CELL; 253J-P; 253J P; 253J-PARENTAL; 253J-PARENTAL CELL; 253 J; 253-J; 253J-P CELL; 253J	curated
 253JB-V	253J-BV	CVCL_7937	253J-BV cell	Homo Sapiens	Bladder	Retroperitoneal Lymph Node	53Y	Adult	Male	Caucasian	Bladder Carcinoma	no available	cell	253J B-V CELL; 253J-BLADDER-V; 253JBV; 253JB-V; 253J B-V	curated
-639-V	639V	CVCL_1048	no available	Homo Sapiens	Bladder	Ureter; Left Ureter	69Y	Elderly	Male	Caucasian	Ureter transitional cell carcinoma	no available	cell	639-V; 639 V; 639V	curated
+639-V	639V	CVCL_1048	no available	Homo Sapiens	Bladder	Left Ureter	69Y	Elderly	Male	Caucasian	Ureter transitional cell carcinoma	no available	cell	639-V; 639 V; 639V	curated
 5637	5637	CVCL_0126	5637 cell	Homo Sapiens	Bladder	Urinary Bladder	68Y	Elderly	Male	White	Bladder Carcinoma	no available	cell	5637	curated
 647-V	647V	CVCL_1049	no available	Homo Sapiens	Bladder	Urinary Bladder	59Y	Adult	Male	Caucasian	Bladder Carcinoma	no available	cell	647 V; 647-V	curated
 ACCS	ACCS	CVCL_6876	no available	Homo Sapiens	Bladder	Urinary Bladder	81Y	Elderly	Female	Caucasian; Swedish	Bladder Carcinoma	no available	cell	ACC-S	curated
@@ -126,17 +126,17 @@ Hs-821-T	Hs 821.T	CVCL_0932	no available	Homo Sapiens	Bone	Bone	31Y	Adult	Female
 OUMS-27	OUMS-27	CVCL_3090	no available	Homo Sapiens	Bone	Left Proximal Humerus	65Y	Elderly	Male	Japanese	Primary Central Chondrosarcoma	no available	cell	OUMS27; OKAYAMA UNIVERSITY MEDICAL SCHOOL-27	curated
 RH-1	EW-8	CVCL_1658	Rh-1 cell	Homo Sapiens	Bone	Bone Marrow	no available	no available	Male	Caucasian	Ewing sarcoma	no available	cell	RH1; SJRH1; RH1 CELL; SJRH-1; RH-1; RH1 RH-1; EW8(RH1); EW8	curated
 UE6E7T-3	UE6E7T-3	CVCL_3237	no available	Homo Sapiens	Bone	Bone Marrow	91Y	Elderly	Female	Japanese	Non-Cancerous	mesenchymal stem cell of the bone marrow	cell	TH-3; THMSC3; UEET-3	curated
-HuO-3N1	HuO-3N1	CVCL_1297	HuO-3N1 cell	Homo Sapiens	Bone	Bone; Ilium	15Y	Juvenile	Female	Japanese	Osteosarcoma	no available	cell	HUO3N1	curated
+HuO-3N1	HuO-3N1	CVCL_1297	HuO-3N1 cell	Homo Sapiens	Bone	Ilium	15Y	Juvenile	Female	Japanese	Osteosarcoma	no available	cell	HUO3N1	curated
 JHC7	JHC7	CVCL_L154	no available	Homo Sapiens	Bone	Sacral Bone; Sacrum	61Y	Adult	Female	Caucasian	Sacral Chordoma	no available	cell	JOHNS HOPKINS CHORDOMA LINE 7	curated
-UM-Chor1	UM-Chor1	CVCL_1D68	no available	Homo Sapiens	Bone	Clivus; Clivus; Bone; Cranium	64Y	Adult	Male	White	Clivus Chordoma	no available	cell	UM-CHOR-1; UNIVERSITY OF MICHIGAN-CHORDOMA-1; UMCHOR1	curated
-Hs-791-T	Hs 791.T	CVCL_S301	no available	Homo Sapiens	Bone	Distal Femur; Bone	20Y	Adult	Male	Caucasian	Osteosarcoma	no available	cell	791T; HS-791-T	curated
+UM-Chor1	UM-Chor1	CVCL_1D68	no available	Homo Sapiens	Bone	Clivus; Cranium	64Y	Adult	Male	White	Clivus Chordoma	no available	cell	UM-CHOR-1; UNIVERSITY OF MICHIGAN-CHORDOMA-1; UMCHOR1	curated
+Hs-791-T	Hs 791.T	CVCL_S301	no available	Homo Sapiens	Bone	Distal Femur	20Y	Adult	Male	Caucasian	Osteosarcoma	no available	cell	791T; HS-791-T	curated
 SJSA-1	SJSA-1	CVCL_1697	SJSA-1 cell	Homo Sapiens	Bone	Femur	19Y	Adult	Male	African American	Osteosarcoma	no available	cell	SJSA; OSA-CL CELL; OSA-CL; SJSA1; OSA; OS-A; OSACL	curated
-CS1	CS-1 [Human chondrosarcoma]	CVCL_T023	no available	Homo Sapiens	Bone	Humerus; Bone	62Y	Adult	Male	Caucasian	Chondrosarcoma	no available	cell	CS1; CS-1; CHSA CELL LINE	curated
-RD-ES	RD-ES	CVCL_2169	RD-ES cell	Homo Sapiens	Bone	Humerus; Bone	19Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	RDES-1; RDES	curated
-TC-71	TC-71	CVCL_2213	TC-71 cell	Homo Sapiens	Bone	Humerus; Bone; Humerus	22Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	GM11654; TC71	curated
+CS1	CS-1 [Human chondrosarcoma]	CVCL_T023	no available	Homo Sapiens	Bone	Humerus	62Y	Adult	Male	Caucasian	Chondrosarcoma	no available	cell	CS1; CS-1; CHSA CELL LINE	curated
+RD-ES	RD-ES	CVCL_2169	RD-ES cell	Homo Sapiens	Bone	Humerus	19Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	RDES-1; RDES	curated
+TC-71	TC-71	CVCL_2213	TC-71 cell	Homo Sapiens	Bone	Humerus	22Y	Adult	Male	Caucasian	Ewing sarcoma	no available	cell	GM11654; TC71	curated
 MG-63	MG-63	CVCL_0426	MG-63 cell	Homo Sapiens	Bone	Left Femur	14Y	Juvenile	Male	Caucasian	Osteosarcoma	no available	cell	NAN; MG63; M-G63; MG63 CELL	curated
-CAL-72	CAL-72	CVCL_1113	CAL-72 cell	Homo Sapiens	Bone	Left Knee; Patella; Bone	10Y	Children	Male	African	Osteosarcoma	no available	cell	CENTRE ANTOINE LACASSAGNE-72; CAL72 CELL; CAL72; CAL 72	curated
-NOS-1	NOS-1 [Human osteosarcoma]	CVCL_1610	no available	Homo Sapiens	Bone	Left Proximal Tibia; Bone	16Y	Juvenile	Male	Japanese	Osteosarcoma	no available	cell	NOS1	curated
+CAL-72	CAL-72	CVCL_1113	CAL-72 cell	Homo Sapiens	Bone	Left Knee; Patella	10Y	Children	Male	African	Osteosarcoma	no available	cell	CENTRE ANTOINE LACASSAGNE-72; CAL72 CELL; CAL72; CAL 72	curated
+NOS-1	NOS-1 [Human osteosarcoma]	CVCL_1610	no available	Homo Sapiens	Bone	Left Proximal Tibia	16Y	Juvenile	Male	Japanese	Osteosarcoma	no available	cell	NOS1	curated
 CHLA-258	CHLA-258	CVCL_A058	no available	Homo Sapiens	Bone	Lung	14Y	Juvenile	Female	no available	Ewing sarcoma	no available	cell	CHLA258	curated
 Hs-888-T	Hs 888.T	CVCL_0979	no available	Homo Sapiens	Bone	Lung	20Y	Adult	Male	Caucasian	Osteosarcoma	fibroblast of lung	cell	HS-888-T; HS888T	curated
 EW-11	EW-11	CVCL_1209	no available	Homo Sapiens	Bone	Mediastinal Lymph Node	11Y	Children	Female	no available	Ewing sarcoma	no available	cell	IARC-EW11; EW11; IARC-EW-11; IARC-EW 11	curated
@@ -183,11 +183,11 @@ NY	NY	CVCL_1613	no available	Homo Sapiens	Bone	Right Femur	15Y	Juvenile	Male	Jap
 U-CH2	U-CH2	CVCL_4989	no available	Homo Sapiens	Bone	Sacral Bone	72Y	Elderly	Female	Caucasian	Sacral Chordoma	no available	cell	UCH-2; UCH2	curated
 MUG-Chor1	MUG-Chor1	CVCL_9277	no available	Homo Sapiens	Bone	Sacral Vertebrae; Sacrum	57Y	Adult	Female	White	Sacral Chordoma	no available	cell	MUG-CHOR1; MEDICAL UNIVERSITY OF GRAZ-CHORDOMA 1; MUGCHOR1	curated
 TC-106	TC-106	CVCL_F531	no available	Homo Sapiens	Bone	Scalp	19Y	Adult	Male	no available	Ewing sarcoma	no available	cell	TC106	curated
-MC-IXC	SK-N-MC-IXC	CVCL_1398	SK-N-MC-IXC cell	Homo Sapiens	Bone	Supra-Orbital Area; Orbital Region	14Y	Juvenile	Female	Caucasian	Ewing sarcoma	no available	cell	SK-N-MC-IXC; MCIXC; MC-IXC; MC-IXC CELL	curated
-SK-N-MC	SK-N-MC	CVCL_0530	SK-N-MC cell	Homo Sapiens	Bone	Supra-Orbital Area; Orbital Region	14Y	Juvenile	Female	Caucasian	Ewing sarcoma	no available	cell	SK-NMC; SKNMC; SK-NM-C	curated
-CAL-78	CAL-78	CVCL_1809	no available	Homo Sapiens	Bone	Thigh; Skeletal Muscle; Thigh Muscle	76Y	Elderly	Male	Caucasian	Dedifferentiated chondrosarcoma	no available	cell	CAL 78; CENTRE ANTOINE LACASSAGNE-78; CAL78	curated
-CHLA-10	CHLA-10	CVCL_6583	no available	Homo Sapiens	Bone	Thoracic Lymph Duct; Thoracic Lymph Node	14Y	Juvenile	Female	White	Ewing sarcoma	no available	cell	CHLA10	curated
-CHLA-9	CHLA-9	CVCL_M150	no available	Homo Sapiens	Bone	Thoracic Mass; Thorax	14Y	Juvenile	Female	White	Ewing sarcoma	no available	cell	CHLA9	curated
+MC-IXC	SK-N-MC-IXC	CVCL_1398	SK-N-MC-IXC cell	Homo Sapiens	Bone	Supra-Orbital Area	14Y	Juvenile	Female	Caucasian	Ewing sarcoma	no available	cell	SK-N-MC-IXC; MCIXC; MC-IXC; MC-IXC CELL	curated
+SK-N-MC	SK-N-MC	CVCL_0530	SK-N-MC cell	Homo Sapiens	Bone	Supra-Orbital Area	14Y	Juvenile	Female	Caucasian	Ewing sarcoma	no available	cell	SK-NMC; SKNMC; SK-NM-C	curated
+CAL-78	CAL-78	CVCL_1809	no available	Homo Sapiens	Bone	Skeletal Muscle; Thigh Muscle	76Y	Elderly	Male	Caucasian	Dedifferentiated chondrosarcoma	no available	cell	CAL 78; CENTRE ANTOINE LACASSAGNE-78; CAL78	curated
+CHLA-10	CHLA-10	CVCL_6583	no available	Homo Sapiens	Bone	Thoracic Lymph Duct	14Y	Juvenile	Female	White	Ewing sarcoma	no available	cell	CHLA10	curated
+CHLA-9	CHLA-9	CVCL_M150	no available	Homo Sapiens	Bone	Thoracic Mass	14Y	Juvenile	Female	White	Ewing sarcoma	no available	cell	CHLA9	curated
 U-2-OS	U2OS	CVCL_0042	U2-OS cell	Homo Sapiens	Bone	Tibia	15Y	Juvenile	Female	Caucasian	Osteosarcoma	no available	cell	2T; U-2 OS; NAN; U-2-OS; U2OS CELL; U2-OS; U2 OSTEOSARCOMA CELL; U-2OS; U20-S; U20S	curated
 TF-1	TF-1	CVCL_0559	TF-1 cell	Homo Sapiens	Bone Marrow	Bone Marrow	35Y	Adult	Male	Japanese	Erythroleukemia	no available	cell	MFD-1; TF1	curated
 L-540	L-540	CVCL_1362	L-540 cell	Homo Sapiens	Bone Marrow	Bone Marrow	20Y	Adult	Female	Caucasian	Hodgkins lymphoma	no available	cell	L 540; L540	curated
@@ -384,9 +384,9 @@ SUM-229PE	SUM229PE	CVCL_5594	SUM-229PE cell	Homo Sapiens	Breast	Pleural Effusion
 EFM-19	EFM-19	CVCL_0253	EFM-19 cell	Homo Sapiens	Breast	Pleural Effusion	50Y	Adult	Female	Caucasian	Breast Ductal Carcinoma	no available	cell	EFM19 CELL; EFM19	curated
 JIMT-1	JIMT-1	CVCL_2077	JIMT-1 cell	Homo Sapiens	Breast	Pleural Effusion	62Y	Adult	Female	Caucasian	Breast Ductal Carcinoma	no available	cell	JIMT; JIMT1	curated
 MRK-nu-1	MRK-nu-1	CVCL_1428	MRK-nu-1 cell	Homo Sapiens	Breast	Pleural Effusion; Mammary Gland	46Y	Adult	Female	Japanese	Breast Carcinoma	no available	cell	MRKNU-1; MRKNU1; MRK-NU1; MRK-NU-I; MRK-NU-1	curated
-COLO-824	COLO 824	CVCL_1136	no available	Homo Sapiens	Breast	Pleural Effusion; Peripheral Fluid	52Y	Adult	Female	African American	Breast Carcinoma	no available	cell	COLO #824; COLO824; COLO 824; COLO-824; COLORADO 824	curated
-SUM-52PE	SUM52PE	CVCL_3425	SUM-52PE cell	Homo Sapiens	Breast	Pleural Effusion; Plueral Effusion	no available	no available	no available	no available	Breast Carcinoma	no available	cell	SUM52; SUM-52-PE; SUM52 CELL; SUM 52 CELL; SUM 52PE CELL; SUM 52PE; SUM 52; SUM-52PE; SUM52PE CELL; 52PE; SUM-52 CELL; SUM-52	curated
-SUM-185PE	SUM185PE	CVCL_5591	SUM-185PE cell	Homo Sapiens	Breast	Pleural Effusion; Plueral Effusion	no available	no available	no available	no available	Breast Ductal Carcinoma	no available	cell	SUM-185PE; SUM185PE CELL; SUM-185; SUM 185PE; SUM 185; SUM-185 CELL; SUM185 CELL; 185PE; SUM185; SUM 185 CELL	curated
+COLO-824	COLO 824	CVCL_1136	no available	Homo Sapiens	Breast	Pleural Effusion	52Y	Adult	Female	African American	Breast Carcinoma	no available	cell	COLO #824; COLO824; COLO 824; COLO-824; COLORADO 824	curated
+SUM-52PE	SUM52PE	CVCL_3425	SUM-52PE cell	Homo Sapiens	Breast	Pleural Effusion	no available	no available	no available	no available	Breast Carcinoma	no available	cell	SUM52; SUM-52-PE; SUM52 CELL; SUM 52 CELL; SUM 52PE CELL; SUM 52PE; SUM 52; SUM-52PE; SUM52PE CELL; 52PE; SUM-52 CELL; SUM-52	curated
+SUM-185PE	SUM185PE	CVCL_5591	SUM-185PE cell	Homo Sapiens	Breast	Pleural Effusion	no available	no available	no available	no available	Breast Ductal Carcinoma	no available	cell	SUM-185PE; SUM185PE CELL; SUM-185; SUM 185PE; SUM 185; SUM-185 CELL; SUM185 CELL; 185PE; SUM185; SUM 185 CELL	curated
 SUM-1315MO2	SUM1315MO2	CVCL_5589	SUM-1315MO2 cell	Homo Sapiens	Breast	Skin	no available	no available	no available	no available	Invasive breast carcinoma	no available	cell	SUM1315M02; SUM 1315M02; SUM1315-MO2 CELL; SUM-1315M02; SUM 1315 CELL; SUM 1315MO2 CELL; SUM-1315; SUM1315-MO2; SUM1315 CELL; SUM 1315; SUM1315MO2 CELL; SUM-1315 CELL; 1315M02; SUM1315	curated
 DU-4475	DU4475	CVCL_1183	no available	Homo Sapiens	Breast	Skin	62Y	Adult	Female	Caucasian	Breast Carcinoma	no available	cell	DU4475; DU-4475; DU 4475; DUKE UNIVERSITY 4475	curated
 D-283MED	D283 Med	CVCL_1155	D-283MED cell	Homo Sapiens	Peritoneum	Ascites	6Y	Children	Male	Caucasian	Medulloblastoma non-WNT/non-SHH group 3	no available	cell	D-283 MED; D283MED; D283; D283-MED CELL; MED 283; D283_MED; D-283; D-283MED; D283 MED CELL; D283MED CELL; D283 MED; H283; D283-MED; D-283 MED-C	curated
@@ -420,16 +420,16 @@ YH-13	YH-13	CVCL_1795	no available	Homo Sapiens	Brain	no available	40Y	Adult	Mal
 YKG-1	YKG-1	CVCL_1796	no available	Homo Sapiens	Brain	no available	53Y	Adult	Female	Japanese	Glioblastoma	no available	cell	YKG1	curated
 R262	Res262	CVCL_VU83	no available	Homo Sapiens	Brain	no available	no available	no available	no available	no available	Medulloblastoma	no available	cell	RES 262; RES262; R262	curated
 ONDA8	Onda 8	CVCL_4W68	no available	Homo Sapiens	Brain	Parietal Lobe	31Y	Adult	Female	Japanese	Glioblastoma	no available	cell	ONDA-8; CASE 8; ONDA8	curated
-SNB19	SNB-19	CVCL_0535	SNB-19 cell	Homo Sapiens	Brain	Parietal Lobe; Left Parieto-Occipital Lobe	75Y	Elderly	Male	Caucasian	Brain astrocytoma	no available	cell	SNB.19 CELL; SNB19 CELL; SNB.19; SNB 19 CELL; SURGICAL NEUROLOGY BRANCH-19; AURGICAL NEUROLOGY BRANCH-19 CELL; SNB19	curated
+SNB19	SNB-19	CVCL_0535	SNB-19 cell	Homo Sapiens	Brain	Parietal Lobe	75Y	Elderly	Male	Caucasian	Brain astrocytoma	no available	cell	SNB.19 CELL; SNB19 CELL; SNB.19; SNB 19 CELL; SURGICAL NEUROLOGY BRANCH-19; AURGICAL NEUROLOGY BRANCH-19 CELL; SNB19	curated
 UW228	UW228	CVCL_8585	no available	Homo Sapiens	Brain	Posterior Fossa	9Y	Children	no available	no available	Medulloblastoma SHH activated and TP53 mutant	no available	cell	UW 228; HBT 228; HBT228	curated
 Daoy	Daoy	CVCL_1167	DAOY cell	Homo Sapiens	Brain	Posterior Fossa; Cerebellum	4Y	Children	Male	Caucasian	Medulloblastoma SHH activated and TP53 mutant	no available	cell	D-324MED; DAOY; D324; D324 MED; D-324 MED	curated
 SK-PN-DW	SK-PN-DW	CVCL_1703	no available	Homo Sapiens	Brain	Retroperitoneal Space	17Y	Juvenile	Male	Caucasian	Primitive Neuroectodermal Tumor	no available	cell	SKPNDW	curated
 PFSK-1	PFSK-1	CVCL_1642	no available	Homo Sapiens	Brain	Right Frontal Lobe	1Y10M	no available	Male	Caucasian	Primitive Neuroectodermal Tumor	no available	cell	PFSK-1; PFSK; PFSK1	curated
 LN-229	LN-229	CVCL_0393	LN-229 cell	Homo Sapiens	Brain	Right Frontal Parieto-Occipital Cortex	60Y	Adult	Female	Caucasian	Glioblastoma	no available	cell	LN 229 CELL; NAN; LN229; LN 229; LN229 CELL; LNT-229	curated
-NP-5	NP-5	CVCL_1R17	no available	Homo Sapiens	Brain	Right Parietal Lobe; Brain	27Y	Adult	Male	Japanese	Glioblastoma	no available	cell	NP5; NB4135; NP 5; CASE 5	curated
+NP-5	NP-5	CVCL_1R17	no available	Homo Sapiens	Brain	Right Parietal Lobe	27Y	Adult	Male	Japanese	Glioblastoma	no available	cell	NP5; NB4135; NP 5; CASE 5	curated
 LN-340	LN-340	CVCL_3955	LN-340 cell	Homo Sapiens	Brain	Right Parietal Lobe	57Y	Adult	Male	Caucasian	Glioblastoma	no available	cell	LN340 CELL; LN340; LN 340	curated
 DK-MG	DK-MG	CVCL_1173	no available	Homo Sapiens	Brain	Right Parietal Lobe	67Y	Elderly	Female	Caucasian	Glioblastoma	no available	cell	DKMG	curated
-Onda-7	Onda 7	CVCL_4W67	no available	Homo Sapiens	Brain	Right Temporal Lobe; Brain	51Y	Adult	Male	Japanese	Glioblastoma	no available	cell	ONDA7; ONDA-7; CASE 9	curated
+Onda-7	Onda 7	CVCL_4W67	no available	Homo Sapiens	Brain	Right Temporal Lobe	51Y	Adult	Male	Japanese	Glioblastoma	no available	cell	ONDA7; ONDA-7; CASE 9	curated
 LN-18	LN-18	CVCL_0392	LN-18 cell	Homo Sapiens	Brain	Right Temporal Lobe	65Y	Elderly	Male	Caucasian	Glioblastoma	no available	cell	LN018; LN 18 CELL; LN18 CELL; LN18; LN 18	curated
 170-MG-BA	170-MG-BA	CVCL_LM81	no available	Homo Sapiens	Brain	Temporal Lobe	74Y	Elderly	Female	no available	Glioblastoma	no available	cell	170MGBA	curated
 42-MG-BA	42-MG-BA	CVCL_1798	no available	Homo Sapiens	Brain	Temporal Lobe	63Y	Adult	Male	Caucasian	Glioblastoma	no available	cell	42MGBA	curated
@@ -453,7 +453,7 @@ HOKUG	HOKUG	CVCL_8705	no available	Homo Sapiens	Cervix	Cervix	53Y	Adult	Female	J
 HCA1	HCA1	CVCL_2916	no available	Homo Sapiens	Cervix	Lymph Node	no available	no available	Female	Japanese	Cervical Adenocarcinoma	no available	cell	HCA-1	curated
 MS751	MS751	CVCL_4996	no available	Homo Sapiens	Cervix	Lymph Node	47Y	Adult	Female	Caucasian	Human papillomavirus-related squamous cell carcinoma	no available	cell	MS-751; MS 751	curated
 HT-3	HT-3	CVCL_1293	no available	Homo Sapiens	Cervix	Lymph Node	58Y	Adult	Female	Caucasian	Cervical Carcinoma	no available	cell	HT3	curated
-OMC-1	OMC-1 [Human cervical carcinoma]	CVCL_1623	no available	Homo Sapiens	Cervix	Lymph Node; Left Supraclavicular Lymph Node	52Y	Adult	Female	Japanese	Cervical Squamous Cell Carcinoma	no available	cell	OMC1; OSAKA MEDICAL COLLEGE-1	curated
+OMC-1	OMC-1 [Human cervical carcinoma]	CVCL_1623	no available	Homo Sapiens	Cervix	Left Supraclavicular Lymph Node	52Y	Adult	Female	Japanese	Cervical Squamous Cell Carcinoma	no available	cell	OMC1; OSAKA MEDICAL COLLEGE-1	curated
 TC-YIK	TC-YIK	CVCL_1737	no available	Homo Sapiens	Cervix	no available	31Y	Adult	Female	Japanese	Cervical Small Cell Neuroendocrine Carcinoma	no available	cell	TCYIK	curated
 ME-180	ME-180	CVCL_1401	no available	Homo Sapiens	Cervix	Omentum	66Y	Elderly	Female	Caucasian	Human papillomavirus-related squamous cell carcinoma	no available	cell	ME180; ME 180; ME-180	curated
 SF767	SF767	CVCL_6950	SF-767 cell	Homo Sapiens	Cervix	Omentum	66Y	Elderly	Female	Caucasian	Human papillomavirus-related squamous cell carcinoma	no available	cell	SF 767; SF-767; SF767 CELL	curated
@@ -555,9 +555,9 @@ TE-15	TE-15	CVCL_1763	TE-15 cell	Homo Sapiens	Esophagus	Esophagus	58Y	Adult	Fema
 TE-5	TE-5	CVCL_1764	no available	Homo Sapiens	Esophagus	Esophagus	73Y	Elderly	Female	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE5	curated
 TE-6	TE-6	CVCL_1765	TE-6 cell	Homo Sapiens	Esophagus	Esophagus	71Y	Elderly	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE6 CELL; TE6	curated
 TE-8	TE-8	CVCL_1766	TE-8 cell	Homo Sapiens	Esophagus	Esophagus	63Y	Adult	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE8; TE8 CELL	curated
-ESO26	ESO-26	CVCL_2035	no available	Homo Sapiens	Esophagus	Esophagus; Distal	56Y	Adult	Male	Caucasian	Gastroesophageal Junction Adenocarcinoma	no available	cell	ESO26	curated
-ESO51	ESO-51	CVCL_2036	no available	Homo Sapiens	Esophagus	Esophagus; Distal	74Y	Elderly	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	ESO51	curated
-SK-GT-4	SK-GT-4	CVCL_2195	no available	Homo Sapiens	Esophagus	Esophagus; Distal	89Y	Elderly	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	SK4; SKGT4	curated
+ESO26	ESO-26	CVCL_2035	no available	Homo Sapiens	Esophagus	Distal	56Y	Adult	Male	Caucasian	Gastroesophageal Junction Adenocarcinoma	no available	cell	ESO26	curated
+ESO51	ESO-51	CVCL_2036	no available	Homo Sapiens	Esophagus	Distal	74Y	Elderly	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	ESO51	curated
+SK-GT-4	SK-GT-4	CVCL_2195	no available	Homo Sapiens	Esophagus	Distal	89Y	Elderly	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	SK4; SKGT4	curated
 KYSE-520	KYSE-520	CVCL_1355	no available	Homo Sapiens	Esophagus	Lower Intrathoracic Oesophagus	58Y	Adult	Female	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	KYSE0520; KYSE520; KYSE 520	curated
 KYSE-140	KYSE-140	CVCL_1347	KYSE-140 cell	Homo Sapiens	Esophagus	Middle Intrathoracic Oesophagus	54Y	Adult	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	KYSE140; KYSE140 CELL; KYSE 140; KYSE-140; KYSE 140 CELL	curated
 KYSE-180	KYSE-180	CVCL_1349	no available	Homo Sapiens	Esophagus	Middle Intrathoracic Oesophagus	43Y	Adult	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	KYSE180; KY180; KYSE 180	curated
@@ -566,7 +566,7 @@ KYSE-450	KYSE-450	CVCL_1353	no available	Homo Sapiens	Esophagus	Middle Intrathor
 KYSE-70	KYSE-70	CVCL_1356	no available	Homo Sapiens	Esophagus	Middle Intrathoracic Oesophagus	77Y	Elderly	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	KYSE70; KYSE 70; KY70	curated
 COLO-680N	COLO 680N	CVCL_1131	no available	Homo Sapiens	Esophagus	Oesophagus	57Y	Adult	Female	African American	Esophageal Squamous Cell Carcinoma	no available	cell	COLORADO 680N; COLO #680N; COLO-680N; COLO680N	curated
 KYSE-220	KYSE-220	CVCL_1359	no available	Homo Sapiens	Esophagus	Oesophagus	78Y	Elderly	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	KYSE 220; KY-220; KYSE220	curated
-KYAE-1	KYAE-1	CVCL_1825	no available	Homo Sapiens	Esophagus	Esophagus; Pleural Effusion	60Y	Adult	Male	Japanese	Esophageal adenocarcinoma	no available	cell	KYAE; KYAE1	curated
+KYAE-1	KYAE-1	CVCL_1825	no available	Homo Sapiens	Esophagus	Pleural Effusion	60Y	Adult	Male	Japanese	Esophageal adenocarcinoma	no available	cell	KYAE; KYAE1	curated
 KYSE-150	KYSE-150	CVCL_1348	KYSE-150 cell	Homo Sapiens	Esophagus	Upper (Cervical) Oesophagus	49Y	Adult	Female	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	KYSE150; KY150; KYSE 150; KYSE 150 CELL	curated
 OACp4C	OACP4 C	CVCL_1843	no available	Homo Sapiens	Esophagus	Gastro-Oesophageal Junction (Cardia)	55Y	Adult	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	OACP4C; OAC-P4C	curated
 OACM5-1	OACM5.1 C	CVCL_1842	no available	Homo Sapiens	Esophagus	Lymph Node	47Y	Adult	Male	Caucasian	Esophageal adenocarcinoma	no available	cell	OACM51; OACM5.1; OACM5_1; OAC-M5.1 C; OACM5-1; OACM5.1 C; OAC-M5.1	curated
@@ -577,21 +577,21 @@ TE-13	TE-13	CVCL_4463	TE-13 cell	Homo Sapiens	Esophagus	no available	no availabl
 TE-2	TE-2	CVCL_4455	TE-2 cell	Homo Sapiens	Esophagus	no available	no available	no available	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE2; TE2 CELL	curated
 TE-3	TE-3	CVCL_9971	no available	Homo Sapiens	Esophagus	no available	no available	no available	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE3	curated
 TE-7	TE-7	CVCL_9972	no available	Homo Sapiens	Esophagus	no available	no available	no available	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE7	curated
-T-T	T.T	CVCL_3174	no available	Homo Sapiens	Esophagus	Oesophagus; Jaw; Bone; Mandible	67Y	Elderly	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	T. T; TDOTT; T-T; TT; T_T_	curated
+T-T	T.T	CVCL_3174	no available	Homo Sapiens	Esophagus	Oesophagus; Mandible	67Y	Elderly	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	T. T; TDOTT; T-T; TT; T_T_	curated
 TE-9	TE-9	CVCL_1767	no available	Homo Sapiens	Esophagus	Pleural Effusion	48Y	Adult	Male	Japanese	Esophageal Squamous Cell Carcinoma	no available	cell	TE9	curated
 HCE-T	HCE-T	CVCL_1272	HCE-T cell	Homo Sapiens	Eye	Epithelium; Cornea	49Y	Adult	Female	Japanese	Non-Cancerous	corneal epithelial cell	cell	HCE; HCET; HUMAN CORNEAL EPITHELIAL CELLS-TRANSFORMED; SV40-HCEC	curated
-WERI-RB-1	WERI-Rb-1	CVCL_1792	no available	Homo Sapiens	Eye	Globe; Eye	1Y	Infant	Female	Caucasian	Retinoblastoma	no available	cell	WERI-RB-1; WERI RB-1; WILLS EYE RESEARCH INSTITUTE-RETINOBLASTOMA-1; WERI; WERIRB1; WERI-RB 1; WERI-RB1	curated
-Y79	Y-79	CVCL_1893	Y-79 cell	Homo Sapiens	Eye	Globe; Eye	2Y	Infant	Female	Caucasian	Retinoblastoma	no available	cell	GM01232; Y79 CELL; GM01232E; Y79	curated
+WERI-RB-1	WERI-Rb-1	CVCL_1792	no available	Homo Sapiens	Eye	Globe	1Y	Infant	Female	Caucasian	Retinoblastoma	no available	cell	WERI-RB-1; WERI RB-1; WILLS EYE RESEARCH INSTITUTE-RETINOBLASTOMA-1; WERI; WERIRB1; WERI-RB 1; WERI-RB1	curated
+Y79	Y-79	CVCL_1893	Y-79 cell	Homo Sapiens	Eye	Globe	2Y	Infant	Female	Caucasian	Retinoblastoma	no available	cell	GM01232; Y79 CELL; GM01232E; Y79	curated
 OMM2-3	OMM2.3	CVCL_C306	no available	Homo Sapiens	Eye	Liver	no available	no available	Male	no available	Uveal melanoma	no available	cell	OMM2_3; OMM1.3; OMM 2-3; OMM-2.3; OMM2.3; OMM1_3	curated
 OMM2-5	OMM2.5	CVCL_C307	no available	Homo Sapiens	Eye	Liver	no available	no available	Male	no available	Uveal melanoma	no available	cell	OMM2.5; OMM1.5; OMM25; OMM1_5; OMM2_5	curated
 WM3772F	WM3772F	CVCL_0B81	no available	Homo Sapiens	Eye	Lung	no available	no available	Female	no available	Uveal melanoma	no available	cell	WM3772	curated
-hTERT-RPE-1	hTERT-RPE1	CVCL_4388	hTERT-RPE1 cell	Homo Sapiens	Eye	Retinal Pigment Epithelium; Retina; Retina; Eye	1Y	Infant	Female	no available	Non-Cancerous	retinal pigment epithelial cell	cell	HTERT RPE1; HTERT-RPE; HTERT RPE-1; RPE1; RPE-HTERT; HTERT-RPE-1; RPE-1; HTERT-RPE-1 CELL; RPE-1 CELL; RPE1 CELL; TERT-RPE1; RPE1-HTERT	curated
+hTERT-RPE-1	hTERT-RPE1	CVCL_4388	hTERT-RPE1 cell	Homo Sapiens	Eye	Retinal Pigment Epithelium; Retina; Retina	1Y	Infant	Female	no available	Non-Cancerous	retinal pigment epithelial cell	cell	HTERT RPE1; HTERT-RPE; HTERT RPE-1; RPE1; RPE-HTERT; HTERT-RPE-1; RPE-1; HTERT-RPE-1 CELL; RPE-1 CELL; RPE1 CELL; TERT-RPE1; RPE1-HTERT	curated
 92-1	no available	no available	no available	Homo Sapiens	Eye	Right Orbit	76Y	Elderly	Female	no available	Melanoma	no available	cell	92-1	curated
-Mel-202	Mel202	CVCL_C301	no available	Homo Sapiens	Eye	Uvea; Eye	no available	no available	no available	no available	Uveal melanoma	no available	cell	EST128; MEL-202; MEL 202; MEL202	curated
-Mel-270	Mel270	CVCL_C302	no available	Homo Sapiens	Eye	Uvea; Eye	no available	no available	Male	no available	Uveal melanoma	no available	cell	MEL270; MEL 270; MEL-270	curated
-Mel-285	Mel285	CVCL_C303	no available	Homo Sapiens	Eye	Uvea; Eye	49Y	no available	Female	White	Uveal melanoma	no available	cell	MEL285; MEL-285; MEL 285	curated
-Mel-290	Mel290	CVCL_C304	no available	Homo Sapiens	Eye	Uvea; Eye	67Y	no available	Female	White	Uveal melanoma	no available	cell	MEL290; MEL 290; MEL-290	curated
-MP46	MP46	CVCL_4D13	no available	Homo Sapiens	Eye	Uvea; Eye	69Y	Elderly	no available	no available	Uveal melanoma	no available	cell	MP46	curated
+Mel-202	Mel202	CVCL_C301	no available	Homo Sapiens	Eye	Uvea	no available	no available	no available	no available	Uveal melanoma	no available	cell	EST128; MEL-202; MEL 202; MEL202	curated
+Mel-270	Mel270	CVCL_C302	no available	Homo Sapiens	Eye	Uvea	no available	no available	Male	no available	Uveal melanoma	no available	cell	MEL270; MEL 270; MEL-270	curated
+Mel-285	Mel285	CVCL_C303	no available	Homo Sapiens	Eye	Uvea	49Y	no available	Female	White	Uveal melanoma	no available	cell	MEL285; MEL-285; MEL 285	curated
+Mel-290	Mel290	CVCL_C304	no available	Homo Sapiens	Eye	Uvea	67Y	no available	Female	White	Uveal melanoma	no available	cell	MEL290; MEL 290; MEL-290	curated
+MP46	MP46	CVCL_4D13	no available	Homo Sapiens	Eye	Uvea	69Y	Elderly	no available	no available	Uveal melanoma	no available	cell	MP46	curated
 BC-1	BC-1	CVCL_1079	BC-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Ascites; Peritoneal Cavity	46Y	Adult	Male	Caucasian	Primary Effusion B-cell non-hodgkin lymphoma	B cell	cell	BC1	curated
 SUP-M2	SUP-M2	CVCL_2209	SUP-M2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Cerebrospinal Fluid	5Y	Children	Female	Caucasian	ALK-positive anaplastic large cell lymphoma	no available	cell	SUP-M2; SUPM2	curated
 NU-DUL-1	NU-DUL-1	CVCL_1877	NU-DUL-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Cerebrospinal Fluid	43Y	Adult	Male	Caucasian	Diffuse large B-cell lymphoma activated B-cell type	no available	cell	NUDUL1; NUDUL1 CELL; NUDUL-1 CELL; NUDUL-1	curated
@@ -634,209 +634,209 @@ MYLA	no available	no available	no available	Homo Sapiens	Haematopoietic and Lymp
 EB2	EB2	CVCL_1186	no available	Homo Sapiens	Haematopoietic and Lymphoid	Ovary	7Y	Children	Female	African; Ugandan	Burkitt lymphoma	B cell	cell	EB-2; EPSTEIN-BARR-2	curated
 CTB-1	CTB-1	CVCL_1149	no available	Homo Sapiens	Haematopoietic and Lymphoid	Pericardial Effusion	70Y	Elderly	Male	Japanese	Diffuse large B-cell lymphoma	no available	cell	CTB1	curated
 YT	YT	CVCL_1797	YT cell	Homo Sapiens	Haematopoietic and Lymphoid	Pericardial Fluid; Pericardial Effusion	15Y	Juvenile	Male	Japanese	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	natural killer cell	cell	YT-0	curated
-MOLM-13	MOLM-13	CVCL_2119	MOLM-13 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	20Y	Adult	Male	Japanese	Myelodysplastic syndrome	no available	cell	MOLM13; MOLM13 CELL; MOLM 13	curated
-SKM-1	SKM-1	CVCL_0098	SKM-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	76Y	Elderly	Male	Japanese	Myelodysplastic syndrome	no available	cell	SKM1	curated
-CMK	CMK	CVCL_0216	CMK cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	10M	no available	Male	Japanese	Myeloid leukemia associated with down syndrome	no available	cell	CMK	curated
-CMK-86	CMK-86	CVCL_2804	CMK-86 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	10M	no available	Male	Japanese	Myeloid leukemia associated with down syndrome	no available	cell	CMK86 CELL; CMK86	curated
-CMK11-5	CMK-11-5	CVCL_0217	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	10M	no available	Male	Japanese	Myeloid leukemia associated with down syndrome	no available	cell	CMK115; CMK 11-5; CMK11-5	curated
-GA-10	GA-10	CVCL_1222	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	41Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	GA10	curated
-GA-10-Clone-20	GA-10 clone 20	CVCL_1223	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	41Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	GA-10-CLONE-20; GA-10 (CLONE 20)	curated
-GA-10-Clone-4	GA-10 clone 4	CVCL_1224	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	41Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	GA-10-CLONE-4; GA-10 (CLONE 4)	curated
-MN-60	MN-60	CVCL_1421	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	20Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	MN 60; MN60	curated
-Daudi	Daudi	CVCL_0008	DAUDI cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	16Y	Juvenile	Male	African; Kenyan	Burkitt lymphoma	B cell	cell	NAN; N; DAUDI; NK-10A; GM03190; GM17346; GM3190; GM03190A; NK10A; NK 10A	curated
-P32-ISH	P32/ISH	CVCL_3119	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	8Y	Children	Male	Japanese	Burkitt lymphoma	B cell	cell	P32-ISH; ISHIDA; P32 ISH; P32ISH; P32/ISH; P32/ISHIDA; P32	curated
-KARPAS-231	Karpas-231	CVCL_1822	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	71Y	Elderly	Female	Caucasian	Diffuse large B-cell lymphoma	no available	cell	KARPAS-231; KARPAS 231; K231; KARPAS231	curated
-L-1236	L-1236	CVCL_2096	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	34Y	Adult	Male	Caucasian	Hodgkins lymphoma	no available	cell	L1236; L 1236	curated
-JVM-3	JVM-3	CVCL_1320	JVM-3 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	73Y	Elderly	Male	Caucasian	B-Cell Prolymphocytic Leukemia	no available	cell	JVM3; JVM3 CELL	curated
-KHYG-1	KHYG-1	CVCL_2976	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	45Y	Adult	Female	Japanese	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	no available	cell	KHYG1; KHYG	curated
-MTA	MTA	CVCL_3032	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	58Y	Adult	Female	Japanese	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	no available	cell	MTA	curated
-NK-92	NK-92	CVCL_2142	NK-92 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	50Y	Adult	Male	Caucasian	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	natural killer cell	cell	NK-92.05; NATURAL KILLER-92; ANK; NEUKOPLAST; NK92 CELL; NK92	curated
-NK-92MI	NK-92MI	CVCL_3755	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	50Y	Adult	Male	Caucasian	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	natural killer cell	cell	NK92-MI; NK-92 MI; NK-92 TRANSFECTED WITH MFG-HIL2; NK92MI	curated
-NKL	NKL	CVCL_0466	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	63Y	Adult	Male	no available	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	natural killer cell	cell	NKL	curated
-HH	HH [Human lymphoma]	CVCL_1280	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	61Y	Adult	Male	Caucasian	Primary Cutaneous T-Cell Non-Hodgkin Lymphoma	T cell	cell	HH	curated
-KARPAS-384	Karpas-384	CVCL_2541	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	48Y	Adult	Male	no available	Primary cutaneous T-cell non-Hodgkin lymphoma	T cell	cell	KARPAS384; KARPAS 384	curated
-Mac-1	Mac-1	CVCL_H631	Mac-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	45Y	Adult	Male	White	Primary cutaneous T-cell non-Hodgkin lymphoma	T cell	cell	MAC1; MCG-1; MAC-1	curated
-MJ	MJ	CVCL_1414	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	50Y	Adult	Male	Caucasian	Primary cutaneous T-cell non-Hodgkin lymphoma	T cell	cell	G11	curated
-H9	H9	CVCL_1240	H-9 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	53Y	Adult	Male	Caucasian	Sezary Syndrome	T cell	cell	HT(H9); HT CLONE H9; H 9 CELL; H9 CELL; HT(H9) CELL; H-9; H 9; HT CLONE H9 CELL	curated
-HuT-78	HuT 78	CVCL_0337	HUT-78 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	53Y	Adult	Male	Caucasian	Sezary Syndrome	T cell	cell	NCI-H78; HUT 78; HUT-78; HUT78 CELL; HUT78; HUT 78 CELL	curated
-ATN-1	ATN-1	CVCL_1073	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	47Y	Adult	Male	Japanese	Adult T Acute Lymphoblastic Leukemia	T cell	cell	ATN1	curated
-CTV-1	CTV-1	CVCL_1150	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	CTV1	curated
-LOUCY	Loucy	CVCL_1380	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	38Y	Adult	Female	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	LOUCY	curated
-MOLT-3	MOLT-3	CVCL_0624	MOLT-3 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	19Y	Adult	Male	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	NAN; MOLT 3; MOLT-3; MOLT3	curated
-MOLT-4	MOLT-4	CVCL_0013	MOLT-4 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	19Y	Adult	Male	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	MOLT4 CELL; MOLT4; MOLT-4; GM02219; MOLT 4; GM2219C; GM02219C; MOLT.4; GM02219D	curated
-BCP-1	BCP-1	CVCL_0107	BCP-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	92Y	Elderly	Male	Caucasian	Primary Effusion B-cell non-hodgkin lymphoma	no available	cell	BCP1	curated
-GDM-1	GDM-1	CVCL_1230	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	66Y	Elderly	Female	Caucasian	Acute myeloid leukemia	no available	cell	GDM1	curated
-HL-60	HL-60	CVCL_0002	HL-60 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	36Y	Adult	Female	Caucasian	Acute myeloid leukemia	no available	cell	HL60; NAN; HL 60; HL60 CELL; HL.60; HUMAN LEUKEMIA-60	curated
-HNT-34	HNT-34	CVCL_2071	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	47Y	Adult	Female	Japanese	Acute myeloid leukemia	no available	cell	HNT34	curated
-KASUMI-6	Kasumi-6	CVCL_0614	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	64Y	Adult	Male	Japanese and Korean	Acute myeloid leukemia	no available	cell	KASUMI-6; KASUMI6	curated
-ME-1	ME-1 [Human leukemia]	CVCL_2110	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	40Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	ME1	curated
-ML-2	ML-2	CVCL_1418	ML-2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	Caucasian	Acute Myeloid Leukemia	no available	cell	ML2	curated
-ML-3	ML-3	CVCL_H526	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	ML3; ML 3	curated
-MOLM-14	MOLM-14	CVCL_7916	MOLM-14 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	20Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	MOLM14 CELL; MOLM-14; MOLM14; MOLM 14	curated
-MOLM-16	MOLM-16	CVCL_2120	MOLM-16 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	77Y	Elderly	Female	Japanese	Acute myeloid leukemia	no available	cell	MOLM16; MOLM16 CELL	curated
-MUTZ-3	MUTZ-3	CVCL_1433	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	29Y	Adult	Male	no available	Acute Myeloid Leukemia	no available	cell	MUTZ-3; MENSCHLICHE UND TIERISCHE ZELLKULTURE-3; MUTZ3	curated
-MUTZ-8	MUTZ-8	CVCL_2130	MUTZ-8 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	63Y	Adult	Female	no available	Acute myeloid leukemia	no available	cell	MUTZ8; MENSCHLICHE UND TIERISCHE ZELLKULTURE-8	curated
-NKM-1	NKM-1	CVCL_1607	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	33Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	NKM-1	curated
-OCI-AML2	OCI-AML-2	CVCL_1619	OCI-AML2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	65Y	Elderly	Male	Caucasian	Acute Myeloid Leukemia	no available	cell	OCIAML2; OCI AML2; AML-2; ONTARIO CANCER INSTITUTE-ACUTE MYELOID LEUKEMIA-2; OCI AML2 CELL; NAN; OCI-AML-2 CELL; OCI-AML2; OCIAML-2; OCI/AML-2 CELL; OCI/AML2; OCI/AML-2	curated
-OCI-AML3	OCI-AML-3	CVCL_1844	OCI-AML3 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	57Y	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	OCIAML3; OCI/AML-3; OCI AML3 CELL; OCI-AML3; OCI-AML-3 CELL; OCI AML3; ONTARIO CANCER INSTITUTE-ACUTE MYELOID LEUKEMIA-3; OCI-AML-3; OCI/AML-3 CELL; OCI/AML3	curated
-OCI-AML5	OCI-AML-5	CVCL_1620	OCI-AML5 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	77Y	Elderly	Male	Caucasian	Acute myeloid leukemia	no available	cell	ONTARIO CANCER INSTITUTE-ACUTE MYELOID LEUKEMIA-5; OCI/AML-5 CELL; OCI-AML5; OCI/AML-5; OCI AML5 CELL; OCI/AML5; OCI AML5; OCIAML5; OCI-AML-5 CELL	curated
-PL-21	PL-21	CVCL_2161	PL-21 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	24Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	PL21; PL21 CELL	curated
-PLB-985	PLB-985	CVCL_2162	PLB-985 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	36Y	Adult	Female	Caucasian	Acute myeloid leukemia	no available	cell	PLB 985; PLB985 CELL; PLB985; PLB 985 CELL	curated
-QIMR-WIL	QIMR-WIL	CVCL_1645	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	69Y	Elderly	Female	Caucasian	Acute myeloid leukemia	no available	cell	QIMRWIL; WIL	curated
-EoL-1-cell	EoL-1	CVCL_0258	EoL-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	33Y	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	EOL-1; AML-EOL-1; EOL-1-CELL; EOL-1 CELL; EOL1	curated
-Set2	SET-2	CVCL_2187	SET-2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	71Y	Elderly	Female	Japanese	Adult acute megakaryoblastic leukemia	no available	cell	SET-2; SET2	curated
-MONO-MAC-1	Mono-Mac-1	CVCL_1425	Mono-Mac-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	64Y	Adult	Male	Caucasian	Adult acute monocytic leukemia	no available	cell	MONOMAC-1; MONO-MAC-1 CELL; MM1; MONOMAC1; MONO MAC 1 CELL; MONO-MAC-1; MONO MAC 1; MONOMAC1 CELL; MM1 CELL	curated
-MONO-MAC-6	Mono-Mac-6	CVCL_1426	Mono-Mac-6 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	64Y	Adult	Male	Caucasian	Adult acute monocytic leukemia	monocyte	cell	MONOMAC 6; MONO MAC 6; MONO MAC6; MONO-MAC-6; MONO-MAC-6 CELL; MONOMAC6 CELL; MONO MAC 6 CELL; MONOMAC6; MONO-MAC 6; MM6; MM6 CELL	curated
-FE-PD	FE-PD	CVCL_H614	FEPD cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	46Y	Adult	no available	no available	ALK-positive anaplastic large cell lymphoma	T cell	cell	FEPD	curated
-KARPAS-299	Karpas-299	CVCL_1324	KARPAS-299 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	25Y	Adult	Male	Caucasian	ALK-positive anaplastic large cell lymphoma	no available	cell	KARPAS 299; K299; KARPAS299; KARPAS-299	curated
-KOPN-8	KOPN-8	CVCL_1866	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	3M	no available	Female	Japanese	B-cell acute lymphoblastic leukemia	no available	cell	KOPN-8; KOPN8	curated
-SEM	SEM	CVCL_0095	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	5Y	Children	Female	Caucasian	B-cell acute lymphoblastic leukemia	no available	cell	SEM	curated
-SEM-K2	SEMK2	CVCL_S906	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	5Y	Children	Female	Caucasian	B-cell acute lymphoblastic leukemia	no available	cell	SEM-K2	curated
-HAL-01	HAL-01	CVCL_1242	HAL-01 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	17Y	Juvenile	Female	Japanese	B-cell acute lymphoblastic leukemia	no available	cell	HAL-O1; HAL-1; HAL01; HALO1	curated
-JM1	JM-1	CVCL_3532	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	B-cell acute lymphoblastic leukemia	no available	cell	JM1	curated
-MUTZ-5	MUTZ-5	CVCL_1873	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	no available	B-cell acute lymphoblastic leukemia	no available	cell	MUTZ5; MUTZ-5; MENSCHLICHE UND TIERISCHE ZELLKULTURE-5	curated
-MUTZ-6	MUTZ-6	CVCL_L068	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	no available	B-cell acute lymphoblastic leukemia	no available	cell	MENSCHLICHE UND TIERISCHE ZELLKULTURE-6; MUTZ6	curated
-MUTZ-7	MUTZ-7	CVCL_L069	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	no available	B-cell acute lymphoblastic leukemia	no available	cell	MENSCHLICHE UND TIERISCHE ZELLKULTURE-7; MUTZ7	curated
-NALM-19	NALM-19	CVCL_1835	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	Japanese	B-cell acute lymphoblastic leukemia	no available	cell	NALM19	curated
-REH	Reh	CVCL_1650	REH cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	15Y	Juvenile	Female	Arabic	B-cell acute lymphoblastic leukemia	no available	cell	REH	curated
-BALL-1	BALL-1	CVCL_1075	BALL-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	75Y	Elderly	Male	Japanese	B-cell adult acute lymphocytic leukemia	B cell	cell	B-CELL ACUTE LYMPHOBLASTIC LEUKEMIA-1; BALL1; BALL 1; BALL-1	curated
-NALM-6	NALM-6	CVCL_0092	NALM-6 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	19Y	Adult	Male	Caucasian	B-cell adult acute lymphocytic leukemia	no available	cell	NALM-6 CELL; NALM6 CELL; NALM-6-M1; NALM6; NALM 6; NALM-6; NALM6/P CELL	curated
-ROS-50	ROS-50	CVCL_1887	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	69Y	Elderly	Male	Caucasian	B-cell adult acute lymphocytic leukemia	no available	cell	ROS 50; ROTTERDAM SUSPENSION CELL LINE NO. 50; ROS.50; ROS-50; ROS50	curated
-GR-ST	GR-ST	CVCL_1236	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	10Y	Children	Male	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	GRST	curated
-LC4-1	LC4-1	CVCL_1374	LC4-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	13Y	Juvenile	Female	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	LC41	curated
-MHH-CALL-2	MHH-CALL-2	CVCL_1409	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	15Y	Juvenile	Female	Caucasian	B-cell childhood acute lymphoblastic leukemia	no available	cell	MHH-CALL2; MHH-CALL 2; MHHCALL2	curated
-MHH-CALL-4	MHH-CALL-4	CVCL_1410	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	10Y	Children	Male	Caucasian	B-cell childhood acute lymphoblastic leukemia	no available	cell	MHH-CALL4; MHHCALL4	curated
-NALM-16	NALM-16	CVCL_1834	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	12Y	Juvenile	Female	Caucasian	B-cell childhood acute lymphoblastic leukemia	no available	cell	NALM16; NALM-16	curated
-ST	ST [Human leukemia]	CVCL_U347	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	10Y	Children	Male	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	ST	curated
-Tanoue	Tanoue	CVCL_1852	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	10Y	Children	Male	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	TANOUE	curated
-AML-193	AML-193	CVCL_1071	AML-193 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	13Y	Juvenile	Female	African American and Caucasian	Childhood acute myeloid leukemia	no available	cell	AML193; AML193 CELL	curated
-CII	CII	CVCL_0D73	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	47Y	Adult	Female	no available	Chronic lymphocytic leukemia	no available	cell	CLL-CII	curated
-HG-3	HG-3	CVCL_Y547	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	70Y	Elderly	Male	White	Chronic lymphocytic leukemia	no available	cell	HG3	curated
-MEC-1	MEC-1	CVCL_1870	MEC-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	61Y	Adult	Male	Caucasian	Chronic lymphocytic leukemia	no available	cell	MEC1 CELL; MEC1	curated
-MEC-2	MEC-2	CVCL_1871	MEC-2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	62Y	Adult	Male	Caucasian	Chronic lymphocytic leukemia	no available	cell	MEC2; MEC2 CELL	curated
-WA-OSEL	WA-OSEL	CVCL_Y549	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	Adult	Male	no available	Chronic lymphocytic leukemia	no available	cell	WA-OSEL; WA OSEL; WAOSEL4	curated
-BV-173	BV-173	CVCL_0181	BV173 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	45Y	Adult	Male	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	BV173	curated
-CML-T1	CML-T1	CVCL_1126	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	36Y	Adult	Female	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	CMLT-1; CML T1; CMLT1	curated
-JURL-MK1	JURL-MK1	CVCL_2086	JURL-MK1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	73Y	Elderly	Male	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	JURLMK1	curated
-JURL-MK2	JURL-MK2	CVCL_2087	JURL-MK2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	73Y	Elderly	Male	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	JURLMK2	curated
-KU812	Ku812	CVCL_0379	KU-812 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	38Y	Adult	Male	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	basophil progenitor cell	cell	KU812; KU 812; KU-812; KU812 CELL; KU.812	curated
-KYO-1	KYO-1	CVCL_2095	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	22Y	Adult	Male	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	KYO1; KYOTO 1	curated
-LAMA-84	LAMA-84	CVCL_0388	LAMA-84 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	29Y	Adult	Female	no available	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	LAMA-84; LAMA84 CELL; LAMA84	curated
-LAMA-87	LAMA-87	CVCL_1826	LAMA-87 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	29Y	Adult	Female	no available	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	LAMA87; LAMA-87	curated
-MOLM-6	MOLM-6	CVCL_2122	MOLM-6 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	44Y	Adult	Male	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	MOLM6 CELL; MOLM6	curated
-NCO2	NCO2	CVCL_3043	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	35Y	Adult	Female	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	NC02; NC-02; NCO-2	curated
-RPMI-8866	RPMI-8866	CVCL_1668	RPMI-8866 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	51Y	Adult	Female	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	RPMI 8866; RPMI 8866 CELL; ROSWELL PARK MEMORIAL INSTITUTE 8866; RPMI8866 CELL; R8866; RPMI8866; 8866	curated
-NALM-1	NALM-1	CVCL_0091	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	3Y	Children	Female	African American	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	NALM-1; NALM 1; NALM1	curated
-Ri-1	Ri-1	CVCL_1885	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	57Y	Adult	Female	Caucasian	Diffuse large B-cell lymphoma activated B-cell type	no available	cell	RIVA; RI-1; RI1	curated
-OCI-LY7	OCI-Ly7	CVCL_1881	OCI-LY7 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	48Y	Adult	Male	Caucasian	Diffuse large B-cell lymphoma germinal center B-cell type	no available	cell	LY7; OCILY7; LY7 CELL; OCI-LY07; OCI-LY 7; OCI-LY 7 CELL; OCI-LY-7 CELL; OCILY7 CELL; OCI-LY7; OCI-LY-7	curated
-Toledo	Toledo	CVCL_3611	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	Adult	Female	Caucasian	Diffuse large B-cell lymphoma germinal center B-cell type	B cell	cell	NAN; TOLEDO	curated
-HC-1	HC-1	CVCL_1243	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	56Y	Adult	Male	Caucasian	Hairy Cell Leukemia	no available	cell	HC1	curated
-GRANTA-519	Granta-519	CVCL_1818	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	58Y	Adult	Female	Caucasian	Mantle cell lymphoma	no available	cell	GRANTA-519; GRANTA519; G519; GRANTA 519; G-519	curated
-JEKO-1	JeKo-1	CVCL_1865	Jeko-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	78Y	Elderly	Female	Korean	Mantle cell lymphoma	no available	cell	JEKO 1; JEKO; JEKO1; JEKO-1	curated
-JVM-2	JVM-2	CVCL_1319	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	63Y	Adult	Female	Caucasian	Mantle cell lymphoma	no available	cell	JVM2	curated
-Mino	Mino	CVCL_1872	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	68Y	Elderly	Female	Caucasian	Mantle cell lymphoma	no available	cell	MINO	curated
-ARH-77	ARH-77	CVCL_1072	ARH-77 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	33Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	ARH77; ARH77 CELL; ARH 77	curated
-B239	B239	CVCL_L055	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	Japanese	Non-Cancerous	no available	cell	B239	curated
-B240	B240	CVCL_L056	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	26Y	Adult	Male	Japanese	Non-Cancerous	no available	cell	B240	curated
-COLO-197	COLO 197	CVCL_9976	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	70Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	COLORADO 197; COLO-197	curated
-COLO-829BL	COLO 829BL	CVCL_1999	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	45Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	COLO829BL; COLO-829-BL; COLORADO 829BL; COLO 829 BL; COLO829-BL; COLO-829BL	curated
-EHEB	EHEB	CVCL_1194	EHEB cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	69Y	Elderly	Female	Caucasian	Non-Cancerous	no available	cell	EHEB	curated
-HCC1143-BL	HCC1143 BL	CVCL_1246	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	52Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1143BL; HAMON CANCER CENTER 1143 BL; HCC1143-BL; HCC-1143BL	curated
-HCC1187-BL	HCC1187 BL	CVCL_1248	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	41Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1187BL; HCC-1187BL; HCC1187-BL; HAMON CANCER CENTER 1187 BL	curated
-HCC1395-BL	HCC1395 BL	CVCL_1250	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	43Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1395-BL; SCC-1395BL; HCC1395BL; HCC-1395BL; HAMON CANCER CENTER 1395 BL	curated
-HCC1428-BL	HCC1428 BL	CVCL_1253	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	49Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1428-BL; HCC1428BL; HCC-1428BL; HAMON CANCER CENTER 1428 BL	curated
-HCC1599-BL	HCC1599 BL	CVCL_1257	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	44Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC-1599BL; HAMON CANCER CENTER 1599 BL; HCC1599BL; HCC1599-BL	curated
-HCC1937-BL	HCC1937 BL	CVCL_3281	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	23Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC-1937BL; HCC1937-BL; HCC1937BL; HAMON CANCER CENTER 1937 BL	curated
-HCC1954-BL	HCC1954 BL	CVCL_1260	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	61Y	Adult	Female	East Indian	Non-Cancerous	B cell	cell	HCC-1954BL; HAMON CANCER CENTER 1954 BL; HCC1954BL; HCC1954-BL	curated
-HCC2157-BL	HCC2157 BL	CVCL_1262	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	48Y	Adult	Female	African American	Non-Cancerous	B cell	cell	HCC-2157BL; HCC2157-BL; HAMON CANCER CENTER 2157 BL; HCC2157BL	curated
-HCC2218-BL	HCC2218 BL	CVCL_1264	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	38Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC 2218 BL; HCC-2218BL; HCC2218-BL; HCC2218BL; HAMON CANCER CENTER 2218 BL	curated
-HCC38-BL	HCC38 BL	CVCL_1268	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	50Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HAMON CANCER CENTER 38 BL; HCC38BL; HCC 38BL; HCC-38BL; HCC38-BL	curated
-J82-EBV	J82-EBV	CVCL_5H97	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	58Y	Adult	Male	Caucasian; Swedish	Non-Cancerous	no available	cell	J82EBV	curated
-L542	L542	CVCL_VU88	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Female	Asian	Non-Cancerous	no available	cell	L542	curated
-LB1047-EBV	LB1047-EBV	CVCL_E908	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	LB1047EBV	curated
-LB2241-EBV	LB2241-EBV	CVCL_VU68	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB2241EBV	curated
-LB2518-EBV	LB2518-EBV	CVCL_E914	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	LB2518EBV	curated
-LB373-EBV	LB373-EBV	CVCL_E917	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	LB373EBV	curated
-LB647-PBL	LB647-PBL	CVCL_VU82	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB647PBL	curated
-LB771-PBL	LB771-PBL	CVCL_VU87	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB771PBL	curated
-LB831-EBV	LB831-EBV	CVCL_E913	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	65Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	LB831EBV	curated
-LB996-EBV	LB996-EBV	CVCL_E912	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB996EBV	curated
-LS1034-PBL	LS1034-PBL	CVCL_VV29	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	54Y	Adult	Male	Caucasian	Non-Cancerous	no available	cell	LS1034-PBL	curated
-MC-CAR	MC/CAR	CVCL_1397	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	81Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	MCCAR; MC-CAR	curated
-MC-CAR-Z2	MC/CAR-Z2	CVCL_6671	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	81Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	MC-CAR-Z2; MNS-2	curated
-MZ1-B	MZ-1-EBV-B	CVCL_VU73	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	46Y	Adult	Male	Caucasian	Non-Cancerous	no available	cell	MZ1B; MZ1-B; MZ-PC-1-EBV-LCL	curated
-MZ7-B	MZ-7-EBV-B	CVCL_VU72	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	25Y-26Y	Adult	Female	Caucasian	Non-Cancerous	no available	cell	MZ7B; MZ7-B; MZ-7-B	curated
-NCI-BL1184	NCI-BL1184	CVCL_2635	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	42Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	NCI-BL5; BL5; BL1184	curated
-NCI-BL128	NCI-BL128	CVCL_2636	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	60Y	Adult	Male	African American	Non-Cancerous	B cell	cell	NCI-H128BL; BL128; H128BL	curated
-NCI-BL1395	NCI-BL1395	CVCL_2638	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	55Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL1395	curated
-NCI-BL1437	NCI-BL1437	CVCL_2639	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	60Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL1437	curated
-NCI-BL1770	NCI-BL1770	CVCL_2644	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	57Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL1770	curated
-NCI-BL1819	NCI-BL1819	CVCL_E099	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	55Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL1819	curated
-NCI-BL2009	NCI-BL2009	CVCL_2645	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	68Y	Elderly	Female	Caucasian	Non-Cancerous	B cell	cell	BL2009	curated
-NCI-BL2052	NCI-BL2052	CVCL_2647	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	65Y	Elderly	Male	Caucasian	Non-Cancerous	B cell	cell	BL2052	curated
-NCI-BL2077	NCI-BL2077	CVCL_E103	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	58Y	Adult	Male	White	Non-Cancerous	B cell	cell	BL2077	curated
-NCI-BL2087	NCI-BL2087	CVCL_2648	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	69Y	Elderly	Male	Caucasian	Non-Cancerous	B cell	cell	BL2087	curated
-NCI-BL209	NCI-BL209	CVCL_2649	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	55Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	NCI-H209BL; BL209; H209BL	curated
-NCI-BL2122	NCI-BL2122	CVCL_2651	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	46Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL2122	curated
-NCI-BL2141	NCI-BL2141	CVCL_2653	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	58Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL2141	curated
-NCI-BL2171	NCI-BL2171	CVCL_2654	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	50Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL2171	curated
-NCI-BL2347	NCI-BL2347	CVCL_2656	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	54Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL2347	curated
-PG-B95-8	PG/B95-8	CVCL_Y555	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	PG-EBV; PG-B95-8	curated
-RPMI-6666	RPMI-6666	CVCL_1665	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	29Y	Adult	Male	Caucasian	Non-Cancerous	no available	cell	RPMI6666; ROSWELL PARK MEMORIAL INSTITUTE 6666; RPMI 6666	curated
-COLO-775	COLO 775	CVCL_1996	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	61Y	Adult	Male	African American	Plasma Cell Myeloma	B cell	cell	COLORADO 775; COLO-775	curated
-HuNS1	HuNS1	CVCL_2526	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	Caucasian	Plasma Cell Myeloma	no available	cell	HUNS1	curated
-KARPAS-620	Karpas-620	CVCL_1823	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	77Y	Elderly	Female	Caucasian	Plasma Cell Myeloma	no available	cell	KARPAS620; KARPAS-620; KARPAS 620; K620	curated
-KMS-18	KMS-18	CVCL_A637	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	58Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	KMS18; KAWASAKI MEDICAL SCHOOL-18	curated
-KMS-27	KMS-27	CVCL_2993	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	52Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	KMS27; KAWASAKI MEDICAL SCHOOL-27	curated
-L-363	L-363	CVCL_1357	L-363 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	36Y	Adult	Female	Caucasian	Plasma Cell Myeloma	no available	cell	L 363; L363; L363 CELL	curated
-LP-1	LP-1	CVCL_0012	LP-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	56Y	Adult	Female	Caucasian	Plasma Cell Myeloma	no available	cell	LP1 CELL; LP1	curated
-MM1R	MM1.R	CVCL_8794	MM1-R cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	42Y	Adult	Female	African American	Plasma Cell Myeloma	B cell	cell	MM1.R; MM.1R CELL; MM-1R CELL; MM-1R; MM1.R CELL; MM.1R; MM1.R(L); MM1.RL; MM1R; MM1-R	curated
-MM1S	MM1.S	CVCL_8792	MM1-S cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	42Y	Adult	Female	African American	Plasma Cell Myeloma	B cell	cell	MM.1S; MM.1S CELL; MM-1S CELL; MM-1S; MM1-S; MM1S; MM1.S CELL	curated
-MOLP-2	MOLP-2	CVCL_2123	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	55Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	MOLP2	curated
-MOLP-8	MOLP-8	CVCL_2124	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	52Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	MOLP8	curated
-OCI-My5	OCI-My5	CVCL_E332	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	no available	Caucasian	Plasma Cell Myeloma	no available	cell	OCI-MY 5; MY5; OCI-MY5; OCIMY5	curated
-OPM-1	OPM-1	CVCL_5210	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	56Y	Adult	Female	Japanese	Plasma Cell Myeloma	no available	cell	OPM1	curated
-OPM-2	OPM-2	CVCL_1625	OPM-2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	56Y	Adult	Female	Japanese	Plasma Cell Myeloma	no available	cell	OPM2 CELL; OPM2	curated
-PCM6	PCM6	CVCL_4666	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	60Y	Adult	Female	Japanese	Plasma Cell Myeloma	no available	cell	PCM-6	curated
-RPMI-8226	RPMI-8226	CVCL_0014	RPMI-8226 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	61Y	Adult	Male	African American	Plasma Cell Myeloma	B cell	cell	RPMI #8226; RPMI8226 CELL; GM2132; RPMI.8226; RPMI8226; 8226; RPMI-8226S; GM 2132; RPMI NO. 8226; RPMI NO 8226; RPMI 8226; 8226/S; GM02132; GM02132C; SIMPSON; ROSWELL PARK MEMORIAL INSTITUTE 8226; RPMI 8226/S; RPMI8226/S	curated
-SK-MM-2	SK-MM-2	CVCL_1699	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	54Y	Adult	Male	Caucasian	Plasma Cell Myeloma	no available	cell	SKMM-2; SKMM2; SK-MM2	curated
-U-266	U266B1	CVCL_0566	U-266 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	53Y	Adult	Male	Caucasian	Plasma Cell Myeloma	no available	cell	U266 BL; U 266; 266 BL; U266; U266B1; U266 CELL; U266 B1; U266S; U266-B1; U-266; U266BL	curated
-KARPAS-1718	Karpas-1718	CVCL_2539	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	no available	Male	no available	Splenic marginal zone lymphoma	no available	cell	K1718; KARPAS 1718; KARPAS-1718	curated
-SLVL	VL51	CVCL_3169	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	70Y	Elderly	Female	Japanese	Splenic marginal zone lymphoma	no available	cell	VL-51; VL51; SLVL	curated
-A3	Jurkat clone A3	CVCL_1061	A3 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	JURKAT CLONE A3 CELL; A3; JURKAT A3 CELL	curated
-AGR-ON	CEM-ON	CVCL_J395	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	AGR-ON	curated
-ALL-SIL	ALL-SIL	CVCL_1805	ALL-SIL cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	17Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	SIL-ALL; ALLSIL; SIL-ALL CELL	curated
-BE-13	BE-13	CVCL_1081	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	BE-13; BE13	curated
-CCRF-CEM	CCRF-CEM	CVCL_0207	CCRF-CEM cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	CEM-0; GM03671C; CEM-CCRF (CAMR); CCRF CEM; CCRFCEM CELL; CEM; CCRF; CCRF/CEM; CEM/0; CCRF/CEM/0; CCRFCEM; CCRF.CEM CELL; NAN; CCRF CEM CELL; CEM CELL; GM03671; CCRF.CEM; CEM-CCRF; CCRF-CEM/S; CEM T-CELL; CCRF/CEM CELL	curated
-CCRF-HSB-2	CCRF-HSB-2	CVCL_1859	CCRF-HSB-2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	11Y	Children	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	HSB.2; SB-2; CCRF HSB-2; CCRF HSB-2 CELL; HSB-2; H.S.B.; HSB-2 CELL; HSB2; H-SB2; HSB; GM04155; CCRF-HSB2	curated
-CEMC1	CEM/C1	CVCL_3496	CEM-C1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	CEMC1 CELL; CCRF-CEM C1 CELL; CEM.C1; CCRF-CEM C1; CEM/C1 CELL; CEM-C1; CEMC1	curated
-CEMC2	CEM/C2	CVCL_3497	CEM-C2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	CEMC2; CCRF-CEM C2 CELL; CCRF-CEM C2; CEM/C2 CELL; CEMC2 CELL; CEM-C2	curated
-DND-41	DND-41	CVCL_2022	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	13Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	DND41; DND 41	curated
-HPB-ALL	HPB-ALL	CVCL_1820	HPB-ALL cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Japanese	T-cell childhood acute lymphocytic leukemia	T cell	cell	HPBALL; FCCH1018; HPB/ALL	curated
-I-2-1	I 2.1	CVCL_3724	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	I-2-1; I2-1; I2.1	curated
-I-9-2	I 9.2	CVCL_3725	I 9.2 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	I 9.2 T CELL; I9.2; I-9-2; I9-2	curated
-J-RT3-T3-5	J.RT3-T3.5	CVCL_1316	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	JURKAT RT3-T3.5; JURKAT/RT3-T3.5; JRT3T3.5; JRT3-T3.5; J.RT3/T3.5; J-RT3-T3-5; JRT3T35	curated
-JKT-beta-del	JKT-beta-del	CVCL_2966	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	JKT-beta-del	curated
-Jurkat	Jurkat	CVCL_0065	JURKAT cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	FCCH1024; JURKAT; JURKAT-FHCRC; JURKAT CELL; FHCRC-11; JM; JM CELL; JURKAT FHCRC; JM-JURKAT; FHCRC SUBCLONE 11	curated
-Jurkat-Clone-E6-1	Jurkat E6.1	CVCL_0367	JURKAT E-6.1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	"J.E6-1; JURKAT-CLONEE61; JURKAT E6-1; JURKAT-E6; JURKAT E-61; JURKAT E6; JURKAT E-6.1; JURKAT CLONE E6-1; JURKAT, CLONE E6-1; JURKATE6-1; JURKAT (CLONE E6-1); JURKAT E-61 CELL; E6-1; JURKAT J6"	curated
-MOLT-16	MOLT-16	CVCL_1424	MOLT-16 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	5Y	Children	Female	African American	T-cell childhood acute lymphocytic leukemia	T cell	cell	MOLT-16; MOLT16; MOLT 16	curated
-MOLT-17	MOLT-17	CVCL_2125	MOLT-17 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	5Y	Children	Female	African American	T-cell childhood acute lymphocytic leukemia	T cell	cell	MOLT 17; MOLT-17; MOLT17	curated
-P12-ICHIKAWA	P12-Ichikawa	CVCL_1630	P12-ICHIKAWA cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	7Y	Children	Male	Japanese	T-cell childhood acute lymphocytic leukemia	T cell	cell	P12/ICH; P-12 CELL; P12-ICHIKAWA; P12; P12/ICHIKAWA CELL; P-12; P12-ICH; P12/ICHIKAWA; P12:ICHIKAWA; P12ICHIKAWA; P12 CELL	curated
-PEER	Peer	CVCL_1913	PEER cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	PEER	curated
-RPMI-8402	RPMI-8402	CVCL_1667	RPMI-8402 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	16Y	Juvenile	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	ROSWELL PARK MEMORIAL INSTITUTE 8402; RPMI 8402; RPMI8402; 8402	curated
-MOTN-1	MOTN-1	CVCL_2127	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	65Y	Elderly	Female	Japanese	T-Cell Large Granular Lymphocyte Leukemia	T cell	cell	MOTN1	curated
-DERL-2	DERL-2	CVCL_2016	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	30Y	Adult	Male	White	Hepatosplenic T-Cell Lymphoma; T-Cell Non-Hodgkin'S Lymphoma	T cell	cell	DERL-NK2; DERL2	curated
-SZ-4	Sez-4	CVCL_8330	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	66Y	Elderly	Female	Black	Sezary Syndrome	T cell	cell	SEZ 4; SZ-4; SEZ4	curated
-CESS	CESS	CVCL_0209	CESS cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	no available	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	CESS	curated
-DL-40	DL-40	CVCL_2889	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	64Y	Adult	Female	Japanese	ALK-positive anaplastic large cell lymphoma	T cell	cell	DL40	curated
-P31-FUJ	P31/FUJ	CVCL_1632	P31/FUJ cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	7Y	Children	Male	Japanese	Childhood acute myeloid leukemia	no available	cell	P31-FUJ; P-31:FUJ; P31 FUJ; P31/FUJIOKA; P31FUJ	curated
-NCI-BL1339	NCI-BL1339	CVCL_2637	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood	49Y	Adult	Female	White	Non-Cancerous	B cell	cell	BL6; BL1339; NCI-BL6	curated
-HEL-92-1-7	HEL 92.1.7	CVCL_2481	HEL-92.1.7 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood; Bone Marrow	30Y	Adult	Male	Caucasian	Erythroleukemia	no available	cell	HEL-92-1-7; HEL-92; HEL9217 CELL; HEL9217; HEL 92.1.7 CELL; HEL (TIB-180) CELL; HEL.92.1.7 CELL; HEL92.1.7; HEL TIB 180 CELL; HEL92.1.7 CELL; HEL-92.1.7; HEL-92_1_7	curated
-MY	MY	CVCL_3034	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood; Bone Marrow	52Y	Adult	Female	Japanese	Acute Biphenotypic Leukemia	mononuclear cell	cell	MY	curated
-MY-M12	MY-M12	CVCL_3035	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood; Bone Marrow	52Y	Adult	Female	Japanese	Acute Biphenotypic Leukemia	mononuclear cell	cell	MYM12; MY CLONE M12	curated
-IM-9	IM-9	CVCL_1305	IM-9 cell	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood; Bone Marrow	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	GM04680; IM9; IM 9; IM9 CELL	curated
-HuT-102	HuT 102	CVCL_3526	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood; Lymph Node	28Y	Adult	no available	African American	T-cell non-Hodgkin lymphoma	T cell	cell	NCI-H102; HUT 102; HUT-102; HUT102	curated
-NCI-BL2126	NCI-BL2126	CVCL_2652	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peripheral Blood; Pleural Effusion	65Y	Elderly	Male	Caucasian	Non-Cancerous	B cell	cell	BL2126	curated
+MOLM-13	MOLM-13	CVCL_2119	MOLM-13 cell	Homo Sapiens	Blood	Peripheral Blood	20Y	Adult	Male	Japanese	Myelodysplastic syndrome	no available	cell	MOLM13; MOLM13 CELL; MOLM 13	curated
+SKM-1	SKM-1	CVCL_0098	SKM-1 cell	Homo Sapiens	Blood	Peripheral Blood	76Y	Elderly	Male	Japanese	Myelodysplastic syndrome	no available	cell	SKM1	curated
+CMK	CMK	CVCL_0216	CMK cell	Homo Sapiens	Blood	Peripheral Blood	10M	no available	Male	Japanese	Myeloid leukemia associated with down syndrome	no available	cell	CMK	curated
+CMK-86	CMK-86	CVCL_2804	CMK-86 cell	Homo Sapiens	Blood	Peripheral Blood	10M	no available	Male	Japanese	Myeloid leukemia associated with down syndrome	no available	cell	CMK86 CELL; CMK86	curated
+CMK11-5	CMK-11-5	CVCL_0217	no available	Homo Sapiens	Blood	Peripheral Blood	10M	no available	Male	Japanese	Myeloid leukemia associated with down syndrome	no available	cell	CMK115; CMK 11-5; CMK11-5	curated
+GA-10	GA-10	CVCL_1222	no available	Homo Sapiens	Blood	Peripheral Blood	41Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	GA10	curated
+GA-10-Clone-20	GA-10 clone 20	CVCL_1223	no available	Homo Sapiens	Blood	Peripheral Blood	41Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	GA-10-CLONE-20; GA-10 (CLONE 20)	curated
+GA-10-Clone-4	GA-10 clone 4	CVCL_1224	no available	Homo Sapiens	Blood	Peripheral Blood	41Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	GA-10-CLONE-4; GA-10 (CLONE 4)	curated
+MN-60	MN-60	CVCL_1421	no available	Homo Sapiens	Blood	Peripheral Blood	20Y	Adult	Male	Caucasian	Burkitt lymphoma	B cell	cell	MN 60; MN60	curated
+Daudi	Daudi	CVCL_0008	DAUDI cell	Homo Sapiens	Blood	Peripheral Blood	16Y	Juvenile	Male	African; Kenyan	Burkitt lymphoma	B cell	cell	NAN; N; DAUDI; NK-10A; GM03190; GM17346; GM3190; GM03190A; NK10A; NK 10A	curated
+P32-ISH	P32/ISH	CVCL_3119	no available	Homo Sapiens	Blood	Peripheral Blood	8Y	Children	Male	Japanese	Burkitt lymphoma	B cell	cell	P32-ISH; ISHIDA; P32 ISH; P32ISH; P32/ISH; P32/ISHIDA; P32	curated
+KARPAS-231	Karpas-231	CVCL_1822	no available	Homo Sapiens	Blood	Peripheral Blood	71Y	Elderly	Female	Caucasian	Diffuse large B-cell lymphoma	no available	cell	KARPAS-231; KARPAS 231; K231; KARPAS231	curated
+L-1236	L-1236	CVCL_2096	no available	Homo Sapiens	Blood	Peripheral Blood	34Y	Adult	Male	Caucasian	Hodgkins lymphoma	no available	cell	L1236; L 1236	curated
+JVM-3	JVM-3	CVCL_1320	JVM-3 cell	Homo Sapiens	Blood	Peripheral Blood	73Y	Elderly	Male	Caucasian	B-Cell Prolymphocytic Leukemia	no available	cell	JVM3; JVM3 CELL	curated
+KHYG-1	KHYG-1	CVCL_2976	no available	Homo Sapiens	Blood	Peripheral Blood	45Y	Adult	Female	Japanese	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	no available	cell	KHYG1; KHYG	curated
+MTA	MTA	CVCL_3032	no available	Homo Sapiens	Blood	Peripheral Blood	58Y	Adult	Female	Japanese	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	no available	cell	MTA	curated
+NK-92	NK-92	CVCL_2142	NK-92 cell	Homo Sapiens	Blood	Peripheral Blood	50Y	Adult	Male	Caucasian	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	natural killer cell	cell	NK-92.05; NATURAL KILLER-92; ANK; NEUKOPLAST; NK92 CELL; NK92	curated
+NK-92MI	NK-92MI	CVCL_3755	no available	Homo Sapiens	Blood	Peripheral Blood	50Y	Adult	Male	Caucasian	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	natural killer cell	cell	NK92-MI; NK-92 MI; NK-92 TRANSFECTED WITH MFG-HIL2; NK92MI	curated
+NKL	NKL	CVCL_0466	no available	Homo Sapiens	Blood	Peripheral Blood	63Y	Adult	Male	no available	Natural Killer Cell Lymphoblastic Leukemia/Lymphoma	natural killer cell	cell	NKL	curated
+HH	HH [Human lymphoma]	CVCL_1280	no available	Homo Sapiens	Blood	Peripheral Blood	61Y	Adult	Male	Caucasian	Primary Cutaneous T-Cell Non-Hodgkin Lymphoma	T cell	cell	HH	curated
+KARPAS-384	Karpas-384	CVCL_2541	no available	Homo Sapiens	Blood	Peripheral Blood	48Y	Adult	Male	no available	Primary cutaneous T-cell non-Hodgkin lymphoma	T cell	cell	KARPAS384; KARPAS 384	curated
+Mac-1	Mac-1	CVCL_H631	Mac-1 cell	Homo Sapiens	Blood	Peripheral Blood	45Y	Adult	Male	White	Primary cutaneous T-cell non-Hodgkin lymphoma	T cell	cell	MAC1; MCG-1; MAC-1	curated
+MJ	MJ	CVCL_1414	no available	Homo Sapiens	Blood	Peripheral Blood	50Y	Adult	Male	Caucasian	Primary cutaneous T-cell non-Hodgkin lymphoma	T cell	cell	G11	curated
+H9	H9	CVCL_1240	H-9 cell	Homo Sapiens	Blood	Peripheral Blood	53Y	Adult	Male	Caucasian	Sezary Syndrome	T cell	cell	HT(H9); HT CLONE H9; H 9 CELL; H9 CELL; HT(H9) CELL; H-9; H 9; HT CLONE H9 CELL	curated
+HuT-78	HuT 78	CVCL_0337	HUT-78 cell	Homo Sapiens	Blood	Peripheral Blood	53Y	Adult	Male	Caucasian	Sezary Syndrome	T cell	cell	NCI-H78; HUT 78; HUT-78; HUT78 CELL; HUT78; HUT 78 CELL	curated
+ATN-1	ATN-1	CVCL_1073	no available	Homo Sapiens	Blood	Peripheral Blood	47Y	Adult	Male	Japanese	Adult T Acute Lymphoblastic Leukemia	T cell	cell	ATN1	curated
+CTV-1	CTV-1	CVCL_1150	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	CTV1	curated
+LOUCY	Loucy	CVCL_1380	no available	Homo Sapiens	Blood	Peripheral Blood	38Y	Adult	Female	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	LOUCY	curated
+MOLT-3	MOLT-3	CVCL_0624	MOLT-3 cell	Homo Sapiens	Blood	Peripheral Blood	19Y	Adult	Male	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	NAN; MOLT 3; MOLT-3; MOLT3	curated
+MOLT-4	MOLT-4	CVCL_0013	MOLT-4 cell	Homo Sapiens	Blood	Peripheral Blood	19Y	Adult	Male	Caucasian	Adult T Acute Lymphoblastic Leukemia	T cell	cell	MOLT4 CELL; MOLT4; MOLT-4; GM02219; MOLT 4; GM2219C; GM02219C; MOLT.4; GM02219D	curated
+BCP-1	BCP-1	CVCL_0107	BCP-1 cell	Homo Sapiens	Blood	Peripheral Blood	92Y	Elderly	Male	Caucasian	Primary Effusion B-cell non-hodgkin lymphoma	no available	cell	BCP1	curated
+GDM-1	GDM-1	CVCL_1230	no available	Homo Sapiens	Blood	Peripheral Blood	66Y	Elderly	Female	Caucasian	Acute myeloid leukemia	no available	cell	GDM1	curated
+HL-60	HL-60	CVCL_0002	HL-60 cell	Homo Sapiens	Blood	Peripheral Blood	36Y	Adult	Female	Caucasian	Acute myeloid leukemia	no available	cell	HL60; NAN; HL 60; HL60 CELL; HL.60; HUMAN LEUKEMIA-60	curated
+HNT-34	HNT-34	CVCL_2071	no available	Homo Sapiens	Blood	Peripheral Blood	47Y	Adult	Female	Japanese	Acute myeloid leukemia	no available	cell	HNT34	curated
+KASUMI-6	Kasumi-6	CVCL_0614	no available	Homo Sapiens	Blood	Peripheral Blood	64Y	Adult	Male	Japanese and Korean	Acute myeloid leukemia	no available	cell	KASUMI-6; KASUMI6	curated
+ME-1	ME-1 [Human leukemia]	CVCL_2110	no available	Homo Sapiens	Blood	Peripheral Blood	40Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	ME1	curated
+ML-2	ML-2	CVCL_1418	ML-2 cell	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	Caucasian	Acute Myeloid Leukemia	no available	cell	ML2	curated
+ML-3	ML-3	CVCL_H526	no available	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	ML3; ML 3	curated
+MOLM-14	MOLM-14	CVCL_7916	MOLM-14 cell	Homo Sapiens	Blood	Peripheral Blood	20Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	MOLM14 CELL; MOLM-14; MOLM14; MOLM 14	curated
+MOLM-16	MOLM-16	CVCL_2120	MOLM-16 cell	Homo Sapiens	Blood	Peripheral Blood	77Y	Elderly	Female	Japanese	Acute myeloid leukemia	no available	cell	MOLM16; MOLM16 CELL	curated
+MUTZ-3	MUTZ-3	CVCL_1433	no available	Homo Sapiens	Blood	Peripheral Blood	29Y	Adult	Male	no available	Acute Myeloid Leukemia	no available	cell	MUTZ-3; MENSCHLICHE UND TIERISCHE ZELLKULTURE-3; MUTZ3	curated
+MUTZ-8	MUTZ-8	CVCL_2130	MUTZ-8 cell	Homo Sapiens	Blood	Peripheral Blood	63Y	Adult	Female	no available	Acute myeloid leukemia	no available	cell	MUTZ8; MENSCHLICHE UND TIERISCHE ZELLKULTURE-8	curated
+NKM-1	NKM-1	CVCL_1607	no available	Homo Sapiens	Blood	Peripheral Blood	33Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	NKM-1	curated
+OCI-AML2	OCI-AML-2	CVCL_1619	OCI-AML2 cell	Homo Sapiens	Blood	Peripheral Blood	65Y	Elderly	Male	Caucasian	Acute Myeloid Leukemia	no available	cell	OCIAML2; OCI AML2; AML-2; ONTARIO CANCER INSTITUTE-ACUTE MYELOID LEUKEMIA-2; OCI AML2 CELL; NAN; OCI-AML-2 CELL; OCI-AML2; OCIAML-2; OCI/AML-2 CELL; OCI/AML2; OCI/AML-2	curated
+OCI-AML3	OCI-AML-3	CVCL_1844	OCI-AML3 cell	Homo Sapiens	Blood	Peripheral Blood	57Y	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	OCIAML3; OCI/AML-3; OCI AML3 CELL; OCI-AML3; OCI-AML-3 CELL; OCI AML3; ONTARIO CANCER INSTITUTE-ACUTE MYELOID LEUKEMIA-3; OCI-AML-3; OCI/AML-3 CELL; OCI/AML3	curated
+OCI-AML5	OCI-AML-5	CVCL_1620	OCI-AML5 cell	Homo Sapiens	Blood	Peripheral Blood	77Y	Elderly	Male	Caucasian	Acute myeloid leukemia	no available	cell	ONTARIO CANCER INSTITUTE-ACUTE MYELOID LEUKEMIA-5; OCI/AML-5 CELL; OCI-AML5; OCI/AML-5; OCI AML5 CELL; OCI/AML5; OCI AML5; OCIAML5; OCI-AML-5 CELL	curated
+PL-21	PL-21	CVCL_2161	PL-21 cell	Homo Sapiens	Blood	Peripheral Blood	24Y	Adult	Male	Japanese	Acute myeloid leukemia	no available	cell	PL21; PL21 CELL	curated
+PLB-985	PLB-985	CVCL_2162	PLB-985 cell	Homo Sapiens	Blood	Peripheral Blood	36Y	Adult	Female	Caucasian	Acute myeloid leukemia	no available	cell	PLB 985; PLB985 CELL; PLB985; PLB 985 CELL	curated
+QIMR-WIL	QIMR-WIL	CVCL_1645	no available	Homo Sapiens	Blood	Peripheral Blood	69Y	Elderly	Female	Caucasian	Acute myeloid leukemia	no available	cell	QIMRWIL; WIL	curated
+EoL-1-cell	EoL-1	CVCL_0258	EoL-1 cell	Homo Sapiens	Blood	Peripheral Blood	33Y	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	EOL-1; AML-EOL-1; EOL-1-CELL; EOL-1 CELL; EOL1	curated
+Set2	SET-2	CVCL_2187	SET-2 cell	Homo Sapiens	Blood	Peripheral Blood	71Y	Elderly	Female	Japanese	Adult acute megakaryoblastic leukemia	no available	cell	SET-2; SET2	curated
+MONO-MAC-1	Mono-Mac-1	CVCL_1425	Mono-Mac-1 cell	Homo Sapiens	Blood	Peripheral Blood	64Y	Adult	Male	Caucasian	Adult acute monocytic leukemia	no available	cell	MONOMAC-1; MONO-MAC-1 CELL; MM1; MONOMAC1; MONO MAC 1 CELL; MONO-MAC-1; MONO MAC 1; MONOMAC1 CELL; MM1 CELL	curated
+MONO-MAC-6	Mono-Mac-6	CVCL_1426	Mono-Mac-6 cell	Homo Sapiens	Blood	Peripheral Blood	64Y	Adult	Male	Caucasian	Adult acute monocytic leukemia	monocyte	cell	MONOMAC 6; MONO MAC 6; MONO MAC6; MONO-MAC-6; MONO-MAC-6 CELL; MONOMAC6 CELL; MONO MAC 6 CELL; MONOMAC6; MONO-MAC 6; MM6; MM6 CELL	curated
+FE-PD	FE-PD	CVCL_H614	FEPD cell	Homo Sapiens	Blood	Peripheral Blood	46Y	Adult	no available	no available	ALK-positive anaplastic large cell lymphoma	T cell	cell	FEPD	curated
+KARPAS-299	Karpas-299	CVCL_1324	KARPAS-299 cell	Homo Sapiens	Blood	Peripheral Blood	25Y	Adult	Male	Caucasian	ALK-positive anaplastic large cell lymphoma	no available	cell	KARPAS 299; K299; KARPAS299; KARPAS-299	curated
+KOPN-8	KOPN-8	CVCL_1866	no available	Homo Sapiens	Blood	Peripheral Blood	3M	no available	Female	Japanese	B-cell acute lymphoblastic leukemia	no available	cell	KOPN-8; KOPN8	curated
+SEM	SEM	CVCL_0095	no available	Homo Sapiens	Blood	Peripheral Blood	5Y	Children	Female	Caucasian	B-cell acute lymphoblastic leukemia	no available	cell	SEM	curated
+SEM-K2	SEMK2	CVCL_S906	no available	Homo Sapiens	Blood	Peripheral Blood	5Y	Children	Female	Caucasian	B-cell acute lymphoblastic leukemia	no available	cell	SEM-K2	curated
+HAL-01	HAL-01	CVCL_1242	HAL-01 cell	Homo Sapiens	Blood	Peripheral Blood	17Y	Juvenile	Female	Japanese	B-cell acute lymphoblastic leukemia	no available	cell	HAL-O1; HAL-1; HAL01; HALO1	curated
+JM1	JM-1	CVCL_3532	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	B-cell acute lymphoblastic leukemia	no available	cell	JM1	curated
+MUTZ-5	MUTZ-5	CVCL_1873	no available	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	no available	B-cell acute lymphoblastic leukemia	no available	cell	MUTZ5; MUTZ-5; MENSCHLICHE UND TIERISCHE ZELLKULTURE-5	curated
+MUTZ-6	MUTZ-6	CVCL_L068	no available	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	no available	B-cell acute lymphoblastic leukemia	no available	cell	MENSCHLICHE UND TIERISCHE ZELLKULTURE-6; MUTZ6	curated
+MUTZ-7	MUTZ-7	CVCL_L069	no available	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	no available	B-cell acute lymphoblastic leukemia	no available	cell	MENSCHLICHE UND TIERISCHE ZELLKULTURE-7; MUTZ7	curated
+NALM-19	NALM-19	CVCL_1835	no available	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	Japanese	B-cell acute lymphoblastic leukemia	no available	cell	NALM19	curated
+REH	Reh	CVCL_1650	REH cell	Homo Sapiens	Blood	Peripheral Blood	15Y	Juvenile	Female	Arabic	B-cell acute lymphoblastic leukemia	no available	cell	REH	curated
+BALL-1	BALL-1	CVCL_1075	BALL-1 cell	Homo Sapiens	Blood	Peripheral Blood	75Y	Elderly	Male	Japanese	B-cell adult acute lymphocytic leukemia	B cell	cell	B-CELL ACUTE LYMPHOBLASTIC LEUKEMIA-1; BALL1; BALL 1; BALL-1	curated
+NALM-6	NALM-6	CVCL_0092	NALM-6 cell	Homo Sapiens	Blood	Peripheral Blood	19Y	Adult	Male	Caucasian	B-cell adult acute lymphocytic leukemia	no available	cell	NALM-6 CELL; NALM6 CELL; NALM-6-M1; NALM6; NALM 6; NALM-6; NALM6/P CELL	curated
+ROS-50	ROS-50	CVCL_1887	no available	Homo Sapiens	Blood	Peripheral Blood	69Y	Elderly	Male	Caucasian	B-cell adult acute lymphocytic leukemia	no available	cell	ROS 50; ROTTERDAM SUSPENSION CELL LINE NO. 50; ROS.50; ROS-50; ROS50	curated
+GR-ST	GR-ST	CVCL_1236	no available	Homo Sapiens	Blood	Peripheral Blood	10Y	Children	Male	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	GRST	curated
+LC4-1	LC4-1	CVCL_1374	LC4-1 cell	Homo Sapiens	Blood	Peripheral Blood	13Y	Juvenile	Female	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	LC41	curated
+MHH-CALL-2	MHH-CALL-2	CVCL_1409	no available	Homo Sapiens	Blood	Peripheral Blood	15Y	Juvenile	Female	Caucasian	B-cell childhood acute lymphoblastic leukemia	no available	cell	MHH-CALL2; MHH-CALL 2; MHHCALL2	curated
+MHH-CALL-4	MHH-CALL-4	CVCL_1410	no available	Homo Sapiens	Blood	Peripheral Blood	10Y	Children	Male	Caucasian	B-cell childhood acute lymphoblastic leukemia	no available	cell	MHH-CALL4; MHHCALL4	curated
+NALM-16	NALM-16	CVCL_1834	no available	Homo Sapiens	Blood	Peripheral Blood	12Y	Juvenile	Female	Caucasian	B-cell childhood acute lymphoblastic leukemia	no available	cell	NALM16; NALM-16	curated
+ST	ST [Human leukemia]	CVCL_U347	no available	Homo Sapiens	Blood	Peripheral Blood	10Y	Children	Male	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	ST	curated
+Tanoue	Tanoue	CVCL_1852	no available	Homo Sapiens	Blood	Peripheral Blood	10Y	Children	Male	Japanese	B-cell childhood acute lymphoblastic leukemia	no available	cell	TANOUE	curated
+AML-193	AML-193	CVCL_1071	AML-193 cell	Homo Sapiens	Blood	Peripheral Blood	13Y	Juvenile	Female	African American and Caucasian	Childhood acute myeloid leukemia	no available	cell	AML193; AML193 CELL	curated
+CII	CII	CVCL_0D73	no available	Homo Sapiens	Blood	Peripheral Blood	47Y	Adult	Female	no available	Chronic lymphocytic leukemia	no available	cell	CLL-CII	curated
+HG-3	HG-3	CVCL_Y547	no available	Homo Sapiens	Blood	Peripheral Blood	70Y	Elderly	Male	White	Chronic lymphocytic leukemia	no available	cell	HG3	curated
+MEC-1	MEC-1	CVCL_1870	MEC-1 cell	Homo Sapiens	Blood	Peripheral Blood	61Y	Adult	Male	Caucasian	Chronic lymphocytic leukemia	no available	cell	MEC1 CELL; MEC1	curated
+MEC-2	MEC-2	CVCL_1871	MEC-2 cell	Homo Sapiens	Blood	Peripheral Blood	62Y	Adult	Male	Caucasian	Chronic lymphocytic leukemia	no available	cell	MEC2; MEC2 CELL	curated
+WA-OSEL	WA-OSEL	CVCL_Y549	no available	Homo Sapiens	Blood	Peripheral Blood	no available	Adult	Male	no available	Chronic lymphocytic leukemia	no available	cell	WA-OSEL; WA OSEL; WAOSEL4	curated
+BV-173	BV-173	CVCL_0181	BV173 cell	Homo Sapiens	Blood	Peripheral Blood	45Y	Adult	Male	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	BV173	curated
+CML-T1	CML-T1	CVCL_1126	no available	Homo Sapiens	Blood	Peripheral Blood	36Y	Adult	Female	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	CMLT-1; CML T1; CMLT1	curated
+JURL-MK1	JURL-MK1	CVCL_2086	JURL-MK1 cell	Homo Sapiens	Blood	Peripheral Blood	73Y	Elderly	Male	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	JURLMK1	curated
+JURL-MK2	JURL-MK2	CVCL_2087	JURL-MK2 cell	Homo Sapiens	Blood	Peripheral Blood	73Y	Elderly	Male	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	JURLMK2	curated
+KU812	Ku812	CVCL_0379	KU-812 cell	Homo Sapiens	Blood	Peripheral Blood	38Y	Adult	Male	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	basophil progenitor cell	cell	KU812; KU 812; KU-812; KU812 CELL; KU.812	curated
+KYO-1	KYO-1	CVCL_2095	no available	Homo Sapiens	Blood	Peripheral Blood	22Y	Adult	Male	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	KYO1; KYOTO 1	curated
+LAMA-84	LAMA-84	CVCL_0388	LAMA-84 cell	Homo Sapiens	Blood	Peripheral Blood	29Y	Adult	Female	no available	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	LAMA-84; LAMA84 CELL; LAMA84	curated
+LAMA-87	LAMA-87	CVCL_1826	LAMA-87 cell	Homo Sapiens	Blood	Peripheral Blood	29Y	Adult	Female	no available	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	LAMA87; LAMA-87	curated
+MOLM-6	MOLM-6	CVCL_2122	MOLM-6 cell	Homo Sapiens	Blood	Peripheral Blood	44Y	Adult	Male	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	MOLM6 CELL; MOLM6	curated
+NCO2	NCO2	CVCL_3043	no available	Homo Sapiens	Blood	Peripheral Blood	35Y	Adult	Female	Japanese	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	NC02; NC-02; NCO-2	curated
+RPMI-8866	RPMI-8866	CVCL_1668	RPMI-8866 cell	Homo Sapiens	Blood	Peripheral Blood	51Y	Adult	Female	Caucasian	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	RPMI 8866; RPMI 8866 CELL; ROSWELL PARK MEMORIAL INSTITUTE 8866; RPMI8866 CELL; R8866; RPMI8866; 8866	curated
+NALM-1	NALM-1	CVCL_0091	no available	Homo Sapiens	Blood	Peripheral Blood	3Y	Children	Female	African American	"Chronic myelogenous leukemia, BCR-ABL1 positive"	no available	cell	NALM-1; NALM 1; NALM1	curated
+Ri-1	Ri-1	CVCL_1885	no available	Homo Sapiens	Blood	Peripheral Blood	57Y	Adult	Female	Caucasian	Diffuse large B-cell lymphoma activated B-cell type	no available	cell	RIVA; RI-1; RI1	curated
+OCI-LY7	OCI-Ly7	CVCL_1881	OCI-LY7 cell	Homo Sapiens	Blood	Peripheral Blood	48Y	Adult	Male	Caucasian	Diffuse large B-cell lymphoma germinal center B-cell type	no available	cell	LY7; OCILY7; LY7 CELL; OCI-LY07; OCI-LY 7; OCI-LY 7 CELL; OCI-LY-7 CELL; OCILY7 CELL; OCI-LY7; OCI-LY-7	curated
+Toledo	Toledo	CVCL_3611	no available	Homo Sapiens	Blood	Peripheral Blood	no available	Adult	Female	Caucasian	Diffuse large B-cell lymphoma germinal center B-cell type	B cell	cell	NAN; TOLEDO	curated
+HC-1	HC-1	CVCL_1243	no available	Homo Sapiens	Blood	Peripheral Blood	56Y	Adult	Male	Caucasian	Hairy Cell Leukemia	no available	cell	HC1	curated
+GRANTA-519	Granta-519	CVCL_1818	no available	Homo Sapiens	Blood	Peripheral Blood	58Y	Adult	Female	Caucasian	Mantle cell lymphoma	no available	cell	GRANTA-519; GRANTA519; G519; GRANTA 519; G-519	curated
+JEKO-1	JeKo-1	CVCL_1865	Jeko-1 cell	Homo Sapiens	Blood	Peripheral Blood	78Y	Elderly	Female	Korean	Mantle cell lymphoma	no available	cell	JEKO 1; JEKO; JEKO1; JEKO-1	curated
+JVM-2	JVM-2	CVCL_1319	no available	Homo Sapiens	Blood	Peripheral Blood	63Y	Adult	Female	Caucasian	Mantle cell lymphoma	no available	cell	JVM2	curated
+Mino	Mino	CVCL_1872	no available	Homo Sapiens	Blood	Peripheral Blood	68Y	Elderly	Female	Caucasian	Mantle cell lymphoma	no available	cell	MINO	curated
+ARH-77	ARH-77	CVCL_1072	ARH-77 cell	Homo Sapiens	Blood	Peripheral Blood	33Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	ARH77; ARH77 CELL; ARH 77	curated
+B239	B239	CVCL_L055	no available	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	Japanese	Non-Cancerous	no available	cell	B239	curated
+B240	B240	CVCL_L056	no available	Homo Sapiens	Blood	Peripheral Blood	26Y	Adult	Male	Japanese	Non-Cancerous	no available	cell	B240	curated
+COLO-197	COLO 197	CVCL_9976	no available	Homo Sapiens	Blood	Peripheral Blood	70Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	COLORADO 197; COLO-197	curated
+COLO-829BL	COLO 829BL	CVCL_1999	no available	Homo Sapiens	Blood	Peripheral Blood	45Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	COLO829BL; COLO-829-BL; COLORADO 829BL; COLO 829 BL; COLO829-BL; COLO-829BL	curated
+EHEB	EHEB	CVCL_1194	EHEB cell	Homo Sapiens	Blood	Peripheral Blood	69Y	Elderly	Female	Caucasian	Non-Cancerous	no available	cell	EHEB	curated
+HCC1143-BL	HCC1143 BL	CVCL_1246	no available	Homo Sapiens	Blood	Peripheral Blood	52Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1143BL; HAMON CANCER CENTER 1143 BL; HCC1143-BL; HCC-1143BL	curated
+HCC1187-BL	HCC1187 BL	CVCL_1248	no available	Homo Sapiens	Blood	Peripheral Blood	41Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1187BL; HCC-1187BL; HCC1187-BL; HAMON CANCER CENTER 1187 BL	curated
+HCC1395-BL	HCC1395 BL	CVCL_1250	no available	Homo Sapiens	Blood	Peripheral Blood	43Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1395-BL; SCC-1395BL; HCC1395BL; HCC-1395BL; HAMON CANCER CENTER 1395 BL	curated
+HCC1428-BL	HCC1428 BL	CVCL_1253	no available	Homo Sapiens	Blood	Peripheral Blood	49Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC1428-BL; HCC1428BL; HCC-1428BL; HAMON CANCER CENTER 1428 BL	curated
+HCC1599-BL	HCC1599 BL	CVCL_1257	no available	Homo Sapiens	Blood	Peripheral Blood	44Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC-1599BL; HAMON CANCER CENTER 1599 BL; HCC1599BL; HCC1599-BL	curated
+HCC1937-BL	HCC1937 BL	CVCL_3281	no available	Homo Sapiens	Blood	Peripheral Blood	23Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC-1937BL; HCC1937-BL; HCC1937BL; HAMON CANCER CENTER 1937 BL	curated
+HCC1954-BL	HCC1954 BL	CVCL_1260	no available	Homo Sapiens	Blood	Peripheral Blood	61Y	Adult	Female	East Indian	Non-Cancerous	B cell	cell	HCC-1954BL; HAMON CANCER CENTER 1954 BL; HCC1954BL; HCC1954-BL	curated
+HCC2157-BL	HCC2157 BL	CVCL_1262	no available	Homo Sapiens	Blood	Peripheral Blood	48Y	Adult	Female	African American	Non-Cancerous	B cell	cell	HCC-2157BL; HCC2157-BL; HAMON CANCER CENTER 2157 BL; HCC2157BL	curated
+HCC2218-BL	HCC2218 BL	CVCL_1264	no available	Homo Sapiens	Blood	Peripheral Blood	38Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HCC 2218 BL; HCC-2218BL; HCC2218-BL; HCC2218BL; HAMON CANCER CENTER 2218 BL	curated
+HCC38-BL	HCC38 BL	CVCL_1268	no available	Homo Sapiens	Blood	Peripheral Blood	50Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	HAMON CANCER CENTER 38 BL; HCC38BL; HCC 38BL; HCC-38BL; HCC38-BL	curated
+J82-EBV	J82-EBV	CVCL_5H97	no available	Homo Sapiens	Blood	Peripheral Blood	58Y	Adult	Male	Caucasian; Swedish	Non-Cancerous	no available	cell	J82EBV	curated
+L542	L542	CVCL_VU88	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Female	Asian	Non-Cancerous	no available	cell	L542	curated
+LB1047-EBV	LB1047-EBV	CVCL_E908	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	LB1047EBV	curated
+LB2241-EBV	LB2241-EBV	CVCL_VU68	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB2241EBV	curated
+LB2518-EBV	LB2518-EBV	CVCL_E914	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	LB2518EBV	curated
+LB373-EBV	LB373-EBV	CVCL_E917	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	LB373EBV	curated
+LB647-PBL	LB647-PBL	CVCL_VU82	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB647PBL	curated
+LB771-PBL	LB771-PBL	CVCL_VU87	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB771PBL	curated
+LB831-EBV	LB831-EBV	CVCL_E913	no available	Homo Sapiens	Blood	Peripheral Blood	65Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	LB831EBV	curated
+LB996-EBV	LB996-EBV	CVCL_E912	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	LB996EBV	curated
+LS1034-PBL	LS1034-PBL	CVCL_VV29	no available	Homo Sapiens	Blood	Peripheral Blood	54Y	Adult	Male	Caucasian	Non-Cancerous	no available	cell	LS1034-PBL	curated
+MC-CAR	MC/CAR	CVCL_1397	no available	Homo Sapiens	Blood	Peripheral Blood	81Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	MCCAR; MC-CAR	curated
+MC-CAR-Z2	MC/CAR-Z2	CVCL_6671	no available	Homo Sapiens	Blood	Peripheral Blood	81Y	Elderly	Male	Caucasian	Non-Cancerous	no available	cell	MC-CAR-Z2; MNS-2	curated
+MZ1-B	MZ-1-EBV-B	CVCL_VU73	no available	Homo Sapiens	Blood	Peripheral Blood	46Y	Adult	Male	Caucasian	Non-Cancerous	no available	cell	MZ1B; MZ1-B; MZ-PC-1-EBV-LCL	curated
+MZ7-B	MZ-7-EBV-B	CVCL_VU72	no available	Homo Sapiens	Blood	Peripheral Blood	25Y-26Y	Adult	Female	Caucasian	Non-Cancerous	no available	cell	MZ7B; MZ7-B; MZ-7-B	curated
+NCI-BL1184	NCI-BL1184	CVCL_2635	no available	Homo Sapiens	Blood	Peripheral Blood	42Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	NCI-BL5; BL5; BL1184	curated
+NCI-BL128	NCI-BL128	CVCL_2636	no available	Homo Sapiens	Blood	Peripheral Blood	60Y	Adult	Male	African American	Non-Cancerous	B cell	cell	NCI-H128BL; BL128; H128BL	curated
+NCI-BL1395	NCI-BL1395	CVCL_2638	no available	Homo Sapiens	Blood	Peripheral Blood	55Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL1395	curated
+NCI-BL1437	NCI-BL1437	CVCL_2639	no available	Homo Sapiens	Blood	Peripheral Blood	60Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL1437	curated
+NCI-BL1770	NCI-BL1770	CVCL_2644	no available	Homo Sapiens	Blood	Peripheral Blood	57Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL1770	curated
+NCI-BL1819	NCI-BL1819	CVCL_E099	no available	Homo Sapiens	Blood	Peripheral Blood	55Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL1819	curated
+NCI-BL2009	NCI-BL2009	CVCL_2645	no available	Homo Sapiens	Blood	Peripheral Blood	68Y	Elderly	Female	Caucasian	Non-Cancerous	B cell	cell	BL2009	curated
+NCI-BL2052	NCI-BL2052	CVCL_2647	no available	Homo Sapiens	Blood	Peripheral Blood	65Y	Elderly	Male	Caucasian	Non-Cancerous	B cell	cell	BL2052	curated
+NCI-BL2077	NCI-BL2077	CVCL_E103	no available	Homo Sapiens	Blood	Peripheral Blood	58Y	Adult	Male	White	Non-Cancerous	B cell	cell	BL2077	curated
+NCI-BL2087	NCI-BL2087	CVCL_2648	no available	Homo Sapiens	Blood	Peripheral Blood	69Y	Elderly	Male	Caucasian	Non-Cancerous	B cell	cell	BL2087	curated
+NCI-BL209	NCI-BL209	CVCL_2649	no available	Homo Sapiens	Blood	Peripheral Blood	55Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	NCI-H209BL; BL209; H209BL	curated
+NCI-BL2122	NCI-BL2122	CVCL_2651	no available	Homo Sapiens	Blood	Peripheral Blood	46Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL2122	curated
+NCI-BL2141	NCI-BL2141	CVCL_2653	no available	Homo Sapiens	Blood	Peripheral Blood	58Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL2141	curated
+NCI-BL2171	NCI-BL2171	CVCL_2654	no available	Homo Sapiens	Blood	Peripheral Blood	50Y	Adult	Male	Caucasian	Non-Cancerous	B cell	cell	BL2171	curated
+NCI-BL2347	NCI-BL2347	CVCL_2656	no available	Homo Sapiens	Blood	Peripheral Blood	54Y	Adult	Female	Caucasian	Non-Cancerous	B cell	cell	BL2347	curated
+PG-B95-8	PG/B95-8	CVCL_Y555	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	Non-Cancerous	no available	cell	PG-EBV; PG-B95-8	curated
+RPMI-6666	RPMI-6666	CVCL_1665	no available	Homo Sapiens	Blood	Peripheral Blood	29Y	Adult	Male	Caucasian	Non-Cancerous	no available	cell	RPMI6666; ROSWELL PARK MEMORIAL INSTITUTE 6666; RPMI 6666	curated
+COLO-775	COLO 775	CVCL_1996	no available	Homo Sapiens	Blood	Peripheral Blood	61Y	Adult	Male	African American	Plasma Cell Myeloma	B cell	cell	COLORADO 775; COLO-775	curated
+HuNS1	HuNS1	CVCL_2526	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	Caucasian	Plasma Cell Myeloma	no available	cell	HUNS1	curated
+KARPAS-620	Karpas-620	CVCL_1823	no available	Homo Sapiens	Blood	Peripheral Blood	77Y	Elderly	Female	Caucasian	Plasma Cell Myeloma	no available	cell	KARPAS620; KARPAS-620; KARPAS 620; K620	curated
+KMS-18	KMS-18	CVCL_A637	no available	Homo Sapiens	Blood	Peripheral Blood	58Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	KMS18; KAWASAKI MEDICAL SCHOOL-18	curated
+KMS-27	KMS-27	CVCL_2993	no available	Homo Sapiens	Blood	Peripheral Blood	52Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	KMS27; KAWASAKI MEDICAL SCHOOL-27	curated
+L-363	L-363	CVCL_1357	L-363 cell	Homo Sapiens	Blood	Peripheral Blood	36Y	Adult	Female	Caucasian	Plasma Cell Myeloma	no available	cell	L 363; L363; L363 CELL	curated
+LP-1	LP-1	CVCL_0012	LP-1 cell	Homo Sapiens	Blood	Peripheral Blood	56Y	Adult	Female	Caucasian	Plasma Cell Myeloma	no available	cell	LP1 CELL; LP1	curated
+MM1R	MM1.R	CVCL_8794	MM1-R cell	Homo Sapiens	Blood	Peripheral Blood	42Y	Adult	Female	African American	Plasma Cell Myeloma	B cell	cell	MM1.R; MM.1R CELL; MM-1R CELL; MM-1R; MM1.R CELL; MM.1R; MM1.R(L); MM1.RL; MM1R; MM1-R	curated
+MM1S	MM1.S	CVCL_8792	MM1-S cell	Homo Sapiens	Blood	Peripheral Blood	42Y	Adult	Female	African American	Plasma Cell Myeloma	B cell	cell	MM.1S; MM.1S CELL; MM-1S CELL; MM-1S; MM1-S; MM1S; MM1.S CELL	curated
+MOLP-2	MOLP-2	CVCL_2123	no available	Homo Sapiens	Blood	Peripheral Blood	55Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	MOLP2	curated
+MOLP-8	MOLP-8	CVCL_2124	no available	Homo Sapiens	Blood	Peripheral Blood	52Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	MOLP8	curated
+OCI-My5	OCI-My5	CVCL_E332	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	no available	Caucasian	Plasma Cell Myeloma	no available	cell	OCI-MY 5; MY5; OCI-MY5; OCIMY5	curated
+OPM-1	OPM-1	CVCL_5210	no available	Homo Sapiens	Blood	Peripheral Blood	56Y	Adult	Female	Japanese	Plasma Cell Myeloma	no available	cell	OPM1	curated
+OPM-2	OPM-2	CVCL_1625	OPM-2 cell	Homo Sapiens	Blood	Peripheral Blood	56Y	Adult	Female	Japanese	Plasma Cell Myeloma	no available	cell	OPM2 CELL; OPM2	curated
+PCM6	PCM6	CVCL_4666	no available	Homo Sapiens	Blood	Peripheral Blood	60Y	Adult	Female	Japanese	Plasma Cell Myeloma	no available	cell	PCM-6	curated
+RPMI-8226	RPMI-8226	CVCL_0014	RPMI-8226 cell	Homo Sapiens	Blood	Peripheral Blood	61Y	Adult	Male	African American	Plasma Cell Myeloma	B cell	cell	RPMI #8226; RPMI8226 CELL; GM2132; RPMI.8226; RPMI8226; 8226; RPMI-8226S; GM 2132; RPMI NO. 8226; RPMI NO 8226; RPMI 8226; 8226/S; GM02132; GM02132C; SIMPSON; ROSWELL PARK MEMORIAL INSTITUTE 8226; RPMI 8226/S; RPMI8226/S	curated
+SK-MM-2	SK-MM-2	CVCL_1699	no available	Homo Sapiens	Blood	Peripheral Blood	54Y	Adult	Male	Caucasian	Plasma Cell Myeloma	no available	cell	SKMM-2; SKMM2; SK-MM2	curated
+U-266	U266B1	CVCL_0566	U-266 cell	Homo Sapiens	Blood	Peripheral Blood	53Y	Adult	Male	Caucasian	Plasma Cell Myeloma	no available	cell	U266 BL; U 266; 266 BL; U266; U266B1; U266 CELL; U266 B1; U266S; U266-B1; U-266; U266BL	curated
+KARPAS-1718	Karpas-1718	CVCL_2539	no available	Homo Sapiens	Blood	Peripheral Blood	no available	no available	Male	no available	Splenic marginal zone lymphoma	no available	cell	K1718; KARPAS 1718; KARPAS-1718	curated
+SLVL	VL51	CVCL_3169	no available	Homo Sapiens	Blood	Peripheral Blood	70Y	Elderly	Female	Japanese	Splenic marginal zone lymphoma	no available	cell	VL-51; VL51; SLVL	curated
+A3	Jurkat clone A3	CVCL_1061	A3 cell	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	JURKAT CLONE A3 CELL; A3; JURKAT A3 CELL	curated
+AGR-ON	CEM-ON	CVCL_J395	no available	Homo Sapiens	Blood	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	AGR-ON	curated
+ALL-SIL	ALL-SIL	CVCL_1805	ALL-SIL cell	Homo Sapiens	Blood	Peripheral Blood	17Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	SIL-ALL; ALLSIL; SIL-ALL CELL	curated
+BE-13	BE-13	CVCL_1081	no available	Homo Sapiens	Blood	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	BE-13; BE13	curated
+CCRF-CEM	CCRF-CEM	CVCL_0207	CCRF-CEM cell	Homo Sapiens	Blood	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	CEM-0; GM03671C; CEM-CCRF (CAMR); CCRF CEM; CCRFCEM CELL; CEM; CCRF; CCRF/CEM; CEM/0; CCRF/CEM/0; CCRFCEM; CCRF.CEM CELL; NAN; CCRF CEM CELL; CEM CELL; GM03671; CCRF.CEM; CEM-CCRF; CCRF-CEM/S; CEM T-CELL; CCRF/CEM CELL	curated
+CCRF-HSB-2	CCRF-HSB-2	CVCL_1859	CCRF-HSB-2 cell	Homo Sapiens	Blood	Peripheral Blood	11Y	Children	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	HSB.2; SB-2; CCRF HSB-2; CCRF HSB-2 CELL; HSB-2; H.S.B.; HSB-2 CELL; HSB2; H-SB2; HSB; GM04155; CCRF-HSB2	curated
+CEMC1	CEM/C1	CVCL_3496	CEM-C1 cell	Homo Sapiens	Blood	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	CEMC1 CELL; CCRF-CEM C1 CELL; CEM.C1; CCRF-CEM C1; CEM/C1 CELL; CEM-C1; CEMC1	curated
+CEMC2	CEM/C2	CVCL_3497	CEM-C2 cell	Homo Sapiens	Blood	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	CEMC2; CCRF-CEM C2 CELL; CCRF-CEM C2; CEM/C2 CELL; CEMC2 CELL; CEM-C2	curated
+DND-41	DND-41	CVCL_2022	no available	Homo Sapiens	Blood	Peripheral Blood	13Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	DND41; DND 41	curated
+HPB-ALL	HPB-ALL	CVCL_1820	HPB-ALL cell	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Japanese	T-cell childhood acute lymphocytic leukemia	T cell	cell	HPBALL; FCCH1018; HPB/ALL	curated
+I-2-1	I 2.1	CVCL_3724	no available	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	I-2-1; I2-1; I2.1	curated
+I-9-2	I 9.2	CVCL_3725	I 9.2 cell	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	I 9.2 T CELL; I9.2; I-9-2; I9-2	curated
+J-RT3-T3-5	J.RT3-T3.5	CVCL_1316	no available	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	JURKAT RT3-T3.5; JURKAT/RT3-T3.5; JRT3T3.5; JRT3-T3.5; J.RT3/T3.5; J-RT3-T3-5; JRT3T35	curated
+JKT-beta-del	JKT-beta-del	CVCL_2966	no available	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	JKT-beta-del	curated
+Jurkat	Jurkat	CVCL_0065	JURKAT cell	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	FCCH1024; JURKAT; JURKAT-FHCRC; JURKAT CELL; FHCRC-11; JM; JM CELL; JURKAT FHCRC; JM-JURKAT; FHCRC SUBCLONE 11	curated
+Jurkat-Clone-E6-1	Jurkat E6.1	CVCL_0367	JURKAT E-6.1 cell	Homo Sapiens	Blood	Peripheral Blood	14Y	Juvenile	Male	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	"J.E6-1; JURKAT-CLONEE61; JURKAT E6-1; JURKAT-E6; JURKAT E-61; JURKAT E6; JURKAT E-6.1; JURKAT CLONE E6-1; JURKAT, CLONE E6-1; JURKATE6-1; JURKAT (CLONE E6-1); JURKAT E-61 CELL; E6-1; JURKAT J6"	curated
+MOLT-16	MOLT-16	CVCL_1424	MOLT-16 cell	Homo Sapiens	Blood	Peripheral Blood	5Y	Children	Female	African American	T-cell childhood acute lymphocytic leukemia	T cell	cell	MOLT-16; MOLT16; MOLT 16	curated
+MOLT-17	MOLT-17	CVCL_2125	MOLT-17 cell	Homo Sapiens	Blood	Peripheral Blood	5Y	Children	Female	African American	T-cell childhood acute lymphocytic leukemia	T cell	cell	MOLT 17; MOLT-17; MOLT17	curated
+P12-ICHIKAWA	P12-Ichikawa	CVCL_1630	P12-ICHIKAWA cell	Homo Sapiens	Blood	Peripheral Blood	7Y	Children	Male	Japanese	T-cell childhood acute lymphocytic leukemia	T cell	cell	P12/ICH; P-12 CELL; P12-ICHIKAWA; P12; P12/ICHIKAWA CELL; P-12; P12-ICH; P12/ICHIKAWA; P12:ICHIKAWA; P12ICHIKAWA; P12 CELL	curated
+PEER	Peer	CVCL_1913	PEER cell	Homo Sapiens	Blood	Peripheral Blood	4Y	Children	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	PEER	curated
+RPMI-8402	RPMI-8402	CVCL_1667	RPMI-8402 cell	Homo Sapiens	Blood	Peripheral Blood	16Y	Juvenile	Female	Caucasian	T-cell childhood acute lymphocytic leukemia	T cell	cell	ROSWELL PARK MEMORIAL INSTITUTE 8402; RPMI 8402; RPMI8402; 8402	curated
+MOTN-1	MOTN-1	CVCL_2127	no available	Homo Sapiens	Blood	Peripheral Blood	65Y	Elderly	Female	Japanese	T-Cell Large Granular Lymphocyte Leukemia	T cell	cell	MOTN1	curated
+DERL-2	DERL-2	CVCL_2016	no available	Homo Sapiens	Blood	Peripheral Blood	30Y	Adult	Male	White	Hepatosplenic T-Cell Lymphoma; T-Cell Non-Hodgkin'S Lymphoma	T cell	cell	DERL-NK2; DERL2	curated
+SZ-4	Sez-4	CVCL_8330	no available	Homo Sapiens	Blood	Peripheral Blood	66Y	Elderly	Female	Black	Sezary Syndrome	T cell	cell	SEZ 4; SZ-4; SEZ4	curated
+CESS	CESS	CVCL_0209	CESS cell	Homo Sapiens	Blood	Peripheral Blood	no available	Adult	Male	Caucasian	Acute myeloid leukemia	no available	cell	CESS	curated
+DL-40	DL-40	CVCL_2889	no available	Homo Sapiens	Blood	Peripheral Blood	64Y	Adult	Female	Japanese	ALK-positive anaplastic large cell lymphoma	T cell	cell	DL40	curated
+P31-FUJ	P31/FUJ	CVCL_1632	P31/FUJ cell	Homo Sapiens	Blood	Peripheral Blood	7Y	Children	Male	Japanese	Childhood acute myeloid leukemia	no available	cell	P31-FUJ; P-31:FUJ; P31 FUJ; P31/FUJIOKA; P31FUJ	curated
+NCI-BL1339	NCI-BL1339	CVCL_2637	no available	Homo Sapiens	Blood	Peripheral Blood	49Y	Adult	Female	White	Non-Cancerous	B cell	cell	BL6; BL1339; NCI-BL6	curated
+HEL-92-1-7	HEL 92.1.7	CVCL_2481	HEL-92.1.7 cell	Homo Sapiens	Blood	Peripheral Blood; Bone Marrow	30Y	Adult	Male	Caucasian	Erythroleukemia	no available	cell	HEL-92-1-7; HEL-92; HEL9217 CELL; HEL9217; HEL 92.1.7 CELL; HEL (TIB-180) CELL; HEL.92.1.7 CELL; HEL92.1.7; HEL TIB 180 CELL; HEL92.1.7 CELL; HEL-92.1.7; HEL-92_1_7	curated
+MY	MY	CVCL_3034	no available	Homo Sapiens	Blood	Peripheral Blood; Bone Marrow	52Y	Adult	Female	Japanese	Acute Biphenotypic Leukemia	mononuclear cell	cell	MY	curated
+MY-M12	MY-M12	CVCL_3035	no available	Homo Sapiens	Blood	Peripheral Blood; Bone Marrow	52Y	Adult	Female	Japanese	Acute Biphenotypic Leukemia	mononuclear cell	cell	MYM12; MY CLONE M12	curated
+IM-9	IM-9	CVCL_1305	IM-9 cell	Homo Sapiens	Blood	Peripheral Blood; Bone Marrow	no available	no available	Female	Caucasian	Non-Cancerous	no available	cell	GM04680; IM9; IM 9; IM9 CELL	curated
+HuT-102	HuT 102	CVCL_3526	no available	Homo Sapiens	Blood	Peripheral Blood; Lymph Node	28Y	Adult	no available	African American	T-cell non-Hodgkin lymphoma	T cell	cell	NCI-H102; HUT 102; HUT-102; HUT102	curated
+NCI-BL2126	NCI-BL2126	CVCL_2652	no available	Homo Sapiens	Blood	Peripheral Blood; Pleural Effusion	65Y	Elderly	Male	Caucasian	Non-Cancerous	B cell	cell	BL2126	curated
 RC-K8	RC-K8	CVCL_1883	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peritoneal Effusion	55Y	Adult	no available	Japanese	Diffuse large B-cell lymphoma germinal center B-cell type	no available	cell	RCK-8; RCK8	curated
 SU-DHL-6	SU-DHL-6	CVCL_2206	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peritoneal Effusion	43Y	Adult	Male	Caucasian	Diffuse large B-cell lymphoma germinal center B-cell type	no available	cell	STANFORD UNIVERSITY-DIFFUSE HISTIOCYTIC LYMPHOMA-6; SUDHL6; DHL6; DHL-6; SU-DHL6; SUDHL-6; SUD6	curated
 MLMA	MLMA	CVCL_1419	no available	Homo Sapiens	Haematopoietic and Lymphoid	Peritoneal Effusion	32Y	Adult	Female	Japanese	Hairy Cell Leukemia	no available	cell	MLMA	curated
@@ -895,16 +895,16 @@ BONNA-12	BONNA-12	CVCL_1090	no available	Homo Sapiens	Haematopoietic and Lymphoi
 Mo-T	Mo	CVCL_1439	Mo-T cell	Homo Sapiens	Haematopoietic and Lymphoid	Spleen	33Y	Adult	Male	Caucasian	Hairy Cell Leukemia	T cell	cell	MO; MO CELL; MOT; MO-T; MO T CELL; MO T	curated
 KMM-1	KMM-1	CVCL_2981	no available	Homo Sapiens	Haematopoietic and Lymphoid	Subcutaneous Plasmacytoma	62Y	Adult	Male	Japanese	Plasma Cell Myeloma	no available	cell	KMM1	curated
 U-698-M	U-698-M	CVCL_0017	no available	Homo Sapiens	Haematopoietic and Lymphoid	Tonsil	7Y	Children	Male	Caucasian	Lymphoblastic Lymphoma	B cell	cell	U-698M; U698; U698-M; U-698; U-698 M; U698M	curated
-TO-175-T	TO 175.T	CVCL_3806	no available	Homo Sapiens	Haematopoietic and Lymphoid	Trunk; Skin; Skin	29Y	Adult	Male	Caucasian	Hodgkin'S Lymphoma	skin fibroblast	cell	TO-175-T; TO175T	curated
+TO-175-T	TO 175.T	CVCL_3806	no available	Homo Sapiens	Haematopoietic and Lymphoid	Trunk; Skin	29Y	Adult	Male	Caucasian	Hodgkin'S Lymphoma	skin fibroblast	cell	TO-175-T; TO175T	curated
 EB-1	EB1	CVCL_2027	EB-1 cell	Homo Sapiens	Haematopoietic and Lymphoid	Upper Maxilla; Jaw; Maxilla; Bone	9Y	Children	Female	African; Ugandan	Burkitt lymphoma	B cell	cell	EB1 CELL; EB-1; EPSTEIN-BARR-1	curated
-UPCI-SCC-026	UPCI-SCC-026	CVCL_2221	no available	Homo Sapiens	Mouth	Alveolar Ridge; Mouthy	82Y	Elderly	Female	Caucasian	Alveolar Ridge Squamous Cell Carcinoma	no available	cell	SCC026; UPCI:SCC026; UPCISCC026	curated
-OSC-20	OSC-20	CVCL_3087	no available	Homo Sapiens	Head and Neck	Cervical Lymph Node	59Y	Adult	Female	Japanese	Tongue squamous cell carcinoma	no available	cell	OSC20	curated
+UPCI-SCC-026	UPCI-SCC-026	CVCL_2221	no available	Homo Sapiens	Mouth	Alveolar Ridge	82Y	Elderly	Female	Caucasian	Alveolar Ridge Squamous Cell Carcinoma	no available	cell	SCC026; UPCI:SCC026; UPCISCC026	curated
+OSC-20	OSC-20	CVCL_3087	no available	Homo Sapiens	Mouth	Cervical Lymph Node	59Y	Adult	Female	Japanese	Tongue squamous cell carcinoma	no available	cell	OSC20	curated
 KON	KON	CVCL_3001	no available	Homo Sapiens	Mouth	Cervical Lymph Node; Oral Floor	76Y	Elderly	Male	Japanese	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	KON	curated
-H376	H376	CVCL_2463	no available	Homo Sapiens	Mouth	Floor Of Mouth; Mouth Floory	40Y	Adult	Female	no available	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	H376	curated
-OKF6-TERT-1	OKF6/TERT-1	CVCL_L224	no available	Homo Sapiens	Mouth	Floor Of Mouth; Mouth Floory	57Y	Adult	Male	no available	Non-Cancerous	keratinocyte	cell	OKF6-TERT-1; OKF6 TERT 1; OKF6 TERT1; OKF6/TERT1	curated
-KOSC-2	KOSC-2	CVCL_1337	KOSC-2 cell	Homo Sapiens	Mouth	Floor Of Mouthy	51Y	Adult	Male	Japanese	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	KOSC2CL343; KOBE UNIVERSITY ORAL SQUAMOUS CELL CULTURE-2; KOSC2 CELL; KOSC2; KOSC-2 CL3-43	curated
-UPCI-SCC-111	UPCI-SCC-111	CVCL_2226	no available	Homo Sapiens	Mouth	Floor Of Mouth; Floor Of Mouth	69Y	Elderly	Female	Caucasian	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	SCC-111; SCC111; UPCI:SCC111	curated
-UPCI-SCC-131	UPCI-SCC-131	CVCL_2229	no available	Homo Sapiens	Mouth	Floor Of Mouth; Floor Of Mouth	73Y	Elderly	Male	Caucasian	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	SCC131; UPCI:SCC131; UPCISCC131	curated
+H376	H376	CVCL_2463	no available	Homo Sapiens	Mouth	Floor Of Mouth	40Y	Adult	Female	no available	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	H376	curated
+OKF6-TERT-1	OKF6/TERT-1	CVCL_L224	no available	Homo Sapiens	Mouth	Floor Of Mouth	57Y	Adult	Male	no available	Non-Cancerous	keratinocyte	cell	OKF6-TERT-1; OKF6 TERT 1; OKF6 TERT1; OKF6/TERT1	curated
+KOSC-2	KOSC-2	CVCL_1337	KOSC-2 cell	Homo Sapiens	Mouth	Floor Of Mouth	51Y	Adult	Male	Japanese	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	KOSC2CL343; KOBE UNIVERSITY ORAL SQUAMOUS CELL CULTURE-2; KOSC2 CELL; KOSC2; KOSC-2 CL3-43	curated
+UPCI-SCC-111	UPCI-SCC-111	CVCL_2226	no available	Homo Sapiens	Mouth	Floor Of Mouth	69Y	Elderly	Female	Caucasian	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	SCC-111; SCC111; UPCI:SCC111	curated
+UPCI-SCC-131	UPCI-SCC-131	CVCL_2229	no available	Homo Sapiens	Mouth	Floor Of Mouth	73Y	Elderly	Male	Caucasian	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	SCC131; UPCI:SCC131; UPCISCC131	curated
 BICR6	BICR 6	CVCL_2314	no available	Homo Sapiens	Head and Neck	Hypopharynx; Pharynx	no available	no available	Male	Caucasian	Hypopharyngeal Squamous Cell Carcinoma	no available	cell	BEATSON INSTITUTE FOR CANCER RESEARCH 6; BICR-6; BICR6	curated
 SCC152	UPCI-SCC-152	CVCL_C058	no available	Homo Sapiens	Head and Neck	Hypopharynx; Pharynx	46Y	Adult	Male	Caucasian	Hypopharyngeal Squamous Cell Carcinoma	no available	cell	SCC152; UPCISCC152; UPCI:SCC152	curated
 SNU-1066	SNU-1066	CVCL_5005	SNU-1066 cell	Homo Sapiens	Head and Neck	Larynx; Larynx (Glottic)	62Y	Adult	Male	Korean	Laryngeal Squamous Cell Carcinoma	no available	cell	SNU1066 CELL; SNU 1066 CELL; SNU1066	curated
@@ -924,14 +924,14 @@ NPC38	NPC38	CVCL_UH63	no available	Homo Sapiens	Head and Neck	Nasopharynx; Phary
 NPC43	NPC43	CVCL_UH64	no available	Homo Sapiens	Head and Neck	Nasopharynx; Pharynx; Nasopharynx	64Y	Adult	Male	Chinese	Nasopharyngeal Carcinoma	no available	cell	NPC43	curated
 NPC53	NPC53	CVCL_UH65	no available	Homo Sapiens	Head and Neck	Nasopharynx; Pharynx; Nasopharynx	39Y	Adult	Male	Chinese	Nasopharyngeal Carcinoma	no available	cell	NPC53	curated
 NPC268	NPC268	CVCL_D5KT	no available	Homo Sapiens	Head and Neck	Nasopharynx; Pharynx; Nasopharynx	39Y	Adult	Female	Chinese; Malaysian	Nasopharyngeal Differentiated Carcinoma	epithelial cell	cell	NPC268	curated
-BB49-HNC	BB49-HNC	CVCL_1077	no available	Homo Sapiens	Head and Neck	no available	70Y	Elderly	no available	Caucasian	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	BB49 HNC; BB49-SCCHN; BB49HNC	curated
+BB49-HNC	BB49-HNC	CVCL_1077	no available	Homo Sapiens	Mouth	no available	70Y	Elderly	no available	Caucasian	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	BB49 HNC; BB49-SCCHN; BB49HNC	curated
 BB30-HNC	BB30-HNC	CVCL_1076	no available	Homo Sapiens	Head and Neck	no available	no available	no available	Female	Caucasian	Head And Neck Squamous Cell Carcinoma	no available	cell	BB30-SCCHN; BB30HNC; BB30 HNC	curated
 LB771-HNC	LB771-HNC	CVCL_1369	no available	Homo Sapiens	Head and Neck	no available	no available	no available	Male	Caucasian	Head And Neck Squamous Cell Carcinoma	no available	cell	LB771-HNSCC; LB771HNC; LB771-ORL	curated
 SKN-3	SKN-3	CVCL_3168	no available	Homo Sapiens	Head and Neck	no available	no available	no available	no available	Japanese	Oral Cavity Squamous Cell Carcinoma	no available	cell	SKN3	curated
 UDSCC2	UD-SCC-2	CVCL_E325	no available	Homo Sapiens	Head and Neck	no available	58Y	Adult	no available	Caucasian	Hypopharyngeal Squamous Cell Carcinoma	no available	cell	UD-SCC 2; UDSCC2; UD-SCC2; UNIVERSITY OF DUSSELDORF-SQUAMOUS CELL CARCINOMA-2; UDSCC-2	curated
-NCI-H3118	NCI-H3118	CVCL_A464	no available	Homo Sapiens	Head and Neck	no available	no available	no available	Female	Caucasian	Mucoepidermoid carcinoma of parotid gland	no available	cell	H-3118; H3118	curated
-PCI-30	PCI-30	CVCL_C757	no available	Homo Sapiens	Head and Neck	no available	54Y	Adult	Male	Caucasian	Tongue Squamous Cell Carcinoma	no available	cell	PCI30	curated
-PCI-38	PCI-38	CVCL_M471	no available	Homo Sapiens	Head and Neck	no available	56Y	Adult	no available	Caucasian	Tongue Squamous Cell Carcinoma	no available	cell	PCI38	curated
+NCI-H3118	NCI-H3118	CVCL_A464	no available	Homo Sapiens	Mouth	no available	no available	no available	Female	Caucasian	Mucoepidermoid carcinoma of parotid gland	no available	cell	H-3118; H3118	curated
+PCI-30	PCI-30	CVCL_C757	no available	Homo Sapiens	Mouth	no available	54Y	Adult	Male	Caucasian	Tongue Squamous Cell Carcinoma	no available	cell	PCI30	curated
+PCI-38	PCI-38	CVCL_M471	no available	Homo Sapiens	Mouth	no available	56Y	Adult	no available	Caucasian	Tongue Squamous Cell Carcinoma	no available	cell	PCI38	curated
 PE-CA-PJ41_Clone-D2	PE/CA-PJ41 (clone D2)	CVCL_2680	no available	Homo Sapiens	Mouth	Mouth	67Y	Elderly	Female	Caucasian	Oral Cavity Squamous Cell Carcinomay Carcinoma	no available	cell	PE CA PJ41; PE/CA-PJ-41; PECAPJ41; PECAPJ41CLONED2; PLAEPI 41	curated
 UPCI-SCC-200	UPCI-SCC-200	CVCL_2232	no available	Homo Sapiens	Mouth	Mouth	74Y	Elderly	Male	Caucasian	Oral Cavity Squamous Cell Carcinomay Carcinoma	no available	cell	UPCI:SCC200; SCC200	curated
 SAT	SAT [Human HNSCC]	CVCL_3160	no available	Homo Sapiens	Mouth	Mouth	no available	no available	no available	Japanese	Head And Neck Squamous Cell Carcinoma	no available	cell	SAT	curated
@@ -944,9 +944,9 @@ FADU	FaDu	CVCL_1218	FaDu cell	Homo Sapiens	Head and Neck	Pharynx; Hypopharynx	56
 PCI-15A	PCI-15A	CVCL_C184	no available	Homo Sapiens	Head and Neck	Pharynx; Pyriform Sinus; Hypopharynx	69Y	Elderly	Male	Caucasian	Pyriform Fossa Squamous Cell Carcinoma	no available	cell	PCI-15; PCI15A; PCI-15.1; PCI-15T	curated
 RPMI-2650	RPMI-2650	CVCL_1664	RPMI-2650 cell	Homo Sapiens	Head and Neck	Pleural Effusion	52Y	Adult	Male	Caucasian	Nut Carcinoma	no available	cell	ROSWELL PARK MEMORIAL INSTITUTE 2650; RPMI 2650; RPMI 2650 CELL; R.P.M.I. #2650; RPMI2650; RPMI2650 CELL	curated
 Detroit562	Detroit 562	CVCL_1171	Detroit-562 cell	Homo Sapiens	Head and Neck	Pleural Effusion	no available	no available	Female	Caucasian	Pharyngeal squamous cell carcinoma	no available	cell	DETROIT562; DETROIT-562; DET. 562; DETROIT 562 CELL; DETROIT 562; D562; DET 562; DET562	curated
-HO-1-u-1	HO-1-u-1	CVCL_2784	HO-1-u-1 cell	Homo Sapiens	Mouth	Salivary Gland; Mouth Floor; Sublingual Gland	72Y	Elderly	Male	Japanese	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	HO-1-U-1; HO1U1; HO1-U1; UEDA-1 CELL; UEDA-1; HO-1U1; HO1-U-1; HO-1-U-1 CELL	curated
-SACC-83	SACC-83	CVCL_H589	no available	Homo Sapiens	Mouth	Salivary Gland; Sublingual Gland	26Y	Adult	no available	Chinese	Salivary Gland Adenoid Cystic Carcinoma	no available	cell	SACC83	curated
-A253	A-253	CVCL_1060	A-253 cell	Homo Sapiens	Mouth	Salivary Gland; Submandibular Gland; Submaxillary Salivary Gland	54Y	Adult	Male	Caucasian	Submandibular Gland Squamous Cell Carcinoma	no available	cell	A253; A253 CELL; A 253	curated
+HO-1-u-1	HO-1-u-1	CVCL_2784	HO-1-u-1 cell	Homo Sapiens	Mouth	Salivary Gland	72Y	Elderly	Male	Japanese	Floor Of Mouth Squamous Cell Carcinoma	no available	cell	HO-1-U-1; HO1U1; HO1-U1; UEDA-1 CELL; UEDA-1; HO-1U1; HO1-U-1; HO-1-U-1 CELL	curated
+SACC-83	SACC-83	CVCL_H589	no available	Homo Sapiens	Mouth	Salivary Gland	26Y	Adult	no available	Chinese	Salivary Gland Adenoid Cystic Carcinoma	no available	cell	SACC83	curated
+A253	A-253	CVCL_1060	A-253 cell	Homo Sapiens	Mouth	Salivary Gland	54Y	Adult	Male	Caucasian	Submandibular Gland Squamous Cell Carcinoma	no available	cell	A253; A253 CELL; A 253	curated
 C17	C17 [Human nasopharyngeal carcinoma]	CVCL_VT47	no available	Homo Sapiens	Head and Neck	Skin	38Y	Adult	Male	White	Nasopharyngeal Carcinoma	no available	cell	C17	curated
 HSC-3	HSC-3	CVCL_1288	HSC-3 cell	Homo Sapiens	Mouth	Tongue; Cervical Lymph Node	64Y	Adult	Male	Japanese	Tongue squamous cell carcinoma	no available	cell	HSC3; HSC 3	curated
 HSC-4	HSC-4	CVCL_1289	HSC-4 cell	Homo Sapiens	Mouth	Tongue; Cervical Lymph Node	64Y	Adult	Male	Japanese	Tongue squamous cell carcinoma	no available	cell	HSC4	curated
