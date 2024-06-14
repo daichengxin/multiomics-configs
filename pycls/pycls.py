@@ -21,7 +21,10 @@ nlp = spacy.load("en_core_web_md")  # Load the spacy model
 
 def get_cell_line_code(sdrf_file):
     sdrf = pd.read_csv(sdrf_file, sep="\t")
-    cl_list = sdrf["characteristics[cell line]"].unique().tolist()
+    try:
+        cl_list = sdrf["characteristics[cell line]"].unique().tolist()
+    except KeyError:
+        print("The SDRF file does not have a column named 'characteristics[cell line]' -- {}".format(sdrf_file))
     return cl_list
 
 
@@ -268,8 +271,12 @@ def read_cell_line_database(database):
     # convert disease and sampling site to list divided by ;
     for entry in database_list:
         entry["disease"] = entry["disease"].split(";")
+        entry["disease"] = [disease.strip() for disease in entry["disease"]]
         entry["sampling site"] = entry["sampling site"].split(";")
+        entry["sampling site"] = [site.strip() for site in entry["sampling site"]]
         entry["synonyms"] = entry["synonyms"].split(";")
+        # remove spaces in the synonyms
+        entry["synonyms"] = [synonym.strip() for synonym in entry["synonyms"]]
 
     return database_list
 
@@ -490,17 +497,17 @@ def create_new_entry(
                 f"Organism mismatch: {cellosaurus_entry['organism']} vs {cell_passport_entry['organism']}"
             )
         else:
-            entry["organism"] = cell_passport_entry["organism"].title()
+            entry["organism"] = cell_passport_entry["organism"].capitalize()
     elif (
         cell_passport_entry is not None
         and cell_passport_entry["organism"].lower() != "no available"
     ):
-        entry["organism"] = cell_passport_entry["organism"].title()
+        entry["organism"] = cell_passport_entry["organism"].capitalize()
     elif (
         cellosaurus_entry is not None
         and cellosaurus_entry["organism"].lower() != "no available"
     ):
-        entry["organism"] = cellosaurus_entry["organism"].title()
+        entry["organism"] = cellosaurus_entry["organism"].capitalize()
     else:
         entry["organism"] = "no available"
 
@@ -511,24 +518,24 @@ def create_new_entry(
         and cell_passport_entry["sampling site"].lower() != "no available"
         and cell_passport_entry["sampling site"].lower() != "unknown"
     ):
-        entry["sampling site"][0] = cell_passport_entry["sampling site"].strip().title()
+        entry["sampling site"][0] = cell_passport_entry["sampling site"].strip().capitalize()
     if (
         cellosaurus_entry is not None
         and cellosaurus_entry["sampling site"].lower() != "no available"
         and cellosaurus_entry["sampling site"].lower() != "unknown"
     ):
-        entry["sampling site"][1] = cellosaurus_entry["sampling site"].strip().title()
+        entry["sampling site"][1] = cellosaurus_entry["sampling site"].strip().capitalize()
 
     if (
         cell_passport_entry is not None
         and cell_passport_entry["disease"].lower() != "no available"
     ):
-        entry["disease"][0] = cell_passport_entry["disease"].strip().title()
+        entry["disease"][0] = cell_passport_entry["disease"].strip().capitalize()
     if (
         cellosaurus_entry is not None
         and cellosaurus_entry["disease"].lower() != "no available"
     ):
-        entry["disease"][1] = cellosaurus_entry["disease"].strip().title()
+        entry["disease"][1] = cellosaurus_entry["disease"].strip().capitalize()
 
     # Set organism part using the cell passport entry
     if (
@@ -537,7 +544,7 @@ def create_new_entry(
     ):
         entry["organism part"] = cell_passport_entry["organism part"]
     elif ae_entry is not None and ae_entry["organism part"].lower() != "no available":
-        entry["organism part"] = ae_entry["organism part"].strip().title()
+        entry["organism part"] = ae_entry["organism part"].strip().capitalize()
 
     # Set the age using cell passports, cellosaurus, and ae entries
     entry["age"] = get_age_consensus(cell_passport_entry, cellosaurus_entry, ae_entry)
@@ -547,14 +554,14 @@ def create_new_entry(
         cell_passport_entry is not None
         and cell_passport_entry["sex"].lower() != "no available"
     ):
-        entry["sex"] = cell_passport_entry["sex"].title()
+        entry["sex"] = cell_passport_entry["sex"].capitalize()
     elif (
         cellosaurus_entry is not None
         and cellosaurus_entry["sex"].lower() != "no available"
     ):
-        entry["sex"] = cellosaurus_entry["sex"].title()
+        entry["sex"] = cellosaurus_entry["sex"].capitalize()
     elif ae_entry is not None and "available" not in ae_entry["sex"].lower():
-        entry["sex"] = ae_entry["sex"].title()
+        entry["sex"] = ae_entry["sex"].capitalize()
 
     # Set ancestry category using the cell passport entry
     if (
@@ -602,7 +609,7 @@ def create_new_entry(
         cellosaurus_entry is not None
         and "available" not in cellosaurus_entry["developmental stage"].lower()
     ):
-        entry["developmental stage"] = cellosaurus_entry["developmental stage"].title()
+        entry["developmental stage"] = cellosaurus_entry["developmental stage"].capitalize()
     elif entry["age"] != "no available":
         entry["developmental stage"] = estimate_developmental_stage(entry["age"])
 
@@ -678,7 +685,7 @@ def write_database(current_cl_database: list, database: str) -> None:
         # remove duplicates
         list_values = list(set(list_values))
         # remove the no available values from list
-        list_values = [value.title() for value in list_values if value != "no available"]
+        list_values = [value.capitalize() for value in list_values if value != "no available"]
         if not list_values:
             return "no available"
         return "; ".join(list_values)
