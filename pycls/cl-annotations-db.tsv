@@ -1,4 +1,4 @@
-cell line	cellosaurus name	cellosaurus accession	bto cell line	organism	organism part	sampling site	age	developmental stage	sex	ancestry category	disease	cell type	Material Type	synonyms	curated
+cell line	cellosaurus name	cellosaurus accession	bto cell line	organism	organism part	sampling site	age	developmental stage	sex	ancestry category	disease	cell type	Material type	synonyms	curated
 SW13	SW13	CVCL_0542	no available	Homo Sapiens	Adrenal Gland	Adrenal Cortex	55Y	Adult	Female	Caucasian	Adrenal Cortex Carcinoma	no available	cell	SW-13; SW 13; SCOTT AND WHITE NO. 13	curated
 CHP-134	CHP-134	CVCL_1124	CHP-134 cell	Homo Sapiens	Adrenal Gland	Adrenal Gland	1Y	Infant	Male	Caucasian	Adrenal gland neuroblastoma	no available	cell	CHP134; CHP 134; CHILDREN'S HOSPITAL OF PHILADELPHIA-134; CHP134 CELL; CHP_134	curated
 GOTO	GOTO	CVCL_1234	GOTO cell	Homo Sapiens	Adrenal Gland	Adrenal Gland	1Y1M	no available	Male	Japanese	Adrenal gland neuroblastoma	no available	cell	GOTO	curated
