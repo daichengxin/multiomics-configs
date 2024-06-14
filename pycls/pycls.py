@@ -233,7 +233,7 @@ def map_celllines(cellosaurus_text: str, context: list):
     return closest_match
 
 
-def read_cell_line_database(database):
+def read_cell_line_database(database) -> dict:
     """
     The database is a tab-delimited with the following structure. The information for each cell lines is:
 
@@ -277,11 +277,12 @@ def read_cell_line_database(database):
         entry["synonyms"] = entry["synonyms"].split(";")
         # remove spaces in the synonyms
         entry["synonyms"] = [synonym.strip() for synonym in entry["synonyms"]]
+    database_list = {entry["cell line"]: entry for entry in database_list}
 
     return database_list
 
 
-def find_cell_line(old_cl: str, current_cl_database: list) -> Union[dict, None]:
+def find_cell_line(old_cl: str, current_cl_database: dict) -> Union[dict, None]:
     """
     Find a given cell line annotated in an SDRF in a standarized cell line database
     :param old_cl: Code (e.g., HELA, A549, etc.)
@@ -292,7 +293,7 @@ def find_cell_line(old_cl: str, current_cl_database: list) -> Union[dict, None]:
     # Normalize the cell line name to lower case and remove spaces
     old_cl = old_cl.lower().strip()
 
-    for entry in current_cl_database:
+    for key, entry in current_cl_database.items():
         if "cell line" in entry:
             if entry["cell line"].lower().strip() == old_cl:
                 return entry
@@ -712,7 +713,7 @@ def write_database(current_cl_database: list, database: str) -> None:
         # Write the header row
         file.write("\t".join(headers) + "\n")
 
-        for entry in current_cl_database:
+        for key, entry in current_cl_database.items():
             row = [
                 entry.get("cell line", "no available"),
                 entry.get("cellosaurus name", "no available"),
@@ -1389,6 +1390,7 @@ def cl_database(
         return cl
 
     for cl in cls:
+
         if find_cell_line(cl, current_cl_database) is None:
 
             if ai_synonyms_dic is not None:
@@ -1429,7 +1431,10 @@ def cl_database(
                     cellosaurus_entry, cell_passports_entry, ea_atlas_entry
                 )
                 if new_cl_entry is not None:
-                    current_cl_database.append(new_cl_entry)
+                    if new_cl_entry["cell line"] not in current_cl_database:
+                        current_cl_database[new_cl_entry["cell line"]] = new_cl_entry
+                    else:
+                        print(f"Cell line {cl} already in the database")
                 else:
                     non_found_cl.append(cl)
         else:
