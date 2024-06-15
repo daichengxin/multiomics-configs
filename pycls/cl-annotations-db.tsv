@@ -1,4 +1,8 @@
 cell line	cellosaurus name	cellosaurus accession	bto cell line	organism	organism part	sampling site	age	developmental stage	sex	ancestry category	disease	cell type	Material type	synonyms	curated
+hTERT-HME1	hTERT-HME1	CVCL_3383	no available	Homo Sapiens	Breast	Breast	53Y	Adult	Female	no available	Non-cancerous	epithelial	cell	hTERT-HME-1; hTERTHME1; HME-1; HME1; ME16C; hME1	curated
+PDX1206	no available	no available	no available	Homo Sapiens	Breast	Breat	no available	no available	Female	no available	Breast Cancer	epithelial	cell	PDX1206	curated
+PDX1258	no available	no available	no available	Homo Sapiens	Breast	Breat	no available	no available	Female	no available	Metaplastic triple negative breast cancer	epithelial	cell	PDX1258	curated
+PDXHCI002	no available	no available	no available	Homo Sapiens	Breast	Breat	no available	no available	Female	no available	Invasive ductal carcinoma	epithelial	cell	PDXHCI002	curated
 HL-60	HL-60	CVCL_0002	HL-60 cell	Homo Sapiens	Blood	Peripheral blood	36Y	Adult	Female	Caucasian	Acute myeloid leukemia	no available	cell	HL60; NAN; HL 60; HL60 CELL; HL.60; HUMAN LEUKEMIA-60	curated
 K-562	K-562	CVCL_0004	K-562 cell	Homo Sapiens	Haematopoietic and Lymphoid	Pleural effusion	53Y	Adult	Female	Caucasian	 bcr-abl1 positive; Chronic myelogenous leukemia	no available	cell	GM05372E; K562WT CELL; K562; K562 CELL; K 562; KO; K562S CELL; GM05372; K-562/S CELL; K.562	curated
 NB4	NB4	CVCL_0005	NB-4 cell	Homo Sapiens	Bone Marrow	Bone marrow	23Y	Adult	Female	Caucasian	Acute myeloid leukemia	no available	cell	NB4 CELL; NB-4; NB.4	curated
