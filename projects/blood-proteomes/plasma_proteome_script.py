@@ -65,7 +65,7 @@ def absolute(pxd_code, full_name, file_name, df):
 
     #This function obtains the URL where msstats are located. 
     #Depending on the used method (DDA, DIA, TMT...) files are located in different folders, so all of them must be checked
-    #In addition, when there are more than one file per PXD (multiple tissues or methods), they are named with a number (PXDXXXX.1, .2...) so that must be considered also
+    #In addition, when there are more than one file per PXD (multiple tissue-proteomes or methods), they are named with a number (PXDXXXX.1, .2...) so that must be considered also
     #This function enters each possible folder and compares the name of the file with the pxd_code obtained previously
     #First, it enters folders with no number (proteomicslfq, msstatscoverter, diannconverter)
     #If it fails, a number is added, starting from 1, and it checks all folders again 
