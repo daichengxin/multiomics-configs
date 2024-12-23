@@ -40,6 +40,13 @@ The Database folder contains multiple databases created for the reanalysis of da
 
 LFQ and TMT datasets are searched against non-canonical and tissue-specific variant databases generated with pgdb nextflow pipeline. The list of datasets can be found [here](https://github.com/multiomics/multiomics-configs/tree/master/projects/non-canonical)
 
+## Citing
+
+Please if you use this repo, cite the following manuscripts: 
+
+- Dai C, Pfeuffer J, Wang H, Zheng P, Käll L, Sachsenberg T, Demichev V, Bai M, Kohlbacher O, Perez-Riverol Y. quantms: a cloud-based pipeline for quantitative proteomics enables the reanalysis of public proteomics data. Nature Methods. 2024 Sep;21(9):1603-7.
+- Dai C, Füllgrabe A, Pfeuffer J, Solovyeva EM, Deng J, Moreno P, Kamatchinathan S, Kundu DJ, George N, Fexova S, Grüning B. A proteomics sample metadata representation for multiomics integration and big data analysis. Nature Communications. 2021 Oct 6;12(1):5854.
+
 ### Contributing
 
 If you want to add a dataset to the repository, please create a Pull request with the annotations.
