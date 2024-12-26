@@ -32,6 +32,21 @@ class ProteomicsAnalyzer:
         self.pca = PCA(n_components=2)
         self.kmeans = KMeans(n_clusters=n_clusters, random_state=42)
         self.autoencoder, self.encoder = self._build_autoencoder()
+        self.year_markers = {
+            0: 'o',  # circle
+            1: '^',  # triangle up
+            2: 's',  # square
+        }
+        self.cluster_colors = {
+            2013: '#440154',  # dark purple
+            2015: '#21918c',  # teal
+            2016: '#fde725',  # yellow
+            2017: '#f46d43',  # orange
+            2018: '#3b528b',  # dark blue
+            2019: '#fa9fb5',  # pink
+            2020: '#4a4a4a',  # gray
+
+        }
 
     def _build_autoencoder(self) -> Tuple[models.Model, models.Model]:
         """Build and compile the autoencoder model."""
@@ -243,6 +258,36 @@ class ProteomicsAnalyzer:
         plt.tight_layout()
         plt.show()
 
+        data['Year'] = pd.to_datetime(data['Content Creation Date']).dt.year
+
+        plt.figure(figsize=(15, 15))
+
+        data['Year'] = pd.to_datetime(data['Content Creation Date']).dt.year
+
+        for year in sorted(data['Year'].unique()):
+            year_data = data[data['Year'] == year]
+            for cluster in range(3):
+                cluster_data = year_data[year_data['Cluster'] == cluster]
+                plt.scatter(
+                    cluster_data['PCA1'],
+                    cluster_data['PCA2'],
+                    c=self.cluster_colors[year],
+                    marker=self.year_markers[cluster],
+                    label=f'{year} - Cluster {cluster}',
+                    s=100,
+                    alpha=0.7
+                )
+
+        plt.title('PCA Analysis by Year and Cluster', pad=20)
+        plt.xlabel('First Principal Component')
+        plt.ylabel('Second Principal Component')
+        plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
+        plt.tight_layout()
+        plt.grid(True, alpha=0.3)
+        plt.show()
+
+
+
 
 
 # Usage example
@@ -286,7 +331,7 @@ if __name__ == "__main__":
     filtered_sdrf = analyzer.filter_sdrf(sdrf_data)
 
     # Save filtered SDRF data
-    filtered_sdrf.to_csv('PXD042233.sdrf.tsv', sep='\t', index=False)
+    filtered_sdrf.to_csv('PXD042233-filtered.sdrf.tsv', sep='\t', index=False)
 
     # Print summary
     print("\nOriginal SDRF rows:", len(sdrf_data))
