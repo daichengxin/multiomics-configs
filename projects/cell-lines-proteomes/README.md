@@ -13,3 +13,4 @@ Rapid and Deep Proteomes by Faster Sequencing on a Benchtop Quadrupole Ultra-Hig
 - PXD054015: [An inflection point in high-throughput proteomics with Orbitrap Astral: analysis of biofluids, cells, and tissues](https://massive.ucsd.edu/ProteoSAFe/dataset.jsp?task=f0294c48645742e3b5cd786d5cea7a78)
 - PXD013658.1 and PXD013658.2: [Surpassing 10,000 identified and quantified proteins in a single run by optimizing current LC-MS instrumentation and data analysis strategy](https://www.ebi.ac.uk/pride/archive/projects/PXD013658)
 - PXD009875: [Optimizing chromatographic conditions for orbitrap-based MS platforms](https://www.ebi.ac.uk/pride/archive/projects/PXD009875) 
+- PXD004452: [HeLa proteome of 12,250 protein-coding genes](https://www.ebi.ac.uk/pride/archive/projects/PXD004452)
