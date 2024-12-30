@@ -14,3 +14,4 @@ Rapid and Deep Proteomes by Faster Sequencing on a Benchtop Quadrupole Ultra-Hig
 - PXD013658.1 and PXD013658.2: [Surpassing 10,000 identified and quantified proteins in a single run by optimizing current LC-MS instrumentation and data analysis strategy](https://www.ebi.ac.uk/pride/archive/projects/PXD013658)
 - PXD009875: [Optimizing chromatographic conditions for orbitrap-based MS platforms](https://www.ebi.ac.uk/pride/archive/projects/PXD009875) 
 - PXD004452: [HeLa proteome of 12,250 protein-coding genes](https://www.ebi.ac.uk/pride/archive/projects/PXD004452)
+- PXD039414: [Robust and High-Throughput Analytical Flow Proteomics Analysis of Cynomolgus Monkey and Human Matrices with Zeno SWATH Data Independent Acquisition](https://www.ebi.ac.uk/pride/archive/projects/PXD039414)
