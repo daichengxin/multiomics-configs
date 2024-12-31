@@ -16,3 +16,4 @@ Rapid and Deep Proteomes by Faster Sequencing on a Benchtop Quadrupole Ultra-Hig
 - PXD004452: [HeLa proteome of 12,250 protein-coding genes](https://www.ebi.ac.uk/pride/archive/projects/PXD004452)
 - PXD039414: [Robust and High-Throughput Analytical Flow Proteomics Analysis of Cynomolgus Monkey and Human Matrices with Zeno SWATH Data Independent Acquisition](https://www.ebi.ac.uk/pride/archive/projects/PXD039414)
 - PXD010150: [Nanowell-Mediated Two-Dimensional Liquid Chromatography Proteome Profiling of Mammalian Cells](https://www.ebi.ac.uk/pride/archive/projects/PXD010150)
+- PXD005481: [High-flow LC-MS/MS analyses - Conventional-Flow Liquid Chromatography-Mass Spectrometry for Exploratory Bottom-Up Proteomic Analyses](https://www.ebi.ac.uk/pride/archive/projects/PXD005481)
