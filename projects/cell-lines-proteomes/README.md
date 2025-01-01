@@ -18,3 +18,4 @@ Rapid and Deep Proteomes by Faster Sequencing on a Benchtop Quadrupole Ultra-Hig
 - PXD010150: [Nanowell-Mediated Two-Dimensional Liquid Chromatography Proteome Profiling of Mammalian Cells](https://www.ebi.ac.uk/pride/archive/projects/PXD010150)
 - PXD005481: [High-flow LC-MS/MS analyses - Conventional-Flow Liquid Chromatography-Mass Spectrometry for Exploratory Bottom-Up Proteomic Analyses](https://www.ebi.ac.uk/pride/archive/projects/PXD005481)
 - PXD030406: [Comparative analysis of MS sample preparation methods](https://www.ebi.ac.uk/pride/archive/projects/PXD030406)
+- PXD009273: [Multi-omic measurements of heterogeneity in HeLa cells across laboratories](https://www.ebi.ac.uk/pride/archive/projects/PXD009273)
