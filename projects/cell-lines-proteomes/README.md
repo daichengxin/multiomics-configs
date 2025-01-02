@@ -19,3 +19,5 @@ Rapid and Deep Proteomes by Faster Sequencing on a Benchtop Quadrupole Ultra-Hig
 - PXD005481: [High-flow LC-MS/MS analyses - Conventional-Flow Liquid Chromatography-Mass Spectrometry for Exploratory Bottom-Up Proteomic Analyses](https://www.ebi.ac.uk/pride/archive/projects/PXD005481)
 - PXD030406: [Comparative analysis of MS sample preparation methods](https://www.ebi.ac.uk/pride/archive/projects/PXD030406)
 - PXD009273: [Multi-omic measurements of heterogeneity in HeLa cells across laboratories](https://www.ebi.ac.uk/pride/archive/projects/PXD009273)
+- PXD000269: [Minimalistic sample processing](https://www.ebi.ac.uk/pride/archive/projects/PXD000269)
+- PXD014058: [The exploration of Missing Proteins by a combination approach to enrich the low abundance membrane proteins from several cancer cell lines](https://www.ebi.ac.uk/pride/archive/projects/PXD014058)
